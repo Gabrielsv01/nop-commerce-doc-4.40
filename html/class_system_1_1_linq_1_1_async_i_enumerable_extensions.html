@@ -1,0 +1,1011 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.9.1"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>NopCommerce 4.40: Referência à classe System.Linq.AsyncIEnumerableExtensions</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectlogo"><img alt="Logo" src="download.png"/></td>
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">NopCommerce 4.40
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Gerado por Doxygen 1.9.1 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+var searchBox = new SearchBox("searchBox", "search",false,'Localizar','.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(function() {
+  initMenu('',true,false,'search.php','Localizar');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */</script>
+<div id="main-nav"></div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="namespace_system.html">System</a></li><li class="navelem"><a class="el" href="namespace_system_1_1_linq.html">Linq</a></li><li class="navelem"><a class="el" href="class_system_1_1_linq_1_1_async_i_enumerable_extensions.html">AsyncIEnumerableExtensions</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="summary">
+<a href="#pub-static-methods">Membros públicos estáticos</a> &#124;
+<a href="class_system_1_1_linq_1_1_async_i_enumerable_extensions-members.html">Mostrar lista completa dos membros</a>  </div>
+  <div class="headertitle">
+<div class="title">Referência à classe System.Linq.AsyncIEnumerableExtensions</div>  </div>
+</div><!--header-->
+<div class="contents">
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
+Membros públicos estáticos</h2></td></tr>
+<tr class="memitem:a250d37c216764a0f224a27155d6a2a26"><td class="memItemLeft" align="right" valign="top">static IAsyncEnumerable&lt; TResult &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_system_1_1_linq_1_1_async_i_enumerable_extensions.html#a250d37c216764a0f224a27155d6a2a26">SelectAwait&lt; TSource, TResult &gt;</a> (this IEnumerable&lt; TSource &gt; source, Func&lt; TSource, ValueTask&lt; TResult &gt;&gt; predicate)</td></tr>
+<tr class="memdesc:a250d37c216764a0f224a27155d6a2a26"><td class="mdescLeft">&#160;</td><td class="mdescRight">Projects each element of an async-enumerable sequence into a new form by applying an asynchronous selector function to each member of the source sequence and awaiting the result.  <a href="class_system_1_1_linq_1_1_async_i_enumerable_extensions.html#a250d37c216764a0f224a27155d6a2a26">Mais...</a><br /></td></tr>
+<tr class="separator:a250d37c216764a0f224a27155d6a2a26"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a65d8a57fa45f5216333cce0f4227bc1d"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="_sendinblue_plugin_8cs.html#a9f49374e6bc76a6b5261e5c211d2e63d">Task</a>&lt; TSource &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_system_1_1_linq_1_1_async_i_enumerable_extensions.html#a65d8a57fa45f5216333cce0f4227bc1d">FirstOrDefaultAwaitAsync&lt; TSource &gt;</a> (this IEnumerable&lt; TSource &gt; source, Func&lt; TSource, ValueTask&lt; bool &gt;&gt; predicate)</td></tr>
+<tr class="memdesc:a65d8a57fa45f5216333cce0f4227bc1d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the first element of an async-enumerable sequence that satisfies the condition in the predicate, or a default value if no element satisfies the condition in the predicate  <a href="class_system_1_1_linq_1_1_async_i_enumerable_extensions.html#a65d8a57fa45f5216333cce0f4227bc1d">Mais...</a><br /></td></tr>
+<tr class="separator:a65d8a57fa45f5216333cce0f4227bc1d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6c9dbfa6d22fa6fcfe36a09652a6a89b"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="_sendinblue_plugin_8cs.html#a9f49374e6bc76a6b5261e5c211d2e63d">Task</a>&lt; bool &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_system_1_1_linq_1_1_async_i_enumerable_extensions.html#a6c9dbfa6d22fa6fcfe36a09652a6a89b">AllAwaitAsync&lt; TSource &gt;</a> (this IEnumerable&lt; TSource &gt; source, Func&lt; TSource, ValueTask&lt; bool &gt;&gt; predicate)</td></tr>
+<tr class="memdesc:a6c9dbfa6d22fa6fcfe36a09652a6a89b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Determines whether all elements in an async-enumerable sequence satisfy a condition  <a href="class_system_1_1_linq_1_1_async_i_enumerable_extensions.html#a6c9dbfa6d22fa6fcfe36a09652a6a89b">Mais...</a><br /></td></tr>
+<tr class="separator:a6c9dbfa6d22fa6fcfe36a09652a6a89b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad2c5972cab324f77cfeb13b4ec94adf1"><td class="memItemLeft" align="right" valign="top">static IAsyncEnumerable&lt; TResult &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_system_1_1_linq_1_1_async_i_enumerable_extensions.html#ad2c5972cab324f77cfeb13b4ec94adf1">SelectManyAwait&lt; TSource, TResult &gt;</a> (this IEnumerable&lt; TSource &gt; source, Func&lt; TSource, <a class="el" href="_sendinblue_plugin_8cs.html#a9f49374e6bc76a6b5261e5c211d2e63d">Task</a>&lt; IList&lt; TResult &gt;&gt;&gt; predicate)</td></tr>
+<tr class="memdesc:ad2c5972cab324f77cfeb13b4ec94adf1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Projects each element of an async-enumerable sequence into an async-enumerable sequence and merges the resulting async-enumerable sequences into one async-enumerable sequence  <a href="class_system_1_1_linq_1_1_async_i_enumerable_extensions.html#ad2c5972cab324f77cfeb13b4ec94adf1">Mais...</a><br /></td></tr>
+<tr class="separator:ad2c5972cab324f77cfeb13b4ec94adf1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a404d9924212e8dc6fa59a463742164b0"><td class="memItemLeft" align="right" valign="top">static IAsyncEnumerable&lt; TResult &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_system_1_1_linq_1_1_async_i_enumerable_extensions.html#a404d9924212e8dc6fa59a463742164b0">SelectManyAwait&lt; TSource, TResult &gt;</a> (this IEnumerable&lt; TSource &gt; source, Func&lt; TSource, <a class="el" href="_sendinblue_plugin_8cs.html#a9f49374e6bc76a6b5261e5c211d2e63d">Task</a>&lt; IEnumerable&lt; TResult &gt;&gt;&gt; predicate)</td></tr>
+<tr class="memdesc:a404d9924212e8dc6fa59a463742164b0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Projects each element of an async-enumerable sequence into an async-enumerable sequence and merges the resulting async-enumerable sequences into one async-enumerable sequence  <a href="class_system_1_1_linq_1_1_async_i_enumerable_extensions.html#a404d9924212e8dc6fa59a463742164b0">Mais...</a><br /></td></tr>
+<tr class="separator:a404d9924212e8dc6fa59a463742164b0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a112dac6ab97b975e241f3d68902f6317"><td class="memItemLeft" align="right" valign="top">static IAsyncEnumerable&lt; TSource &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_system_1_1_linq_1_1_async_i_enumerable_extensions.html#a112dac6ab97b975e241f3d68902f6317">WhereAwait&lt; TSource &gt;</a> (this IEnumerable&lt; TSource &gt; source, Func&lt; TSource, ValueTask&lt; bool &gt;&gt; predicate)</td></tr>
+<tr class="memdesc:a112dac6ab97b975e241f3d68902f6317"><td class="mdescLeft">&#160;</td><td class="mdescRight">Filters the elements of an async-enumerable sequence based on an asynchronous predicate  <a href="class_system_1_1_linq_1_1_async_i_enumerable_extensions.html#a112dac6ab97b975e241f3d68902f6317">Mais...</a><br /></td></tr>
+<tr class="separator:a112dac6ab97b975e241f3d68902f6317"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae2ae09219fe54ec49f76162bd64d9a5c"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="_sendinblue_plugin_8cs.html#a9f49374e6bc76a6b5261e5c211d2e63d">Task</a>&lt; bool &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_system_1_1_linq_1_1_async_i_enumerable_extensions.html#ae2ae09219fe54ec49f76162bd64d9a5c">AnyAwaitAsync&lt; TSource &gt;</a> (this IEnumerable&lt; TSource &gt; source, Func&lt; TSource, ValueTask&lt; bool &gt;&gt; predicate)</td></tr>
+<tr class="memdesc:ae2ae09219fe54ec49f76162bd64d9a5c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Determines whether any element in an async-enumerable sequence satisfies a condition  <a href="class_system_1_1_linq_1_1_async_i_enumerable_extensions.html#ae2ae09219fe54ec49f76162bd64d9a5c">Mais...</a><br /></td></tr>
+<tr class="separator:ae2ae09219fe54ec49f76162bd64d9a5c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a47f4c6f6a390008a80adeee1da11cc45"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="_sendinblue_plugin_8cs.html#a9f49374e6bc76a6b5261e5c211d2e63d">Task</a>&lt; TSource &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_system_1_1_linq_1_1_async_i_enumerable_extensions.html#a47f4c6f6a390008a80adeee1da11cc45">SingleOrDefaultAwaitAsync&lt; TSource &gt;</a> (this IEnumerable&lt; TSource &gt; source, Func&lt; TSource, ValueTask&lt; bool &gt;&gt; predicate)</td></tr>
+<tr class="memdesc:a47f4c6f6a390008a80adeee1da11cc45"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the only element of an async-enumerable sequence that satisfies the condition in the asynchronous predicate, or a default value if no such element exists, and reports an exception if there is more than one element in the async-enumerable sequence that matches the predicate  <a href="class_system_1_1_linq_1_1_async_i_enumerable_extensions.html#a47f4c6f6a390008a80adeee1da11cc45">Mais...</a><br /></td></tr>
+<tr class="separator:a47f4c6f6a390008a80adeee1da11cc45"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a55c9e7704e4a52fe4e298a0ac7561feb"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="_sendinblue_plugin_8cs.html#a9f49374e6bc76a6b5261e5c211d2e63d">Task</a>&lt; List&lt; TSource &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_system_1_1_linq_1_1_async_i_enumerable_extensions.html#a55c9e7704e4a52fe4e298a0ac7561feb">ToListAsync&lt; TSource &gt;</a> (this IEnumerable&lt; TSource &gt; source)</td></tr>
+<tr class="memdesc:a55c9e7704e4a52fe4e298a0ac7561feb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a list from an async-enumerable sequence  <a href="class_system_1_1_linq_1_1_async_i_enumerable_extensions.html#a55c9e7704e4a52fe4e298a0ac7561feb">Mais...</a><br /></td></tr>
+<tr class="separator:a55c9e7704e4a52fe4e298a0ac7561feb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a051c8b8ae40f19603e3b8880dd8e7af3"><td class="memItemLeft" align="right" valign="top">static IOrderedAsyncEnumerable&lt; TSource &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_system_1_1_linq_1_1_async_i_enumerable_extensions.html#a051c8b8ae40f19603e3b8880dd8e7af3">OrderByDescendingAwait&lt; TSource, TKey &gt;</a> (this IEnumerable&lt; TSource &gt; source, Func&lt; TSource, ValueTask&lt; TKey &gt;&gt; keySelector)</td></tr>
+<tr class="memdesc:a051c8b8ae40f19603e3b8880dd8e7af3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sorts the elements of a sequence in descending order according to a key obtained by invoking a transform function on each element and awaiting the result  <a href="class_system_1_1_linq_1_1_async_i_enumerable_extensions.html#a051c8b8ae40f19603e3b8880dd8e7af3">Mais...</a><br /></td></tr>
+<tr class="separator:a051c8b8ae40f19603e3b8880dd8e7af3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa19c1cee805eb416efd5982397abe418"><td class="memItemLeft" align="right" valign="top">static IAsyncEnumerable&lt; IAsyncGrouping&lt; TKey, TElement &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_system_1_1_linq_1_1_async_i_enumerable_extensions.html#aa19c1cee805eb416efd5982397abe418">GroupByAwait&lt; TSource, TKey, TElement &gt;</a> (this IEnumerable&lt; TSource &gt; source, Func&lt; TSource, ValueTask&lt; TKey &gt;&gt; keySelector, Func&lt; TSource, ValueTask&lt; TElement &gt;&gt; elementSelector)</td></tr>
+<tr class="memdesc:aa19c1cee805eb416efd5982397abe418"><td class="mdescLeft">&#160;</td><td class="mdescRight">Groups the elements of an async-enumerable sequence and selects the resulting elements by using a specified function  <a href="class_system_1_1_linq_1_1_async_i_enumerable_extensions.html#aa19c1cee805eb416efd5982397abe418">Mais...</a><br /></td></tr>
+<tr class="separator:aa19c1cee805eb416efd5982397abe418"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afe7898b48fda8956ef12f8a47d94c911"><td class="memItemLeft" align="right" valign="top">static ValueTask&lt; TAccumulate &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_system_1_1_linq_1_1_async_i_enumerable_extensions.html#afe7898b48fda8956ef12f8a47d94c911">AggregateAwaitAsync&lt; TSource, TAccumulate &gt;</a> (this IEnumerable&lt; TSource &gt; source, TAccumulate seed, Func&lt; TAccumulate, TSource, ValueTask&lt; TAccumulate &gt;&gt; accumulator)</td></tr>
+<tr class="memdesc:afe7898b48fda8956ef12f8a47d94c911"><td class="mdescLeft">&#160;</td><td class="mdescRight">Applies an accumulator function over an async-enumerable sequence, returning the result of the aggregation as a single element in the result sequence. The specified seed value is used as the initial accumulator value  <a href="class_system_1_1_linq_1_1_async_i_enumerable_extensions.html#afe7898b48fda8956ef12f8a47d94c911">Mais...</a><br /></td></tr>
+<tr class="separator:afe7898b48fda8956ef12f8a47d94c911"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a981fd61976e5024097bdbb83f1eb9700"><td class="memItemLeft" align="right" valign="top">static ValueTask&lt; Dictionary&lt; TKey, TElement &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_system_1_1_linq_1_1_async_i_enumerable_extensions.html#a981fd61976e5024097bdbb83f1eb9700">ToDictionaryAwaitAsync&lt; TSource, TKey, TElement &gt;</a> (this IEnumerable&lt; TSource &gt; source, Func&lt; TSource, ValueTask&lt; TKey &gt;&gt; keySelector, Func&lt; TSource, ValueTask&lt; TElement &gt;&gt; elementSelector)</td></tr>
+<tr class="memdesc:a981fd61976e5024097bdbb83f1eb9700"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a dictionary from an async-enumerable sequence using the specified asynchronous key and element selector functions  <a href="class_system_1_1_linq_1_1_async_i_enumerable_extensions.html#a981fd61976e5024097bdbb83f1eb9700">Mais...</a><br /></td></tr>
+<tr class="separator:a981fd61976e5024097bdbb83f1eb9700"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9f3cb44e4f02670167862992220bc506"><td class="memItemLeft" align="right" valign="top">static IAsyncEnumerable&lt; IAsyncGrouping&lt; TKey, TSource &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_system_1_1_linq_1_1_async_i_enumerable_extensions.html#a9f3cb44e4f02670167862992220bc506">GroupByAwait&lt; TSource, TKey &gt;</a> (this IEnumerable&lt; TSource &gt; source, Func&lt; TSource, ValueTask&lt; TKey &gt;&gt; keySelector)</td></tr>
+<tr class="memdesc:a9f3cb44e4f02670167862992220bc506"><td class="mdescLeft">&#160;</td><td class="mdescRight">Groups the elements of an async-enumerable sequence according to a specified key selector function  <a href="class_system_1_1_linq_1_1_async_i_enumerable_extensions.html#a9f3cb44e4f02670167862992220bc506">Mais...</a><br /></td></tr>
+<tr class="separator:a9f3cb44e4f02670167862992220bc506"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac3c77d573ff2483951820f40ab2758c9"><td class="memItemLeft" align="right" valign="top">static ValueTask&lt; decimal &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_system_1_1_linq_1_1_async_i_enumerable_extensions.html#ac3c77d573ff2483951820f40ab2758c9">SumAwaitAsync&lt; TSource &gt;</a> (this IEnumerable&lt; TSource &gt; source, Func&lt; TSource, ValueTask&lt; decimal &gt;&gt; selector)</td></tr>
+<tr class="memdesc:ac3c77d573ff2483951820f40ab2758c9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Computes the sum of a sequence of System.Decimal values that are obtained by invoking a transform function on each element of the source sequence and awaiting the result  <a href="class_system_1_1_linq_1_1_async_i_enumerable_extensions.html#ac3c77d573ff2483951820f40ab2758c9">Mais...</a><br /></td></tr>
+<tr class="separator:ac3c77d573ff2483951820f40ab2758c9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<h2 class="groupheader">Documentação dos métodos</h2>
+<a id="afe7898b48fda8956ef12f8a47d94c911"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afe7898b48fda8956ef12f8a47d94c911">&#9670;&nbsp;</a></span>AggregateAwaitAsync&lt; TSource, TAccumulate &gt;()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static ValueTask&lt;TAccumulate&gt; System.Linq.AsyncIEnumerableExtensions.AggregateAwaitAsync&lt; TSource, TAccumulate &gt; </td>
+          <td>(</td>
+          <td class="paramtype">this IEnumerable&lt; TSource &gt;&#160;</td>
+          <td class="paramname"><em>source</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">TAccumulate&#160;</td>
+          <td class="paramname"><em>seed</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Func&lt; TAccumulate, TSource, ValueTask&lt; TAccumulate &gt;&gt;&#160;</td>
+          <td class="paramname"><em>accumulator</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Applies an accumulator function over an async-enumerable sequence, returning the result of the aggregation as a single element in the result sequence. The specified seed value is used as the initial accumulator value </p>
+<dl class="tparams"><dt>Parâmetros de template</dt><dd>
+  <table class="tparams">
+    <tr><td class="paramname">TSource</td><td>specified seed value is used as the initial accumulator value</td></tr>
+    <tr><td class="paramname">TAccumulate</td><td>The type of the result of aggregation</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="params"><dt>Parâmetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">source</td><td>An async-enumerable sequence to aggregate over</td></tr>
+    <tr><td class="paramname">seed</td><td>The initial accumulator value</td></tr>
+    <tr><td class="paramname">accumulator</td><td>An asynchronous accumulator function to be invoked and awaited on each element</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Retorna</dt><dd>A Task containing the final accumulator value</dd></dl>
+<div class="fragment"><div class="line"><a name="l00239"></a><span class="lineno">  239</span>&#160;        {</div>
+<div class="line"><a name="l00240"></a><span class="lineno">  240</span>&#160;            <span class="keywordflow">return</span> source.ToAsyncEnumerable().AggregateAwaitAsync(seed, accumulator);</div>
+<div class="line"><a name="l00241"></a><span class="lineno">  241</span>&#160;        }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="a6c9dbfa6d22fa6fcfe36a09652a6a89b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6c9dbfa6d22fa6fcfe36a09652a6a89b">&#9670;&nbsp;</a></span>AllAwaitAsync&lt; TSource &gt;()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static <a class="el" href="_sendinblue_plugin_8cs.html#a9f49374e6bc76a6b5261e5c211d2e63d">Task</a>&lt;bool&gt; System.Linq.AsyncIEnumerableExtensions.AllAwaitAsync&lt; TSource &gt; </td>
+          <td>(</td>
+          <td class="paramtype">this IEnumerable&lt; TSource &gt;&#160;</td>
+          <td class="paramname"><em>source</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Func&lt; TSource, ValueTask&lt; bool &gt;&gt;&#160;</td>
+          <td class="paramname"><em>predicate</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Determines whether all elements in an async-enumerable sequence satisfy a condition </p>
+<dl class="tparams"><dt>Parâmetros de template</dt><dd>
+  <table class="tparams">
+    <tr><td class="paramname">TSource</td><td>The type of element in the sequence</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="params"><dt>Parâmetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">source</td><td>An sequence whose elements to apply the predicate to</td></tr>
+    <tr><td class="paramname">predicate</td><td>An asynchronous predicate to apply to each element of the source sequence</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Retorna</dt><dd><p class="startdd">A Task containing a value indicating whether all elements in the sequence pass the test in the specified predicate </p>
+<p class="enddd">A task that represents the asynchronous operation</p>
+</dd></dl>
+<div class="fragment"><div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;        {</div>
+<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;            <span class="keywordflow">return</span> source.ToAsyncEnumerable().AllAwaitAsync(predicate).AsTask();</div>
+<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;        }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="ae2ae09219fe54ec49f76162bd64d9a5c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae2ae09219fe54ec49f76162bd64d9a5c">&#9670;&nbsp;</a></span>AnyAwaitAsync&lt; TSource &gt;()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static <a class="el" href="_sendinblue_plugin_8cs.html#a9f49374e6bc76a6b5261e5c211d2e63d">Task</a>&lt;bool&gt; System.Linq.AsyncIEnumerableExtensions.AnyAwaitAsync&lt; TSource &gt; </td>
+          <td>(</td>
+          <td class="paramtype">this IEnumerable&lt; TSource &gt;&#160;</td>
+          <td class="paramname"><em>source</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Func&lt; TSource, ValueTask&lt; bool &gt;&gt;&#160;</td>
+          <td class="paramname"><em>predicate</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Determines whether any element in an async-enumerable sequence satisfies a condition </p>
+<dl class="tparams"><dt>Parâmetros de template</dt><dd>
+  <table class="tparams">
+    <tr><td class="paramname">TSource</td><td>The type of element in the sequence</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="params"><dt>Parâmetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">source</td><td>An async-enumerable sequence whose elements to apply the predicate to</td></tr>
+    <tr><td class="paramname">predicate</td><td>An asynchronous predicate to apply to each element of the source sequence</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Retorna</dt><dd><p class="startdd">A Task containing a value indicating whether any elements in the source sequence pass the test in the specified predicate </p>
+<p class="enddd">A task that represents the asynchronous operation</p>
+</dd></dl>
+<div class="fragment"><div class="line"><a name="l00146"></a><span class="lineno">  146</span>&#160;        {</div>
+<div class="line"><a name="l00147"></a><span class="lineno">  147</span>&#160;            <span class="keywordflow">return</span> source.ToAsyncEnumerable().AnyAwaitAsync(predicate).AsTask();</div>
+<div class="line"><a name="l00148"></a><span class="lineno">  148</span>&#160;        }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="a65d8a57fa45f5216333cce0f4227bc1d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a65d8a57fa45f5216333cce0f4227bc1d">&#9670;&nbsp;</a></span>FirstOrDefaultAwaitAsync&lt; TSource &gt;()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static <a class="el" href="_sendinblue_plugin_8cs.html#a9f49374e6bc76a6b5261e5c211d2e63d">Task</a>&lt;TSource&gt; System.Linq.AsyncIEnumerableExtensions.FirstOrDefaultAwaitAsync&lt; TSource &gt; </td>
+          <td>(</td>
+          <td class="paramtype">this IEnumerable&lt; TSource &gt;&#160;</td>
+          <td class="paramname"><em>source</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Func&lt; TSource, ValueTask&lt; bool &gt;&gt;&#160;</td>
+          <td class="paramname"><em>predicate</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Returns the first element of an async-enumerable sequence that satisfies the condition in the predicate, or a default value if no element satisfies the condition in the predicate </p>
+<dl class="tparams"><dt>Parâmetros de template</dt><dd>
+  <table class="tparams">
+    <tr><td class="paramname">TSource</td><td>The type of element in the sequence</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="params"><dt>Parâmetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">source</td><td>Source sequence</td></tr>
+    <tr><td class="paramname">predicate</td><td>An asynchronous predicate to invoke and await on each element of the sequence</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Retorna</dt><dd><p class="startdd">A Task containing the first element in the sequence that satisfies the predicate, or a default value if no element satisfies the predicate </p>
+<p class="enddd">A task that represents the asynchronous operation</p>
+</dd></dl>
+<div class="fragment"><div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;        {</div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;            <span class="keywordflow">return</span> source.ToAsyncEnumerable().FirstOrDefaultAwaitAsync(predicate).AsTask();</div>
+<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;        }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="a9f3cb44e4f02670167862992220bc506"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9f3cb44e4f02670167862992220bc506">&#9670;&nbsp;</a></span>GroupByAwait&lt; TSource, TKey &gt;()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static IAsyncEnumerable&lt;IAsyncGrouping&lt;TKey, TSource&gt; &gt; System.Linq.AsyncIEnumerableExtensions.GroupByAwait&lt; TSource, TKey &gt; </td>
+          <td>(</td>
+          <td class="paramtype">this IEnumerable&lt; TSource &gt;&#160;</td>
+          <td class="paramname"><em>source</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Func&lt; TSource, ValueTask&lt; TKey &gt;&gt;&#160;</td>
+          <td class="paramname"><em>keySelector</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Groups the elements of an async-enumerable sequence according to a specified key selector function </p>
+<dl class="tparams"><dt>Parâmetros de template</dt><dd>
+  <table class="tparams">
+    <tr><td class="paramname">TSource</td><td>The type of the elements in the source sequence</td></tr>
+    <tr><td class="paramname">TKey</td><td>The type of the grouping key computed for each element in the source sequence</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="params"><dt>Parâmetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">source</td><td>An async-enumerable sequence whose elements to group</td></tr>
+    <tr><td class="paramname">keySelector</td><td>An asynchronous function to extract the key for each element</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Retorna</dt><dd>A sequence of async-enumerable groups, each of which corresponds to a unique key value, containing all elements that share that same key value </dd></dl>
+<div class="fragment"><div class="line"><a name="l00277"></a><span class="lineno">  277</span>&#160;        {</div>
+<div class="line"><a name="l00278"></a><span class="lineno">  278</span>&#160;            <span class="keywordflow">return</span> source.ToAsyncEnumerable().GroupByAwait(keySelector);</div>
+<div class="line"><a name="l00279"></a><span class="lineno">  279</span>&#160;        }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="aa19c1cee805eb416efd5982397abe418"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa19c1cee805eb416efd5982397abe418">&#9670;&nbsp;</a></span>GroupByAwait&lt; TSource, TKey, TElement &gt;()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static IAsyncEnumerable&lt;IAsyncGrouping&lt;TKey, TElement&gt; &gt; System.Linq.AsyncIEnumerableExtensions.GroupByAwait&lt; TSource, TKey, TElement &gt; </td>
+          <td>(</td>
+          <td class="paramtype">this IEnumerable&lt; TSource &gt;&#160;</td>
+          <td class="paramname"><em>source</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Func&lt; TSource, ValueTask&lt; TKey &gt;&gt;&#160;</td>
+          <td class="paramname"><em>keySelector</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Func&lt; TSource, ValueTask&lt; TElement &gt;&gt;&#160;</td>
+          <td class="paramname"><em>elementSelector</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Groups the elements of an async-enumerable sequence and selects the resulting elements by using a specified function </p>
+<dl class="tparams"><dt>Parâmetros de template</dt><dd>
+  <table class="tparams">
+    <tr><td class="paramname">TSource</td><td>The type of the elements in the source sequence</td></tr>
+    <tr><td class="paramname">TKey</td><td>The type of the grouping key computed for each element in the source sequence</td></tr>
+    <tr><td class="paramname">TElement</td><td>The type of the elements within the groups computed for each element in the source sequence</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="params"><dt>Parâmetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">source</td><td>An async-enumerable sequence whose elements to group</td></tr>
+    <tr><td class="paramname">keySelector</td><td>An asynchronous function to extract the key for each element</td></tr>
+    <tr><td class="paramname">elementSelector</td><td>An asynchronous function to map each source element to an element in an async-enumerable group</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Retorna</dt><dd>A sequence of async-enumerable groups, each of which corresponds to a unique key value, containing all elements that share that same key value </dd></dl>
+<div class="fragment"><div class="line"><a name="l00221"></a><span class="lineno">  221</span>&#160;        {</div>
+<div class="line"><a name="l00222"></a><span class="lineno">  222</span>&#160;            <span class="keywordflow">return</span> source.ToAsyncEnumerable().GroupByAwait(keySelector, elementSelector);</div>
+<div class="line"><a name="l00223"></a><span class="lineno">  223</span>&#160;        }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="a051c8b8ae40f19603e3b8880dd8e7af3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a051c8b8ae40f19603e3b8880dd8e7af3">&#9670;&nbsp;</a></span>OrderByDescendingAwait&lt; TSource, TKey &gt;()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static IOrderedAsyncEnumerable&lt;TSource&gt; System.Linq.AsyncIEnumerableExtensions.OrderByDescendingAwait&lt; TSource, TKey &gt; </td>
+          <td>(</td>
+          <td class="paramtype">this IEnumerable&lt; TSource &gt;&#160;</td>
+          <td class="paramname"><em>source</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Func&lt; TSource, ValueTask&lt; TKey &gt;&gt;&#160;</td>
+          <td class="paramname"><em>keySelector</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Sorts the elements of a sequence in descending order according to a key obtained by invoking a transform function on each element and awaiting the result </p>
+<dl class="tparams"><dt>Parâmetros de template</dt><dd>
+  <table class="tparams">
+    <tr><td class="paramname">TSource</td><td>The type of the elements of source</td></tr>
+    <tr><td class="paramname">TKey</td><td>The type of the key returned by keySelector</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="params"><dt>Parâmetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">source</td><td>An async-enumerable sequence of values to order</td></tr>
+    <tr><td class="paramname">keySelector</td><td>An asynchronous function to extract a key from an element</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Retorna</dt><dd>An ordered async-enumerable sequence whose elements are sorted in descending order according to a key </dd></dl>
+<div class="fragment"><div class="line"><a name="l00200"></a><span class="lineno">  200</span>&#160;        {</div>
+<div class="line"><a name="l00201"></a><span class="lineno">  201</span>&#160;            <span class="keywordflow">return</span> source.ToAsyncEnumerable().OrderByDescendingAwait(keySelector);</div>
+<div class="line"><a name="l00202"></a><span class="lineno">  202</span>&#160;        }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="a250d37c216764a0f224a27155d6a2a26"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a250d37c216764a0f224a27155d6a2a26">&#9670;&nbsp;</a></span>SelectAwait&lt; TSource, TResult &gt;()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static IAsyncEnumerable&lt;TResult&gt; System.Linq.AsyncIEnumerableExtensions.SelectAwait&lt; TSource, TResult &gt; </td>
+          <td>(</td>
+          <td class="paramtype">this IEnumerable&lt; TSource &gt;&#160;</td>
+          <td class="paramname"><em>source</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Func&lt; TSource, ValueTask&lt; TResult &gt;&gt;&#160;</td>
+          <td class="paramname"><em>predicate</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Projects each element of an async-enumerable sequence into a new form by applying an asynchronous selector function to each member of the source sequence and awaiting the result. </p>
+<dl class="tparams"><dt>Parâmetros de template</dt><dd>
+  <table class="tparams">
+    <tr><td class="paramname">TSource</td><td>The type of the elements in the source sequence</td></tr>
+    <tr><td class="paramname">TResult</td><td>The type of the elements in the result sequence, obtained by running the selector function for each element in the source sequence and awaiting the result. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="params"><dt>Parâmetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">source</td><td>A sequence of elements to invoke a transform function on</td></tr>
+    <tr><td class="paramname">predicate</td><td>An asynchronous transform function to apply to each source element</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Retorna</dt><dd>An async-enumerable sequence whose elements are the result of invoking the transform function on each element of the source sequence and awaiting the result </dd></dl>
+<div class="fragment"><div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;        {</div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;            <span class="keywordflow">return</span> source.ToAsyncEnumerable().SelectAwait(predicate);</div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;        }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="a404d9924212e8dc6fa59a463742164b0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a404d9924212e8dc6fa59a463742164b0">&#9670;&nbsp;</a></span>SelectManyAwait&lt; TSource, TResult &gt;() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static IAsyncEnumerable&lt;TResult&gt; System.Linq.AsyncIEnumerableExtensions.SelectManyAwait&lt; TSource, TResult &gt; </td>
+          <td>(</td>
+          <td class="paramtype">this IEnumerable&lt; TSource &gt;&#160;</td>
+          <td class="paramname"><em>source</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Func&lt; TSource, <a class="el" href="_sendinblue_plugin_8cs.html#a9f49374e6bc76a6b5261e5c211d2e63d">Task</a>&lt; IEnumerable&lt; TResult &gt;&gt;&gt;&#160;</td>
+          <td class="paramname"><em>predicate</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Projects each element of an async-enumerable sequence into an async-enumerable sequence and merges the resulting async-enumerable sequences into one async-enumerable sequence </p>
+<dl class="tparams"><dt>Parâmetros de template</dt><dd>
+  <table class="tparams">
+    <tr><td class="paramname">TSource</td><td>The type of elements in the source sequence</td></tr>
+    <tr><td class="paramname">TResult</td><td>The type of elements in the projected inner sequences and the merged result sequence</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="params"><dt>Parâmetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">source</td><td>An async-enumerable sequence of elements to project</td></tr>
+    <tr><td class="paramname">predicate</td><td>An asynchronous selector function to apply to each element of the source sequence</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Retorna</dt><dd>An async-enumerable sequence whose elements are the result of invoking the one-to-many transform function on each element of the source sequence and awaiting the result </dd></dl>
+<div class="fragment"><div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;        {</div>
+<div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;            async ValueTask&lt;IAsyncEnumerable&lt;TResult&gt;&gt; getAsyncEnumerable(TSource items)</div>
+<div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;            {</div>
+<div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160;                var rez = await predicate(items);</div>
+<div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160;                <span class="keywordflow">return</span> rez.ToAsyncEnumerable();</div>
+<div class="line"><a name="l00111"></a><span class="lineno">  111</span>&#160;            }</div>
+<div class="line"><a name="l00112"></a><span class="lineno">  112</span>&#160; </div>
+<div class="line"><a name="l00113"></a><span class="lineno">  113</span>&#160;            <span class="keywordflow">return</span> source.ToAsyncEnumerable().SelectManyAwait(getAsyncEnumerable);</div>
+<div class="line"><a name="l00114"></a><span class="lineno">  114</span>&#160;        }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="ad2c5972cab324f77cfeb13b4ec94adf1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad2c5972cab324f77cfeb13b4ec94adf1">&#9670;&nbsp;</a></span>SelectManyAwait&lt; TSource, TResult &gt;() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static IAsyncEnumerable&lt;TResult&gt; System.Linq.AsyncIEnumerableExtensions.SelectManyAwait&lt; TSource, TResult &gt; </td>
+          <td>(</td>
+          <td class="paramtype">this IEnumerable&lt; TSource &gt;&#160;</td>
+          <td class="paramname"><em>source</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Func&lt; TSource, <a class="el" href="_sendinblue_plugin_8cs.html#a9f49374e6bc76a6b5261e5c211d2e63d">Task</a>&lt; IList&lt; TResult &gt;&gt;&gt;&#160;</td>
+          <td class="paramname"><em>predicate</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Projects each element of an async-enumerable sequence into an async-enumerable sequence and merges the resulting async-enumerable sequences into one async-enumerable sequence </p>
+<dl class="tparams"><dt>Parâmetros de template</dt><dd>
+  <table class="tparams">
+    <tr><td class="paramname">TSource</td><td>The type of elements in the source sequence</td></tr>
+    <tr><td class="paramname">TResult</td><td>The type of elements in the projected inner sequences and the merged result sequence</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="params"><dt>Parâmetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">source</td><td>An async-enumerable sequence of elements to project</td></tr>
+    <tr><td class="paramname">predicate</td><td>An asynchronous selector function to apply to each element of the source sequence</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Retorna</dt><dd>An async-enumerable sequence whose elements are the result of invoking the one-to-many transform function on each element of the source sequence and awaiting the result </dd></dl>
+<div class="fragment"><div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;        {</div>
+<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;            async ValueTask&lt;IAsyncEnumerable&lt;TResult&gt;&gt; getAsyncEnumerable(TSource items)</div>
+<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;            {</div>
+<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;                var rez = await predicate(items);</div>
+<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;                <span class="keywordflow">return</span> rez.ToAsyncEnumerable();</div>
+<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;            }</div>
+<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160; </div>
+<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;            <span class="keywordflow">return</span> source.ToAsyncEnumerable().SelectManyAwait(getAsyncEnumerable);</div>
+<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;        }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="a47f4c6f6a390008a80adeee1da11cc45"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a47f4c6f6a390008a80adeee1da11cc45">&#9670;&nbsp;</a></span>SingleOrDefaultAwaitAsync&lt; TSource &gt;()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static <a class="el" href="_sendinblue_plugin_8cs.html#a9f49374e6bc76a6b5261e5c211d2e63d">Task</a>&lt;TSource&gt; System.Linq.AsyncIEnumerableExtensions.SingleOrDefaultAwaitAsync&lt; TSource &gt; </td>
+          <td>(</td>
+          <td class="paramtype">this IEnumerable&lt; TSource &gt;&#160;</td>
+          <td class="paramname"><em>source</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Func&lt; TSource, ValueTask&lt; bool &gt;&gt;&#160;</td>
+          <td class="paramname"><em>predicate</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Returns the only element of an async-enumerable sequence that satisfies the condition in the asynchronous predicate, or a default value if no such element exists, and reports an exception if there is more than one element in the async-enumerable sequence that matches the predicate </p>
+<dl class="tparams"><dt>Parâmetros de template</dt><dd>
+  <table class="tparams">
+    <tr><td class="paramname">TSource</td><td>The type of elements in the source sequence</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="params"><dt>Parâmetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">source</td><td>Source async-enumerable sequence</td></tr>
+    <tr><td class="paramname">predicate</td><td>An asynchronous predicate that will be applied to each element of the source sequence</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Retorna</dt><dd><p class="startdd">Task containing the only element in the async-enumerable sequence that satisfies the condition in the asynchronous predicate, or a default value if no such element exists </p>
+<p class="enddd">A task that represents the asynchronous operation</p>
+</dd></dl>
+<div class="fragment"><div class="line"><a name="l00167"></a><span class="lineno">  167</span>&#160;        {</div>
+<div class="line"><a name="l00168"></a><span class="lineno">  168</span>&#160;            <span class="keywordflow">return</span> source.ToAsyncEnumerable().SingleOrDefaultAwaitAsync(predicate).AsTask();</div>
+<div class="line"><a name="l00169"></a><span class="lineno">  169</span>&#160;        }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="ac3c77d573ff2483951820f40ab2758c9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac3c77d573ff2483951820f40ab2758c9">&#9670;&nbsp;</a></span>SumAwaitAsync&lt; TSource &gt;()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static ValueTask&lt;decimal&gt; System.Linq.AsyncIEnumerableExtensions.SumAwaitAsync&lt; TSource &gt; </td>
+          <td>(</td>
+          <td class="paramtype">this IEnumerable&lt; TSource &gt;&#160;</td>
+          <td class="paramname"><em>source</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Func&lt; TSource, ValueTask&lt; decimal &gt;&gt;&#160;</td>
+          <td class="paramname"><em>selector</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Computes the sum of a sequence of System.Decimal values that are obtained by invoking a transform function on each element of the source sequence and awaiting the result </p>
+<dl class="tparams"><dt>Parâmetros de template</dt><dd>
+  <table class="tparams">
+    <tr><td class="paramname">TSource</td><td>The type of elements in the source sequence</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="params"><dt>Parâmetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">source</td><td>A sequence of values that are used to calculate a sum</td></tr>
+    <tr><td class="paramname">selector</td><td>An asynchronous transform function to apply to each element</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Retorna</dt><dd>A Task containing the sum of the values in the source sequence</dd></dl>
+<div class="fragment"><div class="line"><a name="l00292"></a><span class="lineno">  292</span>&#160;        {</div>
+<div class="line"><a name="l00293"></a><span class="lineno">  293</span>&#160;            <span class="keywordflow">return</span> source.ToAsyncEnumerable().SumAwaitAsync(selector);</div>
+<div class="line"><a name="l00294"></a><span class="lineno">  294</span>&#160;        }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="a981fd61976e5024097bdbb83f1eb9700"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a981fd61976e5024097bdbb83f1eb9700">&#9670;&nbsp;</a></span>ToDictionaryAwaitAsync&lt; TSource, TKey, TElement &gt;()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static ValueTask&lt;Dictionary&lt;TKey, TElement&gt; &gt; System.Linq.AsyncIEnumerableExtensions.ToDictionaryAwaitAsync&lt; TSource, TKey, TElement &gt; </td>
+          <td>(</td>
+          <td class="paramtype">this IEnumerable&lt; TSource &gt;&#160;</td>
+          <td class="paramname"><em>source</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Func&lt; TSource, ValueTask&lt; TKey &gt;&gt;&#160;</td>
+          <td class="paramname"><em>keySelector</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Func&lt; TSource, ValueTask&lt; TElement &gt;&gt;&#160;</td>
+          <td class="paramname"><em>elementSelector</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Creates a dictionary from an async-enumerable sequence using the specified asynchronous key and element selector functions </p>
+<dl class="tparams"><dt>Parâmetros de template</dt><dd>
+  <table class="tparams">
+    <tr><td class="paramname">TSource</td><td>The type of the elements in the source sequence</td></tr>
+    <tr><td class="paramname">TKey</td><td>The type of the dictionary key computed for each element in the source sequence</td></tr>
+    <tr><td class="paramname">TElement</td><td>The type of the dictionary value computed for each element in the source sequence</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="params"><dt>Parâmetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">source</td><td>An async-enumerable sequence to create a dictionary for</td></tr>
+    <tr><td class="paramname">keySelector</td><td>An asynchronous function to extract a key from each element</td></tr>
+    <tr><td class="paramname">elementSelector</td><td>An asynchronous transform function to produce a result element value from each element</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Retorna</dt><dd>A Task containing a dictionary mapping unique key values onto the corresponding source sequence's element </dd></dl>
+<div class="typeconstraint">
+<dl><dt><b>Restrições do Tipo</b></dt><dd>
+<table border="0" cellspacing="2" cellpadding="0">
+<tr><td valign="top"><em>TKey</em></td><td>&#160;:</td><td valign="top"><em>notnull</em></td><td>&#160;</td></tr>
+</table>
+</dd>
+</dl>
+</div>
+<div class="fragment"><div class="line"><a name="l00259"></a><span class="lineno">  259</span>&#160;                                                                           : notnull</div>
+<div class="line"><a name="l00260"></a><span class="lineno">  260</span>&#160;        {</div>
+<div class="line"><a name="l00261"></a><span class="lineno">  261</span>&#160;            <span class="keywordflow">return</span> source.ToAsyncEnumerable().ToDictionaryAwaitAsync(keySelector, elementSelector);</div>
+<div class="line"><a name="l00262"></a><span class="lineno">  262</span>&#160;        }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="a55c9e7704e4a52fe4e298a0ac7561feb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a55c9e7704e4a52fe4e298a0ac7561feb">&#9670;&nbsp;</a></span>ToListAsync&lt; TSource &gt;()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static <a class="el" href="_sendinblue_plugin_8cs.html#a9f49374e6bc76a6b5261e5c211d2e63d">Task</a>&lt;List&lt;TSource&gt; &gt; System.Linq.AsyncIEnumerableExtensions.ToListAsync&lt; TSource &gt; </td>
+          <td>(</td>
+          <td class="paramtype">this IEnumerable&lt; TSource &gt;&#160;</td>
+          <td class="paramname"><em>source</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Creates a list from an async-enumerable sequence </p>
+<dl class="tparams"><dt>Parâmetros de template</dt><dd>
+  <table class="tparams">
+    <tr><td class="paramname">TSource</td><td>The type of the elements in the source sequence</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="params"><dt>Parâmetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">source</td><td>The source async-enumerable sequence to get a list of elements for</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Retorna</dt><dd><p class="startdd">An async-enumerable sequence containing a single element with a list containing all the elements of the source sequence </p>
+<p class="enddd">A task that represents the asynchronous operation</p>
+</dd></dl>
+<div class="fragment"><div class="line"><a name="l00182"></a><span class="lineno">  182</span>&#160;        {</div>
+<div class="line"><a name="l00183"></a><span class="lineno">  183</span>&#160;            <span class="keywordflow">return</span> source.ToAsyncEnumerable().ToListAsync().AsTask();</div>
+<div class="line"><a name="l00184"></a><span class="lineno">  184</span>&#160;        }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="a112dac6ab97b975e241f3d68902f6317"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a112dac6ab97b975e241f3d68902f6317">&#9670;&nbsp;</a></span>WhereAwait&lt; TSource &gt;()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static IAsyncEnumerable&lt;TSource&gt; System.Linq.AsyncIEnumerableExtensions.WhereAwait&lt; TSource &gt; </td>
+          <td>(</td>
+          <td class="paramtype">this IEnumerable&lt; TSource &gt;&#160;</td>
+          <td class="paramname"><em>source</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Func&lt; TSource, ValueTask&lt; bool &gt;&gt;&#160;</td>
+          <td class="paramname"><em>predicate</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Filters the elements of an async-enumerable sequence based on an asynchronous predicate </p>
+<dl class="tparams"><dt>Parâmetros de template</dt><dd>
+  <table class="tparams">
+    <tr><td class="paramname">TSource</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="params"><dt>Parâmetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">source</td><td>An async-enumerable sequence whose elements to filter</td></tr>
+    <tr><td class="paramname">predicate</td><td>An asynchronous predicate to test each source element for a condition</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Retorna</dt><dd>An async-enumerable sequence that contains elements from the input sequence that satisfy the condition </dd></dl>
+<div class="fragment"><div class="line"><a name="l00129"></a><span class="lineno">  129</span>&#160;        {</div>
+<div class="line"><a name="l00130"></a><span class="lineno">  130</span>&#160;            <span class="keywordflow">return</span> source.ToAsyncEnumerable().WhereAwait(predicate);</div>
+<div class="line"><a name="l00131"></a><span class="lineno">  131</span>&#160;        }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<hr/>A documentação para esta classe foi gerada a partir do seguinte ficheiro:<ul>
+<li>C:/Users/gabri/Documents/Projetos/GitHub/Estudos/Nopcommercer plugin/nopCommerce_4.40.3_Source - Copia/src/Libraries/Nop.Data/Extensions/<a class="el" href="_async_i_enumerable_extensions_8cs.html">AsyncIEnumerableExtensions.cs</a></li>
+</ul>
+</div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Gerado por&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1
+</small></address>
+</body>
+</html>

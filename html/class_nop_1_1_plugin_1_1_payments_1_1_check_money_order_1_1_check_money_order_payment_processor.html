@@ -1,0 +1,1231 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.9.1"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>NopCommerce 4.40: Referência à classe Nop.Plugin.Payments.CheckMoneyOrder.CheckMoneyOrderPaymentProcessor</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectlogo"><img alt="Logo" src="download.png"/></td>
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">NopCommerce 4.40
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Gerado por Doxygen 1.9.1 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+var searchBox = new SearchBox("searchBox", "search",false,'Localizar','.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(function() {
+  initMenu('',true,false,'search.php','Localizar');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */</script>
+<div id="main-nav"></div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="namespace_nop.html">Nop</a></li><li class="navelem"><a class="el" href="namespace_nop_1_1_plugin.html">Plugin</a></li><li class="navelem"><a class="el" href="namespace_nop_1_1_plugin_1_1_payments.html">Payments</a></li><li class="navelem"><a class="el" href="namespace_nop_1_1_plugin_1_1_payments_1_1_check_money_order.html">CheckMoneyOrder</a></li><li class="navelem"><a class="el" href="class_nop_1_1_plugin_1_1_payments_1_1_check_money_order_1_1_check_money_order_payment_processor.html">CheckMoneyOrderPaymentProcessor</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">Membros públicos</a> &#124;
+<a href="#properties">Propriedades</a> &#124;
+<a href="#pri-attribs">Atributos Privados</a> &#124;
+<a href="class_nop_1_1_plugin_1_1_payments_1_1_check_money_order_1_1_check_money_order_payment_processor-members.html">Mostrar lista completa dos membros</a>  </div>
+  <div class="headertitle">
+<div class="title">Referência à classe Nop.Plugin.Payments.CheckMoneyOrder.CheckMoneyOrderPaymentProcessor</div>  </div>
+</div><!--header-->
+<div class="contents">
+
+<p><a class="el" href="namespace_nop_1_1_plugin_1_1_payments_1_1_check_money_order.html">CheckMoneyOrder</a> payment processor  
+ <a href="class_nop_1_1_plugin_1_1_payments_1_1_check_money_order_1_1_check_money_order_payment_processor.html#details">Mais...</a></p>
+<div class="dynheader">
+Diagrama de heranças da classe Nop.Plugin.Payments.CheckMoneyOrder.CheckMoneyOrderPaymentProcessor</div>
+<div class="dyncontent">
+ <div class="center">
+  <img src="class_nop_1_1_plugin_1_1_payments_1_1_check_money_order_1_1_check_money_order_payment_processor.png" usemap="#Nop.Plugin.Payments.CheckMoneyOrder.CheckMoneyOrderPaymentProcessor_map" alt=""/>
+  <map id="Nop.Plugin.Payments.CheckMoneyOrder.CheckMoneyOrderPaymentProcessor_map" name="Nop.Plugin.Payments.CheckMoneyOrder.CheckMoneyOrderPaymentProcessor_map">
+<area href="class_nop_1_1_services_1_1_plugins_1_1_base_plugin.html" title="Base plugin" alt="Nop.Services.Plugins.BasePlugin" shape="rect" coords="0,56,464,80"/>
+<area href="interface_nop_1_1_services_1_1_payments_1_1_i_payment_method.html" title="Provides an interface for creating payment gateways and methods" alt="Nop.Services.Payments.IPaymentMethod" shape="rect" coords="474,56,938,80"/>
+<area href="interface_nop_1_1_services_1_1_plugins_1_1_i_plugin.html" title="Interface denoting plug-in attributes that are displayed throughout the editing interface." alt="Nop.Services.Plugins.IPlugin" shape="rect" coords="0,0,464,24"/>
+<area href="interface_nop_1_1_services_1_1_plugins_1_1_i_plugin.html" title="Interface denoting plug-in attributes that are displayed throughout the editing interface." alt="Nop.Services.Plugins.IPlugin" shape="rect" coords="474,0,938,24"/>
+  </map>
+</div></div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Membros públicos</h2></td></tr>
+<tr class="memitem:a9522d02d84d7046d3d8a114a67cf4509"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_nop_1_1_plugin_1_1_payments_1_1_check_money_order_1_1_check_money_order_payment_processor.html#a9522d02d84d7046d3d8a114a67cf4509">CheckMoneyOrderPaymentProcessor</a> (<a class="el" href="class_nop_1_1_plugin_1_1_payments_1_1_check_money_order_1_1_check_money_order_payment_settings.html">CheckMoneyOrderPaymentSettings</a> checkMoneyOrderPaymentSettings, <a class="el" href="interface_nop_1_1_services_1_1_localization_1_1_i_localization_service.html">ILocalizationService</a> localizationService, <a class="el" href="interface_nop_1_1_services_1_1_payments_1_1_i_payment_service.html">IPaymentService</a> paymentService, <a class="el" href="interface_nop_1_1_services_1_1_configuration_1_1_i_setting_service.html">ISettingService</a> settingService, <a class="el" href="interface_nop_1_1_services_1_1_orders_1_1_i_shopping_cart_service.html">IShoppingCartService</a> shoppingCartService, <a class="el" href="interface_nop_1_1_core_1_1_i_web_helper.html">IWebHelper</a> webHelper)</td></tr>
+<tr class="separator:a9522d02d84d7046d3d8a114a67cf4509"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6957a23e8d11a370be1be902eecb5167"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_sendinblue_plugin_8cs.html#a9f49374e6bc76a6b5261e5c211d2e63d">Task</a>&lt; <a class="el" href="class_nop_1_1_services_1_1_payments_1_1_process_payment_result.html">ProcessPaymentResult</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_nop_1_1_plugin_1_1_payments_1_1_check_money_order_1_1_check_money_order_payment_processor.html#a6957a23e8d11a370be1be902eecb5167">ProcessPaymentAsync</a> (<a class="el" href="class_nop_1_1_services_1_1_payments_1_1_process_payment_request.html">ProcessPaymentRequest</a> processPaymentRequest)</td></tr>
+<tr class="memdesc:a6957a23e8d11a370be1be902eecb5167"><td class="mdescLeft">&#160;</td><td class="mdescRight">Process a payment  <a href="class_nop_1_1_plugin_1_1_payments_1_1_check_money_order_1_1_check_money_order_payment_processor.html#a6957a23e8d11a370be1be902eecb5167">Mais...</a><br /></td></tr>
+<tr class="separator:a6957a23e8d11a370be1be902eecb5167"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4fecdfa17a2092ee9c503a77f137b0f0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_sendinblue_plugin_8cs.html#a9f49374e6bc76a6b5261e5c211d2e63d">Task</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_nop_1_1_plugin_1_1_payments_1_1_check_money_order_1_1_check_money_order_payment_processor.html#a4fecdfa17a2092ee9c503a77f137b0f0">PostProcessPaymentAsync</a> (<a class="el" href="class_nop_1_1_services_1_1_payments_1_1_post_process_payment_request.html">PostProcessPaymentRequest</a> postProcessPaymentRequest)</td></tr>
+<tr class="memdesc:a4fecdfa17a2092ee9c503a77f137b0f0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Post process payment (used by payment gateways that require redirecting to a third-party URL)  <a href="class_nop_1_1_plugin_1_1_payments_1_1_check_money_order_1_1_check_money_order_payment_processor.html#a4fecdfa17a2092ee9c503a77f137b0f0">Mais...</a><br /></td></tr>
+<tr class="separator:a4fecdfa17a2092ee9c503a77f137b0f0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab03f74c620b98ae69866e2c100057821"><td class="memItemLeft" align="right" valign="top">async <a class="el" href="_sendinblue_plugin_8cs.html#a9f49374e6bc76a6b5261e5c211d2e63d">Task</a>&lt; bool &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_nop_1_1_plugin_1_1_payments_1_1_check_money_order_1_1_check_money_order_payment_processor.html#ab03f74c620b98ae69866e2c100057821">HidePaymentMethodAsync</a> (IList&lt; <a class="el" href="class_nop_1_1_core_1_1_domain_1_1_orders_1_1_shopping_cart_item.html">ShoppingCartItem</a> &gt; cart)</td></tr>
+<tr class="memdesc:ab03f74c620b98ae69866e2c100057821"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a value indicating whether payment method should be hidden during checkout  <a href="class_nop_1_1_plugin_1_1_payments_1_1_check_money_order_1_1_check_money_order_payment_processor.html#ab03f74c620b98ae69866e2c100057821">Mais...</a><br /></td></tr>
+<tr class="separator:ab03f74c620b98ae69866e2c100057821"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a533393a8ede7e0ff088c1fa771afbed6"><td class="memItemLeft" align="right" valign="top">async <a class="el" href="_sendinblue_plugin_8cs.html#a9f49374e6bc76a6b5261e5c211d2e63d">Task</a>&lt; decimal &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_nop_1_1_plugin_1_1_payments_1_1_check_money_order_1_1_check_money_order_payment_processor.html#a533393a8ede7e0ff088c1fa771afbed6">GetAdditionalHandlingFeeAsync</a> (IList&lt; <a class="el" href="class_nop_1_1_core_1_1_domain_1_1_orders_1_1_shopping_cart_item.html">ShoppingCartItem</a> &gt; cart)</td></tr>
+<tr class="memdesc:a533393a8ede7e0ff088c1fa771afbed6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets additional handling fee  <a href="class_nop_1_1_plugin_1_1_payments_1_1_check_money_order_1_1_check_money_order_payment_processor.html#a533393a8ede7e0ff088c1fa771afbed6">Mais...</a><br /></td></tr>
+<tr class="separator:a533393a8ede7e0ff088c1fa771afbed6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adc1cab6217c9ba5030a711ed0b8bf440"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_sendinblue_plugin_8cs.html#a9f49374e6bc76a6b5261e5c211d2e63d">Task</a>&lt; <a class="el" href="class_nop_1_1_services_1_1_payments_1_1_capture_payment_result.html">CapturePaymentResult</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_nop_1_1_plugin_1_1_payments_1_1_check_money_order_1_1_check_money_order_payment_processor.html#adc1cab6217c9ba5030a711ed0b8bf440">CaptureAsync</a> (<a class="el" href="class_nop_1_1_services_1_1_payments_1_1_capture_payment_request.html">CapturePaymentRequest</a> capturePaymentRequest)</td></tr>
+<tr class="memdesc:adc1cab6217c9ba5030a711ed0b8bf440"><td class="mdescLeft">&#160;</td><td class="mdescRight">Captures payment  <a href="class_nop_1_1_plugin_1_1_payments_1_1_check_money_order_1_1_check_money_order_payment_processor.html#adc1cab6217c9ba5030a711ed0b8bf440">Mais...</a><br /></td></tr>
+<tr class="separator:adc1cab6217c9ba5030a711ed0b8bf440"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a96354ff041aed2fca8f64a6e5f86548c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_sendinblue_plugin_8cs.html#a9f49374e6bc76a6b5261e5c211d2e63d">Task</a>&lt; <a class="el" href="class_nop_1_1_services_1_1_payments_1_1_refund_payment_result.html">RefundPaymentResult</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_nop_1_1_plugin_1_1_payments_1_1_check_money_order_1_1_check_money_order_payment_processor.html#a96354ff041aed2fca8f64a6e5f86548c">RefundAsync</a> (<a class="el" href="class_nop_1_1_services_1_1_payments_1_1_refund_payment_request.html">RefundPaymentRequest</a> refundPaymentRequest)</td></tr>
+<tr class="memdesc:a96354ff041aed2fca8f64a6e5f86548c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Refunds a payment  <a href="class_nop_1_1_plugin_1_1_payments_1_1_check_money_order_1_1_check_money_order_payment_processor.html#a96354ff041aed2fca8f64a6e5f86548c">Mais...</a><br /></td></tr>
+<tr class="separator:a96354ff041aed2fca8f64a6e5f86548c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a23c09f2c2d9ce79367b05ba477695258"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_sendinblue_plugin_8cs.html#a9f49374e6bc76a6b5261e5c211d2e63d">Task</a>&lt; <a class="el" href="class_nop_1_1_services_1_1_payments_1_1_void_payment_result.html">VoidPaymentResult</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_nop_1_1_plugin_1_1_payments_1_1_check_money_order_1_1_check_money_order_payment_processor.html#a23c09f2c2d9ce79367b05ba477695258">VoidAsync</a> (<a class="el" href="class_nop_1_1_services_1_1_payments_1_1_void_payment_request.html">VoidPaymentRequest</a> voidPaymentRequest)</td></tr>
+<tr class="memdesc:a23c09f2c2d9ce79367b05ba477695258"><td class="mdescLeft">&#160;</td><td class="mdescRight">Voids a payment  <a href="class_nop_1_1_plugin_1_1_payments_1_1_check_money_order_1_1_check_money_order_payment_processor.html#a23c09f2c2d9ce79367b05ba477695258">Mais...</a><br /></td></tr>
+<tr class="separator:a23c09f2c2d9ce79367b05ba477695258"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab14a13e79f5d486653b2a1c465d40222"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_sendinblue_plugin_8cs.html#a9f49374e6bc76a6b5261e5c211d2e63d">Task</a>&lt; <a class="el" href="class_nop_1_1_services_1_1_payments_1_1_process_payment_result.html">ProcessPaymentResult</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_nop_1_1_plugin_1_1_payments_1_1_check_money_order_1_1_check_money_order_payment_processor.html#ab14a13e79f5d486653b2a1c465d40222">ProcessRecurringPaymentAsync</a> (<a class="el" href="class_nop_1_1_services_1_1_payments_1_1_process_payment_request.html">ProcessPaymentRequest</a> processPaymentRequest)</td></tr>
+<tr class="memdesc:ab14a13e79f5d486653b2a1c465d40222"><td class="mdescLeft">&#160;</td><td class="mdescRight">Process recurring payment  <a href="class_nop_1_1_plugin_1_1_payments_1_1_check_money_order_1_1_check_money_order_payment_processor.html#ab14a13e79f5d486653b2a1c465d40222">Mais...</a><br /></td></tr>
+<tr class="separator:ab14a13e79f5d486653b2a1c465d40222"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aee0711fe6e2284f7e7cee9e3952c709f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_sendinblue_plugin_8cs.html#a9f49374e6bc76a6b5261e5c211d2e63d">Task</a>&lt; <a class="el" href="class_nop_1_1_services_1_1_payments_1_1_cancel_recurring_payment_result.html">CancelRecurringPaymentResult</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_nop_1_1_plugin_1_1_payments_1_1_check_money_order_1_1_check_money_order_payment_processor.html#aee0711fe6e2284f7e7cee9e3952c709f">CancelRecurringPaymentAsync</a> (<a class="el" href="class_nop_1_1_services_1_1_payments_1_1_cancel_recurring_payment_request.html">CancelRecurringPaymentRequest</a> cancelPaymentRequest)</td></tr>
+<tr class="memdesc:aee0711fe6e2284f7e7cee9e3952c709f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Cancels a recurring payment  <a href="class_nop_1_1_plugin_1_1_payments_1_1_check_money_order_1_1_check_money_order_payment_processor.html#aee0711fe6e2284f7e7cee9e3952c709f">Mais...</a><br /></td></tr>
+<tr class="separator:aee0711fe6e2284f7e7cee9e3952c709f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa2a1613cbce714361af2442aaaa027f5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_sendinblue_plugin_8cs.html#a9f49374e6bc76a6b5261e5c211d2e63d">Task</a>&lt; bool &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_nop_1_1_plugin_1_1_payments_1_1_check_money_order_1_1_check_money_order_payment_processor.html#aa2a1613cbce714361af2442aaaa027f5">CanRePostProcessPaymentAsync</a> (<a class="el" href="class_nop_1_1_core_1_1_domain_1_1_orders_1_1_order.html">Order</a> order)</td></tr>
+<tr class="memdesc:aa2a1613cbce714361af2442aaaa027f5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets a value indicating whether customers can complete a payment after order is placed but not completed (for redirection payment methods)  <a href="class_nop_1_1_plugin_1_1_payments_1_1_check_money_order_1_1_check_money_order_payment_processor.html#aa2a1613cbce714361af2442aaaa027f5">Mais...</a><br /></td></tr>
+<tr class="separator:aa2a1613cbce714361af2442aaaa027f5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a37b36f91b863036511816f116461f927"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_sendinblue_plugin_8cs.html#a9f49374e6bc76a6b5261e5c211d2e63d">Task</a>&lt; IList&lt; string &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_nop_1_1_plugin_1_1_payments_1_1_check_money_order_1_1_check_money_order_payment_processor.html#a37b36f91b863036511816f116461f927">ValidatePaymentFormAsync</a> (IFormCollection form)</td></tr>
+<tr class="memdesc:a37b36f91b863036511816f116461f927"><td class="mdescLeft">&#160;</td><td class="mdescRight">Validate payment form  <a href="class_nop_1_1_plugin_1_1_payments_1_1_check_money_order_1_1_check_money_order_payment_processor.html#a37b36f91b863036511816f116461f927">Mais...</a><br /></td></tr>
+<tr class="separator:a37b36f91b863036511816f116461f927"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a709e5fc870fa1f76e9657c13249a56ed"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_sendinblue_plugin_8cs.html#a9f49374e6bc76a6b5261e5c211d2e63d">Task</a>&lt; <a class="el" href="class_nop_1_1_services_1_1_payments_1_1_process_payment_request.html">ProcessPaymentRequest</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_nop_1_1_plugin_1_1_payments_1_1_check_money_order_1_1_check_money_order_payment_processor.html#a709e5fc870fa1f76e9657c13249a56ed">GetPaymentInfoAsync</a> (IFormCollection form)</td></tr>
+<tr class="memdesc:a709e5fc870fa1f76e9657c13249a56ed"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get payment information  <a href="class_nop_1_1_plugin_1_1_payments_1_1_check_money_order_1_1_check_money_order_payment_processor.html#a709e5fc870fa1f76e9657c13249a56ed">Mais...</a><br /></td></tr>
+<tr class="separator:a709e5fc870fa1f76e9657c13249a56ed"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae4a7fbc5543319d2842fd2f90256b822"><td class="memItemLeft" align="right" valign="top">override string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_nop_1_1_plugin_1_1_payments_1_1_check_money_order_1_1_check_money_order_payment_processor.html#ae4a7fbc5543319d2842fd2f90256b822">GetConfigurationPageUrl</a> ()</td></tr>
+<tr class="memdesc:ae4a7fbc5543319d2842fd2f90256b822"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets a configuration page URL  <a href="class_nop_1_1_plugin_1_1_payments_1_1_check_money_order_1_1_check_money_order_payment_processor.html#ae4a7fbc5543319d2842fd2f90256b822">Mais...</a><br /></td></tr>
+<tr class="separator:ae4a7fbc5543319d2842fd2f90256b822"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2b98e5b387861f62d290251bb2c5ccff"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_nop_1_1_plugin_1_1_payments_1_1_check_money_order_1_1_check_money_order_payment_processor.html#a2b98e5b387861f62d290251bb2c5ccff">GetPublicViewComponentName</a> ()</td></tr>
+<tr class="memdesc:a2b98e5b387861f62d290251bb2c5ccff"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets a name of a view component for displaying plugin in public store ("payment info" checkout step)  <a href="class_nop_1_1_plugin_1_1_payments_1_1_check_money_order_1_1_check_money_order_payment_processor.html#a2b98e5b387861f62d290251bb2c5ccff">Mais...</a><br /></td></tr>
+<tr class="separator:a2b98e5b387861f62d290251bb2c5ccff"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a69bdc22a8d32b18736c34c398ef9e48e"><td class="memItemLeft" align="right" valign="top">override async <a class="el" href="_sendinblue_plugin_8cs.html#a9f49374e6bc76a6b5261e5c211d2e63d">Task</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_nop_1_1_plugin_1_1_payments_1_1_check_money_order_1_1_check_money_order_payment_processor.html#a69bdc22a8d32b18736c34c398ef9e48e">InstallAsync</a> ()</td></tr>
+<tr class="memdesc:a69bdc22a8d32b18736c34c398ef9e48e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Install the plugin  <a href="class_nop_1_1_plugin_1_1_payments_1_1_check_money_order_1_1_check_money_order_payment_processor.html#a69bdc22a8d32b18736c34c398ef9e48e">Mais...</a><br /></td></tr>
+<tr class="separator:a69bdc22a8d32b18736c34c398ef9e48e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a55eea13e14716fa57075f972153e3b35"><td class="memItemLeft" align="right" valign="top">override async <a class="el" href="_sendinblue_plugin_8cs.html#a9f49374e6bc76a6b5261e5c211d2e63d">Task</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_nop_1_1_plugin_1_1_payments_1_1_check_money_order_1_1_check_money_order_payment_processor.html#a55eea13e14716fa57075f972153e3b35">UninstallAsync</a> ()</td></tr>
+<tr class="memdesc:a55eea13e14716fa57075f972153e3b35"><td class="mdescLeft">&#160;</td><td class="mdescRight">Uninstall the plugin  <a href="class_nop_1_1_plugin_1_1_payments_1_1_check_money_order_1_1_check_money_order_payment_processor.html#a55eea13e14716fa57075f972153e3b35">Mais...</a><br /></td></tr>
+<tr class="separator:a55eea13e14716fa57075f972153e3b35"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adfc79cdf1950f8158c6b8738bfce9bb4"><td class="memItemLeft" align="right" valign="top">async <a class="el" href="_sendinblue_plugin_8cs.html#a9f49374e6bc76a6b5261e5c211d2e63d">Task</a>&lt; string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_nop_1_1_plugin_1_1_payments_1_1_check_money_order_1_1_check_money_order_payment_processor.html#adfc79cdf1950f8158c6b8738bfce9bb4">GetPaymentMethodDescriptionAsync</a> ()</td></tr>
+<tr class="memdesc:adfc79cdf1950f8158c6b8738bfce9bb4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets a payment method description that will be displayed on checkout pages in the public store  <a href="class_nop_1_1_plugin_1_1_payments_1_1_check_money_order_1_1_check_money_order_payment_processor.html#adfc79cdf1950f8158c6b8738bfce9bb4">Mais...</a><br /></td></tr>
+<tr class="separator:adfc79cdf1950f8158c6b8738bfce9bb4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_methods_class_nop_1_1_services_1_1_plugins_1_1_base_plugin"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_class_nop_1_1_services_1_1_plugins_1_1_base_plugin')"><img src="closed.png" alt="-"/>&#160;Membros públicos herdados de <a class="el" href="class_nop_1_1_services_1_1_plugins_1_1_base_plugin.html">Nop.Services.Plugins.BasePlugin</a></td></tr>
+<tr class="memitem:adda6669559a5674c4ce9da09aa960f3f inherit pub_methods_class_nop_1_1_services_1_1_plugins_1_1_base_plugin"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="_sendinblue_plugin_8cs.html#a9f49374e6bc76a6b5261e5c211d2e63d">Task</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_nop_1_1_services_1_1_plugins_1_1_base_plugin.html#adda6669559a5674c4ce9da09aa960f3f">UpdateAsync</a> (string currentVersion, string targetVersion)</td></tr>
+<tr class="memdesc:adda6669559a5674c4ce9da09aa960f3f inherit pub_methods_class_nop_1_1_services_1_1_plugins_1_1_base_plugin"><td class="mdescLeft">&#160;</td><td class="mdescRight">Update plugin  <a href="class_nop_1_1_services_1_1_plugins_1_1_base_plugin.html#adda6669559a5674c4ce9da09aa960f3f">Mais...</a><br /></td></tr>
+<tr class="separator:adda6669559a5674c4ce9da09aa960f3f inherit pub_methods_class_nop_1_1_services_1_1_plugins_1_1_base_plugin"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab6b7d07d87312809e2ad690db8ce92a6 inherit pub_methods_class_nop_1_1_services_1_1_plugins_1_1_base_plugin"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="_sendinblue_plugin_8cs.html#a9f49374e6bc76a6b5261e5c211d2e63d">Task</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_nop_1_1_services_1_1_plugins_1_1_base_plugin.html#ab6b7d07d87312809e2ad690db8ce92a6">PreparePluginToUninstallAsync</a> ()</td></tr>
+<tr class="memdesc:ab6b7d07d87312809e2ad690db8ce92a6 inherit pub_methods_class_nop_1_1_services_1_1_plugins_1_1_base_plugin"><td class="mdescLeft">&#160;</td><td class="mdescRight">Prepare plugin to the uninstallation  <a href="class_nop_1_1_services_1_1_plugins_1_1_base_plugin.html#ab6b7d07d87312809e2ad690db8ce92a6">Mais...</a><br /></td></tr>
+<tr class="separator:ab6b7d07d87312809e2ad690db8ce92a6 inherit pub_methods_class_nop_1_1_services_1_1_plugins_1_1_base_plugin"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="properties"></a>
+Propriedades</h2></td></tr>
+<tr class="memitem:ae39bbd037079f306d5aa0d44deb1f31d"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_nop_1_1_plugin_1_1_payments_1_1_check_money_order_1_1_check_money_order_payment_processor.html#ae39bbd037079f306d5aa0d44deb1f31d">SupportCapture</a><code> [get]</code></td></tr>
+<tr class="memdesc:ae39bbd037079f306d5aa0d44deb1f31d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets a value indicating whether capture is supported  <a href="class_nop_1_1_plugin_1_1_payments_1_1_check_money_order_1_1_check_money_order_payment_processor.html#ae39bbd037079f306d5aa0d44deb1f31d">Mais...</a><br /></td></tr>
+<tr class="separator:ae39bbd037079f306d5aa0d44deb1f31d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab75124a85ec098dcad4eeeb6d8bb2641"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_nop_1_1_plugin_1_1_payments_1_1_check_money_order_1_1_check_money_order_payment_processor.html#ab75124a85ec098dcad4eeeb6d8bb2641">SupportPartiallyRefund</a><code> [get]</code></td></tr>
+<tr class="memdesc:ab75124a85ec098dcad4eeeb6d8bb2641"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets a value indicating whether partial refund is supported  <a href="class_nop_1_1_plugin_1_1_payments_1_1_check_money_order_1_1_check_money_order_payment_processor.html#ab75124a85ec098dcad4eeeb6d8bb2641">Mais...</a><br /></td></tr>
+<tr class="separator:ab75124a85ec098dcad4eeeb6d8bb2641"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af56bb88681cfa0826ec5b92d8389a669"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_nop_1_1_plugin_1_1_payments_1_1_check_money_order_1_1_check_money_order_payment_processor.html#af56bb88681cfa0826ec5b92d8389a669">SupportRefund</a><code> [get]</code></td></tr>
+<tr class="memdesc:af56bb88681cfa0826ec5b92d8389a669"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets a value indicating whether refund is supported  <a href="class_nop_1_1_plugin_1_1_payments_1_1_check_money_order_1_1_check_money_order_payment_processor.html#af56bb88681cfa0826ec5b92d8389a669">Mais...</a><br /></td></tr>
+<tr class="separator:af56bb88681cfa0826ec5b92d8389a669"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad0b11314eb5ba34215e201819c1da93d"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_nop_1_1_plugin_1_1_payments_1_1_check_money_order_1_1_check_money_order_payment_processor.html#ad0b11314eb5ba34215e201819c1da93d">SupportVoid</a><code> [get]</code></td></tr>
+<tr class="memdesc:ad0b11314eb5ba34215e201819c1da93d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets a value indicating whether void is supported  <a href="class_nop_1_1_plugin_1_1_payments_1_1_check_money_order_1_1_check_money_order_payment_processor.html#ad0b11314eb5ba34215e201819c1da93d">Mais...</a><br /></td></tr>
+<tr class="separator:ad0b11314eb5ba34215e201819c1da93d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a565dc1b6e7d182ce3ca07168485a4eeb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespace_nop_1_1_services_1_1_payments.html#aef3ff9dcc532279768359b7656e72cc7">RecurringPaymentType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_nop_1_1_plugin_1_1_payments_1_1_check_money_order_1_1_check_money_order_payment_processor.html#a565dc1b6e7d182ce3ca07168485a4eeb">RecurringPaymentType</a><code> [get]</code></td></tr>
+<tr class="memdesc:a565dc1b6e7d182ce3ca07168485a4eeb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets a recurring payment type of payment method  <a href="class_nop_1_1_plugin_1_1_payments_1_1_check_money_order_1_1_check_money_order_payment_processor.html#a565dc1b6e7d182ce3ca07168485a4eeb">Mais...</a><br /></td></tr>
+<tr class="separator:a565dc1b6e7d182ce3ca07168485a4eeb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a988eed6d888bdcfae281ca53fdfbf980"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespace_nop_1_1_services_1_1_payments.html#a089cf94adcc85702620451da45d46335">PaymentMethodType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_nop_1_1_plugin_1_1_payments_1_1_check_money_order_1_1_check_money_order_payment_processor.html#a988eed6d888bdcfae281ca53fdfbf980">PaymentMethodType</a><code> [get]</code></td></tr>
+<tr class="memdesc:a988eed6d888bdcfae281ca53fdfbf980"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets a payment method type  <a href="class_nop_1_1_plugin_1_1_payments_1_1_check_money_order_1_1_check_money_order_payment_processor.html#a988eed6d888bdcfae281ca53fdfbf980">Mais...</a><br /></td></tr>
+<tr class="separator:a988eed6d888bdcfae281ca53fdfbf980"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9f1002d4d388191e7d3a2befc084e7cb"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_nop_1_1_plugin_1_1_payments_1_1_check_money_order_1_1_check_money_order_payment_processor.html#a9f1002d4d388191e7d3a2befc084e7cb">SkipPaymentInfo</a><code> [get]</code></td></tr>
+<tr class="memdesc:a9f1002d4d388191e7d3a2befc084e7cb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets a value indicating whether we should display a payment information page for this plugin  <a href="class_nop_1_1_plugin_1_1_payments_1_1_check_money_order_1_1_check_money_order_payment_processor.html#a9f1002d4d388191e7d3a2befc084e7cb">Mais...</a><br /></td></tr>
+<tr class="separator:a9f1002d4d388191e7d3a2befc084e7cb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header properties_class_nop_1_1_services_1_1_plugins_1_1_base_plugin"><td colspan="2" onclick="javascript:toggleInherit('properties_class_nop_1_1_services_1_1_plugins_1_1_base_plugin')"><img src="closed.png" alt="-"/>&#160;Propriedades herdados de <a class="el" href="class_nop_1_1_services_1_1_plugins_1_1_base_plugin.html">Nop.Services.Plugins.BasePlugin</a></td></tr>
+<tr class="memitem:abfcaa7504fbe1f19aefde6099b41dc9d inherit properties_class_nop_1_1_services_1_1_plugins_1_1_base_plugin"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="class_nop_1_1_services_1_1_plugins_1_1_plugin_descriptor.html">PluginDescriptor</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_nop_1_1_services_1_1_plugins_1_1_base_plugin.html#abfcaa7504fbe1f19aefde6099b41dc9d">PluginDescriptor</a><code> [get, set]</code></td></tr>
+<tr class="memdesc:abfcaa7504fbe1f19aefde6099b41dc9d inherit properties_class_nop_1_1_services_1_1_plugins_1_1_base_plugin"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets or sets the plugin descriptor  <a href="class_nop_1_1_services_1_1_plugins_1_1_base_plugin.html#abfcaa7504fbe1f19aefde6099b41dc9d">Mais...</a><br /></td></tr>
+<tr class="separator:abfcaa7504fbe1f19aefde6099b41dc9d inherit properties_class_nop_1_1_services_1_1_plugins_1_1_base_plugin"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header properties_interface_nop_1_1_services_1_1_plugins_1_1_i_plugin"><td colspan="2" onclick="javascript:toggleInherit('properties_interface_nop_1_1_services_1_1_plugins_1_1_i_plugin')"><img src="closed.png" alt="-"/>&#160;Propriedades herdados de <a class="el" href="interface_nop_1_1_services_1_1_plugins_1_1_i_plugin.html">Nop.Services.Plugins.IPlugin</a></td></tr>
+<tr class="memitem:a7adf5422e0e50b8c6b1cacfdf7ef730f inherit properties_interface_nop_1_1_services_1_1_plugins_1_1_i_plugin"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_nop_1_1_services_1_1_plugins_1_1_plugin_descriptor.html">PluginDescriptor</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_nop_1_1_services_1_1_plugins_1_1_i_plugin.html#a7adf5422e0e50b8c6b1cacfdf7ef730f">PluginDescriptor</a><code> [get, set]</code></td></tr>
+<tr class="memdesc:a7adf5422e0e50b8c6b1cacfdf7ef730f inherit properties_interface_nop_1_1_services_1_1_plugins_1_1_i_plugin"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets or sets the plugin descriptor  <a href="interface_nop_1_1_services_1_1_plugins_1_1_i_plugin.html#a7adf5422e0e50b8c6b1cacfdf7ef730f">Mais...</a><br /></td></tr>
+<tr class="separator:a7adf5422e0e50b8c6b1cacfdf7ef730f inherit properties_interface_nop_1_1_services_1_1_plugins_1_1_i_plugin"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header properties_interface_nop_1_1_services_1_1_payments_1_1_i_payment_method"><td colspan="2" onclick="javascript:toggleInherit('properties_interface_nop_1_1_services_1_1_payments_1_1_i_payment_method')"><img src="closed.png" alt="-"/>&#160;Propriedades herdados de <a class="el" href="interface_nop_1_1_services_1_1_payments_1_1_i_payment_method.html">Nop.Services.Payments.IPaymentMethod</a></td></tr>
+<tr class="memitem:a385fd6fa53ed11a7946f3aba211ef1f1 inherit properties_interface_nop_1_1_services_1_1_payments_1_1_i_payment_method"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_nop_1_1_services_1_1_payments_1_1_i_payment_method.html#a385fd6fa53ed11a7946f3aba211ef1f1">SupportCapture</a><code> [get]</code></td></tr>
+<tr class="memdesc:a385fd6fa53ed11a7946f3aba211ef1f1 inherit properties_interface_nop_1_1_services_1_1_payments_1_1_i_payment_method"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets a value indicating whether capture is supported  <a href="interface_nop_1_1_services_1_1_payments_1_1_i_payment_method.html#a385fd6fa53ed11a7946f3aba211ef1f1">Mais...</a><br /></td></tr>
+<tr class="separator:a385fd6fa53ed11a7946f3aba211ef1f1 inherit properties_interface_nop_1_1_services_1_1_payments_1_1_i_payment_method"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a684fa59db4f252c490d4f36d44223eba inherit properties_interface_nop_1_1_services_1_1_payments_1_1_i_payment_method"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_nop_1_1_services_1_1_payments_1_1_i_payment_method.html#a684fa59db4f252c490d4f36d44223eba">SupportPartiallyRefund</a><code> [get]</code></td></tr>
+<tr class="memdesc:a684fa59db4f252c490d4f36d44223eba inherit properties_interface_nop_1_1_services_1_1_payments_1_1_i_payment_method"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets a value indicating whether partial refund is supported  <a href="interface_nop_1_1_services_1_1_payments_1_1_i_payment_method.html#a684fa59db4f252c490d4f36d44223eba">Mais...</a><br /></td></tr>
+<tr class="separator:a684fa59db4f252c490d4f36d44223eba inherit properties_interface_nop_1_1_services_1_1_payments_1_1_i_payment_method"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abb9a11a5bfe011d357770daefe18ddf3 inherit properties_interface_nop_1_1_services_1_1_payments_1_1_i_payment_method"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_nop_1_1_services_1_1_payments_1_1_i_payment_method.html#abb9a11a5bfe011d357770daefe18ddf3">SupportRefund</a><code> [get]</code></td></tr>
+<tr class="memdesc:abb9a11a5bfe011d357770daefe18ddf3 inherit properties_interface_nop_1_1_services_1_1_payments_1_1_i_payment_method"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets a value indicating whether refund is supported  <a href="interface_nop_1_1_services_1_1_payments_1_1_i_payment_method.html#abb9a11a5bfe011d357770daefe18ddf3">Mais...</a><br /></td></tr>
+<tr class="separator:abb9a11a5bfe011d357770daefe18ddf3 inherit properties_interface_nop_1_1_services_1_1_payments_1_1_i_payment_method"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6980ac6756f841cb6071f9209a1baff6 inherit properties_interface_nop_1_1_services_1_1_payments_1_1_i_payment_method"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_nop_1_1_services_1_1_payments_1_1_i_payment_method.html#a6980ac6756f841cb6071f9209a1baff6">SupportVoid</a><code> [get]</code></td></tr>
+<tr class="memdesc:a6980ac6756f841cb6071f9209a1baff6 inherit properties_interface_nop_1_1_services_1_1_payments_1_1_i_payment_method"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets a value indicating whether void is supported  <a href="interface_nop_1_1_services_1_1_payments_1_1_i_payment_method.html#a6980ac6756f841cb6071f9209a1baff6">Mais...</a><br /></td></tr>
+<tr class="separator:a6980ac6756f841cb6071f9209a1baff6 inherit properties_interface_nop_1_1_services_1_1_payments_1_1_i_payment_method"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad49e43f5b337d3b3f0e5ef13b7ae93db inherit properties_interface_nop_1_1_services_1_1_payments_1_1_i_payment_method"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespace_nop_1_1_services_1_1_payments.html#aef3ff9dcc532279768359b7656e72cc7">RecurringPaymentType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_nop_1_1_services_1_1_payments_1_1_i_payment_method.html#ad49e43f5b337d3b3f0e5ef13b7ae93db">RecurringPaymentType</a><code> [get]</code></td></tr>
+<tr class="memdesc:ad49e43f5b337d3b3f0e5ef13b7ae93db inherit properties_interface_nop_1_1_services_1_1_payments_1_1_i_payment_method"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets a recurring payment type of payment method  <a href="interface_nop_1_1_services_1_1_payments_1_1_i_payment_method.html#ad49e43f5b337d3b3f0e5ef13b7ae93db">Mais...</a><br /></td></tr>
+<tr class="separator:ad49e43f5b337d3b3f0e5ef13b7ae93db inherit properties_interface_nop_1_1_services_1_1_payments_1_1_i_payment_method"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9c00caea47bc2aadc32d347310f0371b inherit properties_interface_nop_1_1_services_1_1_payments_1_1_i_payment_method"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespace_nop_1_1_services_1_1_payments.html#a089cf94adcc85702620451da45d46335">PaymentMethodType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_nop_1_1_services_1_1_payments_1_1_i_payment_method.html#a9c00caea47bc2aadc32d347310f0371b">PaymentMethodType</a><code> [get]</code></td></tr>
+<tr class="memdesc:a9c00caea47bc2aadc32d347310f0371b inherit properties_interface_nop_1_1_services_1_1_payments_1_1_i_payment_method"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets a payment method type  <a href="interface_nop_1_1_services_1_1_payments_1_1_i_payment_method.html#a9c00caea47bc2aadc32d347310f0371b">Mais...</a><br /></td></tr>
+<tr class="separator:a9c00caea47bc2aadc32d347310f0371b inherit properties_interface_nop_1_1_services_1_1_payments_1_1_i_payment_method"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acc7c29632d46d53e7867e70036274ded inherit properties_interface_nop_1_1_services_1_1_payments_1_1_i_payment_method"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_nop_1_1_services_1_1_payments_1_1_i_payment_method.html#acc7c29632d46d53e7867e70036274ded">SkipPaymentInfo</a><code> [get]</code></td></tr>
+<tr class="memdesc:acc7c29632d46d53e7867e70036274ded inherit properties_interface_nop_1_1_services_1_1_payments_1_1_i_payment_method"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets a value indicating whether we should display a payment information page for this plugin  <a href="interface_nop_1_1_services_1_1_payments_1_1_i_payment_method.html#acc7c29632d46d53e7867e70036274ded">Mais...</a><br /></td></tr>
+<tr class="separator:acc7c29632d46d53e7867e70036274ded inherit properties_interface_nop_1_1_services_1_1_payments_1_1_i_payment_method"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
+Atributos Privados</h2></td></tr>
+<tr class="memitem:a41b254752d989a8e8c14b7c96b8d636a"><td class="memItemLeft" align="right" valign="top">readonly <a class="el" href="class_nop_1_1_plugin_1_1_payments_1_1_check_money_order_1_1_check_money_order_payment_settings.html">CheckMoneyOrderPaymentSettings</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_nop_1_1_plugin_1_1_payments_1_1_check_money_order_1_1_check_money_order_payment_processor.html#a41b254752d989a8e8c14b7c96b8d636a">_checkMoneyOrderPaymentSettings</a></td></tr>
+<tr class="separator:a41b254752d989a8e8c14b7c96b8d636a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a36cd34e2337aacf277b26682540a8a09"><td class="memItemLeft" align="right" valign="top">readonly <a class="el" href="interface_nop_1_1_services_1_1_localization_1_1_i_localization_service.html">ILocalizationService</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_nop_1_1_plugin_1_1_payments_1_1_check_money_order_1_1_check_money_order_payment_processor.html#a36cd34e2337aacf277b26682540a8a09">_localizationService</a></td></tr>
+<tr class="separator:a36cd34e2337aacf277b26682540a8a09"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aeb27425859d3e18435ae382e18a97baf"><td class="memItemLeft" align="right" valign="top">readonly <a class="el" href="interface_nop_1_1_services_1_1_payments_1_1_i_payment_service.html">IPaymentService</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_nop_1_1_plugin_1_1_payments_1_1_check_money_order_1_1_check_money_order_payment_processor.html#aeb27425859d3e18435ae382e18a97baf">_paymentService</a></td></tr>
+<tr class="separator:aeb27425859d3e18435ae382e18a97baf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aec5effa82a00080b7867b2b8055a1710"><td class="memItemLeft" align="right" valign="top">readonly <a class="el" href="interface_nop_1_1_services_1_1_configuration_1_1_i_setting_service.html">ISettingService</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_nop_1_1_plugin_1_1_payments_1_1_check_money_order_1_1_check_money_order_payment_processor.html#aec5effa82a00080b7867b2b8055a1710">_settingService</a></td></tr>
+<tr class="separator:aec5effa82a00080b7867b2b8055a1710"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a05a6fbb2b65d1e85b7e4c34dfed52684"><td class="memItemLeft" align="right" valign="top">readonly <a class="el" href="interface_nop_1_1_services_1_1_orders_1_1_i_shopping_cart_service.html">IShoppingCartService</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_nop_1_1_plugin_1_1_payments_1_1_check_money_order_1_1_check_money_order_payment_processor.html#a05a6fbb2b65d1e85b7e4c34dfed52684">_shoppingCartService</a></td></tr>
+<tr class="separator:a05a6fbb2b65d1e85b7e4c34dfed52684"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6b4c2b270bc8278a60bcb1349a33a21b"><td class="memItemLeft" align="right" valign="top">readonly <a class="el" href="interface_nop_1_1_core_1_1_i_web_helper.html">IWebHelper</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_nop_1_1_plugin_1_1_payments_1_1_check_money_order_1_1_check_money_order_payment_processor.html#a6b4c2b270bc8278a60bcb1349a33a21b">_webHelper</a></td></tr>
+<tr class="separator:a6b4c2b270bc8278a60bcb1349a33a21b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Descrição detalhada</h2>
+<div class="textblock"><p><a class="el" href="namespace_nop_1_1_plugin_1_1_payments_1_1_check_money_order.html">CheckMoneyOrder</a> payment processor </p>
+</div><h2 class="groupheader">Documentação dos Construtores &amp; Destrutor</h2>
+<a id="a9522d02d84d7046d3d8a114a67cf4509"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9522d02d84d7046d3d8a114a67cf4509">&#9670;&nbsp;</a></span>CheckMoneyOrderPaymentProcessor()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Nop.Plugin.Payments.CheckMoneyOrder.CheckMoneyOrderPaymentProcessor.CheckMoneyOrderPaymentProcessor </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_nop_1_1_plugin_1_1_payments_1_1_check_money_order_1_1_check_money_order_payment_settings.html">CheckMoneyOrderPaymentSettings</a>&#160;</td>
+          <td class="paramname"><em>checkMoneyOrderPaymentSettings</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="interface_nop_1_1_services_1_1_localization_1_1_i_localization_service.html">ILocalizationService</a>&#160;</td>
+          <td class="paramname"><em>localizationService</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="interface_nop_1_1_services_1_1_payments_1_1_i_payment_service.html">IPaymentService</a>&#160;</td>
+          <td class="paramname"><em>paymentService</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="interface_nop_1_1_services_1_1_configuration_1_1_i_setting_service.html">ISettingService</a>&#160;</td>
+          <td class="paramname"><em>settingService</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="interface_nop_1_1_services_1_1_orders_1_1_i_shopping_cart_service.html">IShoppingCartService</a>&#160;</td>
+          <td class="paramname"><em>shoppingCartService</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="interface_nop_1_1_core_1_1_i_web_helper.html">IWebHelper</a>&#160;</td>
+          <td class="paramname"><em>webHelper</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;        {</div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;            <a class="code" href="class_nop_1_1_plugin_1_1_payments_1_1_check_money_order_1_1_check_money_order_payment_processor.html#a41b254752d989a8e8c14b7c96b8d636a">_checkMoneyOrderPaymentSettings</a> = checkMoneyOrderPaymentSettings;</div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;            <a class="code" href="class_nop_1_1_plugin_1_1_payments_1_1_check_money_order_1_1_check_money_order_payment_processor.html#a36cd34e2337aacf277b26682540a8a09">_localizationService</a> = localizationService;</div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;            <a class="code" href="class_nop_1_1_plugin_1_1_payments_1_1_check_money_order_1_1_check_money_order_payment_processor.html#aeb27425859d3e18435ae382e18a97baf">_paymentService</a> = paymentService;</div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;            <a class="code" href="class_nop_1_1_plugin_1_1_payments_1_1_check_money_order_1_1_check_money_order_payment_processor.html#aec5effa82a00080b7867b2b8055a1710">_settingService</a> = settingService;</div>
+<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;            <a class="code" href="class_nop_1_1_plugin_1_1_payments_1_1_check_money_order_1_1_check_money_order_payment_processor.html#a05a6fbb2b65d1e85b7e4c34dfed52684">_shoppingCartService</a> = shoppingCartService;</div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;            <a class="code" href="class_nop_1_1_plugin_1_1_payments_1_1_check_money_order_1_1_check_money_order_payment_processor.html#a6b4c2b270bc8278a60bcb1349a33a21b">_webHelper</a> = webHelper;</div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;        }</div>
+<div class="ttc" id="aclass_nop_1_1_plugin_1_1_payments_1_1_check_money_order_1_1_check_money_order_payment_processor_html_a05a6fbb2b65d1e85b7e4c34dfed52684"><div class="ttname"><a href="class_nop_1_1_plugin_1_1_payments_1_1_check_money_order_1_1_check_money_order_payment_processor.html#a05a6fbb2b65d1e85b7e4c34dfed52684">Nop.Plugin.Payments.CheckMoneyOrder.CheckMoneyOrderPaymentProcessor._shoppingCartService</a></div><div class="ttdeci">readonly IShoppingCartService _shoppingCartService</div><div class="ttdef"><b>Definition:</b> CheckMoneyOrderPaymentProcessor.cs:26</div></div>
+<div class="ttc" id="aclass_nop_1_1_plugin_1_1_payments_1_1_check_money_order_1_1_check_money_order_payment_processor_html_a36cd34e2337aacf277b26682540a8a09"><div class="ttname"><a href="class_nop_1_1_plugin_1_1_payments_1_1_check_money_order_1_1_check_money_order_payment_processor.html#a36cd34e2337aacf277b26682540a8a09">Nop.Plugin.Payments.CheckMoneyOrder.CheckMoneyOrderPaymentProcessor._localizationService</a></div><div class="ttdeci">readonly ILocalizationService _localizationService</div><div class="ttdef"><b>Definition:</b> CheckMoneyOrderPaymentProcessor.cs:23</div></div>
+<div class="ttc" id="aclass_nop_1_1_plugin_1_1_payments_1_1_check_money_order_1_1_check_money_order_payment_processor_html_a41b254752d989a8e8c14b7c96b8d636a"><div class="ttname"><a href="class_nop_1_1_plugin_1_1_payments_1_1_check_money_order_1_1_check_money_order_payment_processor.html#a41b254752d989a8e8c14b7c96b8d636a">Nop.Plugin.Payments.CheckMoneyOrder.CheckMoneyOrderPaymentProcessor._checkMoneyOrderPaymentSettings</a></div><div class="ttdeci">readonly CheckMoneyOrderPaymentSettings _checkMoneyOrderPaymentSettings</div><div class="ttdef"><b>Definition:</b> CheckMoneyOrderPaymentProcessor.cs:22</div></div>
+<div class="ttc" id="aclass_nop_1_1_plugin_1_1_payments_1_1_check_money_order_1_1_check_money_order_payment_processor_html_a6b4c2b270bc8278a60bcb1349a33a21b"><div class="ttname"><a href="class_nop_1_1_plugin_1_1_payments_1_1_check_money_order_1_1_check_money_order_payment_processor.html#a6b4c2b270bc8278a60bcb1349a33a21b">Nop.Plugin.Payments.CheckMoneyOrder.CheckMoneyOrderPaymentProcessor._webHelper</a></div><div class="ttdeci">readonly IWebHelper _webHelper</div><div class="ttdef"><b>Definition:</b> CheckMoneyOrderPaymentProcessor.cs:27</div></div>
+<div class="ttc" id="aclass_nop_1_1_plugin_1_1_payments_1_1_check_money_order_1_1_check_money_order_payment_processor_html_aeb27425859d3e18435ae382e18a97baf"><div class="ttname"><a href="class_nop_1_1_plugin_1_1_payments_1_1_check_money_order_1_1_check_money_order_payment_processor.html#aeb27425859d3e18435ae382e18a97baf">Nop.Plugin.Payments.CheckMoneyOrder.CheckMoneyOrderPaymentProcessor._paymentService</a></div><div class="ttdeci">readonly IPaymentService _paymentService</div><div class="ttdef"><b>Definition:</b> CheckMoneyOrderPaymentProcessor.cs:24</div></div>
+<div class="ttc" id="aclass_nop_1_1_plugin_1_1_payments_1_1_check_money_order_1_1_check_money_order_payment_processor_html_aec5effa82a00080b7867b2b8055a1710"><div class="ttname"><a href="class_nop_1_1_plugin_1_1_payments_1_1_check_money_order_1_1_check_money_order_payment_processor.html#aec5effa82a00080b7867b2b8055a1710">Nop.Plugin.Payments.CheckMoneyOrder.CheckMoneyOrderPaymentProcessor._settingService</a></div><div class="ttdeci">readonly ISettingService _settingService</div><div class="ttdef"><b>Definition:</b> CheckMoneyOrderPaymentProcessor.cs:25</div></div>
+</div><!-- fragment -->
+<p class="reference">Referências <a class="el" href="class_nop_1_1_plugin_1_1_payments_1_1_check_money_order_1_1_check_money_order_payment_processor.html#a41b254752d989a8e8c14b7c96b8d636a">Nop.Plugin.Payments.CheckMoneyOrder.CheckMoneyOrderPaymentProcessor._checkMoneyOrderPaymentSettings</a>, <a class="el" href="class_nop_1_1_plugin_1_1_payments_1_1_check_money_order_1_1_check_money_order_payment_processor.html#a36cd34e2337aacf277b26682540a8a09">Nop.Plugin.Payments.CheckMoneyOrder.CheckMoneyOrderPaymentProcessor._localizationService</a>, <a class="el" href="class_nop_1_1_plugin_1_1_payments_1_1_check_money_order_1_1_check_money_order_payment_processor.html#aeb27425859d3e18435ae382e18a97baf">Nop.Plugin.Payments.CheckMoneyOrder.CheckMoneyOrderPaymentProcessor._paymentService</a>, <a class="el" href="class_nop_1_1_plugin_1_1_payments_1_1_check_money_order_1_1_check_money_order_payment_processor.html#aec5effa82a00080b7867b2b8055a1710">Nop.Plugin.Payments.CheckMoneyOrder.CheckMoneyOrderPaymentProcessor._settingService</a>, <a class="el" href="class_nop_1_1_plugin_1_1_payments_1_1_check_money_order_1_1_check_money_order_payment_processor.html#a05a6fbb2b65d1e85b7e4c34dfed52684">Nop.Plugin.Payments.CheckMoneyOrder.CheckMoneyOrderPaymentProcessor._shoppingCartService</a> e <a class="el" href="class_nop_1_1_plugin_1_1_payments_1_1_check_money_order_1_1_check_money_order_payment_processor.html#a6b4c2b270bc8278a60bcb1349a33a21b">Nop.Plugin.Payments.CheckMoneyOrder.CheckMoneyOrderPaymentProcessor._webHelper</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">Documentação dos métodos</h2>
+<a id="aee0711fe6e2284f7e7cee9e3952c709f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aee0711fe6e2284f7e7cee9e3952c709f">&#9670;&nbsp;</a></span>CancelRecurringPaymentAsync()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="_sendinblue_plugin_8cs.html#a9f49374e6bc76a6b5261e5c211d2e63d">Task</a>&lt;<a class="el" href="class_nop_1_1_services_1_1_payments_1_1_cancel_recurring_payment_result.html">CancelRecurringPaymentResult</a>&gt; Nop.Plugin.Payments.CheckMoneyOrder.CheckMoneyOrderPaymentProcessor.CancelRecurringPaymentAsync </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_nop_1_1_services_1_1_payments_1_1_cancel_recurring_payment_request.html">CancelRecurringPaymentRequest</a>&#160;</td>
+          <td class="paramname"><em>cancelPaymentRequest</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Cancels a recurring payment </p>
+<dl class="params"><dt>Parâmetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">cancelPaymentRequest</td><td>Request</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Retorna</dt><dd>A task that represents the asynchronous operation The task result contains the result </dd></dl>
+
+<p>Implementa <a class="el" href="interface_nop_1_1_services_1_1_payments_1_1_i_payment_method.html#a5cbbc795328bc29f4c8ce462dc228ce2">Nop.Services.Payments.IPaymentMethod</a>.</p>
+<div class="fragment"><div class="line"><a name="l00171"></a><span class="lineno">  171</span>&#160;        {</div>
+<div class="line"><a name="l00172"></a><span class="lineno">  172</span>&#160;            <span class="keywordflow">return</span> <a class="code" href="_sendinblue_plugin_8cs.html#a9f49374e6bc76a6b5261e5c211d2e63d">Task</a>.FromResult(<span class="keyword">new</span> <a class="code" href="class_nop_1_1_services_1_1_payments_1_1_cancel_recurring_payment_result.html">CancelRecurringPaymentResult</a> { <a class="code" href="namespace_nop_1_1_plugin_1_1_payments_1_1_pay_pal_smart_payment_buttons_1_1_models.html#afdedfbfc44407bcb9ae0ac57b38a0213">Errors</a> = <span class="keyword">new</span>[] { <span class="stringliteral">&quot;Recurring payment not supported&quot;</span> } });</div>
+<div class="line"><a name="l00173"></a><span class="lineno">  173</span>&#160;        }</div>
+<div class="ttc" id="a_sendinblue_plugin_8cs_html_a9f49374e6bc76a6b5261e5c211d2e63d"><div class="ttname"><a href="_sendinblue_plugin_8cs.html#a9f49374e6bc76a6b5261e5c211d2e63d">Task</a></div><div class="ttdeci">System.Threading.Tasks.Task Task</div><div class="ttdef"><b>Definition:</b> SendinbluePlugin.cs:15</div></div>
+<div class="ttc" id="aclass_nop_1_1_services_1_1_payments_1_1_cancel_recurring_payment_result_html"><div class="ttname"><a href="class_nop_1_1_services_1_1_payments_1_1_cancel_recurring_payment_result.html">Nop.Services.Payments.CancelRecurringPaymentResult</a></div><div class="ttdoc">Cancel recurring payment result</div><div class="ttdef"><b>Definition:</b> CancelRecurringPaymentResult.cs:10</div></div>
+<div class="ttc" id="anamespace_nop_1_1_plugin_1_1_payments_1_1_pay_pal_smart_payment_buttons_1_1_models_html_afdedfbfc44407bcb9ae0ac57b38a0213"><div class="ttname"><a href="namespace_nop_1_1_plugin_1_1_payments_1_1_pay_pal_smart_payment_buttons_1_1_models.html#afdedfbfc44407bcb9ae0ac57b38a0213">Nop.Plugin.Payments.PayPalSmartPaymentButtons.Models.Errors</a></div><div class="ttdeci">string Errors</div><div class="ttdef"><b>Definition:</b> PaymentInfoModel.cs:14</div></div>
+</div><!-- fragment -->
+<p class="reference">Referências <a class="el" href="namespace_nop_1_1_plugin_1_1_payments_1_1_pay_pal_smart_payment_buttons_1_1_models.html#afdedfbfc44407bcb9ae0ac57b38a0213">Nop.Plugin.Payments.PayPalSmartPaymentButtons.Models.Errors</a>.</p>
+
+</div>
+</div>
+<a id="aa2a1613cbce714361af2442aaaa027f5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa2a1613cbce714361af2442aaaa027f5">&#9670;&nbsp;</a></span>CanRePostProcessPaymentAsync()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="_sendinblue_plugin_8cs.html#a9f49374e6bc76a6b5261e5c211d2e63d">Task</a>&lt;bool&gt; Nop.Plugin.Payments.CheckMoneyOrder.CheckMoneyOrderPaymentProcessor.CanRePostProcessPaymentAsync </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_nop_1_1_core_1_1_domain_1_1_orders_1_1_order.html">Order</a>&#160;</td>
+          <td class="paramname"><em>order</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Gets a value indicating whether customers can complete a payment after order is placed but not completed (for redirection payment methods) </p>
+<dl class="params"><dt>Parâmetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">order</td><td>Order</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Retorna</dt><dd>A task that represents the asynchronous operation The task result contains the result </dd></dl>
+
+<p>Implementa <a class="el" href="interface_nop_1_1_services_1_1_payments_1_1_i_payment_method.html#aab4ba5b60518bf2dc23d4932e68bcc6a">Nop.Services.Payments.IPaymentMethod</a>.</p>
+<div class="fragment"><div class="line"><a name="l00184"></a><span class="lineno">  184</span>&#160;        {</div>
+<div class="line"><a name="l00185"></a><span class="lineno">  185</span>&#160;            <span class="keywordflow">if</span> (order == <span class="keyword">null</span>)</div>
+<div class="line"><a name="l00186"></a><span class="lineno">  186</span>&#160;                <span class="keywordflow">throw</span> <span class="keyword">new</span> ArgumentNullException(nameof(order));</div>
+<div class="line"><a name="l00187"></a><span class="lineno">  187</span>&#160; </div>
+<div class="line"><a name="l00188"></a><span class="lineno">  188</span>&#160;            <span class="comment">//it&#39;s not a redirection payment method. So we always return false</span></div>
+<div class="line"><a name="l00189"></a><span class="lineno">  189</span>&#160;            <span class="keywordflow">return</span> <a class="code" href="_sendinblue_plugin_8cs.html#a9f49374e6bc76a6b5261e5c211d2e63d">Task</a>.FromResult(<span class="keyword">false</span>);</div>
+<div class="line"><a name="l00190"></a><span class="lineno">  190</span>&#160;        }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="adc1cab6217c9ba5030a711ed0b8bf440"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adc1cab6217c9ba5030a711ed0b8bf440">&#9670;&nbsp;</a></span>CaptureAsync()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="_sendinblue_plugin_8cs.html#a9f49374e6bc76a6b5261e5c211d2e63d">Task</a>&lt;<a class="el" href="class_nop_1_1_services_1_1_payments_1_1_capture_payment_result.html">CapturePaymentResult</a>&gt; Nop.Plugin.Payments.CheckMoneyOrder.CheckMoneyOrderPaymentProcessor.CaptureAsync </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_nop_1_1_services_1_1_payments_1_1_capture_payment_request.html">CapturePaymentRequest</a>&#160;</td>
+          <td class="paramname"><em>capturePaymentRequest</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Captures payment </p>
+<dl class="params"><dt>Parâmetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">capturePaymentRequest</td><td>Capture payment request</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Retorna</dt><dd>A task that represents the asynchronous operation The task result contains the capture payment result </dd></dl>
+
+<p>Implementa <a class="el" href="interface_nop_1_1_services_1_1_payments_1_1_i_payment_method.html#ae7579bb54dda46d533c627d18eb82dc5">Nop.Services.Payments.IPaymentMethod</a>.</p>
+<div class="fragment"><div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160;        {</div>
+<div class="line"><a name="l00120"></a><span class="lineno">  120</span>&#160;            <span class="keywordflow">return</span> <a class="code" href="_sendinblue_plugin_8cs.html#a9f49374e6bc76a6b5261e5c211d2e63d">Task</a>.FromResult(<span class="keyword">new</span> <a class="code" href="class_nop_1_1_services_1_1_payments_1_1_capture_payment_result.html">CapturePaymentResult</a> { <a class="code" href="namespace_nop_1_1_plugin_1_1_payments_1_1_pay_pal_smart_payment_buttons_1_1_models.html#afdedfbfc44407bcb9ae0ac57b38a0213">Errors</a> = <span class="keyword">new</span>[] { <span class="stringliteral">&quot;Capture method not supported&quot;</span> } });</div>
+<div class="line"><a name="l00121"></a><span class="lineno">  121</span>&#160;        }</div>
+<div class="ttc" id="aclass_nop_1_1_services_1_1_payments_1_1_capture_payment_result_html"><div class="ttname"><a href="class_nop_1_1_services_1_1_payments_1_1_capture_payment_result.html">Nop.Services.Payments.CapturePaymentResult</a></div><div class="ttdoc">Capture payment result</div><div class="ttdef"><b>Definition:</b> CapturePaymentResult.cs:11</div></div>
+</div><!-- fragment -->
+<p class="reference">Referências <a class="el" href="namespace_nop_1_1_plugin_1_1_payments_1_1_pay_pal_smart_payment_buttons_1_1_models.html#afdedfbfc44407bcb9ae0ac57b38a0213">Nop.Plugin.Payments.PayPalSmartPaymentButtons.Models.Errors</a>.</p>
+
+</div>
+</div>
+<a id="a533393a8ede7e0ff088c1fa771afbed6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a533393a8ede7e0ff088c1fa771afbed6">&#9670;&nbsp;</a></span>GetAdditionalHandlingFeeAsync()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">async <a class="el" href="_sendinblue_plugin_8cs.html#a9f49374e6bc76a6b5261e5c211d2e63d">Task</a>&lt;decimal&gt; Nop.Plugin.Payments.CheckMoneyOrder.CheckMoneyOrderPaymentProcessor.GetAdditionalHandlingFeeAsync </td>
+          <td>(</td>
+          <td class="paramtype">IList&lt; <a class="el" href="class_nop_1_1_core_1_1_domain_1_1_orders_1_1_shopping_cart_item.html">ShoppingCartItem</a> &gt;&#160;</td>
+          <td class="paramname"><em>cart</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Gets additional handling fee </p>
+<dl class="params"><dt>Parâmetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">cart</td><td>Shopping cart</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Retorna</dt><dd>A task that represents the asynchronous operation The task result contains the additional handling fee </dd></dl>
+
+<p>Implementa <a class="el" href="interface_nop_1_1_services_1_1_payments_1_1_i_payment_method.html#ab1f107da53d33b21fc063adeea4baa39">Nop.Services.Payments.IPaymentMethod</a>.</p>
+<div class="fragment"><div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;        {</div>
+<div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;            <span class="keywordflow">return</span> await <a class="code" href="class_nop_1_1_plugin_1_1_payments_1_1_check_money_order_1_1_check_money_order_payment_processor.html#aeb27425859d3e18435ae382e18a97baf">_paymentService</a>.<a class="code" href="interface_nop_1_1_services_1_1_payments_1_1_i_payment_service.html#a199eddedf493b82daeb044f8f9b9756d">CalculateAdditionalFeeAsync</a>(cart,</div>
+<div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;                <a class="code" href="class_nop_1_1_plugin_1_1_payments_1_1_check_money_order_1_1_check_money_order_payment_processor.html#a41b254752d989a8e8c14b7c96b8d636a">_checkMoneyOrderPaymentSettings</a>.<a class="code" href="class_nop_1_1_plugin_1_1_payments_1_1_check_money_order_1_1_check_money_order_payment_settings.html#ae2fa316fb09be67b1620188eb0bd96df">AdditionalFee</a>, <a class="code" href="class_nop_1_1_plugin_1_1_payments_1_1_check_money_order_1_1_check_money_order_payment_processor.html#a41b254752d989a8e8c14b7c96b8d636a">_checkMoneyOrderPaymentSettings</a>.<a class="code" href="class_nop_1_1_plugin_1_1_payments_1_1_check_money_order_1_1_check_money_order_payment_settings.html#a01b95d2e001797907ef09cf9dba42db2">AdditionalFeePercentage</a>);</div>
+<div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;        }</div>
+<div class="ttc" id="aclass_nop_1_1_plugin_1_1_payments_1_1_check_money_order_1_1_check_money_order_payment_settings_html_a01b95d2e001797907ef09cf9dba42db2"><div class="ttname"><a href="class_nop_1_1_plugin_1_1_payments_1_1_check_money_order_1_1_check_money_order_payment_settings.html#a01b95d2e001797907ef09cf9dba42db2">Nop.Plugin.Payments.CheckMoneyOrder.CheckMoneyOrderPaymentSettings.AdditionalFeePercentage</a></div><div class="ttdeci">bool AdditionalFeePercentage</div><div class="ttdoc">Gets or sets a value indicating whether to &quot;additional fee&quot; is specified as percentage....</div><div class="ttdef"><b>Definition:</b> CheckMoneyOrderPaymentSettings.cs:18</div></div>
+<div class="ttc" id="aclass_nop_1_1_plugin_1_1_payments_1_1_check_money_order_1_1_check_money_order_payment_settings_html_ae2fa316fb09be67b1620188eb0bd96df"><div class="ttname"><a href="class_nop_1_1_plugin_1_1_payments_1_1_check_money_order_1_1_check_money_order_payment_settings.html#ae2fa316fb09be67b1620188eb0bd96df">Nop.Plugin.Payments.CheckMoneyOrder.CheckMoneyOrderPaymentSettings.AdditionalFee</a></div><div class="ttdeci">decimal AdditionalFee</div><div class="ttdoc">Gets or sets an additional fee</div><div class="ttdef"><b>Definition:</b> CheckMoneyOrderPaymentSettings.cs:23</div></div>
+<div class="ttc" id="ainterface_nop_1_1_services_1_1_payments_1_1_i_payment_service_html_a199eddedf493b82daeb044f8f9b9756d"><div class="ttname"><a href="interface_nop_1_1_services_1_1_payments_1_1_i_payment_service.html#a199eddedf493b82daeb044f8f9b9756d">Nop.Services.Payments.IPaymentService.CalculateAdditionalFeeAsync</a></div><div class="ttdeci">Task&lt; decimal &gt; CalculateAdditionalFeeAsync(IList&lt; ShoppingCartItem &gt; cart, decimal fee, bool usePercentage)</div><div class="ttdoc">Calculate payment method fee</div></div>
+</div><!-- fragment -->
+<p class="reference">Referências <a class="el" href="class_nop_1_1_plugin_1_1_payments_1_1_check_money_order_1_1_check_money_order_payment_processor.html#a41b254752d989a8e8c14b7c96b8d636a">Nop.Plugin.Payments.CheckMoneyOrder.CheckMoneyOrderPaymentProcessor._checkMoneyOrderPaymentSettings</a>, <a class="el" href="class_nop_1_1_plugin_1_1_payments_1_1_check_money_order_1_1_check_money_order_payment_processor.html#aeb27425859d3e18435ae382e18a97baf">Nop.Plugin.Payments.CheckMoneyOrder.CheckMoneyOrderPaymentProcessor._paymentService</a>, <a class="el" href="class_nop_1_1_plugin_1_1_payments_1_1_check_money_order_1_1_check_money_order_payment_settings.html#ae2fa316fb09be67b1620188eb0bd96df">Nop.Plugin.Payments.CheckMoneyOrder.CheckMoneyOrderPaymentSettings.AdditionalFee</a>, <a class="el" href="class_nop_1_1_plugin_1_1_payments_1_1_check_money_order_1_1_check_money_order_payment_settings.html#a01b95d2e001797907ef09cf9dba42db2">Nop.Plugin.Payments.CheckMoneyOrder.CheckMoneyOrderPaymentSettings.AdditionalFeePercentage</a> e <a class="el" href="interface_nop_1_1_services_1_1_payments_1_1_i_payment_service.html#a199eddedf493b82daeb044f8f9b9756d">Nop.Services.Payments.IPaymentService.CalculateAdditionalFeeAsync()</a>.</p>
+
+</div>
+</div>
+<a id="ae4a7fbc5543319d2842fd2f90256b822"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae4a7fbc5543319d2842fd2f90256b822">&#9670;&nbsp;</a></span>GetConfigurationPageUrl()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">override string Nop.Plugin.Payments.CheckMoneyOrder.CheckMoneyOrderPaymentProcessor.GetConfigurationPageUrl </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Gets a configuration page URL </p>
+
+<p>Reimplementado de <a class="el" href="class_nop_1_1_services_1_1_plugins_1_1_base_plugin.html#a9e0f56bdcab3739c5e5cd3609fa0841c">Nop.Services.Plugins.BasePlugin</a>.</p>
+<div class="fragment"><div class="line"><a name="l00222"></a><span class="lineno">  222</span>&#160;        {</div>
+<div class="line"><a name="l00223"></a><span class="lineno">  223</span>&#160;            <span class="keywordflow">return</span> $<span class="stringliteral">&quot;{_webHelper.GetStoreLocation()}Admin/PaymentCheckMoneyOrder/Configure&quot;</span>;</div>
+<div class="line"><a name="l00224"></a><span class="lineno">  224</span>&#160;        }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="a709e5fc870fa1f76e9657c13249a56ed"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a709e5fc870fa1f76e9657c13249a56ed">&#9670;&nbsp;</a></span>GetPaymentInfoAsync()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="_sendinblue_plugin_8cs.html#a9f49374e6bc76a6b5261e5c211d2e63d">Task</a>&lt;<a class="el" href="class_nop_1_1_services_1_1_payments_1_1_process_payment_request.html">ProcessPaymentRequest</a>&gt; Nop.Plugin.Payments.CheckMoneyOrder.CheckMoneyOrderPaymentProcessor.GetPaymentInfoAsync </td>
+          <td>(</td>
+          <td class="paramtype">IFormCollection&#160;</td>
+          <td class="paramname"><em>form</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Get payment information </p>
+<dl class="params"><dt>Parâmetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">form</td><td>The parsed form values</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Retorna</dt><dd>A task that represents the asynchronous operation The task result contains the payment info holder </dd></dl>
+
+<p>Implementa <a class="el" href="interface_nop_1_1_services_1_1_payments_1_1_i_payment_method.html#aed229104306ae7fe2df9812254544b56">Nop.Services.Payments.IPaymentMethod</a>.</p>
+<div class="fragment"><div class="line"><a name="l00214"></a><span class="lineno">  214</span>&#160;        {</div>
+<div class="line"><a name="l00215"></a><span class="lineno">  215</span>&#160;            <span class="keywordflow">return</span> <a class="code" href="_sendinblue_plugin_8cs.html#a9f49374e6bc76a6b5261e5c211d2e63d">Task</a>.FromResult(<span class="keyword">new</span> <a class="code" href="class_nop_1_1_services_1_1_payments_1_1_process_payment_request.html">ProcessPaymentRequest</a>());</div>
+<div class="line"><a name="l00216"></a><span class="lineno">  216</span>&#160;        }</div>
+<div class="ttc" id="aclass_nop_1_1_services_1_1_payments_1_1_process_payment_request_html"><div class="ttname"><a href="class_nop_1_1_services_1_1_payments_1_1_process_payment_request.html">Nop.Services.Payments.ProcessPaymentRequest</a></div><div class="ttdoc">Represents a payment info holder</div><div class="ttdef"><b>Definition:</b> ProcessPaymentRequest.cs:13</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="adfc79cdf1950f8158c6b8738bfce9bb4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adfc79cdf1950f8158c6b8738bfce9bb4">&#9670;&nbsp;</a></span>GetPaymentMethodDescriptionAsync()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">async <a class="el" href="_sendinblue_plugin_8cs.html#a9f49374e6bc76a6b5261e5c211d2e63d">Task</a>&lt;string&gt; Nop.Plugin.Payments.CheckMoneyOrder.CheckMoneyOrderPaymentProcessor.GetPaymentMethodDescriptionAsync </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Gets a payment method description that will be displayed on checkout pages in the public store </p>
+<p>return description of this payment method to be display on "payment method" checkout step. good practice is to make it localizable for example, for a redirection payment method, description may be like this: "You will be redirected to PayPal site to complete the payment" </p>
+<dl class="section return"><dt>Retorna</dt><dd>A task that represents the asynchronous operation</dd></dl>
+
+<p>Implementa <a class="el" href="interface_nop_1_1_services_1_1_payments_1_1_i_payment_method.html#ae283f7aff3b2a98ca568ca6c4b29d2fc">Nop.Services.Payments.IPaymentMethod</a>.</p>
+<div class="fragment"><div class="line"><a name="l00289"></a><span class="lineno">  289</span>&#160;        {</div>
+<div class="line"><a name="l00290"></a><span class="lineno">  290</span>&#160;            <span class="keywordflow">return</span> await <a class="code" href="class_nop_1_1_plugin_1_1_payments_1_1_check_money_order_1_1_check_money_order_payment_processor.html#a36cd34e2337aacf277b26682540a8a09">_localizationService</a>.<a class="code" href="interface_nop_1_1_services_1_1_localization_1_1_i_localization_service.html#ac1ae5d2f3ddfea87ce1f780c9294656a">GetResourceAsync</a>(<span class="stringliteral">&quot;Plugins.Payment.CheckMoneyOrder.PaymentMethodDescription&quot;</span>);</div>
+<div class="line"><a name="l00291"></a><span class="lineno">  291</span>&#160;        }</div>
+<div class="ttc" id="ainterface_nop_1_1_services_1_1_localization_1_1_i_localization_service_html_ac1ae5d2f3ddfea87ce1f780c9294656a"><div class="ttname"><a href="interface_nop_1_1_services_1_1_localization_1_1_i_localization_service.html#ac1ae5d2f3ddfea87ce1f780c9294656a">Nop.Services.Localization.ILocalizationService.GetResourceAsync</a></div><div class="ttdeci">Task&lt; string &gt; GetResourceAsync(string resourceKey)</div><div class="ttdoc">Gets a resource string based on the specified ResourceKey property.</div></div>
+</div><!-- fragment -->
+<p class="reference">Referências <a class="el" href="class_nop_1_1_plugin_1_1_payments_1_1_check_money_order_1_1_check_money_order_payment_processor.html#a36cd34e2337aacf277b26682540a8a09">Nop.Plugin.Payments.CheckMoneyOrder.CheckMoneyOrderPaymentProcessor._localizationService</a> e <a class="el" href="interface_nop_1_1_services_1_1_localization_1_1_i_localization_service.html#ac1ae5d2f3ddfea87ce1f780c9294656a">Nop.Services.Localization.ILocalizationService.GetResourceAsync()</a>.</p>
+
+</div>
+</div>
+<a id="a2b98e5b387861f62d290251bb2c5ccff"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2b98e5b387861f62d290251bb2c5ccff">&#9670;&nbsp;</a></span>GetPublicViewComponentName()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">string Nop.Plugin.Payments.CheckMoneyOrder.CheckMoneyOrderPaymentProcessor.GetPublicViewComponentName </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Gets a name of a view component for displaying plugin in public store ("payment info" checkout step) </p>
+<dl class="section return"><dt>Retorna</dt><dd>View component name</dd></dl>
+
+<p>Implementa <a class="el" href="interface_nop_1_1_services_1_1_payments_1_1_i_payment_method.html#ac6627022df69d8cd73e63f4c83add48d">Nop.Services.Payments.IPaymentMethod</a>.</p>
+<div class="fragment"><div class="line"><a name="l00231"></a><span class="lineno">  231</span>&#160;        {</div>
+<div class="line"><a name="l00232"></a><span class="lineno">  232</span>&#160;            <span class="keywordflow">return</span> <span class="stringliteral">&quot;CheckMoneyOrder&quot;</span>;</div>
+<div class="line"><a name="l00233"></a><span class="lineno">  233</span>&#160;        }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="ab03f74c620b98ae69866e2c100057821"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab03f74c620b98ae69866e2c100057821">&#9670;&nbsp;</a></span>HidePaymentMethodAsync()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">async <a class="el" href="_sendinblue_plugin_8cs.html#a9f49374e6bc76a6b5261e5c211d2e63d">Task</a>&lt;bool&gt; Nop.Plugin.Payments.CheckMoneyOrder.CheckMoneyOrderPaymentProcessor.HidePaymentMethodAsync </td>
+          <td>(</td>
+          <td class="paramtype">IList&lt; <a class="el" href="class_nop_1_1_core_1_1_domain_1_1_orders_1_1_shopping_cart_item.html">ShoppingCartItem</a> &gt;&#160;</td>
+          <td class="paramname"><em>cart</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returns a value indicating whether payment method should be hidden during checkout </p>
+<dl class="params"><dt>Parâmetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">cart</td><td>Shopping cart</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Retorna</dt><dd>A task that represents the asynchronous operation The task result contains the rue - hide; false - display. </dd></dl>
+
+<p>Implementa <a class="el" href="interface_nop_1_1_services_1_1_payments_1_1_i_payment_method.html#af41fd4513504e173f453b01639a5c33d">Nop.Services.Payments.IPaymentMethod</a>.</p>
+<div class="fragment"><div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;        {</div>
+<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;            <span class="comment">//you can put any logic here</span></div>
+<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;            <span class="comment">//for example, hide this payment method if all products in the cart are downloadable</span></div>
+<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;            <span class="comment">//or hide this payment method if current customer is from certain country</span></div>
+<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160; </div>
+<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;            <span class="keywordflow">if</span> (<a class="code" href="class_nop_1_1_plugin_1_1_payments_1_1_check_money_order_1_1_check_money_order_payment_processor.html#a41b254752d989a8e8c14b7c96b8d636a">_checkMoneyOrderPaymentSettings</a>.<a class="code" href="class_nop_1_1_plugin_1_1_payments_1_1_check_money_order_1_1_check_money_order_payment_settings.html#aae55efdb394fa6ceca546b4a5aea73d6">ShippableProductRequired</a> &amp;&amp; !await <a class="code" href="class_nop_1_1_plugin_1_1_payments_1_1_check_money_order_1_1_check_money_order_payment_processor.html#a05a6fbb2b65d1e85b7e4c34dfed52684">_shoppingCartService</a>.<a class="code" href="interface_nop_1_1_services_1_1_orders_1_1_i_shopping_cart_service.html#a7be2776062568ed611d05f199573ee70">ShoppingCartRequiresShippingAsync</a>(cart))</div>
+<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;                <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160; </div>
+<div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;            <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;        }</div>
+<div class="ttc" id="aclass_nop_1_1_plugin_1_1_payments_1_1_check_money_order_1_1_check_money_order_payment_settings_html_aae55efdb394fa6ceca546b4a5aea73d6"><div class="ttname"><a href="class_nop_1_1_plugin_1_1_payments_1_1_check_money_order_1_1_check_money_order_payment_settings.html#aae55efdb394fa6ceca546b4a5aea73d6">Nop.Plugin.Payments.CheckMoneyOrder.CheckMoneyOrderPaymentSettings.ShippableProductRequired</a></div><div class="ttdeci">bool ShippableProductRequired</div><div class="ttdoc">Gets or sets a value indicating whether shippable products are required in order to display this paym...</div><div class="ttdef"><b>Definition:</b> CheckMoneyOrderPaymentSettings.cs:28</div></div>
+<div class="ttc" id="ainterface_nop_1_1_services_1_1_orders_1_1_i_shopping_cart_service_html_a7be2776062568ed611d05f199573ee70"><div class="ttname"><a href="interface_nop_1_1_services_1_1_orders_1_1_i_shopping_cart_service.html#a7be2776062568ed611d05f199573ee70">Nop.Services.Orders.IShoppingCartService.ShoppingCartRequiresShippingAsync</a></div><div class="ttdeci">Task&lt; bool &gt; ShoppingCartRequiresShippingAsync(IList&lt; ShoppingCartItem &gt; shoppingCart)</div><div class="ttdoc">Indicates whether the shopping cart requires shipping</div></div>
+</div><!-- fragment -->
+<p class="reference">Referências <a class="el" href="class_nop_1_1_plugin_1_1_payments_1_1_check_money_order_1_1_check_money_order_payment_processor.html#a41b254752d989a8e8c14b7c96b8d636a">Nop.Plugin.Payments.CheckMoneyOrder.CheckMoneyOrderPaymentProcessor._checkMoneyOrderPaymentSettings</a>, <a class="el" href="class_nop_1_1_plugin_1_1_payments_1_1_check_money_order_1_1_check_money_order_payment_processor.html#a05a6fbb2b65d1e85b7e4c34dfed52684">Nop.Plugin.Payments.CheckMoneyOrder.CheckMoneyOrderPaymentProcessor._shoppingCartService</a>, <a class="el" href="class_nop_1_1_plugin_1_1_payments_1_1_check_money_order_1_1_check_money_order_payment_settings.html#aae55efdb394fa6ceca546b4a5aea73d6">Nop.Plugin.Payments.CheckMoneyOrder.CheckMoneyOrderPaymentSettings.ShippableProductRequired</a> e <a class="el" href="interface_nop_1_1_services_1_1_orders_1_1_i_shopping_cart_service.html#a7be2776062568ed611d05f199573ee70">Nop.Services.Orders.IShoppingCartService.ShoppingCartRequiresShippingAsync()</a>.</p>
+
+</div>
+</div>
+<a id="a69bdc22a8d32b18736c34c398ef9e48e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a69bdc22a8d32b18736c34c398ef9e48e">&#9670;&nbsp;</a></span>InstallAsync()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">override async <a class="el" href="_sendinblue_plugin_8cs.html#a9f49374e6bc76a6b5261e5c211d2e63d">Task</a> Nop.Plugin.Payments.CheckMoneyOrder.CheckMoneyOrderPaymentProcessor.InstallAsync </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Install the plugin </p>
+<dl class="section return"><dt>Retorna</dt><dd>A task that represents the asynchronous operation</dd></dl>
+
+<p>Reimplementado de <a class="el" href="class_nop_1_1_services_1_1_plugins_1_1_base_plugin.html#a790da34b4c89ab3fa81c629b12789bf6">Nop.Services.Plugins.BasePlugin</a>.</p>
+<div class="fragment"><div class="line"><a name="l00240"></a><span class="lineno">  240</span>&#160;        {</div>
+<div class="line"><a name="l00241"></a><span class="lineno">  241</span>&#160;            <span class="comment">//settings</span></div>
+<div class="line"><a name="l00242"></a><span class="lineno">  242</span>&#160;            var settings = <span class="keyword">new</span> CheckMoneyOrderPaymentSettings</div>
+<div class="line"><a name="l00243"></a><span class="lineno">  243</span>&#160;            {</div>
+<div class="line"><a name="l00244"></a><span class="lineno">  244</span>&#160;                DescriptionText = <span class="stringliteral">&quot;&lt;p&gt;Mail Personal or Business Check, Cashier&#39;s Check or money order to:&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;b&gt;NOP SOLUTIONS&lt;/b&gt; &lt;br /&gt;&lt;b&gt;your address here,&lt;/b&gt; &lt;br /&gt;&lt;b&gt;New York, NY 10001 &lt;/b&gt; &lt;br /&gt;&lt;b&gt;USA&lt;/b&gt;&lt;/p&gt;&lt;p&gt;Notice that if you pay by Personal or Business Check, your order may be held for up to 10 days after we receive your check to allow enough time for the check to clear.  If you want us to ship faster upon receipt of your payment, then we recommend your send a money order or Cashier&#39;s check.&lt;/p&gt;&lt;p&gt;P.S. You can edit this text from admin panel.&lt;/p&gt;&quot;</span></div>
+<div class="line"><a name="l00245"></a><span class="lineno">  245</span>&#160;            };</div>
+<div class="line"><a name="l00246"></a><span class="lineno">  246</span>&#160;            await <a class="code" href="class_nop_1_1_plugin_1_1_payments_1_1_check_money_order_1_1_check_money_order_payment_processor.html#aec5effa82a00080b7867b2b8055a1710">_settingService</a>.SaveSettingAsync(settings);</div>
+<div class="line"><a name="l00247"></a><span class="lineno">  247</span>&#160; </div>
+<div class="line"><a name="l00248"></a><span class="lineno">  248</span>&#160;            <span class="comment">//locales</span></div>
+<div class="line"><a name="l00249"></a><span class="lineno">  249</span>&#160;            await <a class="code" href="class_nop_1_1_plugin_1_1_payments_1_1_check_money_order_1_1_check_money_order_payment_processor.html#a36cd34e2337aacf277b26682540a8a09">_localizationService</a>.<a class="code" href="interface_nop_1_1_services_1_1_localization_1_1_i_localization_service.html#a4e2c2e52213856e1c6796d776e4596be">AddLocaleResourceAsync</a>(<span class="keyword">new</span> Dictionary&lt;string, string&gt;</div>
+<div class="line"><a name="l00250"></a><span class="lineno">  250</span>&#160;            {</div>
+<div class="line"><a name="l00251"></a><span class="lineno">  251</span>&#160;                [<span class="stringliteral">&quot;Plugins.Payment.CheckMoneyOrder.AdditionalFee&quot;</span>] = <span class="stringliteral">&quot;Additional fee&quot;</span>,</div>
+<div class="line"><a name="l00252"></a><span class="lineno">  252</span>&#160;                [<span class="stringliteral">&quot;Plugins.Payment.CheckMoneyOrder.AdditionalFee.Hint&quot;</span>] = <span class="stringliteral">&quot;The additional fee.&quot;</span>,</div>
+<div class="line"><a name="l00253"></a><span class="lineno">  253</span>&#160;                [<span class="stringliteral">&quot;Plugins.Payment.CheckMoneyOrder.AdditionalFeePercentage&quot;</span>] = <span class="stringliteral">&quot;Additional fee. Use percentage&quot;</span>,</div>
+<div class="line"><a name="l00254"></a><span class="lineno">  254</span>&#160;                [<span class="stringliteral">&quot;Plugins.Payment.CheckMoneyOrder.AdditionalFeePercentage.Hint&quot;</span>] = <span class="stringliteral">&quot;Determines whether to apply a percentage additional fee to the order total. If not enabled, a fixed value is used.&quot;</span>,</div>
+<div class="line"><a name="l00255"></a><span class="lineno">  255</span>&#160;                [<span class="stringliteral">&quot;Plugins.Payment.CheckMoneyOrder.DescriptionText&quot;</span>] = <span class="stringliteral">&quot;Description&quot;</span>,</div>
+<div class="line"><a name="l00256"></a><span class="lineno">  256</span>&#160;                [<span class="stringliteral">&quot;Plugins.Payment.CheckMoneyOrder.DescriptionText.Hint&quot;</span>] = <span class="stringliteral">&quot;Enter info that will be shown to customers during checkout&quot;</span>,</div>
+<div class="line"><a name="l00257"></a><span class="lineno">  257</span>&#160;                [<span class="stringliteral">&quot;Plugins.Payment.CheckMoneyOrder.PaymentMethodDescription&quot;</span>] = <span class="stringliteral">&quot;Pay by cheque or money order&quot;</span>,</div>
+<div class="line"><a name="l00258"></a><span class="lineno">  258</span>&#160;                [<span class="stringliteral">&quot;Plugins.Payment.CheckMoneyOrder.ShippableProductRequired&quot;</span>] = <span class="stringliteral">&quot;Shippable product required&quot;</span>,</div>
+<div class="line"><a name="l00259"></a><span class="lineno">  259</span>&#160;                [<span class="stringliteral">&quot;Plugins.Payment.CheckMoneyOrder.ShippableProductRequired.Hint&quot;</span>] = <span class="stringliteral">&quot;An option indicating whether shippable products are required in order to display this payment method during checkout.&quot;</span></div>
+<div class="line"><a name="l00260"></a><span class="lineno">  260</span>&#160;            });</div>
+<div class="line"><a name="l00261"></a><span class="lineno">  261</span>&#160; </div>
+<div class="line"><a name="l00262"></a><span class="lineno">  262</span>&#160;            await base.InstallAsync();</div>
+<div class="line"><a name="l00263"></a><span class="lineno">  263</span>&#160;        }</div>
+<div class="ttc" id="ainterface_nop_1_1_services_1_1_localization_1_1_i_localization_service_html_a4e2c2e52213856e1c6796d776e4596be"><div class="ttname"><a href="interface_nop_1_1_services_1_1_localization_1_1_i_localization_service.html#a4e2c2e52213856e1c6796d776e4596be">Nop.Services.Localization.ILocalizationService.AddLocaleResourceAsync</a></div><div class="ttdeci">Task AddLocaleResourceAsync(IDictionary&lt; string, string &gt; resources, int? languageId=null)</div><div class="ttdoc">Add locale resources</div></div>
+</div><!-- fragment -->
+<p class="reference">Referências <a class="el" href="class_nop_1_1_plugin_1_1_payments_1_1_check_money_order_1_1_check_money_order_payment_processor.html#a36cd34e2337aacf277b26682540a8a09">Nop.Plugin.Payments.CheckMoneyOrder.CheckMoneyOrderPaymentProcessor._localizationService</a>, <a class="el" href="class_nop_1_1_plugin_1_1_payments_1_1_check_money_order_1_1_check_money_order_payment_processor.html#aec5effa82a00080b7867b2b8055a1710">Nop.Plugin.Payments.CheckMoneyOrder.CheckMoneyOrderPaymentProcessor._settingService</a> e <a class="el" href="interface_nop_1_1_services_1_1_localization_1_1_i_localization_service.html#a4e2c2e52213856e1c6796d776e4596be">Nop.Services.Localization.ILocalizationService.AddLocaleResourceAsync()</a>.</p>
+
+</div>
+</div>
+<a id="a4fecdfa17a2092ee9c503a77f137b0f0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4fecdfa17a2092ee9c503a77f137b0f0">&#9670;&nbsp;</a></span>PostProcessPaymentAsync()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="_sendinblue_plugin_8cs.html#a9f49374e6bc76a6b5261e5c211d2e63d">Task</a> Nop.Plugin.Payments.CheckMoneyOrder.CheckMoneyOrderPaymentProcessor.PostProcessPaymentAsync </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_nop_1_1_services_1_1_payments_1_1_post_process_payment_request.html">PostProcessPaymentRequest</a>&#160;</td>
+          <td class="paramname"><em>postProcessPaymentRequest</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Post process payment (used by payment gateways that require redirecting to a third-party URL) </p>
+<dl class="params"><dt>Parâmetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">postProcessPaymentRequest</td><td>Payment info required for an order processing</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Retorna</dt><dd>A task that represents the asynchronous operation</dd></dl>
+
+<p>Implementa <a class="el" href="interface_nop_1_1_services_1_1_payments_1_1_i_payment_method.html#a44bc19ac03a12dcb90fc4ee85d57e1d2">Nop.Services.Payments.IPaymentMethod</a>.</p>
+<div class="fragment"><div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;        {</div>
+<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;            <span class="comment">//nothing</span></div>
+<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;            <span class="keywordflow">return</span> <a class="code" href="_sendinblue_plugin_8cs.html#a9f49374e6bc76a6b5261e5c211d2e63d">Task</a>.CompletedTask;</div>
+<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;        }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="a6957a23e8d11a370be1be902eecb5167"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6957a23e8d11a370be1be902eecb5167">&#9670;&nbsp;</a></span>ProcessPaymentAsync()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="_sendinblue_plugin_8cs.html#a9f49374e6bc76a6b5261e5c211d2e63d">Task</a>&lt;<a class="el" href="class_nop_1_1_services_1_1_payments_1_1_process_payment_result.html">ProcessPaymentResult</a>&gt; Nop.Plugin.Payments.CheckMoneyOrder.CheckMoneyOrderPaymentProcessor.ProcessPaymentAsync </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_nop_1_1_services_1_1_payments_1_1_process_payment_request.html">ProcessPaymentRequest</a>&#160;</td>
+          <td class="paramname"><em>processPaymentRequest</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Process a payment </p>
+<dl class="params"><dt>Parâmetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">processPaymentRequest</td><td>Payment info required for an order processing</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Retorna</dt><dd>A task that represents the asynchronous operation The task result contains the process payment result </dd></dl>
+
+<p>Implementa <a class="el" href="interface_nop_1_1_services_1_1_payments_1_1_i_payment_method.html#a727951eb783f7bee56d9a8d9b4deca58">Nop.Services.Payments.IPaymentMethod</a>.</p>
+<div class="fragment"><div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;        {</div>
+<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;            <span class="keywordflow">return</span> <a class="code" href="_sendinblue_plugin_8cs.html#a9f49374e6bc76a6b5261e5c211d2e63d">Task</a>.FromResult(<span class="keyword">new</span> <a class="code" href="class_nop_1_1_services_1_1_payments_1_1_process_payment_result.html">ProcessPaymentResult</a>());</div>
+<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;        }</div>
+<div class="ttc" id="aclass_nop_1_1_services_1_1_payments_1_1_process_payment_result_html"><div class="ttname"><a href="class_nop_1_1_services_1_1_payments_1_1_process_payment_result.html">Nop.Services.Payments.ProcessPaymentResult</a></div><div class="ttdoc">Process payment result</div><div class="ttdef"><b>Definition:</b> ProcessPaymentResult.cs:11</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="ab14a13e79f5d486653b2a1c465d40222"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab14a13e79f5d486653b2a1c465d40222">&#9670;&nbsp;</a></span>ProcessRecurringPaymentAsync()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="_sendinblue_plugin_8cs.html#a9f49374e6bc76a6b5261e5c211d2e63d">Task</a>&lt;<a class="el" href="class_nop_1_1_services_1_1_payments_1_1_process_payment_result.html">ProcessPaymentResult</a>&gt; Nop.Plugin.Payments.CheckMoneyOrder.CheckMoneyOrderPaymentProcessor.ProcessRecurringPaymentAsync </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_nop_1_1_services_1_1_payments_1_1_process_payment_request.html">ProcessPaymentRequest</a>&#160;</td>
+          <td class="paramname"><em>processPaymentRequest</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Process recurring payment </p>
+<dl class="params"><dt>Parâmetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">processPaymentRequest</td><td>Payment info required for an order processing</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Retorna</dt><dd>A task that represents the asynchronous operation The task result contains the process payment result </dd></dl>
+
+<p>Implementa <a class="el" href="interface_nop_1_1_services_1_1_payments_1_1_i_payment_method.html#a9cd4a3a27f4b81294fd1b964342e2717">Nop.Services.Payments.IPaymentMethod</a>.</p>
+<div class="fragment"><div class="line"><a name="l00158"></a><span class="lineno">  158</span>&#160;        {</div>
+<div class="line"><a name="l00159"></a><span class="lineno">  159</span>&#160;            <span class="keywordflow">return</span> <a class="code" href="_sendinblue_plugin_8cs.html#a9f49374e6bc76a6b5261e5c211d2e63d">Task</a>.FromResult(<span class="keyword">new</span> <a class="code" href="class_nop_1_1_services_1_1_payments_1_1_process_payment_result.html">ProcessPaymentResult</a> { <a class="code" href="namespace_nop_1_1_plugin_1_1_payments_1_1_pay_pal_smart_payment_buttons_1_1_models.html#afdedfbfc44407bcb9ae0ac57b38a0213">Errors</a> = <span class="keyword">new</span>[] { <span class="stringliteral">&quot;Recurring payment not supported&quot;</span> } });</div>
+<div class="line"><a name="l00160"></a><span class="lineno">  160</span>&#160;        }</div>
+</div><!-- fragment -->
+<p class="reference">Referências <a class="el" href="namespace_nop_1_1_plugin_1_1_payments_1_1_pay_pal_smart_payment_buttons_1_1_models.html#afdedfbfc44407bcb9ae0ac57b38a0213">Nop.Plugin.Payments.PayPalSmartPaymentButtons.Models.Errors</a>.</p>
+
+</div>
+</div>
+<a id="a96354ff041aed2fca8f64a6e5f86548c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a96354ff041aed2fca8f64a6e5f86548c">&#9670;&nbsp;</a></span>RefundAsync()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="_sendinblue_plugin_8cs.html#a9f49374e6bc76a6b5261e5c211d2e63d">Task</a>&lt;<a class="el" href="class_nop_1_1_services_1_1_payments_1_1_refund_payment_result.html">RefundPaymentResult</a>&gt; Nop.Plugin.Payments.CheckMoneyOrder.CheckMoneyOrderPaymentProcessor.RefundAsync </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_nop_1_1_services_1_1_payments_1_1_refund_payment_request.html">RefundPaymentRequest</a>&#160;</td>
+          <td class="paramname"><em>refundPaymentRequest</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Refunds a payment </p>
+<dl class="params"><dt>Parâmetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">refundPaymentRequest</td><td>Request</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Retorna</dt><dd>A task that represents the asynchronous operation The task result contains the result </dd></dl>
+
+<p>Implementa <a class="el" href="interface_nop_1_1_services_1_1_payments_1_1_i_payment_method.html#a446ea07a97dbbc9ac3c92038c0381fc2">Nop.Services.Payments.IPaymentMethod</a>.</p>
+<div class="fragment"><div class="line"><a name="l00132"></a><span class="lineno">  132</span>&#160;        {</div>
+<div class="line"><a name="l00133"></a><span class="lineno">  133</span>&#160;            <span class="keywordflow">return</span> <a class="code" href="_sendinblue_plugin_8cs.html#a9f49374e6bc76a6b5261e5c211d2e63d">Task</a>.FromResult(<span class="keyword">new</span> <a class="code" href="class_nop_1_1_services_1_1_payments_1_1_refund_payment_result.html">RefundPaymentResult</a> { <a class="code" href="namespace_nop_1_1_plugin_1_1_payments_1_1_pay_pal_smart_payment_buttons_1_1_models.html#afdedfbfc44407bcb9ae0ac57b38a0213">Errors</a> = <span class="keyword">new</span>[] { <span class="stringliteral">&quot;Refund method not supported&quot;</span> } });</div>
+<div class="line"><a name="l00134"></a><span class="lineno">  134</span>&#160;        }</div>
+<div class="ttc" id="aclass_nop_1_1_services_1_1_payments_1_1_refund_payment_result_html"><div class="ttname"><a href="class_nop_1_1_services_1_1_payments_1_1_refund_payment_result.html">Nop.Services.Payments.RefundPaymentResult</a></div><div class="ttdoc">Refund payment result</div><div class="ttdef"><b>Definition:</b> RefundPaymentResult.cs:11</div></div>
+</div><!-- fragment -->
+<p class="reference">Referências <a class="el" href="namespace_nop_1_1_plugin_1_1_payments_1_1_pay_pal_smart_payment_buttons_1_1_models.html#afdedfbfc44407bcb9ae0ac57b38a0213">Nop.Plugin.Payments.PayPalSmartPaymentButtons.Models.Errors</a>.</p>
+
+</div>
+</div>
+<a id="a55eea13e14716fa57075f972153e3b35"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a55eea13e14716fa57075f972153e3b35">&#9670;&nbsp;</a></span>UninstallAsync()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">override async <a class="el" href="_sendinblue_plugin_8cs.html#a9f49374e6bc76a6b5261e5c211d2e63d">Task</a> Nop.Plugin.Payments.CheckMoneyOrder.CheckMoneyOrderPaymentProcessor.UninstallAsync </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Uninstall the plugin </p>
+<dl class="section return"><dt>Retorna</dt><dd>A task that represents the asynchronous operation</dd></dl>
+
+<p>Reimplementado de <a class="el" href="class_nop_1_1_services_1_1_plugins_1_1_base_plugin.html#a61291531c5df85316644dcf4752f30bd">Nop.Services.Plugins.BasePlugin</a>.</p>
+<div class="fragment"><div class="line"><a name="l00270"></a><span class="lineno">  270</span>&#160;        {</div>
+<div class="line"><a name="l00271"></a><span class="lineno">  271</span>&#160;            <span class="comment">//settings</span></div>
+<div class="line"><a name="l00272"></a><span class="lineno">  272</span>&#160;            await <a class="code" href="class_nop_1_1_plugin_1_1_payments_1_1_check_money_order_1_1_check_money_order_payment_processor.html#aec5effa82a00080b7867b2b8055a1710">_settingService</a>.<a class="code" href="interface_nop_1_1_services_1_1_configuration_1_1_i_setting_service.html#a57c885d443079e8a68dadf7d96c2b761">DeleteSettingAsync</a>&lt;CheckMoneyOrderPaymentSettings&gt;();</div>
+<div class="line"><a name="l00273"></a><span class="lineno">  273</span>&#160; </div>
+<div class="line"><a name="l00274"></a><span class="lineno">  274</span>&#160;            <span class="comment">//locales</span></div>
+<div class="line"><a name="l00275"></a><span class="lineno">  275</span>&#160;            await <a class="code" href="class_nop_1_1_plugin_1_1_payments_1_1_check_money_order_1_1_check_money_order_payment_processor.html#a36cd34e2337aacf277b26682540a8a09">_localizationService</a>.<a class="code" href="interface_nop_1_1_services_1_1_localization_1_1_i_localization_service.html#a6663d91720d67863838f0116eebabb25">DeleteLocaleResourcesAsync</a>(<span class="stringliteral">&quot;Plugins.Payment.CheckMoneyOrder&quot;</span>);</div>
+<div class="line"><a name="l00276"></a><span class="lineno">  276</span>&#160; </div>
+<div class="line"><a name="l00277"></a><span class="lineno">  277</span>&#160;            await base.UninstallAsync();</div>
+<div class="line"><a name="l00278"></a><span class="lineno">  278</span>&#160;        }</div>
+<div class="ttc" id="ainterface_nop_1_1_services_1_1_configuration_1_1_i_setting_service_html_a57c885d443079e8a68dadf7d96c2b761"><div class="ttname"><a href="interface_nop_1_1_services_1_1_configuration_1_1_i_setting_service.html#a57c885d443079e8a68dadf7d96c2b761">Nop.Services.Configuration.ISettingService.DeleteSettingAsync</a></div><div class="ttdeci">Task DeleteSettingAsync(Setting setting)</div><div class="ttdoc">Deletes a setting</div></div>
+<div class="ttc" id="ainterface_nop_1_1_services_1_1_localization_1_1_i_localization_service_html_a6663d91720d67863838f0116eebabb25"><div class="ttname"><a href="interface_nop_1_1_services_1_1_localization_1_1_i_localization_service.html#a6663d91720d67863838f0116eebabb25">Nop.Services.Localization.ILocalizationService.DeleteLocaleResourcesAsync</a></div><div class="ttdeci">Task DeleteLocaleResourcesAsync(IList&lt; string &gt; resourceNames, int? languageId=null)</div><div class="ttdoc">Delete locale resources</div></div>
+</div><!-- fragment -->
+<p class="reference">Referências <a class="el" href="class_nop_1_1_plugin_1_1_payments_1_1_check_money_order_1_1_check_money_order_payment_processor.html#a36cd34e2337aacf277b26682540a8a09">Nop.Plugin.Payments.CheckMoneyOrder.CheckMoneyOrderPaymentProcessor._localizationService</a>, <a class="el" href="class_nop_1_1_plugin_1_1_payments_1_1_check_money_order_1_1_check_money_order_payment_processor.html#aec5effa82a00080b7867b2b8055a1710">Nop.Plugin.Payments.CheckMoneyOrder.CheckMoneyOrderPaymentProcessor._settingService</a>, <a class="el" href="interface_nop_1_1_services_1_1_localization_1_1_i_localization_service.html#a6663d91720d67863838f0116eebabb25">Nop.Services.Localization.ILocalizationService.DeleteLocaleResourcesAsync()</a> e <a class="el" href="interface_nop_1_1_services_1_1_configuration_1_1_i_setting_service.html#a57c885d443079e8a68dadf7d96c2b761">Nop.Services.Configuration.ISettingService.DeleteSettingAsync()</a>.</p>
+
+</div>
+</div>
+<a id="a37b36f91b863036511816f116461f927"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a37b36f91b863036511816f116461f927">&#9670;&nbsp;</a></span>ValidatePaymentFormAsync()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="_sendinblue_plugin_8cs.html#a9f49374e6bc76a6b5261e5c211d2e63d">Task</a>&lt;IList&lt;string&gt; &gt; Nop.Plugin.Payments.CheckMoneyOrder.CheckMoneyOrderPaymentProcessor.ValidatePaymentFormAsync </td>
+          <td>(</td>
+          <td class="paramtype">IFormCollection&#160;</td>
+          <td class="paramname"><em>form</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Validate payment form </p>
+<dl class="params"><dt>Parâmetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">form</td><td>The parsed form values</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Retorna</dt><dd>A task that represents the asynchronous operation The task result contains the list of validating errors </dd></dl>
+
+<p>Implementa <a class="el" href="interface_nop_1_1_services_1_1_payments_1_1_i_payment_method.html#ae29122b4fb63698c4214be594d8282bf">Nop.Services.Payments.IPaymentMethod</a>.</p>
+<div class="fragment"><div class="line"><a name="l00201"></a><span class="lineno">  201</span>&#160;        {</div>
+<div class="line"><a name="l00202"></a><span class="lineno">  202</span>&#160;            <span class="keywordflow">return</span> <a class="code" href="_sendinblue_plugin_8cs.html#a9f49374e6bc76a6b5261e5c211d2e63d">Task</a>.FromResult&lt;IList&lt;string&gt;&gt;(<span class="keyword">new</span> List&lt;string&gt;());</div>
+<div class="line"><a name="l00203"></a><span class="lineno">  203</span>&#160;        }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="a23c09f2c2d9ce79367b05ba477695258"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a23c09f2c2d9ce79367b05ba477695258">&#9670;&nbsp;</a></span>VoidAsync()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="_sendinblue_plugin_8cs.html#a9f49374e6bc76a6b5261e5c211d2e63d">Task</a>&lt;<a class="el" href="class_nop_1_1_services_1_1_payments_1_1_void_payment_result.html">VoidPaymentResult</a>&gt; Nop.Plugin.Payments.CheckMoneyOrder.CheckMoneyOrderPaymentProcessor.VoidAsync </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_nop_1_1_services_1_1_payments_1_1_void_payment_request.html">VoidPaymentRequest</a>&#160;</td>
+          <td class="paramname"><em>voidPaymentRequest</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Voids a payment </p>
+<dl class="params"><dt>Parâmetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">voidPaymentRequest</td><td>Request</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Retorna</dt><dd>A task that represents the asynchronous operation The task result contains the result </dd></dl>
+
+<p>Implementa <a class="el" href="interface_nop_1_1_services_1_1_payments_1_1_i_payment_method.html#aab89db8439247bfb5bbabf9a9911178f">Nop.Services.Payments.IPaymentMethod</a>.</p>
+<div class="fragment"><div class="line"><a name="l00145"></a><span class="lineno">  145</span>&#160;        {</div>
+<div class="line"><a name="l00146"></a><span class="lineno">  146</span>&#160;            <span class="keywordflow">return</span> <a class="code" href="_sendinblue_plugin_8cs.html#a9f49374e6bc76a6b5261e5c211d2e63d">Task</a>.FromResult(<span class="keyword">new</span> <a class="code" href="class_nop_1_1_services_1_1_payments_1_1_void_payment_result.html">VoidPaymentResult</a> { <a class="code" href="namespace_nop_1_1_plugin_1_1_payments_1_1_pay_pal_smart_payment_buttons_1_1_models.html#afdedfbfc44407bcb9ae0ac57b38a0213">Errors</a> = <span class="keyword">new</span>[] { <span class="stringliteral">&quot;Void method not supported&quot;</span> } });</div>
+<div class="line"><a name="l00147"></a><span class="lineno">  147</span>&#160;        }</div>
+<div class="ttc" id="aclass_nop_1_1_services_1_1_payments_1_1_void_payment_result_html"><div class="ttname"><a href="class_nop_1_1_services_1_1_payments_1_1_void_payment_result.html">Nop.Services.Payments.VoidPaymentResult</a></div><div class="ttdoc">Represents a VoidPaymentResult</div><div class="ttdef"><b>Definition:</b> VoidPaymentResult.cs:11</div></div>
+</div><!-- fragment -->
+<p class="reference">Referências <a class="el" href="namespace_nop_1_1_plugin_1_1_payments_1_1_pay_pal_smart_payment_buttons_1_1_models.html#afdedfbfc44407bcb9ae0ac57b38a0213">Nop.Plugin.Payments.PayPalSmartPaymentButtons.Models.Errors</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">Documentação dos dados membro</h2>
+<a id="a41b254752d989a8e8c14b7c96b8d636a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a41b254752d989a8e8c14b7c96b8d636a">&#9670;&nbsp;</a></span>_checkMoneyOrderPaymentSettings</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">readonly <a class="el" href="class_nop_1_1_plugin_1_1_payments_1_1_check_money_order_1_1_check_money_order_payment_settings.html">CheckMoneyOrderPaymentSettings</a> Nop.Plugin.Payments.CheckMoneyOrder.CheckMoneyOrderPaymentProcessor._checkMoneyOrderPaymentSettings</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">Referenciado por <a class="el" href="class_nop_1_1_plugin_1_1_payments_1_1_check_money_order_1_1_check_money_order_payment_processor.html#a9522d02d84d7046d3d8a114a67cf4509">Nop.Plugin.Payments.CheckMoneyOrder.CheckMoneyOrderPaymentProcessor.CheckMoneyOrderPaymentProcessor()</a>, <a class="el" href="class_nop_1_1_plugin_1_1_payments_1_1_check_money_order_1_1_check_money_order_payment_processor.html#a533393a8ede7e0ff088c1fa771afbed6">Nop.Plugin.Payments.CheckMoneyOrder.CheckMoneyOrderPaymentProcessor.GetAdditionalHandlingFeeAsync()</a> e <a class="el" href="class_nop_1_1_plugin_1_1_payments_1_1_check_money_order_1_1_check_money_order_payment_processor.html#ab03f74c620b98ae69866e2c100057821">Nop.Plugin.Payments.CheckMoneyOrder.CheckMoneyOrderPaymentProcessor.HidePaymentMethodAsync()</a>.</p>
+
+</div>
+</div>
+<a id="a36cd34e2337aacf277b26682540a8a09"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a36cd34e2337aacf277b26682540a8a09">&#9670;&nbsp;</a></span>_localizationService</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">readonly <a class="el" href="interface_nop_1_1_services_1_1_localization_1_1_i_localization_service.html">ILocalizationService</a> Nop.Plugin.Payments.CheckMoneyOrder.CheckMoneyOrderPaymentProcessor._localizationService</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">Referenciado por <a class="el" href="class_nop_1_1_plugin_1_1_payments_1_1_check_money_order_1_1_check_money_order_payment_processor.html#a9522d02d84d7046d3d8a114a67cf4509">Nop.Plugin.Payments.CheckMoneyOrder.CheckMoneyOrderPaymentProcessor.CheckMoneyOrderPaymentProcessor()</a>, <a class="el" href="class_nop_1_1_plugin_1_1_payments_1_1_check_money_order_1_1_check_money_order_payment_processor.html#adfc79cdf1950f8158c6b8738bfce9bb4">Nop.Plugin.Payments.CheckMoneyOrder.CheckMoneyOrderPaymentProcessor.GetPaymentMethodDescriptionAsync()</a>, <a class="el" href="class_nop_1_1_plugin_1_1_payments_1_1_check_money_order_1_1_check_money_order_payment_processor.html#a69bdc22a8d32b18736c34c398ef9e48e">Nop.Plugin.Payments.CheckMoneyOrder.CheckMoneyOrderPaymentProcessor.InstallAsync()</a> e <a class="el" href="class_nop_1_1_plugin_1_1_payments_1_1_check_money_order_1_1_check_money_order_payment_processor.html#a55eea13e14716fa57075f972153e3b35">Nop.Plugin.Payments.CheckMoneyOrder.CheckMoneyOrderPaymentProcessor.UninstallAsync()</a>.</p>
+
+</div>
+</div>
+<a id="aeb27425859d3e18435ae382e18a97baf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aeb27425859d3e18435ae382e18a97baf">&#9670;&nbsp;</a></span>_paymentService</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">readonly <a class="el" href="interface_nop_1_1_services_1_1_payments_1_1_i_payment_service.html">IPaymentService</a> Nop.Plugin.Payments.CheckMoneyOrder.CheckMoneyOrderPaymentProcessor._paymentService</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">Referenciado por <a class="el" href="class_nop_1_1_plugin_1_1_payments_1_1_check_money_order_1_1_check_money_order_payment_processor.html#a9522d02d84d7046d3d8a114a67cf4509">Nop.Plugin.Payments.CheckMoneyOrder.CheckMoneyOrderPaymentProcessor.CheckMoneyOrderPaymentProcessor()</a> e <a class="el" href="class_nop_1_1_plugin_1_1_payments_1_1_check_money_order_1_1_check_money_order_payment_processor.html#a533393a8ede7e0ff088c1fa771afbed6">Nop.Plugin.Payments.CheckMoneyOrder.CheckMoneyOrderPaymentProcessor.GetAdditionalHandlingFeeAsync()</a>.</p>
+
+</div>
+</div>
+<a id="aec5effa82a00080b7867b2b8055a1710"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aec5effa82a00080b7867b2b8055a1710">&#9670;&nbsp;</a></span>_settingService</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">readonly <a class="el" href="interface_nop_1_1_services_1_1_configuration_1_1_i_setting_service.html">ISettingService</a> Nop.Plugin.Payments.CheckMoneyOrder.CheckMoneyOrderPaymentProcessor._settingService</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">Referenciado por <a class="el" href="class_nop_1_1_plugin_1_1_payments_1_1_check_money_order_1_1_check_money_order_payment_processor.html#a9522d02d84d7046d3d8a114a67cf4509">Nop.Plugin.Payments.CheckMoneyOrder.CheckMoneyOrderPaymentProcessor.CheckMoneyOrderPaymentProcessor()</a>, <a class="el" href="class_nop_1_1_plugin_1_1_payments_1_1_check_money_order_1_1_check_money_order_payment_processor.html#a69bdc22a8d32b18736c34c398ef9e48e">Nop.Plugin.Payments.CheckMoneyOrder.CheckMoneyOrderPaymentProcessor.InstallAsync()</a> e <a class="el" href="class_nop_1_1_plugin_1_1_payments_1_1_check_money_order_1_1_check_money_order_payment_processor.html#a55eea13e14716fa57075f972153e3b35">Nop.Plugin.Payments.CheckMoneyOrder.CheckMoneyOrderPaymentProcessor.UninstallAsync()</a>.</p>
+
+</div>
+</div>
+<a id="a05a6fbb2b65d1e85b7e4c34dfed52684"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a05a6fbb2b65d1e85b7e4c34dfed52684">&#9670;&nbsp;</a></span>_shoppingCartService</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">readonly <a class="el" href="interface_nop_1_1_services_1_1_orders_1_1_i_shopping_cart_service.html">IShoppingCartService</a> Nop.Plugin.Payments.CheckMoneyOrder.CheckMoneyOrderPaymentProcessor._shoppingCartService</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">Referenciado por <a class="el" href="class_nop_1_1_plugin_1_1_payments_1_1_check_money_order_1_1_check_money_order_payment_processor.html#a9522d02d84d7046d3d8a114a67cf4509">Nop.Plugin.Payments.CheckMoneyOrder.CheckMoneyOrderPaymentProcessor.CheckMoneyOrderPaymentProcessor()</a> e <a class="el" href="class_nop_1_1_plugin_1_1_payments_1_1_check_money_order_1_1_check_money_order_payment_processor.html#ab03f74c620b98ae69866e2c100057821">Nop.Plugin.Payments.CheckMoneyOrder.CheckMoneyOrderPaymentProcessor.HidePaymentMethodAsync()</a>.</p>
+
+</div>
+</div>
+<a id="a6b4c2b270bc8278a60bcb1349a33a21b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6b4c2b270bc8278a60bcb1349a33a21b">&#9670;&nbsp;</a></span>_webHelper</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">readonly <a class="el" href="interface_nop_1_1_core_1_1_i_web_helper.html">IWebHelper</a> Nop.Plugin.Payments.CheckMoneyOrder.CheckMoneyOrderPaymentProcessor._webHelper</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">Referenciado por <a class="el" href="class_nop_1_1_plugin_1_1_payments_1_1_check_money_order_1_1_check_money_order_payment_processor.html#a9522d02d84d7046d3d8a114a67cf4509">Nop.Plugin.Payments.CheckMoneyOrder.CheckMoneyOrderPaymentProcessor.CheckMoneyOrderPaymentProcessor()</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">Documentação das propriedades</h2>
+<a id="a988eed6d888bdcfae281ca53fdfbf980"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a988eed6d888bdcfae281ca53fdfbf980">&#9670;&nbsp;</a></span>PaymentMethodType</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="namespace_nop_1_1_services_1_1_payments.html#a089cf94adcc85702620451da45d46335">PaymentMethodType</a> Nop.Plugin.Payments.CheckMoneyOrder.CheckMoneyOrderPaymentProcessor.PaymentMethodType</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Gets a payment method type </p>
+
+</div>
+</div>
+<a id="a565dc1b6e7d182ce3ca07168485a4eeb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a565dc1b6e7d182ce3ca07168485a4eeb">&#9670;&nbsp;</a></span>RecurringPaymentType</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="namespace_nop_1_1_services_1_1_payments.html#aef3ff9dcc532279768359b7656e72cc7">RecurringPaymentType</a> Nop.Plugin.Payments.CheckMoneyOrder.CheckMoneyOrderPaymentProcessor.RecurringPaymentType</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Gets a recurring payment type of payment method </p>
+
+</div>
+</div>
+<a id="a9f1002d4d388191e7d3a2befc084e7cb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9f1002d4d388191e7d3a2befc084e7cb">&#9670;&nbsp;</a></span>SkipPaymentInfo</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Nop.Plugin.Payments.CheckMoneyOrder.CheckMoneyOrderPaymentProcessor.SkipPaymentInfo</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Gets a value indicating whether we should display a payment information page for this plugin </p>
+
+</div>
+</div>
+<a id="ae39bbd037079f306d5aa0d44deb1f31d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae39bbd037079f306d5aa0d44deb1f31d">&#9670;&nbsp;</a></span>SupportCapture</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Nop.Plugin.Payments.CheckMoneyOrder.CheckMoneyOrderPaymentProcessor.SupportCapture</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Gets a value indicating whether capture is supported </p>
+
+</div>
+</div>
+<a id="ab75124a85ec098dcad4eeeb6d8bb2641"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab75124a85ec098dcad4eeeb6d8bb2641">&#9670;&nbsp;</a></span>SupportPartiallyRefund</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Nop.Plugin.Payments.CheckMoneyOrder.CheckMoneyOrderPaymentProcessor.SupportPartiallyRefund</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Gets a value indicating whether partial refund is supported </p>
+
+</div>
+</div>
+<a id="af56bb88681cfa0826ec5b92d8389a669"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af56bb88681cfa0826ec5b92d8389a669">&#9670;&nbsp;</a></span>SupportRefund</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Nop.Plugin.Payments.CheckMoneyOrder.CheckMoneyOrderPaymentProcessor.SupportRefund</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Gets a value indicating whether refund is supported </p>
+
+</div>
+</div>
+<a id="ad0b11314eb5ba34215e201819c1da93d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad0b11314eb5ba34215e201819c1da93d">&#9670;&nbsp;</a></span>SupportVoid</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Nop.Plugin.Payments.CheckMoneyOrder.CheckMoneyOrderPaymentProcessor.SupportVoid</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Gets a value indicating whether void is supported </p>
+
+</div>
+</div>
+<hr/>A documentação para esta classe foi gerada a partir do seguinte ficheiro:<ul>
+<li>C:/Users/gabri/Documents/Projetos/GitHub/Estudos/Nopcommercer plugin/nopCommerce_4.40.3_Source - Copia/src/Plugins/Nop.Plugin.Payments.CheckMoneyOrder/<a class="el" href="_check_money_order_payment_processor_8cs.html">CheckMoneyOrderPaymentProcessor.cs</a></li>
+</ul>
+</div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Gerado por&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1
+</small></address>
+</body>
+</html>

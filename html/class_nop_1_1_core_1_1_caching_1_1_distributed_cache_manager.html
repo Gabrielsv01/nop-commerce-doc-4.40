@@ -1,0 +1,1152 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.9.1"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>NopCommerce 4.40: Referência à classe Nop.Core.Caching.DistributedCacheManager</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectlogo"><img alt="Logo" src="download.png"/></td>
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">NopCommerce 4.40
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Gerado por Doxygen 1.9.1 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+var searchBox = new SearchBox("searchBox", "search",false,'Localizar','.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(function() {
+  initMenu('',true,false,'search.php','Localizar');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */</script>
+<div id="main-nav"></div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="namespace_nop.html">Nop</a></li><li class="navelem"><a class="el" href="namespace_nop_1_1_core.html">Core</a></li><li class="navelem"><a class="el" href="namespace_nop_1_1_core_1_1_caching.html">Caching</a></li><li class="navelem"><a class="el" href="class_nop_1_1_core_1_1_caching_1_1_distributed_cache_manager.html">DistributedCacheManager</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="summary">
+<a href="#nested-classes">Componentes</a> &#124;
+<a href="#pub-methods">Membros públicos</a> &#124;
+<a href="#pri-methods">Membros privados</a> &#124;
+<a href="#pri-static-methods">Membros privados estáticos</a> &#124;
+<a href="#pri-attribs">Atributos Privados</a> &#124;
+<a href="#pri-static-attribs">Atributos Privados Estáticos</a> &#124;
+<a href="class_nop_1_1_core_1_1_caching_1_1_distributed_cache_manager-members.html">Mostrar lista completa dos membros</a>  </div>
+  <div class="headertitle">
+<div class="title">Referência à classe Nop.Core.Caching.DistributedCacheManager</div>  </div>
+</div><!--header-->
+<div class="contents">
+
+<p>Represents a distributed cache  
+ <a href="class_nop_1_1_core_1_1_caching_1_1_distributed_cache_manager.html#details">Mais...</a></p>
+<div class="dynheader">
+Diagrama de heranças da classe Nop.Core.Caching.DistributedCacheManager</div>
+<div class="dyncontent">
+ <div class="center">
+  <img src="class_nop_1_1_core_1_1_caching_1_1_distributed_cache_manager.png" usemap="#Nop.Core.Caching.DistributedCacheManager_map" alt=""/>
+  <map id="Nop.Core.Caching.DistributedCacheManager_map" name="Nop.Core.Caching.DistributedCacheManager_map">
+<area href="class_nop_1_1_core_1_1_caching_1_1_cache_key_service.html" title="Represents the default cache key service implementation" alt="Nop.Core.Caching.CacheKeyService" shape="rect" coords="0,56,270,80"/>
+<area href="interface_nop_1_1_core_1_1_caching_1_1_i_locker.html" alt="Nop.Core.Caching.ILocker" shape="rect" coords="280,56,550,80"/>
+<area href="interface_nop_1_1_core_1_1_caching_1_1_i_static_cache_manager.html" title="Represents a manager for caching between HTTP requests (long term caching)" alt="Nop.Core.Caching.IStaticCacheManager" shape="rect" coords="560,56,830,80"/>
+  </map>
+</div></div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
+Componentes</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_nop_1_1_core_1_1_caching_1_1_distributed_cache_manager_1_1_per_request_cache.html">PerRequestCache</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Represents a manager for caching during an HTTP request (short term caching)  <a href="class_nop_1_1_core_1_1_caching_1_1_distributed_cache_manager_1_1_per_request_cache.html#details">Mais...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Membros públicos</h2></td></tr>
+<tr class="memitem:a8c37302304b01ae233477f36c23ec312"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_nop_1_1_core_1_1_caching_1_1_distributed_cache_manager.html#a8c37302304b01ae233477f36c23ec312">DistributedCacheManager</a> (<a class="el" href="class_nop_1_1_core_1_1_configuration_1_1_app_settings.html">AppSettings</a> appSettings, IDistributedCache distributedCache, IHttpContextAccessor httpContextAccessor)</td></tr>
+<tr class="separator:a8c37302304b01ae233477f36c23ec312"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1c9cd00a75456cdf3aec6ccb91e86d37"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_nop_1_1_core_1_1_caching_1_1_distributed_cache_manager.html#a1c9cd00a75456cdf3aec6ccb91e86d37">Dispose</a> ()</td></tr>
+<tr class="memdesc:a1c9cd00a75456cdf3aec6ccb91e86d37"><td class="mdescLeft">&#160;</td><td class="mdescRight">Performs application-defined tasks associated with freeing, releasing, or resetting unmanaged resources.  <a href="class_nop_1_1_core_1_1_caching_1_1_distributed_cache_manager.html#a1c9cd00a75456cdf3aec6ccb91e86d37">Mais...</a><br /></td></tr>
+<tr class="separator:a1c9cd00a75456cdf3aec6ccb91e86d37"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4b6b4402f71c8d24bcd8dbc26d70494c"><td class="memItemLeft" align="right" valign="top">async <a class="el" href="_sendinblue_plugin_8cs.html#a9f49374e6bc76a6b5261e5c211d2e63d">Task</a>&lt; T &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_nop_1_1_core_1_1_caching_1_1_distributed_cache_manager.html#a4b6b4402f71c8d24bcd8dbc26d70494c">GetAsync&lt; T &gt;</a> (<a class="el" href="class_nop_1_1_core_1_1_caching_1_1_cache_key.html">CacheKey</a> key, Func&lt; <a class="el" href="_sendinblue_plugin_8cs.html#a9f49374e6bc76a6b5261e5c211d2e63d">Task</a>&lt; T &gt;&gt; acquire)</td></tr>
+<tr class="memdesc:a4b6b4402f71c8d24bcd8dbc26d70494c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get a cached item. If it's not in the cache yet, then load and cache it  <a href="class_nop_1_1_core_1_1_caching_1_1_distributed_cache_manager.html#a4b6b4402f71c8d24bcd8dbc26d70494c">Mais...</a><br /></td></tr>
+<tr class="separator:a4b6b4402f71c8d24bcd8dbc26d70494c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad9c5b17828e85d479ae679003f981e93"><td class="memItemLeft" align="right" valign="top">async <a class="el" href="_sendinblue_plugin_8cs.html#a9f49374e6bc76a6b5261e5c211d2e63d">Task</a>&lt; T &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_nop_1_1_core_1_1_caching_1_1_distributed_cache_manager.html#ad9c5b17828e85d479ae679003f981e93">GetAsync&lt; T &gt;</a> (<a class="el" href="class_nop_1_1_core_1_1_caching_1_1_cache_key.html">CacheKey</a> key, Func&lt; T &gt; acquire)</td></tr>
+<tr class="memdesc:ad9c5b17828e85d479ae679003f981e93"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get a cached item. If it's not in the cache yet, then load and cache it  <a href="class_nop_1_1_core_1_1_caching_1_1_distributed_cache_manager.html#ad9c5b17828e85d479ae679003f981e93">Mais...</a><br /></td></tr>
+<tr class="separator:ad9c5b17828e85d479ae679003f981e93"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a28a20c13058df907f823eac5f94fa7f5"><td class="memItemLeft" align="right" valign="top">T&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_nop_1_1_core_1_1_caching_1_1_distributed_cache_manager.html#a28a20c13058df907f823eac5f94fa7f5">Get&lt; T &gt;</a> (<a class="el" href="class_nop_1_1_core_1_1_caching_1_1_cache_key.html">CacheKey</a> key, Func&lt; T &gt; acquire)</td></tr>
+<tr class="memdesc:a28a20c13058df907f823eac5f94fa7f5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get a cached item. If it's not in the cache yet, then load and cache it  <a href="class_nop_1_1_core_1_1_caching_1_1_distributed_cache_manager.html#a28a20c13058df907f823eac5f94fa7f5">Mais...</a><br /></td></tr>
+<tr class="separator:a28a20c13058df907f823eac5f94fa7f5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a744376480635dae44f8b48f8e82f2de8"><td class="memItemLeft" align="right" valign="top">async <a class="el" href="_sendinblue_plugin_8cs.html#a9f49374e6bc76a6b5261e5c211d2e63d">Task</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_nop_1_1_core_1_1_caching_1_1_distributed_cache_manager.html#a744376480635dae44f8b48f8e82f2de8">RemoveAsync</a> (<a class="el" href="class_nop_1_1_core_1_1_caching_1_1_cache_key.html">CacheKey</a> cacheKey, params object[] cacheKeyParameters)</td></tr>
+<tr class="memdesc:a744376480635dae44f8b48f8e82f2de8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Remove the value with the specified key from the cache  <a href="class_nop_1_1_core_1_1_caching_1_1_distributed_cache_manager.html#a744376480635dae44f8b48f8e82f2de8">Mais...</a><br /></td></tr>
+<tr class="separator:a744376480635dae44f8b48f8e82f2de8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acf860135034b44ea0d6bfca51867bf53"><td class="memItemLeft" align="right" valign="top">async <a class="el" href="_sendinblue_plugin_8cs.html#a9f49374e6bc76a6b5261e5c211d2e63d">Task</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_nop_1_1_core_1_1_caching_1_1_distributed_cache_manager.html#acf860135034b44ea0d6bfca51867bf53">SetAsync</a> (<a class="el" href="class_nop_1_1_core_1_1_caching_1_1_cache_key.html">CacheKey</a> key, object data)</td></tr>
+<tr class="memdesc:acf860135034b44ea0d6bfca51867bf53"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add the specified key and object to the cache  <a href="class_nop_1_1_core_1_1_caching_1_1_distributed_cache_manager.html#acf860135034b44ea0d6bfca51867bf53">Mais...</a><br /></td></tr>
+<tr class="separator:acf860135034b44ea0d6bfca51867bf53"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a12c2882bcb5d830b025a27293918340d"><td class="memItemLeft" align="right" valign="top">async <a class="el" href="_sendinblue_plugin_8cs.html#a9f49374e6bc76a6b5261e5c211d2e63d">Task</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_nop_1_1_core_1_1_caching_1_1_distributed_cache_manager.html#a12c2882bcb5d830b025a27293918340d">RemoveByPrefixAsync</a> (string prefix, params object[] prefixParameters)</td></tr>
+<tr class="memdesc:a12c2882bcb5d830b025a27293918340d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Remove items by cache key prefix  <a href="class_nop_1_1_core_1_1_caching_1_1_distributed_cache_manager.html#a12c2882bcb5d830b025a27293918340d">Mais...</a><br /></td></tr>
+<tr class="separator:a12c2882bcb5d830b025a27293918340d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a31b37ff5f3a9cbbe17618da7731d8dd7"><td class="memItemLeft" align="right" valign="top">async <a class="el" href="_sendinblue_plugin_8cs.html#a9f49374e6bc76a6b5261e5c211d2e63d">Task</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_nop_1_1_core_1_1_caching_1_1_distributed_cache_manager.html#a31b37ff5f3a9cbbe17618da7731d8dd7">ClearAsync</a> ()</td></tr>
+<tr class="memdesc:a31b37ff5f3a9cbbe17618da7731d8dd7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Clear all cache data  <a href="class_nop_1_1_core_1_1_caching_1_1_distributed_cache_manager.html#a31b37ff5f3a9cbbe17618da7731d8dd7">Mais...</a><br /></td></tr>
+<tr class="separator:a31b37ff5f3a9cbbe17618da7731d8dd7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9368b2ffa522adbdd2f6c3548d5efdb3"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_nop_1_1_core_1_1_caching_1_1_distributed_cache_manager.html#a9368b2ffa522adbdd2f6c3548d5efdb3">PerformActionWithLock</a> (string resource, TimeSpan expirationTime, Action action)</td></tr>
+<tr class="memdesc:a9368b2ffa522adbdd2f6c3548d5efdb3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Perform some action with exclusive lock  <a href="class_nop_1_1_core_1_1_caching_1_1_distributed_cache_manager.html#a9368b2ffa522adbdd2f6c3548d5efdb3">Mais...</a><br /></td></tr>
+<tr class="separator:a9368b2ffa522adbdd2f6c3548d5efdb3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_methods_class_nop_1_1_core_1_1_caching_1_1_cache_key_service"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_class_nop_1_1_core_1_1_caching_1_1_cache_key_service')"><img src="closed.png" alt="-"/>&#160;Membros públicos herdados de <a class="el" href="class_nop_1_1_core_1_1_caching_1_1_cache_key_service.html">Nop.Core.Caching.CacheKeyService</a></td></tr>
+<tr class="memitem:a35340b0e9e07404dacb6b4397f66f8fd inherit pub_methods_class_nop_1_1_core_1_1_caching_1_1_cache_key_service"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="class_nop_1_1_core_1_1_caching_1_1_cache_key.html">CacheKey</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_nop_1_1_core_1_1_caching_1_1_cache_key_service.html#a35340b0e9e07404dacb6b4397f66f8fd">PrepareKey</a> (<a class="el" href="class_nop_1_1_core_1_1_caching_1_1_cache_key.html">CacheKey</a> cacheKey, params object[] cacheKeyParameters)</td></tr>
+<tr class="memdesc:a35340b0e9e07404dacb6b4397f66f8fd inherit pub_methods_class_nop_1_1_core_1_1_caching_1_1_cache_key_service"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create a copy of cache key and fills it by passed parameters  <a href="class_nop_1_1_core_1_1_caching_1_1_cache_key_service.html#a35340b0e9e07404dacb6b4397f66f8fd">Mais...</a><br /></td></tr>
+<tr class="separator:a35340b0e9e07404dacb6b4397f66f8fd inherit pub_methods_class_nop_1_1_core_1_1_caching_1_1_cache_key_service"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a772f4bf4c42c409d1f57336253d91e3e inherit pub_methods_class_nop_1_1_core_1_1_caching_1_1_cache_key_service"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="class_nop_1_1_core_1_1_caching_1_1_cache_key.html">CacheKey</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_nop_1_1_core_1_1_caching_1_1_cache_key_service.html#a772f4bf4c42c409d1f57336253d91e3e">PrepareKeyForDefaultCache</a> (<a class="el" href="class_nop_1_1_core_1_1_caching_1_1_cache_key.html">CacheKey</a> cacheKey, params object[] cacheKeyParameters)</td></tr>
+<tr class="memdesc:a772f4bf4c42c409d1f57336253d91e3e inherit pub_methods_class_nop_1_1_core_1_1_caching_1_1_cache_key_service"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create a copy of cache key using the default cache time and fills it by passed parameters  <a href="class_nop_1_1_core_1_1_caching_1_1_cache_key_service.html#a772f4bf4c42c409d1f57336253d91e3e">Mais...</a><br /></td></tr>
+<tr class="separator:a772f4bf4c42c409d1f57336253d91e3e inherit pub_methods_class_nop_1_1_core_1_1_caching_1_1_cache_key_service"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab1340c974cbf883e4332d46bf8d1e0bc inherit pub_methods_class_nop_1_1_core_1_1_caching_1_1_cache_key_service"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="class_nop_1_1_core_1_1_caching_1_1_cache_key.html">CacheKey</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_nop_1_1_core_1_1_caching_1_1_cache_key_service.html#ab1340c974cbf883e4332d46bf8d1e0bc">PrepareKeyForShortTermCache</a> (<a class="el" href="class_nop_1_1_core_1_1_caching_1_1_cache_key.html">CacheKey</a> cacheKey, params object[] cacheKeyParameters)</td></tr>
+<tr class="memdesc:ab1340c974cbf883e4332d46bf8d1e0bc inherit pub_methods_class_nop_1_1_core_1_1_caching_1_1_cache_key_service"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create a copy of cache key using the short cache time and fills it by passed parameters  <a href="class_nop_1_1_core_1_1_caching_1_1_cache_key_service.html#ab1340c974cbf883e4332d46bf8d1e0bc">Mais...</a><br /></td></tr>
+<tr class="separator:ab1340c974cbf883e4332d46bf8d1e0bc inherit pub_methods_class_nop_1_1_core_1_1_caching_1_1_cache_key_service"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_methods_interface_nop_1_1_core_1_1_caching_1_1_i_static_cache_manager"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_interface_nop_1_1_core_1_1_caching_1_1_i_static_cache_manager')"><img src="closed.png" alt="-"/>&#160;Membros públicos herdados de <a class="el" href="interface_nop_1_1_core_1_1_caching_1_1_i_static_cache_manager.html">Nop.Core.Caching.IStaticCacheManager</a></td></tr>
+<tr class="memitem:aef0a5701be81b5cdc42804030f715c25 inherit pub_methods_interface_nop_1_1_core_1_1_caching_1_1_i_static_cache_manager"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_nop_1_1_core_1_1_caching_1_1_cache_key.html">CacheKey</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_nop_1_1_core_1_1_caching_1_1_i_static_cache_manager.html#aef0a5701be81b5cdc42804030f715c25">PrepareKey</a> (<a class="el" href="class_nop_1_1_core_1_1_caching_1_1_cache_key.html">CacheKey</a> cacheKey, params object[] cacheKeyParameters)</td></tr>
+<tr class="memdesc:aef0a5701be81b5cdc42804030f715c25 inherit pub_methods_interface_nop_1_1_core_1_1_caching_1_1_i_static_cache_manager"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create a copy of cache key and fills it by passed parameters  <a href="interface_nop_1_1_core_1_1_caching_1_1_i_static_cache_manager.html#aef0a5701be81b5cdc42804030f715c25">Mais...</a><br /></td></tr>
+<tr class="separator:aef0a5701be81b5cdc42804030f715c25 inherit pub_methods_interface_nop_1_1_core_1_1_caching_1_1_i_static_cache_manager"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6e6f64bac714480ec4f5b11c01d405b8 inherit pub_methods_interface_nop_1_1_core_1_1_caching_1_1_i_static_cache_manager"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_nop_1_1_core_1_1_caching_1_1_cache_key.html">CacheKey</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_nop_1_1_core_1_1_caching_1_1_i_static_cache_manager.html#a6e6f64bac714480ec4f5b11c01d405b8">PrepareKeyForDefaultCache</a> (<a class="el" href="class_nop_1_1_core_1_1_caching_1_1_cache_key.html">CacheKey</a> cacheKey, params object[] cacheKeyParameters)</td></tr>
+<tr class="memdesc:a6e6f64bac714480ec4f5b11c01d405b8 inherit pub_methods_interface_nop_1_1_core_1_1_caching_1_1_i_static_cache_manager"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create a copy of cache key using the default cache time and fills it by passed parameters  <a href="interface_nop_1_1_core_1_1_caching_1_1_i_static_cache_manager.html#a6e6f64bac714480ec4f5b11c01d405b8">Mais...</a><br /></td></tr>
+<tr class="separator:a6e6f64bac714480ec4f5b11c01d405b8 inherit pub_methods_interface_nop_1_1_core_1_1_caching_1_1_i_static_cache_manager"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae0d7b4f85ef5eecb2a080a4126fd3f80 inherit pub_methods_interface_nop_1_1_core_1_1_caching_1_1_i_static_cache_manager"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_nop_1_1_core_1_1_caching_1_1_cache_key.html">CacheKey</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_nop_1_1_core_1_1_caching_1_1_i_static_cache_manager.html#ae0d7b4f85ef5eecb2a080a4126fd3f80">PrepareKeyForShortTermCache</a> (<a class="el" href="class_nop_1_1_core_1_1_caching_1_1_cache_key.html">CacheKey</a> cacheKey, params object[] cacheKeyParameters)</td></tr>
+<tr class="memdesc:ae0d7b4f85ef5eecb2a080a4126fd3f80 inherit pub_methods_interface_nop_1_1_core_1_1_caching_1_1_i_static_cache_manager"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create a copy of cache key using the short cache time and fills it by passed parameters  <a href="interface_nop_1_1_core_1_1_caching_1_1_i_static_cache_manager.html#ae0d7b4f85ef5eecb2a080a4126fd3f80">Mais...</a><br /></td></tr>
+<tr class="separator:ae0d7b4f85ef5eecb2a080a4126fd3f80 inherit pub_methods_interface_nop_1_1_core_1_1_caching_1_1_i_static_cache_manager"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
+Membros privados</h2></td></tr>
+<tr class="memitem:a65ed402b3e8969b5831dd2950dae7768"><td class="memItemLeft" align="right" valign="top">DistributedCacheEntryOptions&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_nop_1_1_core_1_1_caching_1_1_distributed_cache_manager.html#a65ed402b3e8969b5831dd2950dae7768">PrepareEntryOptions</a> (<a class="el" href="class_nop_1_1_core_1_1_caching_1_1_cache_key.html">CacheKey</a> key)</td></tr>
+<tr class="memdesc:a65ed402b3e8969b5831dd2950dae7768"><td class="mdescLeft">&#160;</td><td class="mdescRight">Prepare cache entry options for the passed key  <a href="class_nop_1_1_core_1_1_caching_1_1_distributed_cache_manager.html#a65ed402b3e8969b5831dd2950dae7768">Mais...</a><br /></td></tr>
+<tr class="separator:a65ed402b3e8969b5831dd2950dae7768"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac29ed5b944e3b64beb445d5f985b1fa1"><td class="memItemLeft" align="right" valign="top">async <a class="el" href="_sendinblue_plugin_8cs.html#a9f49374e6bc76a6b5261e5c211d2e63d">Task</a>&lt;(bool <a class="el" href="class_nop_1_1_core_1_1_caching_1_1_distributed_cache_manager.html#a9796440f6911b2988d008abbad1083c0">isSet</a>, T item)&gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_nop_1_1_core_1_1_caching_1_1_distributed_cache_manager.html#ac29ed5b944e3b64beb445d5f985b1fa1">TryGetItemAsync&lt; T &gt;</a> (<a class="el" href="class_nop_1_1_core_1_1_caching_1_1_cache_key.html">CacheKey</a> key)</td></tr>
+<tr class="memdesc:ac29ed5b944e3b64beb445d5f985b1fa1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Try to get the cached item  <a href="class_nop_1_1_core_1_1_caching_1_1_distributed_cache_manager.html#ac29ed5b944e3b64beb445d5f985b1fa1">Mais...</a><br /></td></tr>
+<tr class="separator:ac29ed5b944e3b64beb445d5f985b1fa1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae974631023d21707a08ae4cbe669825f"><td class="memItemLeft" align="right" valign="top">bool T item&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_nop_1_1_core_1_1_caching_1_1_distributed_cache_manager.html#ae974631023d21707a08ae4cbe669825f">TryGetItem&lt; T &gt;</a> (<a class="el" href="class_nop_1_1_core_1_1_caching_1_1_cache_key.html">CacheKey</a> key)</td></tr>
+<tr class="separator:ae974631023d21707a08ae4cbe669825f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af6ef39326aa5b07a3e49a2112e5acb67"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_nop_1_1_core_1_1_caching_1_1_distributed_cache_manager.html#af6ef39326aa5b07a3e49a2112e5acb67">Set</a> (<a class="el" href="class_nop_1_1_core_1_1_caching_1_1_cache_key.html">CacheKey</a> key, object data)</td></tr>
+<tr class="memdesc:af6ef39326aa5b07a3e49a2112e5acb67"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add the specified key and object to the cache  <a href="class_nop_1_1_core_1_1_caching_1_1_distributed_cache_manager.html#af6ef39326aa5b07a3e49a2112e5acb67">Mais...</a><br /></td></tr>
+<tr class="separator:af6ef39326aa5b07a3e49a2112e5acb67"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-static-methods"></a>
+Membros privados estáticos</h2></td></tr>
+<tr class="memitem:a6f38a392dd8976728a30527843db0aea"><td class="memItemLeft" align="right" valign="top">static&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_nop_1_1_core_1_1_caching_1_1_distributed_cache_manager.html#a6f38a392dd8976728a30527843db0aea">DistributedCacheManager</a> ()</td></tr>
+<tr class="separator:a6f38a392dd8976728a30527843db0aea"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
+Atributos Privados</h2></td></tr>
+<tr class="memitem:aa643f1f643187efd06b07cc6383f052f"><td class="memItemLeft" align="right" valign="top">readonly IDistributedCache&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_nop_1_1_core_1_1_caching_1_1_distributed_cache_manager.html#aa643f1f643187efd06b07cc6383f052f">_distributedCache</a></td></tr>
+<tr class="separator:aa643f1f643187efd06b07cc6383f052f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7fc74559c3d033ed2bb6e2a9b849d709"><td class="memItemLeft" align="right" valign="top">readonly <a class="el" href="class_nop_1_1_core_1_1_caching_1_1_distributed_cache_manager_1_1_per_request_cache.html">PerRequestCache</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_nop_1_1_core_1_1_caching_1_1_distributed_cache_manager.html#a7fc74559c3d033ed2bb6e2a9b849d709">_perRequestCache</a></td></tr>
+<tr class="separator:a7fc74559c3d033ed2bb6e2a9b849d709"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9796440f6911b2988d008abbad1083c0"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_nop_1_1_core_1_1_caching_1_1_distributed_cache_manager.html#a9796440f6911b2988d008abbad1083c0">isSet</a></td></tr>
+<tr class="memdesc:a9796440f6911b2988d008abbad1083c0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Try to get the cached item  <a href="class_nop_1_1_core_1_1_caching_1_1_distributed_cache_manager.html#a9796440f6911b2988d008abbad1083c0">Mais...</a><br /></td></tr>
+<tr class="separator:a9796440f6911b2988d008abbad1083c0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-static-attribs"></a>
+Atributos Privados Estáticos</h2></td></tr>
+<tr class="memitem:a09482a099f333d3d518952c4185d0d23"><td class="memItemLeft" align="right" valign="top">static readonly List&lt; string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_nop_1_1_core_1_1_caching_1_1_distributed_cache_manager.html#a09482a099f333d3d518952c4185d0d23">_keys</a></td></tr>
+<tr class="separator:a09482a099f333d3d518952c4185d0d23"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abbcfa4994dd6db5f68dbd8a43d1140c9"><td class="memItemLeft" align="right" valign="top">static readonly AsyncLock&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_nop_1_1_core_1_1_caching_1_1_distributed_cache_manager.html#abbcfa4994dd6db5f68dbd8a43d1140c9">_locker</a></td></tr>
+<tr class="separator:abbcfa4994dd6db5f68dbd8a43d1140c9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="inherited"></a>
+Outros membros herdados</h2></td></tr>
+<tr class="inherit_header pro_methods_class_nop_1_1_core_1_1_caching_1_1_cache_key_service"><td colspan="2" onclick="javascript:toggleInherit('pro_methods_class_nop_1_1_core_1_1_caching_1_1_cache_key_service')"><img src="closed.png" alt="-"/>&#160;Membros protegidos herdados de <a class="el" href="class_nop_1_1_core_1_1_caching_1_1_cache_key_service.html">Nop.Core.Caching.CacheKeyService</a></td></tr>
+<tr class="memitem:a455a6d0ddf132bcc75cc45b5988a45c7 inherit pro_methods_class_nop_1_1_core_1_1_caching_1_1_cache_key_service"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_nop_1_1_core_1_1_caching_1_1_cache_key_service.html#a455a6d0ddf132bcc75cc45b5988a45c7">CacheKeyService</a> (<a class="el" href="class_nop_1_1_core_1_1_configuration_1_1_app_settings.html">AppSettings</a> appSettings)</td></tr>
+<tr class="separator:a455a6d0ddf132bcc75cc45b5988a45c7 inherit pro_methods_class_nop_1_1_core_1_1_caching_1_1_cache_key_service"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aca13927df0c197ca6c10fee54095b611 inherit pro_methods_class_nop_1_1_core_1_1_caching_1_1_cache_key_service"><td class="memItemLeft" align="right" valign="top">virtual string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_nop_1_1_core_1_1_caching_1_1_cache_key_service.html#aca13927df0c197ca6c10fee54095b611">PrepareKeyPrefix</a> (string prefix, params object[] prefixParameters)</td></tr>
+<tr class="memdesc:aca13927df0c197ca6c10fee54095b611 inherit pro_methods_class_nop_1_1_core_1_1_caching_1_1_cache_key_service"><td class="mdescLeft">&#160;</td><td class="mdescRight">Prepare the cache key prefix  <a href="class_nop_1_1_core_1_1_caching_1_1_cache_key_service.html#aca13927df0c197ca6c10fee54095b611">Mais...</a><br /></td></tr>
+<tr class="separator:aca13927df0c197ca6c10fee54095b611 inherit pro_methods_class_nop_1_1_core_1_1_caching_1_1_cache_key_service"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a188945b10693a687d5fff51fc3722ed4 inherit pro_methods_class_nop_1_1_core_1_1_caching_1_1_cache_key_service"><td class="memItemLeft" align="right" valign="top">virtual string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_nop_1_1_core_1_1_caching_1_1_cache_key_service.html#a188945b10693a687d5fff51fc3722ed4">CreateIdsHash</a> (IEnumerable&lt; int &gt; ids)</td></tr>
+<tr class="memdesc:a188945b10693a687d5fff51fc3722ed4 inherit pro_methods_class_nop_1_1_core_1_1_caching_1_1_cache_key_service"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create the hash value of the passed identifiers  <a href="class_nop_1_1_core_1_1_caching_1_1_cache_key_service.html#a188945b10693a687d5fff51fc3722ed4">Mais...</a><br /></td></tr>
+<tr class="separator:a188945b10693a687d5fff51fc3722ed4 inherit pro_methods_class_nop_1_1_core_1_1_caching_1_1_cache_key_service"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1eda71014c72ebca83f38a6e9dfae0ab inherit pro_methods_class_nop_1_1_core_1_1_caching_1_1_cache_key_service"><td class="memItemLeft" align="right" valign="top">virtual object&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_nop_1_1_core_1_1_caching_1_1_cache_key_service.html#a1eda71014c72ebca83f38a6e9dfae0ab">CreateCacheKeyParameters</a> (object parameter)</td></tr>
+<tr class="memdesc:a1eda71014c72ebca83f38a6e9dfae0ab inherit pro_methods_class_nop_1_1_core_1_1_caching_1_1_cache_key_service"><td class="mdescLeft">&#160;</td><td class="mdescRight">Converts an object to cache parameter  <a href="class_nop_1_1_core_1_1_caching_1_1_cache_key_service.html#a1eda71014c72ebca83f38a6e9dfae0ab">Mais...</a><br /></td></tr>
+<tr class="separator:a1eda71014c72ebca83f38a6e9dfae0ab inherit pro_methods_class_nop_1_1_core_1_1_caching_1_1_cache_key_service"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pro_attribs_class_nop_1_1_core_1_1_caching_1_1_cache_key_service"><td colspan="2" onclick="javascript:toggleInherit('pro_attribs_class_nop_1_1_core_1_1_caching_1_1_cache_key_service')"><img src="closed.png" alt="-"/>&#160;Atributos Protegidos herdados de <a class="el" href="class_nop_1_1_core_1_1_caching_1_1_cache_key_service.html">Nop.Core.Caching.CacheKeyService</a></td></tr>
+<tr class="memitem:aa77983c7bf57427020db514e7a886993 inherit pro_attribs_class_nop_1_1_core_1_1_caching_1_1_cache_key_service"><td class="memItemLeft" align="right" valign="top">readonly <a class="el" href="class_nop_1_1_core_1_1_configuration_1_1_app_settings.html">AppSettings</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_nop_1_1_core_1_1_caching_1_1_cache_key_service.html#aa77983c7bf57427020db514e7a886993">_appSettings</a></td></tr>
+<tr class="separator:aa77983c7bf57427020db514e7a886993 inherit pro_attribs_class_nop_1_1_core_1_1_caching_1_1_cache_key_service"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header properties_class_nop_1_1_core_1_1_caching_1_1_cache_key_service"><td colspan="2" onclick="javascript:toggleInherit('properties_class_nop_1_1_core_1_1_caching_1_1_cache_key_service')"><img src="closed.png" alt="-"/>&#160;Propriedades herdados de <a class="el" href="class_nop_1_1_core_1_1_caching_1_1_cache_key_service.html">Nop.Core.Caching.CacheKeyService</a></td></tr>
+<tr class="memitem:a1dd50b01e5d0230bf62b2e742f2d7621 inherit properties_class_nop_1_1_core_1_1_caching_1_1_cache_key_service"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_nop_1_1_core_1_1_caching_1_1_cache_key_service.html#a1dd50b01e5d0230bf62b2e742f2d7621">HashAlgorithm</a><code> [get]</code></td></tr>
+<tr class="memdesc:a1dd50b01e5d0230bf62b2e742f2d7621 inherit properties_class_nop_1_1_core_1_1_caching_1_1_cache_key_service"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets an algorithm used to create the hash value of identifiers need to cache  <a href="class_nop_1_1_core_1_1_caching_1_1_cache_key_service.html#a1dd50b01e5d0230bf62b2e742f2d7621">Mais...</a><br /></td></tr>
+<tr class="separator:a1dd50b01e5d0230bf62b2e742f2d7621 inherit properties_class_nop_1_1_core_1_1_caching_1_1_cache_key_service"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Descrição detalhada</h2>
+<div class="textblock"><p>Represents a distributed cache </p>
+</div><h2 class="groupheader">Documentação dos Construtores &amp; Destrutor</h2>
+<a id="a6f38a392dd8976728a30527843db0aea"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6f38a392dd8976728a30527843db0aea">&#9670;&nbsp;</a></span>DistributedCacheManager() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static Nop.Core.Caching.DistributedCacheManager.DistributedCacheManager </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;        {</div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;            <a class="code" href="class_nop_1_1_core_1_1_caching_1_1_distributed_cache_manager.html#abbcfa4994dd6db5f68dbd8a43d1140c9">_locker</a> = <span class="keyword">new</span> AsyncLock();</div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;            <a class="code" href="class_nop_1_1_core_1_1_caching_1_1_distributed_cache_manager.html#a09482a099f333d3d518952c4185d0d23">_keys</a> = <span class="keyword">new</span> List&lt;string&gt;();</div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;        }</div>
+<div class="ttc" id="aclass_nop_1_1_core_1_1_caching_1_1_distributed_cache_manager_html_a09482a099f333d3d518952c4185d0d23"><div class="ttname"><a href="class_nop_1_1_core_1_1_caching_1_1_distributed_cache_manager.html#a09482a099f333d3d518952c4185d0d23">Nop.Core.Caching.DistributedCacheManager._keys</a></div><div class="ttdeci">static readonly List&lt; string &gt; _keys</div><div class="ttdef"><b>Definition:</b> DistributedCacheManager.cs:25</div></div>
+<div class="ttc" id="aclass_nop_1_1_core_1_1_caching_1_1_distributed_cache_manager_html_abbcfa4994dd6db5f68dbd8a43d1140c9"><div class="ttname"><a href="class_nop_1_1_core_1_1_caching_1_1_distributed_cache_manager.html#abbcfa4994dd6db5f68dbd8a43d1140c9">Nop.Core.Caching.DistributedCacheManager._locker</a></div><div class="ttdeci">static readonly AsyncLock _locker</div><div class="ttdef"><b>Definition:</b> DistributedCacheManager.cs:26</div></div>
+</div><!-- fragment -->
+<p class="reference">Referências <a class="el" href="class_nop_1_1_core_1_1_caching_1_1_distributed_cache_manager.html#a09482a099f333d3d518952c4185d0d23">Nop.Core.Caching.DistributedCacheManager._keys</a> e <a class="el" href="class_nop_1_1_core_1_1_caching_1_1_distributed_cache_manager.html#abbcfa4994dd6db5f68dbd8a43d1140c9">Nop.Core.Caching.DistributedCacheManager._locker</a>.</p>
+
+</div>
+</div>
+<a id="a8c37302304b01ae233477f36c23ec312"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8c37302304b01ae233477f36c23ec312">&#9670;&nbsp;</a></span>DistributedCacheManager() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Nop.Core.Caching.DistributedCacheManager.DistributedCacheManager </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_nop_1_1_core_1_1_configuration_1_1_app_settings.html">AppSettings</a>&#160;</td>
+          <td class="paramname"><em>appSettings</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">IDistributedCache&#160;</td>
+          <td class="paramname"><em>distributedCache</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">IHttpContextAccessor&#160;</td>
+          <td class="paramname"><em>httpContextAccessor</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;                                                                                                                                              :base(appSettings)</div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;        {</div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;            <a class="code" href="class_nop_1_1_core_1_1_caching_1_1_distributed_cache_manager.html#aa643f1f643187efd06b07cc6383f052f">_distributedCache</a> = distributedCache;</div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;            <a class="code" href="class_nop_1_1_core_1_1_caching_1_1_distributed_cache_manager.html#a7fc74559c3d033ed2bb6e2a9b849d709">_perRequestCache</a> = <span class="keyword">new</span> PerRequestCache(httpContextAccessor);</div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;        }</div>
+<div class="ttc" id="aclass_nop_1_1_core_1_1_caching_1_1_distributed_cache_manager_html_a7fc74559c3d033ed2bb6e2a9b849d709"><div class="ttname"><a href="class_nop_1_1_core_1_1_caching_1_1_distributed_cache_manager.html#a7fc74559c3d033ed2bb6e2a9b849d709">Nop.Core.Caching.DistributedCacheManager._perRequestCache</a></div><div class="ttdeci">readonly PerRequestCache _perRequestCache</div><div class="ttdef"><b>Definition:</b> DistributedCacheManager.cs:24</div></div>
+<div class="ttc" id="aclass_nop_1_1_core_1_1_caching_1_1_distributed_cache_manager_html_aa643f1f643187efd06b07cc6383f052f"><div class="ttname"><a href="class_nop_1_1_core_1_1_caching_1_1_distributed_cache_manager.html#aa643f1f643187efd06b07cc6383f052f">Nop.Core.Caching.DistributedCacheManager._distributedCache</a></div><div class="ttdeci">readonly IDistributedCache _distributedCache</div><div class="ttdef"><b>Definition:</b> DistributedCacheManager.cs:23</div></div>
+</div><!-- fragment -->
+<p class="reference">Referências <a class="el" href="class_nop_1_1_core_1_1_caching_1_1_distributed_cache_manager.html#aa643f1f643187efd06b07cc6383f052f">Nop.Core.Caching.DistributedCacheManager._distributedCache</a> e <a class="el" href="class_nop_1_1_core_1_1_caching_1_1_distributed_cache_manager.html#a7fc74559c3d033ed2bb6e2a9b849d709">Nop.Core.Caching.DistributedCacheManager._perRequestCache</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">Documentação dos métodos</h2>
+<a id="a31b37ff5f3a9cbbe17618da7731d8dd7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a31b37ff5f3a9cbbe17618da7731d8dd7">&#9670;&nbsp;</a></span>ClearAsync()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">async <a class="el" href="_sendinblue_plugin_8cs.html#a9f49374e6bc76a6b5261e5c211d2e63d">Task</a> Nop.Core.Caching.DistributedCacheManager.ClearAsync </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Clear all cache data </p>
+<dl class="section return"><dt>Retorna</dt><dd>A task that represents the asynchronous operation</dd></dl>
+
+<p>Implementa <a class="el" href="interface_nop_1_1_core_1_1_caching_1_1_i_static_cache_manager.html#ae839cd3ccca7021487066623f0711310">Nop.Core.Caching.IStaticCacheManager</a>.</p>
+<div class="fragment"><div class="line"><a name="l00293"></a><span class="lineno">  293</span>&#160;        {</div>
+<div class="line"><a name="l00294"></a><span class="lineno">  294</span>&#160;            <span class="comment">//we can&#39;t use _perRequestCache.Clear(),</span></div>
+<div class="line"><a name="l00295"></a><span class="lineno">  295</span>&#160;            <span class="comment">//because HttpContext stores some server data that we should not delete</span></div>
+<div class="line"><a name="l00296"></a><span class="lineno">  296</span>&#160;            <span class="keywordflow">foreach</span> (var redisKey <span class="keywordflow">in</span> <a class="code" href="class_nop_1_1_core_1_1_caching_1_1_distributed_cache_manager.html#a09482a099f333d3d518952c4185d0d23">_keys</a>)</div>
+<div class="line"><a name="l00297"></a><span class="lineno">  297</span>&#160;                <a class="code" href="class_nop_1_1_core_1_1_caching_1_1_distributed_cache_manager.html#a7fc74559c3d033ed2bb6e2a9b849d709">_perRequestCache</a>.<a class="code" href="class_nop_1_1_core_1_1_caching_1_1_distributed_cache_manager_1_1_per_request_cache.html#acddacbe6d1579d151f7cac341f8ac718">Remove</a>(redisKey);</div>
+<div class="line"><a name="l00298"></a><span class="lineno">  298</span>&#160; </div>
+<div class="line"><a name="l00299"></a><span class="lineno">  299</span>&#160;            <span class="keyword">using</span> var _ = await <a class="code" href="class_nop_1_1_core_1_1_caching_1_1_distributed_cache_manager.html#abbcfa4994dd6db5f68dbd8a43d1140c9">_locker</a>.LockAsync();</div>
+<div class="line"><a name="l00300"></a><span class="lineno">  300</span>&#160; </div>
+<div class="line"><a name="l00301"></a><span class="lineno">  301</span>&#160;            <span class="keywordflow">foreach</span> (var key <span class="keywordflow">in</span> <a class="code" href="class_nop_1_1_core_1_1_caching_1_1_distributed_cache_manager.html#a09482a099f333d3d518952c4185d0d23">_keys</a>) </div>
+<div class="line"><a name="l00302"></a><span class="lineno">  302</span>&#160;                await <a class="code" href="class_nop_1_1_core_1_1_caching_1_1_distributed_cache_manager.html#aa643f1f643187efd06b07cc6383f052f">_distributedCache</a>.RemoveAsync(key);</div>
+<div class="line"><a name="l00303"></a><span class="lineno">  303</span>&#160; </div>
+<div class="line"><a name="l00304"></a><span class="lineno">  304</span>&#160;            <a class="code" href="class_nop_1_1_core_1_1_caching_1_1_distributed_cache_manager.html#a09482a099f333d3d518952c4185d0d23">_keys</a>.Clear();</div>
+<div class="line"><a name="l00305"></a><span class="lineno">  305</span>&#160;        }</div>
+<div class="ttc" id="aclass_nop_1_1_core_1_1_caching_1_1_distributed_cache_manager_1_1_per_request_cache_html_acddacbe6d1579d151f7cac341f8ac718"><div class="ttname"><a href="class_nop_1_1_core_1_1_caching_1_1_distributed_cache_manager_1_1_per_request_cache.html#acddacbe6d1579d151f7cac341f8ac718">Nop.Core.Caching.DistributedCacheManager.PerRequestCache.Remove</a></div><div class="ttdeci">virtual void Remove(string key)</div><div class="ttdoc">Remove the value with the specified key from the cache</div><div class="ttdef"><b>Definition:</b> DistributedCacheManager.cs:450</div></div>
+</div><!-- fragment -->
+<p class="reference">Referências <a class="el" href="class_nop_1_1_core_1_1_caching_1_1_distributed_cache_manager.html#aa643f1f643187efd06b07cc6383f052f">Nop.Core.Caching.DistributedCacheManager._distributedCache</a>, <a class="el" href="class_nop_1_1_core_1_1_caching_1_1_distributed_cache_manager.html#a09482a099f333d3d518952c4185d0d23">Nop.Core.Caching.DistributedCacheManager._keys</a>, <a class="el" href="class_nop_1_1_core_1_1_caching_1_1_distributed_cache_manager.html#abbcfa4994dd6db5f68dbd8a43d1140c9">Nop.Core.Caching.DistributedCacheManager._locker</a>, <a class="el" href="class_nop_1_1_core_1_1_caching_1_1_distributed_cache_manager.html#a7fc74559c3d033ed2bb6e2a9b849d709">Nop.Core.Caching.DistributedCacheManager._perRequestCache</a> e <a class="el" href="class_nop_1_1_core_1_1_caching_1_1_distributed_cache_manager_1_1_per_request_cache.html#acddacbe6d1579d151f7cac341f8ac718">Nop.Core.Caching.DistributedCacheManager.PerRequestCache.Remove()</a>.</p>
+
+</div>
+</div>
+<a id="a1c9cd00a75456cdf3aec6ccb91e86d37"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1c9cd00a75456cdf3aec6ccb91e86d37">&#9670;&nbsp;</a></span>Dispose()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Nop.Core.Caching.DistributedCacheManager.Dispose </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Performs application-defined tasks associated with freeing, releasing, or resetting unmanaged resources. </p>
+<div class="fragment"><div class="line"><a name="l00131"></a><span class="lineno">  131</span>&#160;        {</div>
+<div class="line"><a name="l00132"></a><span class="lineno">  132</span>&#160;        }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="a28a20c13058df907f823eac5f94fa7f5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a28a20c13058df907f823eac5f94fa7f5">&#9670;&nbsp;</a></span>Get&lt; T &gt;()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">T Nop.Core.Caching.DistributedCacheManager.Get&lt; T &gt; </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_nop_1_1_core_1_1_caching_1_1_cache_key.html">CacheKey</a>&#160;</td>
+          <td class="paramname"><em>key</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Func&lt; T &gt;&#160;</td>
+          <td class="paramname"><em>acquire</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Get a cached item. If it's not in the cache yet, then load and cache it </p>
+<dl class="tparams"><dt>Parâmetros de template</dt><dd>
+  <table class="tparams">
+    <tr><td class="paramname">T</td><td>Type of cached item</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="params"><dt>Parâmetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">key</td><td>Cache key</td></tr>
+    <tr><td class="paramname">acquire</td><td>Function to load item if it's not in the cache yet</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Retorna</dt><dd>The cached value associated with the specified key</dd></dl>
+
+<p>Implementa <a class="el" href="interface_nop_1_1_core_1_1_caching_1_1_i_static_cache_manager.html#ab8a74140ae6acdb1c95adce6e3a0607d">Nop.Core.Caching.IStaticCacheManager</a>.</p>
+<div class="fragment"><div class="line"><a name="l00210"></a><span class="lineno">  210</span>&#160;        {</div>
+<div class="line"><a name="l00211"></a><span class="lineno">  211</span>&#160;            <span class="comment">//little performance workaround here:</span></div>
+<div class="line"><a name="l00212"></a><span class="lineno">  212</span>&#160;            <span class="comment">//we use &quot;PerRequestCache&quot; to cache a loaded object in memory for the current HTTP request.</span></div>
+<div class="line"><a name="l00213"></a><span class="lineno">  213</span>&#160;            <span class="comment">//this way we won&#39;t connect to Redis server many times per HTTP request (e.g. each time to load a locale or setting)</span></div>
+<div class="line"><a name="l00214"></a><span class="lineno">  214</span>&#160;            <span class="keywordflow">if</span> (<a class="code" href="class_nop_1_1_core_1_1_caching_1_1_distributed_cache_manager.html#a7fc74559c3d033ed2bb6e2a9b849d709">_perRequestCache</a>.<a class="code" href="class_nop_1_1_core_1_1_caching_1_1_distributed_cache_manager_1_1_per_request_cache.html#a05fbff95f3d22536b3885fbc6fc533ef">IsSet</a>(key.Key))</div>
+<div class="line"><a name="l00215"></a><span class="lineno">  215</span>&#160;                <span class="keywordflow">return</span> <a class="code" href="class_nop_1_1_core_1_1_caching_1_1_distributed_cache_manager.html#a7fc74559c3d033ed2bb6e2a9b849d709">_perRequestCache</a>.Get(key.Key, () =&gt; <span class="keywordflow">default</span>(<a class="code" href="namespace_nop_1_1_web_1_1_framework_1_1_models.html#ad3daf01ef5002359798d78d3f7bab58d">T</a>));</div>
+<div class="line"><a name="l00216"></a><span class="lineno">  216</span>&#160; </div>
+<div class="line"><a name="l00217"></a><span class="lineno">  217</span>&#160;            <span class="keywordflow">if</span> (key.CacheTime &lt;= 0)</div>
+<div class="line"><a name="l00218"></a><span class="lineno">  218</span>&#160;                <span class="keywordflow">return</span> acquire();</div>
+<div class="line"><a name="l00219"></a><span class="lineno">  219</span>&#160; </div>
+<div class="line"><a name="l00220"></a><span class="lineno">  220</span>&#160;            var (<a class="code" href="class_nop_1_1_core_1_1_caching_1_1_distributed_cache_manager.html#a9796440f6911b2988d008abbad1083c0">isSet</a>, item) = <a class="code" href="class_nop_1_1_core_1_1_caching_1_1_distributed_cache_manager.html#ae974631023d21707a08ae4cbe669825f">TryGetItem&lt;T&gt;</a>(key);</div>
+<div class="line"><a name="l00221"></a><span class="lineno">  221</span>&#160; </div>
+<div class="line"><a name="l00222"></a><span class="lineno">  222</span>&#160;            <span class="keywordflow">if</span> (<a class="code" href="class_nop_1_1_core_1_1_caching_1_1_distributed_cache_manager.html#a9796440f6911b2988d008abbad1083c0">isSet</a>)</div>
+<div class="line"><a name="l00223"></a><span class="lineno">  223</span>&#160;                <span class="keywordflow">return</span> item;</div>
+<div class="line"><a name="l00224"></a><span class="lineno">  224</span>&#160; </div>
+<div class="line"><a name="l00225"></a><span class="lineno">  225</span>&#160;            var <a class="code" href="namespace_nop_1_1_web_1_1_models_1_1_blogs.html#a6cc3986434c188bc64f7d71789d4a5c8">result</a> = acquire();</div>
+<div class="line"><a name="l00226"></a><span class="lineno">  226</span>&#160; </div>
+<div class="line"><a name="l00227"></a><span class="lineno">  227</span>&#160;            <span class="keywordflow">if</span> (<a class="code" href="namespace_nop_1_1_web_1_1_models_1_1_blogs.html#a6cc3986434c188bc64f7d71789d4a5c8">result</a> != <span class="keyword">null</span>)</div>
+<div class="line"><a name="l00228"></a><span class="lineno">  228</span>&#160;                <a class="code" href="class_nop_1_1_core_1_1_caching_1_1_distributed_cache_manager.html#af6ef39326aa5b07a3e49a2112e5acb67">Set</a>(key, <a class="code" href="namespace_nop_1_1_web_1_1_models_1_1_blogs.html#a6cc3986434c188bc64f7d71789d4a5c8">result</a>);</div>
+<div class="line"><a name="l00229"></a><span class="lineno">  229</span>&#160; </div>
+<div class="line"><a name="l00230"></a><span class="lineno">  230</span>&#160;            <span class="keywordflow">return</span> <a class="code" href="namespace_nop_1_1_web_1_1_models_1_1_blogs.html#a6cc3986434c188bc64f7d71789d4a5c8">result</a>;</div>
+<div class="line"><a name="l00231"></a><span class="lineno">  231</span>&#160;        }</div>
+<div class="ttc" id="aclass_nop_1_1_core_1_1_caching_1_1_distributed_cache_manager_1_1_per_request_cache_html_a05fbff95f3d22536b3885fbc6fc533ef"><div class="ttname"><a href="class_nop_1_1_core_1_1_caching_1_1_distributed_cache_manager_1_1_per_request_cache.html#a05fbff95f3d22536b3885fbc6fc533ef">Nop.Core.Caching.DistributedCacheManager.PerRequestCache.IsSet</a></div><div class="ttdeci">virtual bool IsSet(string key)</div><div class="ttdoc">Get a value indicating whether the value associated with the specified key is cached</div><div class="ttdef"><b>Definition:</b> DistributedCacheManager.cs:437</div></div>
+<div class="ttc" id="aclass_nop_1_1_core_1_1_caching_1_1_distributed_cache_manager_html_a9796440f6911b2988d008abbad1083c0"><div class="ttname"><a href="class_nop_1_1_core_1_1_caching_1_1_distributed_cache_manager.html#a9796440f6911b2988d008abbad1083c0">Nop.Core.Caching.DistributedCacheManager.isSet</a></div><div class="ttdeci">bool isSet</div><div class="ttdoc">Try to get the cached item</div><div class="ttdef"><b>Definition:</b> DistributedCacheManager.cs:92</div></div>
+<div class="ttc" id="aclass_nop_1_1_core_1_1_caching_1_1_distributed_cache_manager_html_ae974631023d21707a08ae4cbe669825f"><div class="ttname"><a href="class_nop_1_1_core_1_1_caching_1_1_distributed_cache_manager.html#ae974631023d21707a08ae4cbe669825f">Nop.Core.Caching.DistributedCacheManager.TryGetItem&lt; T &gt;</a></div><div class="ttdeci">bool T item TryGetItem&lt; T &gt;(CacheKey key)</div><div class="ttdef"><b>Definition:</b> DistributedCacheManager.cs:92</div></div>
+<div class="ttc" id="aclass_nop_1_1_core_1_1_caching_1_1_distributed_cache_manager_html_af6ef39326aa5b07a3e49a2112e5acb67"><div class="ttname"><a href="class_nop_1_1_core_1_1_caching_1_1_distributed_cache_manager.html#af6ef39326aa5b07a3e49a2112e5acb67">Nop.Core.Caching.DistributedCacheManager.Set</a></div><div class="ttdeci">void Set(CacheKey key, object data)</div><div class="ttdoc">Add the specified key and object to the cache</div><div class="ttdef"><b>Definition:</b> DistributedCacheManager.cs:110</div></div>
+<div class="ttc" id="anamespace_nop_1_1_web_1_1_framework_1_1_models_html_ad3daf01ef5002359798d78d3f7bab58d"><div class="ttname"><a href="namespace_nop_1_1_web_1_1_framework_1_1_models.html#ad3daf01ef5002359798d78d3f7bab58d">Nop.Web.Framework.Models.T</a></div><div class="ttdeci">abstract partial record IPagedModel&lt; T &gt; where T</div><div class="ttdef"><b>Definition:</b> BasePagedListModel.cs:13</div></div>
+<div class="ttc" id="anamespace_nop_1_1_web_1_1_models_1_1_blogs_html_a6cc3986434c188bc64f7d71789d4a5c8"><div class="ttname"><a href="namespace_nop_1_1_web_1_1_models_1_1_blogs.html#a6cc3986434c188bc64f7d71789d4a5c8">Nop.Web.Models.Blogs.result</a></div><div class="ttdeci">return result</div><div class="ttdef"><b>Definition:</b> BlogPagingFilteringModel.cs:21</div></div>
+</div><!-- fragment -->
+<p class="reference">Referências <a class="el" href="class_nop_1_1_core_1_1_caching_1_1_distributed_cache_manager.html#a7fc74559c3d033ed2bb6e2a9b849d709">Nop.Core.Caching.DistributedCacheManager._perRequestCache</a>, <a class="el" href="class_nop_1_1_core_1_1_caching_1_1_cache_key.html#a11fc098cbf5b8afd004485bed3bb4f98">Nop.Core.Caching.CacheKey.CacheTime</a>, <a class="el" href="class_nop_1_1_core_1_1_caching_1_1_distributed_cache_manager.html#a9796440f6911b2988d008abbad1083c0">Nop.Core.Caching.DistributedCacheManager.isSet</a>, <a class="el" href="class_nop_1_1_core_1_1_caching_1_1_distributed_cache_manager_1_1_per_request_cache.html#a05fbff95f3d22536b3885fbc6fc533ef">Nop.Core.Caching.DistributedCacheManager.PerRequestCache.IsSet()</a>, <a class="el" href="class_nop_1_1_core_1_1_caching_1_1_cache_key.html#a6eafead8ae6f509dfd130322edf15f7c">Nop.Core.Caching.CacheKey.Key</a>, <a class="el" href="namespace_nop_1_1_web_1_1_models_1_1_blogs.html#a6cc3986434c188bc64f7d71789d4a5c8">Nop.Web.Models.Blogs.result</a>, <a class="el" href="class_nop_1_1_core_1_1_caching_1_1_distributed_cache_manager.html#af6ef39326aa5b07a3e49a2112e5acb67">Nop.Core.Caching.DistributedCacheManager.Set()</a>, <a class="el" href="namespace_nop_1_1_web_1_1_framework_1_1_models.html#ad3daf01ef5002359798d78d3f7bab58d">Nop.Web.Framework.Models.T</a> e <a class="el" href="class_nop_1_1_core_1_1_caching_1_1_distributed_cache_manager.html#ae974631023d21707a08ae4cbe669825f">Nop.Core.Caching.DistributedCacheManager.TryGetItem&lt; T &gt;()</a>.</p>
+
+</div>
+</div>
+<a id="ad9c5b17828e85d479ae679003f981e93"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad9c5b17828e85d479ae679003f981e93">&#9670;&nbsp;</a></span>GetAsync&lt; T &gt;() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">async <a class="el" href="_sendinblue_plugin_8cs.html#a9f49374e6bc76a6b5261e5c211d2e63d">Task</a>&lt;T&gt; Nop.Core.Caching.DistributedCacheManager.GetAsync&lt; T &gt; </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_nop_1_1_core_1_1_caching_1_1_cache_key.html">CacheKey</a>&#160;</td>
+          <td class="paramname"><em>key</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Func&lt; T &gt;&#160;</td>
+          <td class="paramname"><em>acquire</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Get a cached item. If it's not in the cache yet, then load and cache it </p>
+<dl class="tparams"><dt>Parâmetros de template</dt><dd>
+  <table class="tparams">
+    <tr><td class="paramname">T</td><td>Type of cached item</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="params"><dt>Parâmetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">key</td><td>Cache key</td></tr>
+    <tr><td class="paramname">acquire</td><td>Function to load item if it's not in the cache yet</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Retorna</dt><dd>A task that represents the asynchronous operation The task result contains the cached value associated with the specified key </dd></dl>
+
+<p>Implementa <a class="el" href="interface_nop_1_1_core_1_1_caching_1_1_i_static_cache_manager.html#a71b6f8ad21e3dd9190a661afc355a539">Nop.Core.Caching.IStaticCacheManager</a>.</p>
+<div class="fragment"><div class="line"><a name="l00179"></a><span class="lineno">  179</span>&#160;        {</div>
+<div class="line"><a name="l00180"></a><span class="lineno">  180</span>&#160;            <span class="comment">//little performance workaround here:</span></div>
+<div class="line"><a name="l00181"></a><span class="lineno">  181</span>&#160;            <span class="comment">//we use &quot;PerRequestCache&quot; to cache a loaded object in memory for the current HTTP request.</span></div>
+<div class="line"><a name="l00182"></a><span class="lineno">  182</span>&#160;            <span class="comment">//this way we won&#39;t connect to Redis server many times per HTTP request (e.g. each time to load a locale or setting)</span></div>
+<div class="line"><a name="l00183"></a><span class="lineno">  183</span>&#160;            <span class="keywordflow">if</span> (<a class="code" href="class_nop_1_1_core_1_1_caching_1_1_distributed_cache_manager.html#a7fc74559c3d033ed2bb6e2a9b849d709">_perRequestCache</a>.<a class="code" href="class_nop_1_1_core_1_1_caching_1_1_distributed_cache_manager_1_1_per_request_cache.html#a05fbff95f3d22536b3885fbc6fc533ef">IsSet</a>(key.Key))</div>
+<div class="line"><a name="l00184"></a><span class="lineno">  184</span>&#160;                <span class="keywordflow">return</span> <a class="code" href="class_nop_1_1_core_1_1_caching_1_1_distributed_cache_manager.html#a7fc74559c3d033ed2bb6e2a9b849d709">_perRequestCache</a>.Get(key.Key, () =&gt; <span class="keywordflow">default</span>(<a class="code" href="namespace_nop_1_1_web_1_1_framework_1_1_models.html#ad3daf01ef5002359798d78d3f7bab58d">T</a>));</div>
+<div class="line"><a name="l00185"></a><span class="lineno">  185</span>&#160; </div>
+<div class="line"><a name="l00186"></a><span class="lineno">  186</span>&#160;            <span class="keywordflow">if</span> (key.CacheTime &lt;= 0)</div>
+<div class="line"><a name="l00187"></a><span class="lineno">  187</span>&#160;                <span class="keywordflow">return</span> acquire();</div>
+<div class="line"><a name="l00188"></a><span class="lineno">  188</span>&#160; </div>
+<div class="line"><a name="l00189"></a><span class="lineno">  189</span>&#160;            var (<a class="code" href="class_nop_1_1_core_1_1_caching_1_1_distributed_cache_manager.html#a9796440f6911b2988d008abbad1083c0">isSet</a>, item) = await <a class="code" href="class_nop_1_1_core_1_1_caching_1_1_distributed_cache_manager.html#ac29ed5b944e3b64beb445d5f985b1fa1">TryGetItemAsync&lt;T&gt;</a>(key);</div>
+<div class="line"><a name="l00190"></a><span class="lineno">  190</span>&#160; </div>
+<div class="line"><a name="l00191"></a><span class="lineno">  191</span>&#160;            <span class="keywordflow">if</span> (<a class="code" href="class_nop_1_1_core_1_1_caching_1_1_distributed_cache_manager.html#a9796440f6911b2988d008abbad1083c0">isSet</a>)</div>
+<div class="line"><a name="l00192"></a><span class="lineno">  192</span>&#160;                <span class="keywordflow">return</span> item;</div>
+<div class="line"><a name="l00193"></a><span class="lineno">  193</span>&#160; </div>
+<div class="line"><a name="l00194"></a><span class="lineno">  194</span>&#160;            var <a class="code" href="namespace_nop_1_1_web_1_1_models_1_1_blogs.html#a6cc3986434c188bc64f7d71789d4a5c8">result</a> = acquire();</div>
+<div class="line"><a name="l00195"></a><span class="lineno">  195</span>&#160; </div>
+<div class="line"><a name="l00196"></a><span class="lineno">  196</span>&#160;            <span class="keywordflow">if</span> (<a class="code" href="namespace_nop_1_1_web_1_1_models_1_1_blogs.html#a6cc3986434c188bc64f7d71789d4a5c8">result</a> != <span class="keyword">null</span>)</div>
+<div class="line"><a name="l00197"></a><span class="lineno">  197</span>&#160;                await <a class="code" href="class_nop_1_1_core_1_1_caching_1_1_distributed_cache_manager.html#acf860135034b44ea0d6bfca51867bf53">SetAsync</a>(key, <a class="code" href="namespace_nop_1_1_web_1_1_models_1_1_blogs.html#a6cc3986434c188bc64f7d71789d4a5c8">result</a>);</div>
+<div class="line"><a name="l00198"></a><span class="lineno">  198</span>&#160; </div>
+<div class="line"><a name="l00199"></a><span class="lineno">  199</span>&#160;            <span class="keywordflow">return</span> <a class="code" href="namespace_nop_1_1_web_1_1_models_1_1_blogs.html#a6cc3986434c188bc64f7d71789d4a5c8">result</a>;</div>
+<div class="line"><a name="l00200"></a><span class="lineno">  200</span>&#160;        }</div>
+<div class="ttc" id="aclass_nop_1_1_core_1_1_caching_1_1_distributed_cache_manager_html_ac29ed5b944e3b64beb445d5f985b1fa1"><div class="ttname"><a href="class_nop_1_1_core_1_1_caching_1_1_distributed_cache_manager.html#ac29ed5b944e3b64beb445d5f985b1fa1">Nop.Core.Caching.DistributedCacheManager.TryGetItemAsync&lt; T &gt;</a></div><div class="ttdeci">async Task&lt;(bool isSet, T item)&gt; TryGetItemAsync&lt; T &gt;(CacheKey key)</div><div class="ttdoc">Try to get the cached item</div><div class="ttdef"><b>Definition:</b> DistributedCacheManager.cs:73</div></div>
+<div class="ttc" id="aclass_nop_1_1_core_1_1_caching_1_1_distributed_cache_manager_html_acf860135034b44ea0d6bfca51867bf53"><div class="ttname"><a href="class_nop_1_1_core_1_1_caching_1_1_distributed_cache_manager.html#acf860135034b44ea0d6bfca51867bf53">Nop.Core.Caching.DistributedCacheManager.SetAsync</a></div><div class="ttdeci">async Task SetAsync(CacheKey key, object data)</div><div class="ttdoc">Add the specified key and object to the cache</div><div class="ttdef"><b>Definition:</b> DistributedCacheManager.cs:256</div></div>
+</div><!-- fragment -->
+<p class="reference">Referências <a class="el" href="class_nop_1_1_core_1_1_caching_1_1_distributed_cache_manager.html#a7fc74559c3d033ed2bb6e2a9b849d709">Nop.Core.Caching.DistributedCacheManager._perRequestCache</a>, <a class="el" href="class_nop_1_1_core_1_1_caching_1_1_cache_key.html#a11fc098cbf5b8afd004485bed3bb4f98">Nop.Core.Caching.CacheKey.CacheTime</a>, <a class="el" href="class_nop_1_1_core_1_1_caching_1_1_distributed_cache_manager.html#a9796440f6911b2988d008abbad1083c0">Nop.Core.Caching.DistributedCacheManager.isSet</a>, <a class="el" href="class_nop_1_1_core_1_1_caching_1_1_distributed_cache_manager_1_1_per_request_cache.html#a05fbff95f3d22536b3885fbc6fc533ef">Nop.Core.Caching.DistributedCacheManager.PerRequestCache.IsSet()</a>, <a class="el" href="class_nop_1_1_core_1_1_caching_1_1_cache_key.html#a6eafead8ae6f509dfd130322edf15f7c">Nop.Core.Caching.CacheKey.Key</a>, <a class="el" href="namespace_nop_1_1_web_1_1_models_1_1_blogs.html#a6cc3986434c188bc64f7d71789d4a5c8">Nop.Web.Models.Blogs.result</a>, <a class="el" href="class_nop_1_1_core_1_1_caching_1_1_distributed_cache_manager.html#acf860135034b44ea0d6bfca51867bf53">Nop.Core.Caching.DistributedCacheManager.SetAsync()</a>, <a class="el" href="namespace_nop_1_1_web_1_1_framework_1_1_models.html#ad3daf01ef5002359798d78d3f7bab58d">Nop.Web.Framework.Models.T</a> e <a class="el" href="class_nop_1_1_core_1_1_caching_1_1_distributed_cache_manager.html#ac29ed5b944e3b64beb445d5f985b1fa1">Nop.Core.Caching.DistributedCacheManager.TryGetItemAsync&lt; T &gt;()</a>.</p>
+
+</div>
+</div>
+<a id="a4b6b4402f71c8d24bcd8dbc26d70494c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4b6b4402f71c8d24bcd8dbc26d70494c">&#9670;&nbsp;</a></span>GetAsync&lt; T &gt;() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">async <a class="el" href="_sendinblue_plugin_8cs.html#a9f49374e6bc76a6b5261e5c211d2e63d">Task</a>&lt;T&gt; Nop.Core.Caching.DistributedCacheManager.GetAsync&lt; T &gt; </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_nop_1_1_core_1_1_caching_1_1_cache_key.html">CacheKey</a>&#160;</td>
+          <td class="paramname"><em>key</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Func&lt; <a class="el" href="_sendinblue_plugin_8cs.html#a9f49374e6bc76a6b5261e5c211d2e63d">Task</a>&lt; T &gt;&gt;&#160;</td>
+          <td class="paramname"><em>acquire</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Get a cached item. If it's not in the cache yet, then load and cache it </p>
+<dl class="tparams"><dt>Parâmetros de template</dt><dd>
+  <table class="tparams">
+    <tr><td class="paramname">T</td><td>Type of cached item</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="params"><dt>Parâmetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">key</td><td>Cache key</td></tr>
+    <tr><td class="paramname">acquire</td><td>Function to load item if it's not in the cache yet</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Retorna</dt><dd>A task that represents the asynchronous operation The task result contains the cached value associated with the specified key </dd></dl>
+
+<p>Implementa <a class="el" href="interface_nop_1_1_core_1_1_caching_1_1_i_static_cache_manager.html#ac5b62e3cfb6e393d41d0252c8b0dc90d">Nop.Core.Caching.IStaticCacheManager</a>.</p>
+<div class="fragment"><div class="line"><a name="l00145"></a><span class="lineno">  145</span>&#160;        {</div>
+<div class="line"><a name="l00146"></a><span class="lineno">  146</span>&#160;            <span class="comment">//little performance workaround here:</span></div>
+<div class="line"><a name="l00147"></a><span class="lineno">  147</span>&#160;            <span class="comment">//we use &quot;PerRequestCache&quot; to cache a loaded object in memory for the current HTTP request.</span></div>
+<div class="line"><a name="l00148"></a><span class="lineno">  148</span>&#160;            <span class="comment">//this way we won&#39;t connect to Redis server many times per HTTP request (e.g. each time to load a locale or setting)</span></div>
+<div class="line"><a name="l00149"></a><span class="lineno">  149</span>&#160;            <span class="keywordflow">if</span> (<a class="code" href="class_nop_1_1_core_1_1_caching_1_1_distributed_cache_manager.html#a7fc74559c3d033ed2bb6e2a9b849d709">_perRequestCache</a>.<a class="code" href="class_nop_1_1_core_1_1_caching_1_1_distributed_cache_manager_1_1_per_request_cache.html#a05fbff95f3d22536b3885fbc6fc533ef">IsSet</a>(key.Key))</div>
+<div class="line"><a name="l00150"></a><span class="lineno">  150</span>&#160;                <span class="keywordflow">return</span> <a class="code" href="class_nop_1_1_core_1_1_caching_1_1_distributed_cache_manager.html#a7fc74559c3d033ed2bb6e2a9b849d709">_perRequestCache</a>.Get(key.Key, () =&gt; <span class="keywordflow">default</span>(<a class="code" href="namespace_nop_1_1_web_1_1_framework_1_1_models.html#ad3daf01ef5002359798d78d3f7bab58d">T</a>));</div>
+<div class="line"><a name="l00151"></a><span class="lineno">  151</span>&#160; </div>
+<div class="line"><a name="l00152"></a><span class="lineno">  152</span>&#160;            <span class="keywordflow">if</span> (key.CacheTime &lt;= 0)</div>
+<div class="line"><a name="l00153"></a><span class="lineno">  153</span>&#160;                <span class="keywordflow">return</span> await acquire();</div>
+<div class="line"><a name="l00154"></a><span class="lineno">  154</span>&#160; </div>
+<div class="line"><a name="l00155"></a><span class="lineno">  155</span>&#160;            var (<a class="code" href="class_nop_1_1_core_1_1_caching_1_1_distributed_cache_manager.html#a9796440f6911b2988d008abbad1083c0">isSet</a>, item) = await <a class="code" href="class_nop_1_1_core_1_1_caching_1_1_distributed_cache_manager.html#ac29ed5b944e3b64beb445d5f985b1fa1">TryGetItemAsync&lt;T&gt;</a>(key);</div>
+<div class="line"><a name="l00156"></a><span class="lineno">  156</span>&#160; </div>
+<div class="line"><a name="l00157"></a><span class="lineno">  157</span>&#160;            <span class="keywordflow">if</span> (<a class="code" href="class_nop_1_1_core_1_1_caching_1_1_distributed_cache_manager.html#a9796440f6911b2988d008abbad1083c0">isSet</a>)</div>
+<div class="line"><a name="l00158"></a><span class="lineno">  158</span>&#160;                <span class="keywordflow">return</span> item;</div>
+<div class="line"><a name="l00159"></a><span class="lineno">  159</span>&#160; </div>
+<div class="line"><a name="l00160"></a><span class="lineno">  160</span>&#160;            var <a class="code" href="namespace_nop_1_1_web_1_1_models_1_1_blogs.html#a6cc3986434c188bc64f7d71789d4a5c8">result</a> = await acquire();</div>
+<div class="line"><a name="l00161"></a><span class="lineno">  161</span>&#160; </div>
+<div class="line"><a name="l00162"></a><span class="lineno">  162</span>&#160;            <span class="keywordflow">if</span> (<a class="code" href="namespace_nop_1_1_web_1_1_models_1_1_blogs.html#a6cc3986434c188bc64f7d71789d4a5c8">result</a> != <span class="keyword">null</span>)</div>
+<div class="line"><a name="l00163"></a><span class="lineno">  163</span>&#160;                await <a class="code" href="class_nop_1_1_core_1_1_caching_1_1_distributed_cache_manager.html#acf860135034b44ea0d6bfca51867bf53">SetAsync</a>(key, <a class="code" href="namespace_nop_1_1_web_1_1_models_1_1_blogs.html#a6cc3986434c188bc64f7d71789d4a5c8">result</a>);</div>
+<div class="line"><a name="l00164"></a><span class="lineno">  164</span>&#160; </div>
+<div class="line"><a name="l00165"></a><span class="lineno">  165</span>&#160;            <span class="keywordflow">return</span> <a class="code" href="namespace_nop_1_1_web_1_1_models_1_1_blogs.html#a6cc3986434c188bc64f7d71789d4a5c8">result</a>;</div>
+<div class="line"><a name="l00166"></a><span class="lineno">  166</span>&#160;        }</div>
+</div><!-- fragment -->
+<p class="reference">Referências <a class="el" href="class_nop_1_1_core_1_1_caching_1_1_distributed_cache_manager.html#a7fc74559c3d033ed2bb6e2a9b849d709">Nop.Core.Caching.DistributedCacheManager._perRequestCache</a>, <a class="el" href="class_nop_1_1_core_1_1_caching_1_1_cache_key.html#a11fc098cbf5b8afd004485bed3bb4f98">Nop.Core.Caching.CacheKey.CacheTime</a>, <a class="el" href="class_nop_1_1_core_1_1_caching_1_1_distributed_cache_manager.html#a9796440f6911b2988d008abbad1083c0">Nop.Core.Caching.DistributedCacheManager.isSet</a>, <a class="el" href="class_nop_1_1_core_1_1_caching_1_1_distributed_cache_manager_1_1_per_request_cache.html#a05fbff95f3d22536b3885fbc6fc533ef">Nop.Core.Caching.DistributedCacheManager.PerRequestCache.IsSet()</a>, <a class="el" href="class_nop_1_1_core_1_1_caching_1_1_cache_key.html#a6eafead8ae6f509dfd130322edf15f7c">Nop.Core.Caching.CacheKey.Key</a>, <a class="el" href="namespace_nop_1_1_web_1_1_models_1_1_blogs.html#a6cc3986434c188bc64f7d71789d4a5c8">Nop.Web.Models.Blogs.result</a>, <a class="el" href="class_nop_1_1_core_1_1_caching_1_1_distributed_cache_manager.html#acf860135034b44ea0d6bfca51867bf53">Nop.Core.Caching.DistributedCacheManager.SetAsync()</a>, <a class="el" href="namespace_nop_1_1_web_1_1_framework_1_1_models.html#ad3daf01ef5002359798d78d3f7bab58d">Nop.Web.Framework.Models.T</a> e <a class="el" href="class_nop_1_1_core_1_1_caching_1_1_distributed_cache_manager.html#ac29ed5b944e3b64beb445d5f985b1fa1">Nop.Core.Caching.DistributedCacheManager.TryGetItemAsync&lt; T &gt;()</a>.</p>
+
+</div>
+</div>
+<a id="a9368b2ffa522adbdd2f6c3548d5efdb3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9368b2ffa522adbdd2f6c3548d5efdb3">&#9670;&nbsp;</a></span>PerformActionWithLock()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Nop.Core.Caching.DistributedCacheManager.PerformActionWithLock </td>
+          <td>(</td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>resource</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">TimeSpan&#160;</td>
+          <td class="paramname"><em>expirationTime</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Action&#160;</td>
+          <td class="paramname"><em>action</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Perform some action with exclusive lock </p>
+<dl class="params"><dt>Parâmetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">resource</td><td>The key we are locking on</td></tr>
+    <tr><td class="paramname">expirationTime</td><td>The time after which the lock will automatically be expired</td></tr>
+    <tr><td class="paramname">action</td><td>Action to be performed with locking</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Retorna</dt><dd>True if lock was acquired and action was performed; otherwise false</dd></dl>
+
+<p>Implementa <a class="el" href="interface_nop_1_1_core_1_1_caching_1_1_i_locker.html#a4fd4c30f75d5ca8652e6effecb2169a1">Nop.Core.Caching.ILocker</a>.</p>
+<div class="fragment"><div class="line"><a name="l00315"></a><span class="lineno">  315</span>&#160;        {</div>
+<div class="line"><a name="l00316"></a><span class="lineno">  316</span>&#160;            <span class="comment">//ensure that lock is acquired</span></div>
+<div class="line"><a name="l00317"></a><span class="lineno">  317</span>&#160;            <span class="keywordflow">if</span> (!<span class="keywordtype">string</span>.IsNullOrEmpty(<a class="code" href="class_nop_1_1_core_1_1_caching_1_1_distributed_cache_manager.html#aa643f1f643187efd06b07cc6383f052f">_distributedCache</a>.GetString(resource)))</div>
+<div class="line"><a name="l00318"></a><span class="lineno">  318</span>&#160;                <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><a name="l00319"></a><span class="lineno">  319</span>&#160; </div>
+<div class="line"><a name="l00320"></a><span class="lineno">  320</span>&#160;            <span class="keywordflow">try</span></div>
+<div class="line"><a name="l00321"></a><span class="lineno">  321</span>&#160;            {</div>
+<div class="line"><a name="l00322"></a><span class="lineno">  322</span>&#160;                <a class="code" href="class_nop_1_1_core_1_1_caching_1_1_distributed_cache_manager.html#aa643f1f643187efd06b07cc6383f052f">_distributedCache</a>.SetString(resource, resource, <span class="keyword">new</span> DistributedCacheEntryOptions</div>
+<div class="line"><a name="l00323"></a><span class="lineno">  323</span>&#160;                {</div>
+<div class="line"><a name="l00324"></a><span class="lineno">  324</span>&#160;                    AbsoluteExpirationRelativeToNow = expirationTime</div>
+<div class="line"><a name="l00325"></a><span class="lineno">  325</span>&#160;                });</div>
+<div class="line"><a name="l00326"></a><span class="lineno">  326</span>&#160; </div>
+<div class="line"><a name="l00327"></a><span class="lineno">  327</span>&#160;                <span class="comment">//perform action</span></div>
+<div class="line"><a name="l00328"></a><span class="lineno">  328</span>&#160;                action();</div>
+<div class="line"><a name="l00329"></a><span class="lineno">  329</span>&#160; </div>
+<div class="line"><a name="l00330"></a><span class="lineno">  330</span>&#160;                <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><a name="l00331"></a><span class="lineno">  331</span>&#160;            }</div>
+<div class="line"><a name="l00332"></a><span class="lineno">  332</span>&#160;            <span class="keywordflow">finally</span></div>
+<div class="line"><a name="l00333"></a><span class="lineno">  333</span>&#160;            {</div>
+<div class="line"><a name="l00334"></a><span class="lineno">  334</span>&#160;                <span class="comment">//release lock even if action fails</span></div>
+<div class="line"><a name="l00335"></a><span class="lineno">  335</span>&#160;                <a class="code" href="class_nop_1_1_core_1_1_caching_1_1_distributed_cache_manager.html#aa643f1f643187efd06b07cc6383f052f">_distributedCache</a>.Remove(resource);</div>
+<div class="line"><a name="l00336"></a><span class="lineno">  336</span>&#160;            }</div>
+<div class="line"><a name="l00337"></a><span class="lineno">  337</span>&#160;        }</div>
+</div><!-- fragment -->
+<p class="reference">Referências <a class="el" href="class_nop_1_1_core_1_1_caching_1_1_distributed_cache_manager.html#aa643f1f643187efd06b07cc6383f052f">Nop.Core.Caching.DistributedCacheManager._distributedCache</a>.</p>
+
+</div>
+</div>
+<a id="a65ed402b3e8969b5831dd2950dae7768"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a65ed402b3e8969b5831dd2950dae7768">&#9670;&nbsp;</a></span>PrepareEntryOptions()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">DistributedCacheEntryOptions Nop.Core.Caching.DistributedCacheManager.PrepareEntryOptions </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_nop_1_1_core_1_1_caching_1_1_cache_key.html">CacheKey</a>&#160;</td>
+          <td class="paramname"><em>key</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Prepare cache entry options for the passed key </p>
+<dl class="params"><dt>Parâmetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">key</td><td>Cache key</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Retorna</dt><dd>Cache entry options</dd></dl>
+<div class="fragment"><div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;        {</div>
+<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;            <span class="comment">//set expiration time for the passed cache key</span></div>
+<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;            var options = <span class="keyword">new</span> DistributedCacheEntryOptions</div>
+<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;            {</div>
+<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;                AbsoluteExpirationRelativeToNow = TimeSpan.FromMinutes(key.CacheTime)</div>
+<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;            };</div>
+<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;            </div>
+<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;            <span class="keywordflow">return</span> options;</div>
+<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;        }</div>
+</div><!-- fragment -->
+<p class="reference">Referências <a class="el" href="class_nop_1_1_core_1_1_caching_1_1_cache_key.html#a11fc098cbf5b8afd004485bed3bb4f98">Nop.Core.Caching.CacheKey.CacheTime</a>.</p>
+
+<p class="reference">Referenciado por <a class="el" href="class_nop_1_1_core_1_1_caching_1_1_distributed_cache_manager.html#af6ef39326aa5b07a3e49a2112e5acb67">Nop.Core.Caching.DistributedCacheManager.Set()</a> e <a class="el" href="class_nop_1_1_core_1_1_caching_1_1_distributed_cache_manager.html#acf860135034b44ea0d6bfca51867bf53">Nop.Core.Caching.DistributedCacheManager.SetAsync()</a>.</p>
+
+</div>
+</div>
+<a id="a744376480635dae44f8b48f8e82f2de8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a744376480635dae44f8b48f8e82f2de8">&#9670;&nbsp;</a></span>RemoveAsync()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">async <a class="el" href="_sendinblue_plugin_8cs.html#a9f49374e6bc76a6b5261e5c211d2e63d">Task</a> Nop.Core.Caching.DistributedCacheManager.RemoveAsync </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_nop_1_1_core_1_1_caching_1_1_cache_key.html">CacheKey</a>&#160;</td>
+          <td class="paramname"><em>cacheKey</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">params object[]&#160;</td>
+          <td class="paramname"><em>cacheKeyParameters</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Remove the value with the specified key from the cache </p>
+<dl class="params"><dt>Parâmetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">cacheKey</td><td>Cache key</td></tr>
+    <tr><td class="paramname">cacheKeyParameters</td><td>Parameters to create cache key</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Retorna</dt><dd>A task that represents the asynchronous operation</dd></dl>
+
+<p>Implementa <a class="el" href="interface_nop_1_1_core_1_1_caching_1_1_i_static_cache_manager.html#a39463d53cecb369029edd3ad0fe7aa9b">Nop.Core.Caching.IStaticCacheManager</a>.</p>
+<div class="fragment"><div class="line"><a name="l00240"></a><span class="lineno">  240</span>&#160;        {</div>
+<div class="line"><a name="l00241"></a><span class="lineno">  241</span>&#160;            cacheKey = <a class="code" href="class_nop_1_1_core_1_1_caching_1_1_cache_key_service.html#a35340b0e9e07404dacb6b4397f66f8fd">PrepareKey</a>(cacheKey, cacheKeyParameters);</div>
+<div class="line"><a name="l00242"></a><span class="lineno">  242</span>&#160; </div>
+<div class="line"><a name="l00243"></a><span class="lineno">  243</span>&#160;            await <a class="code" href="class_nop_1_1_core_1_1_caching_1_1_distributed_cache_manager.html#aa643f1f643187efd06b07cc6383f052f">_distributedCache</a>.RemoveAsync(cacheKey.Key);</div>
+<div class="line"><a name="l00244"></a><span class="lineno">  244</span>&#160;            <a class="code" href="class_nop_1_1_core_1_1_caching_1_1_distributed_cache_manager.html#a7fc74559c3d033ed2bb6e2a9b849d709">_perRequestCache</a>.<a class="code" href="class_nop_1_1_core_1_1_caching_1_1_distributed_cache_manager_1_1_per_request_cache.html#acddacbe6d1579d151f7cac341f8ac718">Remove</a>(cacheKey.Key);</div>
+<div class="line"><a name="l00245"></a><span class="lineno">  245</span>&#160; </div>
+<div class="line"><a name="l00246"></a><span class="lineno">  246</span>&#160;            <span class="keyword">using</span> var _ = await <a class="code" href="class_nop_1_1_core_1_1_caching_1_1_distributed_cache_manager.html#abbcfa4994dd6db5f68dbd8a43d1140c9">_locker</a>.LockAsync();</div>
+<div class="line"><a name="l00247"></a><span class="lineno">  247</span>&#160;            <a class="code" href="class_nop_1_1_core_1_1_caching_1_1_distributed_cache_manager.html#a09482a099f333d3d518952c4185d0d23">_keys</a>.Remove(cacheKey.Key);</div>
+<div class="line"><a name="l00248"></a><span class="lineno">  248</span>&#160;        }</div>
+<div class="ttc" id="aclass_nop_1_1_core_1_1_caching_1_1_cache_key_service_html_a35340b0e9e07404dacb6b4397f66f8fd"><div class="ttname"><a href="class_nop_1_1_core_1_1_caching_1_1_cache_key_service.html#a35340b0e9e07404dacb6b4397f66f8fd">Nop.Core.Caching.CacheKeyService.PrepareKey</a></div><div class="ttdeci">virtual CacheKey PrepareKey(CacheKey cacheKey, params object[] cacheKeyParameters)</div><div class="ttdoc">Create a copy of cache key and fills it by passed parameters</div><div class="ttdef"><b>Definition:</b> CacheKeyService.cs:96</div></div>
+</div><!-- fragment -->
+<p class="reference">Referências <a class="el" href="class_nop_1_1_core_1_1_caching_1_1_distributed_cache_manager.html#aa643f1f643187efd06b07cc6383f052f">Nop.Core.Caching.DistributedCacheManager._distributedCache</a>, <a class="el" href="class_nop_1_1_core_1_1_caching_1_1_distributed_cache_manager.html#a09482a099f333d3d518952c4185d0d23">Nop.Core.Caching.DistributedCacheManager._keys</a>, <a class="el" href="class_nop_1_1_core_1_1_caching_1_1_distributed_cache_manager.html#abbcfa4994dd6db5f68dbd8a43d1140c9">Nop.Core.Caching.DistributedCacheManager._locker</a>, <a class="el" href="class_nop_1_1_core_1_1_caching_1_1_distributed_cache_manager.html#a7fc74559c3d033ed2bb6e2a9b849d709">Nop.Core.Caching.DistributedCacheManager._perRequestCache</a>, <a class="el" href="class_nop_1_1_core_1_1_caching_1_1_cache_key.html#a6eafead8ae6f509dfd130322edf15f7c">Nop.Core.Caching.CacheKey.Key</a>, <a class="el" href="class_nop_1_1_core_1_1_caching_1_1_cache_key_service.html#a35340b0e9e07404dacb6b4397f66f8fd">Nop.Core.Caching.CacheKeyService.PrepareKey()</a> e <a class="el" href="class_nop_1_1_core_1_1_caching_1_1_distributed_cache_manager_1_1_per_request_cache.html#acddacbe6d1579d151f7cac341f8ac718">Nop.Core.Caching.DistributedCacheManager.PerRequestCache.Remove()</a>.</p>
+
+</div>
+</div>
+<a id="a12c2882bcb5d830b025a27293918340d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a12c2882bcb5d830b025a27293918340d">&#9670;&nbsp;</a></span>RemoveByPrefixAsync()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">async <a class="el" href="_sendinblue_plugin_8cs.html#a9f49374e6bc76a6b5261e5c211d2e63d">Task</a> Nop.Core.Caching.DistributedCacheManager.RemoveByPrefixAsync </td>
+          <td>(</td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>prefix</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">params object[]&#160;</td>
+          <td class="paramname"><em>prefixParameters</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Remove items by cache key prefix </p>
+<dl class="params"><dt>Parâmetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">prefix</td><td>Cache key prefix</td></tr>
+    <tr><td class="paramname">prefixParameters</td><td>Parameters to create cache key prefix</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Retorna</dt><dd>A task that represents the asynchronous operation</dd></dl>
+
+<p>Implementa <a class="el" href="interface_nop_1_1_core_1_1_caching_1_1_i_static_cache_manager.html#a66bfc66a4787853051f5f4d2df8739a7">Nop.Core.Caching.IStaticCacheManager</a>.</p>
+<div class="fragment"><div class="line"><a name="l00275"></a><span class="lineno">  275</span>&#160;        {</div>
+<div class="line"><a name="l00276"></a><span class="lineno">  276</span>&#160;            prefix = <a class="code" href="class_nop_1_1_core_1_1_caching_1_1_cache_key_service.html#aca13927df0c197ca6c10fee54095b611">PrepareKeyPrefix</a>(prefix, prefixParameters);</div>
+<div class="line"><a name="l00277"></a><span class="lineno">  277</span>&#160;            <a class="code" href="class_nop_1_1_core_1_1_caching_1_1_distributed_cache_manager.html#a7fc74559c3d033ed2bb6e2a9b849d709">_perRequestCache</a>.<a class="code" href="class_nop_1_1_core_1_1_caching_1_1_distributed_cache_manager_1_1_per_request_cache.html#a4b2ef6abd913a884738678c878e4899c">RemoveByPrefix</a>(prefix);</div>
+<div class="line"><a name="l00278"></a><span class="lineno">  278</span>&#160; </div>
+<div class="line"><a name="l00279"></a><span class="lineno">  279</span>&#160;            <span class="keyword">using</span> var _ = await <a class="code" href="class_nop_1_1_core_1_1_caching_1_1_distributed_cache_manager.html#abbcfa4994dd6db5f68dbd8a43d1140c9">_locker</a>.LockAsync();</div>
+<div class="line"><a name="l00280"></a><span class="lineno">  280</span>&#160;            </div>
+<div class="line"><a name="l00281"></a><span class="lineno">  281</span>&#160;            <span class="keywordflow">foreach</span> (var key <span class="keywordflow">in</span> <a class="code" href="class_nop_1_1_core_1_1_caching_1_1_distributed_cache_manager.html#a09482a099f333d3d518952c4185d0d23">_keys</a>.Where(key =&gt; key.StartsWith(prefix, StringComparison.InvariantCultureIgnoreCase)).ToList())</div>
+<div class="line"><a name="l00282"></a><span class="lineno">  282</span>&#160;            {</div>
+<div class="line"><a name="l00283"></a><span class="lineno">  283</span>&#160;                await <a class="code" href="class_nop_1_1_core_1_1_caching_1_1_distributed_cache_manager.html#aa643f1f643187efd06b07cc6383f052f">_distributedCache</a>.RemoveAsync(key);</div>
+<div class="line"><a name="l00284"></a><span class="lineno">  284</span>&#160;                <a class="code" href="class_nop_1_1_core_1_1_caching_1_1_distributed_cache_manager.html#a09482a099f333d3d518952c4185d0d23">_keys</a>.Remove(key);</div>
+<div class="line"><a name="l00285"></a><span class="lineno">  285</span>&#160;            }</div>
+<div class="line"><a name="l00286"></a><span class="lineno">  286</span>&#160;        }</div>
+<div class="ttc" id="aclass_nop_1_1_core_1_1_caching_1_1_cache_key_service_html_aca13927df0c197ca6c10fee54095b611"><div class="ttname"><a href="class_nop_1_1_core_1_1_caching_1_1_cache_key_service.html#aca13927df0c197ca6c10fee54095b611">Nop.Core.Caching.CacheKeyService.PrepareKeyPrefix</a></div><div class="ttdeci">virtual string PrepareKeyPrefix(string prefix, params object[] prefixParameters)</div><div class="ttdoc">Prepare the cache key prefix</div><div class="ttdef"><b>Definition:</b> CacheKeyService.cs:45</div></div>
+<div class="ttc" id="aclass_nop_1_1_core_1_1_caching_1_1_distributed_cache_manager_1_1_per_request_cache_html_a4b2ef6abd913a884738678c878e4899c"><div class="ttname"><a href="class_nop_1_1_core_1_1_caching_1_1_distributed_cache_manager_1_1_per_request_cache.html#a4b2ef6abd913a884738678c878e4899c">Nop.Core.Caching.DistributedCacheManager.PerRequestCache.RemoveByPrefix</a></div><div class="ttdeci">virtual void RemoveByPrefix(string prefix)</div><div class="ttdoc">Remove items by key prefix</div><div class="ttdef"><b>Definition:</b> DistributedCacheManager.cs:463</div></div>
+</div><!-- fragment -->
+<p class="reference">Referências <a class="el" href="class_nop_1_1_core_1_1_caching_1_1_distributed_cache_manager.html#aa643f1f643187efd06b07cc6383f052f">Nop.Core.Caching.DistributedCacheManager._distributedCache</a>, <a class="el" href="class_nop_1_1_core_1_1_caching_1_1_distributed_cache_manager.html#a09482a099f333d3d518952c4185d0d23">Nop.Core.Caching.DistributedCacheManager._keys</a>, <a class="el" href="class_nop_1_1_core_1_1_caching_1_1_distributed_cache_manager.html#abbcfa4994dd6db5f68dbd8a43d1140c9">Nop.Core.Caching.DistributedCacheManager._locker</a>, <a class="el" href="class_nop_1_1_core_1_1_caching_1_1_distributed_cache_manager.html#a7fc74559c3d033ed2bb6e2a9b849d709">Nop.Core.Caching.DistributedCacheManager._perRequestCache</a>, <a class="el" href="class_nop_1_1_core_1_1_caching_1_1_cache_key_service.html#aca13927df0c197ca6c10fee54095b611">Nop.Core.Caching.CacheKeyService.PrepareKeyPrefix()</a> e <a class="el" href="class_nop_1_1_core_1_1_caching_1_1_distributed_cache_manager_1_1_per_request_cache.html#a4b2ef6abd913a884738678c878e4899c">Nop.Core.Caching.DistributedCacheManager.PerRequestCache.RemoveByPrefix()</a>.</p>
+
+</div>
+</div>
+<a id="af6ef39326aa5b07a3e49a2112e5acb67"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af6ef39326aa5b07a3e49a2112e5acb67">&#9670;&nbsp;</a></span>Set()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Nop.Core.Caching.DistributedCacheManager.Set </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_nop_1_1_core_1_1_caching_1_1_cache_key.html">CacheKey</a>&#160;</td>
+          <td class="paramname"><em>key</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">object&#160;</td>
+          <td class="paramname"><em>data</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Add the specified key and object to the cache </p>
+<dl class="params"><dt>Parâmetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">key</td><td>Key of cached item</td></tr>
+    <tr><td class="paramname">data</td><td>Value for caching</td></tr>
+  </table>
+  </dd>
+</dl>
+<div class="fragment"><div class="line"><a name="l00111"></a><span class="lineno">  111</span>&#160;        {</div>
+<div class="line"><a name="l00112"></a><span class="lineno">  112</span>&#160;            <span class="keywordflow">if</span> ((key?.CacheTime ?? 0) &lt;= 0 || data == <span class="keyword">null</span>)</div>
+<div class="line"><a name="l00113"></a><span class="lineno">  113</span>&#160;                <span class="keywordflow">return</span>;</div>
+<div class="line"><a name="l00114"></a><span class="lineno">  114</span>&#160; </div>
+<div class="line"><a name="l00115"></a><span class="lineno">  115</span>&#160;            <a class="code" href="class_nop_1_1_core_1_1_caching_1_1_distributed_cache_manager.html#aa643f1f643187efd06b07cc6383f052f">_distributedCache</a>.SetString(key.Key, JsonConvert.SerializeObject(data), <a class="code" href="class_nop_1_1_core_1_1_caching_1_1_distributed_cache_manager.html#a65ed402b3e8969b5831dd2950dae7768">PrepareEntryOptions</a>(key));</div>
+<div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160;            <a class="code" href="class_nop_1_1_core_1_1_caching_1_1_distributed_cache_manager.html#a7fc74559c3d033ed2bb6e2a9b849d709">_perRequestCache</a>.<a class="code" href="class_nop_1_1_core_1_1_caching_1_1_distributed_cache_manager_1_1_per_request_cache.html#a463fdc5be6bbd00223c182330f37e690">Set</a>(key.Key, data);</div>
+<div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160; </div>
+<div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160;            <span class="keyword">using</span> var _ = <a class="code" href="class_nop_1_1_core_1_1_caching_1_1_distributed_cache_manager.html#abbcfa4994dd6db5f68dbd8a43d1140c9">_locker</a>.Lock();</div>
+<div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160;            <a class="code" href="class_nop_1_1_core_1_1_caching_1_1_distributed_cache_manager.html#a09482a099f333d3d518952c4185d0d23">_keys</a>.Add(key.Key);</div>
+<div class="line"><a name="l00120"></a><span class="lineno">  120</span>&#160;        }</div>
+<div class="ttc" id="aclass_nop_1_1_core_1_1_caching_1_1_distributed_cache_manager_1_1_per_request_cache_html_a463fdc5be6bbd00223c182330f37e690"><div class="ttname"><a href="class_nop_1_1_core_1_1_caching_1_1_distributed_cache_manager_1_1_per_request_cache.html#a463fdc5be6bbd00223c182330f37e690">Nop.Core.Caching.DistributedCacheManager.PerRequestCache.Set</a></div><div class="ttdeci">virtual void Set(string key, object data)</div><div class="ttdoc">Add the specified key and object to the cache</div><div class="ttdef"><b>Definition:</b> DistributedCacheManager.cs:417</div></div>
+<div class="ttc" id="aclass_nop_1_1_core_1_1_caching_1_1_distributed_cache_manager_html_a65ed402b3e8969b5831dd2950dae7768"><div class="ttname"><a href="class_nop_1_1_core_1_1_caching_1_1_distributed_cache_manager.html#a65ed402b3e8969b5831dd2950dae7768">Nop.Core.Caching.DistributedCacheManager.PrepareEntryOptions</a></div><div class="ttdeci">DistributedCacheEntryOptions PrepareEntryOptions(CacheKey key)</div><div class="ttdoc">Prepare cache entry options for the passed key</div><div class="ttdef"><b>Definition:</b> DistributedCacheManager.cs:53</div></div>
+</div><!-- fragment -->
+<p class="reference">Referências <a class="el" href="class_nop_1_1_core_1_1_caching_1_1_distributed_cache_manager.html#aa643f1f643187efd06b07cc6383f052f">Nop.Core.Caching.DistributedCacheManager._distributedCache</a>, <a class="el" href="class_nop_1_1_core_1_1_caching_1_1_distributed_cache_manager.html#a09482a099f333d3d518952c4185d0d23">Nop.Core.Caching.DistributedCacheManager._keys</a>, <a class="el" href="class_nop_1_1_core_1_1_caching_1_1_distributed_cache_manager.html#abbcfa4994dd6db5f68dbd8a43d1140c9">Nop.Core.Caching.DistributedCacheManager._locker</a>, <a class="el" href="class_nop_1_1_core_1_1_caching_1_1_distributed_cache_manager.html#a7fc74559c3d033ed2bb6e2a9b849d709">Nop.Core.Caching.DistributedCacheManager._perRequestCache</a>, <a class="el" href="class_nop_1_1_core_1_1_caching_1_1_cache_key.html#a6eafead8ae6f509dfd130322edf15f7c">Nop.Core.Caching.CacheKey.Key</a>, <a class="el" href="class_nop_1_1_core_1_1_caching_1_1_distributed_cache_manager.html#a65ed402b3e8969b5831dd2950dae7768">Nop.Core.Caching.DistributedCacheManager.PrepareEntryOptions()</a> e <a class="el" href="class_nop_1_1_core_1_1_caching_1_1_distributed_cache_manager_1_1_per_request_cache.html#a463fdc5be6bbd00223c182330f37e690">Nop.Core.Caching.DistributedCacheManager.PerRequestCache.Set()</a>.</p>
+
+<p class="reference">Referenciado por <a class="el" href="class_nop_1_1_core_1_1_caching_1_1_distributed_cache_manager.html#a28a20c13058df907f823eac5f94fa7f5">Nop.Core.Caching.DistributedCacheManager.Get&lt; T &gt;()</a>.</p>
+
+</div>
+</div>
+<a id="acf860135034b44ea0d6bfca51867bf53"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acf860135034b44ea0d6bfca51867bf53">&#9670;&nbsp;</a></span>SetAsync()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">async <a class="el" href="_sendinblue_plugin_8cs.html#a9f49374e6bc76a6b5261e5c211d2e63d">Task</a> Nop.Core.Caching.DistributedCacheManager.SetAsync </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_nop_1_1_core_1_1_caching_1_1_cache_key.html">CacheKey</a>&#160;</td>
+          <td class="paramname"><em>key</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">object&#160;</td>
+          <td class="paramname"><em>data</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Add the specified key and object to the cache </p>
+<dl class="params"><dt>Parâmetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">key</td><td>Key of cached item</td></tr>
+    <tr><td class="paramname">data</td><td>Value for caching</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Retorna</dt><dd>A task that represents the asynchronous operation</dd></dl>
+
+<p>Implementa <a class="el" href="interface_nop_1_1_core_1_1_caching_1_1_i_static_cache_manager.html#a31626abe2bf2aef4c5c707bb6b1dfbf1">Nop.Core.Caching.IStaticCacheManager</a>.</p>
+<div class="fragment"><div class="line"><a name="l00257"></a><span class="lineno">  257</span>&#160;        {</div>
+<div class="line"><a name="l00258"></a><span class="lineno">  258</span>&#160;            <span class="keywordflow">if</span> ((key?.CacheTime ?? 0) &lt;= 0 || data == <span class="keyword">null</span>)</div>
+<div class="line"><a name="l00259"></a><span class="lineno">  259</span>&#160;                <span class="keywordflow">return</span>;</div>
+<div class="line"><a name="l00260"></a><span class="lineno">  260</span>&#160; </div>
+<div class="line"><a name="l00261"></a><span class="lineno">  261</span>&#160;            await <a class="code" href="class_nop_1_1_core_1_1_caching_1_1_distributed_cache_manager.html#aa643f1f643187efd06b07cc6383f052f">_distributedCache</a>.SetStringAsync(key.Key, JsonConvert.SerializeObject(data), <a class="code" href="class_nop_1_1_core_1_1_caching_1_1_distributed_cache_manager.html#a65ed402b3e8969b5831dd2950dae7768">PrepareEntryOptions</a>(key));</div>
+<div class="line"><a name="l00262"></a><span class="lineno">  262</span>&#160;            <a class="code" href="class_nop_1_1_core_1_1_caching_1_1_distributed_cache_manager.html#a7fc74559c3d033ed2bb6e2a9b849d709">_perRequestCache</a>.<a class="code" href="class_nop_1_1_core_1_1_caching_1_1_distributed_cache_manager_1_1_per_request_cache.html#a463fdc5be6bbd00223c182330f37e690">Set</a>(key.Key, data);</div>
+<div class="line"><a name="l00263"></a><span class="lineno">  263</span>&#160; </div>
+<div class="line"><a name="l00264"></a><span class="lineno">  264</span>&#160;            <span class="keyword">using</span> var _ = await <a class="code" href="class_nop_1_1_core_1_1_caching_1_1_distributed_cache_manager.html#abbcfa4994dd6db5f68dbd8a43d1140c9">_locker</a>.LockAsync();</div>
+<div class="line"><a name="l00265"></a><span class="lineno">  265</span>&#160;            <a class="code" href="class_nop_1_1_core_1_1_caching_1_1_distributed_cache_manager.html#a09482a099f333d3d518952c4185d0d23">_keys</a>.Add(key.Key);</div>
+<div class="line"><a name="l00266"></a><span class="lineno">  266</span>&#160;        }</div>
+</div><!-- fragment -->
+<p class="reference">Referências <a class="el" href="class_nop_1_1_core_1_1_caching_1_1_distributed_cache_manager.html#aa643f1f643187efd06b07cc6383f052f">Nop.Core.Caching.DistributedCacheManager._distributedCache</a>, <a class="el" href="class_nop_1_1_core_1_1_caching_1_1_distributed_cache_manager.html#a09482a099f333d3d518952c4185d0d23">Nop.Core.Caching.DistributedCacheManager._keys</a>, <a class="el" href="class_nop_1_1_core_1_1_caching_1_1_distributed_cache_manager.html#abbcfa4994dd6db5f68dbd8a43d1140c9">Nop.Core.Caching.DistributedCacheManager._locker</a>, <a class="el" href="class_nop_1_1_core_1_1_caching_1_1_distributed_cache_manager.html#a7fc74559c3d033ed2bb6e2a9b849d709">Nop.Core.Caching.DistributedCacheManager._perRequestCache</a>, <a class="el" href="class_nop_1_1_core_1_1_caching_1_1_cache_key.html#a6eafead8ae6f509dfd130322edf15f7c">Nop.Core.Caching.CacheKey.Key</a>, <a class="el" href="class_nop_1_1_core_1_1_caching_1_1_distributed_cache_manager.html#a65ed402b3e8969b5831dd2950dae7768">Nop.Core.Caching.DistributedCacheManager.PrepareEntryOptions()</a> e <a class="el" href="class_nop_1_1_core_1_1_caching_1_1_distributed_cache_manager_1_1_per_request_cache.html#a463fdc5be6bbd00223c182330f37e690">Nop.Core.Caching.DistributedCacheManager.PerRequestCache.Set()</a>.</p>
+
+<p class="reference">Referenciado por <a class="el" href="class_nop_1_1_core_1_1_caching_1_1_distributed_cache_manager.html#a4b6b4402f71c8d24bcd8dbc26d70494c">Nop.Core.Caching.DistributedCacheManager.GetAsync&lt; T &gt;()</a>.</p>
+
+</div>
+</div>
+<a id="ae974631023d21707a08ae4cbe669825f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae974631023d21707a08ae4cbe669825f">&#9670;&nbsp;</a></span>TryGetItem&lt; T &gt;()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool T item Nop.Core.Caching.DistributedCacheManager.TryGetItem&lt; T &gt; </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_nop_1_1_core_1_1_caching_1_1_cache_key.html">CacheKey</a>&#160;</td>
+          <td class="paramname"><em>key</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;        {</div>
+<div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;            var json = <a class="code" href="class_nop_1_1_core_1_1_caching_1_1_distributed_cache_manager.html#aa643f1f643187efd06b07cc6383f052f">_distributedCache</a>.GetString(key.Key);</div>
+<div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160; </div>
+<div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;            <span class="keywordflow">if</span> (<span class="keywordtype">string</span>.IsNullOrEmpty(json))</div>
+<div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;                <span class="keywordflow">return</span> (<span class="keyword">false</span>, <span class="keywordflow">default</span>);</div>
+<div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160; </div>
+<div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;            var item = JsonConvert.DeserializeObject&lt;<a class="code" href="namespace_nop_1_1_web_1_1_framework_1_1_models.html#ad3daf01ef5002359798d78d3f7bab58d">T</a>&gt;(json);</div>
+<div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;            <a class="code" href="class_nop_1_1_core_1_1_caching_1_1_distributed_cache_manager.html#a7fc74559c3d033ed2bb6e2a9b849d709">_perRequestCache</a>.<a class="code" href="class_nop_1_1_core_1_1_caching_1_1_distributed_cache_manager_1_1_per_request_cache.html#a463fdc5be6bbd00223c182330f37e690">Set</a>(key.Key, item);</div>
+<div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160; </div>
+<div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;            <span class="keywordflow">return</span> (<span class="keyword">true</span>, item);</div>
+<div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;        }</div>
+</div><!-- fragment -->
+<p class="reference">Referenciado por <a class="el" href="class_nop_1_1_core_1_1_caching_1_1_distributed_cache_manager.html#a28a20c13058df907f823eac5f94fa7f5">Nop.Core.Caching.DistributedCacheManager.Get&lt; T &gt;()</a>.</p>
+
+</div>
+</div>
+<a id="ac29ed5b944e3b64beb445d5f985b1fa1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac29ed5b944e3b64beb445d5f985b1fa1">&#9670;&nbsp;</a></span>TryGetItemAsync&lt; T &gt;()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">async <a class="el" href="_sendinblue_plugin_8cs.html#a9f49374e6bc76a6b5261e5c211d2e63d">Task</a>&lt;(bool <a class="el" href="class_nop_1_1_core_1_1_caching_1_1_distributed_cache_manager.html#a9796440f6911b2988d008abbad1083c0">isSet</a>, T item)&gt; Nop.Core.Caching.DistributedCacheManager.TryGetItemAsync&lt; T &gt; </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_nop_1_1_core_1_1_caching_1_1_cache_key.html">CacheKey</a>&#160;</td>
+          <td class="paramname"><em>key</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Try to get the cached item </p>
+<dl class="tparams"><dt>Parâmetros de template</dt><dd>
+  <table class="tparams">
+    <tr><td class="paramname">T</td><td>Type of cached item</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="params"><dt>Parâmetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">key</td><td>Cache key</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Retorna</dt><dd>A task that represents the asynchronous operation The task result contains the flag which indicate is the key exists in the cache, cached item or default value </dd></dl>
+<div class="fragment"><div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;        {</div>
+<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;            var json = await <a class="code" href="class_nop_1_1_core_1_1_caching_1_1_distributed_cache_manager.html#aa643f1f643187efd06b07cc6383f052f">_distributedCache</a>.GetStringAsync(key.Key);</div>
+<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160; </div>
+<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;            <span class="keywordflow">if</span> (<span class="keywordtype">string</span>.IsNullOrEmpty(json)) </div>
+<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;                <span class="keywordflow">return</span> (<span class="keyword">false</span>, <span class="keywordflow">default</span>);</div>
+<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160; </div>
+<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;            var item = JsonConvert.DeserializeObject&lt;<a class="code" href="namespace_nop_1_1_web_1_1_framework_1_1_models.html#ad3daf01ef5002359798d78d3f7bab58d">T</a>&gt;(json);</div>
+<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;            <a class="code" href="class_nop_1_1_core_1_1_caching_1_1_distributed_cache_manager.html#a7fc74559c3d033ed2bb6e2a9b849d709">_perRequestCache</a>.<a class="code" href="class_nop_1_1_core_1_1_caching_1_1_distributed_cache_manager_1_1_per_request_cache.html#a463fdc5be6bbd00223c182330f37e690">Set</a>(key.Key, item);</div>
+<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160; </div>
+<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;            <span class="keywordflow">return</span> (<span class="keyword">true</span>, item);</div>
+<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;        }</div>
+</div><!-- fragment -->
+<p class="reference">Referências <a class="el" href="class_nop_1_1_core_1_1_caching_1_1_distributed_cache_manager.html#aa643f1f643187efd06b07cc6383f052f">Nop.Core.Caching.DistributedCacheManager._distributedCache</a>, <a class="el" href="class_nop_1_1_core_1_1_caching_1_1_distributed_cache_manager.html#a7fc74559c3d033ed2bb6e2a9b849d709">Nop.Core.Caching.DistributedCacheManager._perRequestCache</a>, <a class="el" href="class_nop_1_1_core_1_1_caching_1_1_cache_key.html#a6eafead8ae6f509dfd130322edf15f7c">Nop.Core.Caching.CacheKey.Key</a>, <a class="el" href="class_nop_1_1_core_1_1_caching_1_1_distributed_cache_manager_1_1_per_request_cache.html#a463fdc5be6bbd00223c182330f37e690">Nop.Core.Caching.DistributedCacheManager.PerRequestCache.Set()</a> e <a class="el" href="namespace_nop_1_1_web_1_1_framework_1_1_models.html#ad3daf01ef5002359798d78d3f7bab58d">Nop.Web.Framework.Models.T</a>.</p>
+
+<p class="reference">Referenciado por <a class="el" href="class_nop_1_1_core_1_1_caching_1_1_distributed_cache_manager.html#a4b6b4402f71c8d24bcd8dbc26d70494c">Nop.Core.Caching.DistributedCacheManager.GetAsync&lt; T &gt;()</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">Documentação dos dados membro</h2>
+<a id="aa643f1f643187efd06b07cc6383f052f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa643f1f643187efd06b07cc6383f052f">&#9670;&nbsp;</a></span>_distributedCache</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">readonly IDistributedCache Nop.Core.Caching.DistributedCacheManager._distributedCache</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">Referenciado por <a class="el" href="class_nop_1_1_core_1_1_caching_1_1_distributed_cache_manager.html#a31b37ff5f3a9cbbe17618da7731d8dd7">Nop.Core.Caching.DistributedCacheManager.ClearAsync()</a>, <a class="el" href="class_nop_1_1_core_1_1_caching_1_1_distributed_cache_manager.html#a8c37302304b01ae233477f36c23ec312">Nop.Core.Caching.DistributedCacheManager.DistributedCacheManager()</a>, <a class="el" href="class_nop_1_1_core_1_1_caching_1_1_distributed_cache_manager.html#a9368b2ffa522adbdd2f6c3548d5efdb3">Nop.Core.Caching.DistributedCacheManager.PerformActionWithLock()</a>, <a class="el" href="class_nop_1_1_core_1_1_caching_1_1_distributed_cache_manager.html#a744376480635dae44f8b48f8e82f2de8">Nop.Core.Caching.DistributedCacheManager.RemoveAsync()</a>, <a class="el" href="class_nop_1_1_core_1_1_caching_1_1_distributed_cache_manager.html#a12c2882bcb5d830b025a27293918340d">Nop.Core.Caching.DistributedCacheManager.RemoveByPrefixAsync()</a>, <a class="el" href="class_nop_1_1_core_1_1_caching_1_1_distributed_cache_manager.html#af6ef39326aa5b07a3e49a2112e5acb67">Nop.Core.Caching.DistributedCacheManager.Set()</a>, <a class="el" href="class_nop_1_1_core_1_1_caching_1_1_distributed_cache_manager.html#acf860135034b44ea0d6bfca51867bf53">Nop.Core.Caching.DistributedCacheManager.SetAsync()</a> e <a class="el" href="class_nop_1_1_core_1_1_caching_1_1_distributed_cache_manager.html#ac29ed5b944e3b64beb445d5f985b1fa1">Nop.Core.Caching.DistributedCacheManager.TryGetItemAsync&lt; T &gt;()</a>.</p>
+
+</div>
+</div>
+<a id="a09482a099f333d3d518952c4185d0d23"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a09482a099f333d3d518952c4185d0d23">&#9670;&nbsp;</a></span>_keys</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">readonly List&lt;string&gt; Nop.Core.Caching.DistributedCacheManager._keys</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">Referenciado por <a class="el" href="class_nop_1_1_core_1_1_caching_1_1_distributed_cache_manager.html#a31b37ff5f3a9cbbe17618da7731d8dd7">Nop.Core.Caching.DistributedCacheManager.ClearAsync()</a>, <a class="el" href="class_nop_1_1_core_1_1_caching_1_1_distributed_cache_manager.html#a6f38a392dd8976728a30527843db0aea">Nop.Core.Caching.DistributedCacheManager.DistributedCacheManager()</a>, <a class="el" href="class_nop_1_1_core_1_1_caching_1_1_distributed_cache_manager.html#a744376480635dae44f8b48f8e82f2de8">Nop.Core.Caching.DistributedCacheManager.RemoveAsync()</a>, <a class="el" href="class_nop_1_1_core_1_1_caching_1_1_distributed_cache_manager.html#a12c2882bcb5d830b025a27293918340d">Nop.Core.Caching.DistributedCacheManager.RemoveByPrefixAsync()</a>, <a class="el" href="class_nop_1_1_core_1_1_caching_1_1_distributed_cache_manager.html#af6ef39326aa5b07a3e49a2112e5acb67">Nop.Core.Caching.DistributedCacheManager.Set()</a> e <a class="el" href="class_nop_1_1_core_1_1_caching_1_1_distributed_cache_manager.html#acf860135034b44ea0d6bfca51867bf53">Nop.Core.Caching.DistributedCacheManager.SetAsync()</a>.</p>
+
+</div>
+</div>
+<a id="abbcfa4994dd6db5f68dbd8a43d1140c9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abbcfa4994dd6db5f68dbd8a43d1140c9">&#9670;&nbsp;</a></span>_locker</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">readonly AsyncLock Nop.Core.Caching.DistributedCacheManager._locker</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">Referenciado por <a class="el" href="class_nop_1_1_core_1_1_caching_1_1_distributed_cache_manager.html#a31b37ff5f3a9cbbe17618da7731d8dd7">Nop.Core.Caching.DistributedCacheManager.ClearAsync()</a>, <a class="el" href="class_nop_1_1_core_1_1_caching_1_1_distributed_cache_manager.html#a6f38a392dd8976728a30527843db0aea">Nop.Core.Caching.DistributedCacheManager.DistributedCacheManager()</a>, <a class="el" href="class_nop_1_1_core_1_1_caching_1_1_distributed_cache_manager.html#a744376480635dae44f8b48f8e82f2de8">Nop.Core.Caching.DistributedCacheManager.RemoveAsync()</a>, <a class="el" href="class_nop_1_1_core_1_1_caching_1_1_distributed_cache_manager.html#a12c2882bcb5d830b025a27293918340d">Nop.Core.Caching.DistributedCacheManager.RemoveByPrefixAsync()</a>, <a class="el" href="class_nop_1_1_core_1_1_caching_1_1_distributed_cache_manager.html#af6ef39326aa5b07a3e49a2112e5acb67">Nop.Core.Caching.DistributedCacheManager.Set()</a> e <a class="el" href="class_nop_1_1_core_1_1_caching_1_1_distributed_cache_manager.html#acf860135034b44ea0d6bfca51867bf53">Nop.Core.Caching.DistributedCacheManager.SetAsync()</a>.</p>
+
+</div>
+</div>
+<a id="a7fc74559c3d033ed2bb6e2a9b849d709"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7fc74559c3d033ed2bb6e2a9b849d709">&#9670;&nbsp;</a></span>_perRequestCache</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">readonly <a class="el" href="class_nop_1_1_core_1_1_caching_1_1_distributed_cache_manager_1_1_per_request_cache.html">PerRequestCache</a> Nop.Core.Caching.DistributedCacheManager._perRequestCache</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">Referenciado por <a class="el" href="class_nop_1_1_core_1_1_caching_1_1_distributed_cache_manager.html#a31b37ff5f3a9cbbe17618da7731d8dd7">Nop.Core.Caching.DistributedCacheManager.ClearAsync()</a>, <a class="el" href="class_nop_1_1_core_1_1_caching_1_1_distributed_cache_manager.html#a8c37302304b01ae233477f36c23ec312">Nop.Core.Caching.DistributedCacheManager.DistributedCacheManager()</a>, <a class="el" href="class_nop_1_1_core_1_1_caching_1_1_distributed_cache_manager.html#a28a20c13058df907f823eac5f94fa7f5">Nop.Core.Caching.DistributedCacheManager.Get&lt; T &gt;()</a>, <a class="el" href="class_nop_1_1_core_1_1_caching_1_1_distributed_cache_manager.html#a4b6b4402f71c8d24bcd8dbc26d70494c">Nop.Core.Caching.DistributedCacheManager.GetAsync&lt; T &gt;()</a>, <a class="el" href="class_nop_1_1_core_1_1_caching_1_1_distributed_cache_manager.html#a744376480635dae44f8b48f8e82f2de8">Nop.Core.Caching.DistributedCacheManager.RemoveAsync()</a>, <a class="el" href="class_nop_1_1_core_1_1_caching_1_1_distributed_cache_manager.html#a12c2882bcb5d830b025a27293918340d">Nop.Core.Caching.DistributedCacheManager.RemoveByPrefixAsync()</a>, <a class="el" href="class_nop_1_1_core_1_1_caching_1_1_distributed_cache_manager.html#af6ef39326aa5b07a3e49a2112e5acb67">Nop.Core.Caching.DistributedCacheManager.Set()</a>, <a class="el" href="class_nop_1_1_core_1_1_caching_1_1_distributed_cache_manager.html#acf860135034b44ea0d6bfca51867bf53">Nop.Core.Caching.DistributedCacheManager.SetAsync()</a> e <a class="el" href="class_nop_1_1_core_1_1_caching_1_1_distributed_cache_manager.html#ac29ed5b944e3b64beb445d5f985b1fa1">Nop.Core.Caching.DistributedCacheManager.TryGetItemAsync&lt; T &gt;()</a>.</p>
+
+</div>
+</div>
+<a id="a9796440f6911b2988d008abbad1083c0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9796440f6911b2988d008abbad1083c0">&#9670;&nbsp;</a></span>isSet</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Nop.Core.Caching.DistributedCacheManager.isSet</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Try to get the cached item </p>
+<dl class="tparams"><dt>Parâmetros de template</dt><dd>
+  <table class="tparams">
+    <tr><td class="paramname">T</td><td>Type of cached item</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="params"><dt>Parâmetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">key</td><td>Cache key</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Retorna</dt><dd>Flag which indicate is the key exists in the cache, cached item or default value</dd></dl>
+
+<p class="reference">Referenciado por <a class="el" href="class_nop_1_1_core_1_1_caching_1_1_distributed_cache_manager.html#a28a20c13058df907f823eac5f94fa7f5">Nop.Core.Caching.DistributedCacheManager.Get&lt; T &gt;()</a> e <a class="el" href="class_nop_1_1_core_1_1_caching_1_1_distributed_cache_manager.html#a4b6b4402f71c8d24bcd8dbc26d70494c">Nop.Core.Caching.DistributedCacheManager.GetAsync&lt; T &gt;()</a>.</p>
+
+</div>
+</div>
+<hr/>A documentação para esta classe foi gerada a partir do seguinte ficheiro:<ul>
+<li>C:/Users/gabri/Documents/Projetos/GitHub/Estudos/Nopcommercer plugin/nopCommerce_4.40.3_Source - Copia/src/Libraries/Nop.Core/Caching/<a class="el" href="_distributed_cache_manager_8cs.html">DistributedCacheManager.cs</a></li>
+</ul>
+</div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Gerado por&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1
+</small></address>
+</body>
+</html>

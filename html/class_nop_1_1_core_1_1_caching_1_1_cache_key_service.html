@@ -1,0 +1,548 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.9.1"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>NopCommerce 4.40: Referência à classe Nop.Core.Caching.CacheKeyService</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectlogo"><img alt="Logo" src="download.png"/></td>
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">NopCommerce 4.40
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Gerado por Doxygen 1.9.1 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+var searchBox = new SearchBox("searchBox", "search",false,'Localizar','.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(function() {
+  initMenu('',true,false,'search.php','Localizar');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */</script>
+<div id="main-nav"></div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="namespace_nop.html">Nop</a></li><li class="navelem"><a class="el" href="namespace_nop_1_1_core.html">Core</a></li><li class="navelem"><a class="el" href="namespace_nop_1_1_core_1_1_caching.html">Caching</a></li><li class="navelem"><a class="el" href="class_nop_1_1_core_1_1_caching_1_1_cache_key_service.html">CacheKeyService</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">Membros públicos</a> &#124;
+<a href="#pro-methods">Membros protegidos</a> &#124;
+<a href="#pro-attribs">Atributos Protegidos</a> &#124;
+<a href="#properties">Propriedades</a> &#124;
+<a href="class_nop_1_1_core_1_1_caching_1_1_cache_key_service-members.html">Mostrar lista completa dos membros</a>  </div>
+  <div class="headertitle">
+<div class="title">Referência à classe Nop.Core.Caching.CacheKeyService</div>  </div>
+</div><!--header-->
+<div class="contents">
+
+<p>Represents the default cache key service implementation  
+ <a href="class_nop_1_1_core_1_1_caching_1_1_cache_key_service.html#details">Mais...</a></p>
+<div class="dynheader">
+Diagrama de heranças da classe Nop.Core.Caching.CacheKeyService</div>
+<div class="dyncontent">
+ <div class="center">
+  <img src="class_nop_1_1_core_1_1_caching_1_1_cache_key_service.png" usemap="#Nop.Core.Caching.CacheKeyService_map" alt=""/>
+  <map id="Nop.Core.Caching.CacheKeyService_map" name="Nop.Core.Caching.CacheKeyService_map">
+<area href="class_nop_1_1_core_1_1_caching_1_1_distributed_cache_manager.html" title="Represents a distributed cache" alt="Nop.Core.Caching.DistributedCacheManager" shape="rect" coords="0,56,270,80"/>
+<area href="class_nop_1_1_core_1_1_caching_1_1_memory_cache_manager.html" title="Represents a memory cache manager" alt="Nop.Core.Caching.MemoryCacheManager" shape="rect" coords="280,56,550,80"/>
+  </map>
+</div></div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Membros públicos</h2></td></tr>
+<tr class="memitem:a35340b0e9e07404dacb6b4397f66f8fd"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="class_nop_1_1_core_1_1_caching_1_1_cache_key.html">CacheKey</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_nop_1_1_core_1_1_caching_1_1_cache_key_service.html#a35340b0e9e07404dacb6b4397f66f8fd">PrepareKey</a> (<a class="el" href="class_nop_1_1_core_1_1_caching_1_1_cache_key.html">CacheKey</a> cacheKey, params object[] cacheKeyParameters)</td></tr>
+<tr class="memdesc:a35340b0e9e07404dacb6b4397f66f8fd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create a copy of cache key and fills it by passed parameters  <a href="class_nop_1_1_core_1_1_caching_1_1_cache_key_service.html#a35340b0e9e07404dacb6b4397f66f8fd">Mais...</a><br /></td></tr>
+<tr class="separator:a35340b0e9e07404dacb6b4397f66f8fd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a772f4bf4c42c409d1f57336253d91e3e"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="class_nop_1_1_core_1_1_caching_1_1_cache_key.html">CacheKey</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_nop_1_1_core_1_1_caching_1_1_cache_key_service.html#a772f4bf4c42c409d1f57336253d91e3e">PrepareKeyForDefaultCache</a> (<a class="el" href="class_nop_1_1_core_1_1_caching_1_1_cache_key.html">CacheKey</a> cacheKey, params object[] cacheKeyParameters)</td></tr>
+<tr class="memdesc:a772f4bf4c42c409d1f57336253d91e3e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create a copy of cache key using the default cache time and fills it by passed parameters  <a href="class_nop_1_1_core_1_1_caching_1_1_cache_key_service.html#a772f4bf4c42c409d1f57336253d91e3e">Mais...</a><br /></td></tr>
+<tr class="separator:a772f4bf4c42c409d1f57336253d91e3e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab1340c974cbf883e4332d46bf8d1e0bc"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="class_nop_1_1_core_1_1_caching_1_1_cache_key.html">CacheKey</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_nop_1_1_core_1_1_caching_1_1_cache_key_service.html#ab1340c974cbf883e4332d46bf8d1e0bc">PrepareKeyForShortTermCache</a> (<a class="el" href="class_nop_1_1_core_1_1_caching_1_1_cache_key.html">CacheKey</a> cacheKey, params object[] cacheKeyParameters)</td></tr>
+<tr class="memdesc:ab1340c974cbf883e4332d46bf8d1e0bc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create a copy of cache key using the short cache time and fills it by passed parameters  <a href="class_nop_1_1_core_1_1_caching_1_1_cache_key_service.html#ab1340c974cbf883e4332d46bf8d1e0bc">Mais...</a><br /></td></tr>
+<tr class="separator:ab1340c974cbf883e4332d46bf8d1e0bc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
+Membros protegidos</h2></td></tr>
+<tr class="memitem:a455a6d0ddf132bcc75cc45b5988a45c7"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_nop_1_1_core_1_1_caching_1_1_cache_key_service.html#a455a6d0ddf132bcc75cc45b5988a45c7">CacheKeyService</a> (<a class="el" href="class_nop_1_1_core_1_1_configuration_1_1_app_settings.html">AppSettings</a> appSettings)</td></tr>
+<tr class="separator:a455a6d0ddf132bcc75cc45b5988a45c7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aca13927df0c197ca6c10fee54095b611"><td class="memItemLeft" align="right" valign="top">virtual string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_nop_1_1_core_1_1_caching_1_1_cache_key_service.html#aca13927df0c197ca6c10fee54095b611">PrepareKeyPrefix</a> (string prefix, params object[] prefixParameters)</td></tr>
+<tr class="memdesc:aca13927df0c197ca6c10fee54095b611"><td class="mdescLeft">&#160;</td><td class="mdescRight">Prepare the cache key prefix  <a href="class_nop_1_1_core_1_1_caching_1_1_cache_key_service.html#aca13927df0c197ca6c10fee54095b611">Mais...</a><br /></td></tr>
+<tr class="separator:aca13927df0c197ca6c10fee54095b611"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a188945b10693a687d5fff51fc3722ed4"><td class="memItemLeft" align="right" valign="top">virtual string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_nop_1_1_core_1_1_caching_1_1_cache_key_service.html#a188945b10693a687d5fff51fc3722ed4">CreateIdsHash</a> (IEnumerable&lt; int &gt; ids)</td></tr>
+<tr class="memdesc:a188945b10693a687d5fff51fc3722ed4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create the hash value of the passed identifiers  <a href="class_nop_1_1_core_1_1_caching_1_1_cache_key_service.html#a188945b10693a687d5fff51fc3722ed4">Mais...</a><br /></td></tr>
+<tr class="separator:a188945b10693a687d5fff51fc3722ed4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1eda71014c72ebca83f38a6e9dfae0ab"><td class="memItemLeft" align="right" valign="top">virtual object&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_nop_1_1_core_1_1_caching_1_1_cache_key_service.html#a1eda71014c72ebca83f38a6e9dfae0ab">CreateCacheKeyParameters</a> (object parameter)</td></tr>
+<tr class="memdesc:a1eda71014c72ebca83f38a6e9dfae0ab"><td class="mdescLeft">&#160;</td><td class="mdescRight">Converts an object to cache parameter  <a href="class_nop_1_1_core_1_1_caching_1_1_cache_key_service.html#a1eda71014c72ebca83f38a6e9dfae0ab">Mais...</a><br /></td></tr>
+<tr class="separator:a1eda71014c72ebca83f38a6e9dfae0ab"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
+Atributos Protegidos</h2></td></tr>
+<tr class="memitem:aa77983c7bf57427020db514e7a886993"><td class="memItemLeft" align="right" valign="top">readonly <a class="el" href="class_nop_1_1_core_1_1_configuration_1_1_app_settings.html">AppSettings</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_nop_1_1_core_1_1_caching_1_1_cache_key_service.html#aa77983c7bf57427020db514e7a886993">_appSettings</a></td></tr>
+<tr class="separator:aa77983c7bf57427020db514e7a886993"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="properties"></a>
+Propriedades</h2></td></tr>
+<tr class="memitem:a1dd50b01e5d0230bf62b2e742f2d7621"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_nop_1_1_core_1_1_caching_1_1_cache_key_service.html#a1dd50b01e5d0230bf62b2e742f2d7621">HashAlgorithm</a><code> [get]</code></td></tr>
+<tr class="memdesc:a1dd50b01e5d0230bf62b2e742f2d7621"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets an algorithm used to create the hash value of identifiers need to cache  <a href="class_nop_1_1_core_1_1_caching_1_1_cache_key_service.html#a1dd50b01e5d0230bf62b2e742f2d7621">Mais...</a><br /></td></tr>
+<tr class="separator:a1dd50b01e5d0230bf62b2e742f2d7621"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Descrição detalhada</h2>
+<div class="textblock"><p>Represents the default cache key service implementation </p>
+</div><h2 class="groupheader">Documentação dos Construtores &amp; Destrutor</h2>
+<a id="a455a6d0ddf132bcc75cc45b5988a45c7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a455a6d0ddf132bcc75cc45b5988a45c7">&#9670;&nbsp;</a></span>CacheKeyService()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Nop.Core.Caching.CacheKeyService.CacheKeyService </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_nop_1_1_core_1_1_configuration_1_1_app_settings.html">AppSettings</a>&#160;</td>
+          <td class="paramname"><em>appSettings</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;        {</div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;            <a class="code" href="class_nop_1_1_core_1_1_caching_1_1_cache_key_service.html#aa77983c7bf57427020db514e7a886993">_appSettings</a> = appSettings;</div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;        }</div>
+<div class="ttc" id="aclass_nop_1_1_core_1_1_caching_1_1_cache_key_service_html_aa77983c7bf57427020db514e7a886993"><div class="ttname"><a href="class_nop_1_1_core_1_1_caching_1_1_cache_key_service.html#aa77983c7bf57427020db514e7a886993">Nop.Core.Caching.CacheKeyService._appSettings</a></div><div class="ttdeci">readonly AppSettings _appSettings</div><div class="ttdef"><b>Definition:</b> CacheKeyService.cs:25</div></div>
+</div><!-- fragment -->
+<p class="reference">Referências <a class="el" href="class_nop_1_1_core_1_1_caching_1_1_cache_key_service.html#aa77983c7bf57427020db514e7a886993">Nop.Core.Caching.CacheKeyService._appSettings</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">Documentação dos métodos</h2>
+<a id="a1eda71014c72ebca83f38a6e9dfae0ab"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1eda71014c72ebca83f38a6e9dfae0ab">&#9670;&nbsp;</a></span>CreateCacheKeyParameters()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual object Nop.Core.Caching.CacheKeyService.CreateCacheKeyParameters </td>
+          <td>(</td>
+          <td class="paramtype">object&#160;</td>
+          <td class="paramname"><em>parameter</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Converts an object to cache parameter </p>
+<dl class="params"><dt>Parâmetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">parameter</td><td>Object to convert</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Retorna</dt><dd>Cache parameter</dd></dl>
+<div class="fragment"><div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;        {</div>
+<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;            <span class="keywordflow">return</span> parameter <span class="keywordflow">switch</span></div>
+<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;            {</div>
+<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;                <span class="keyword">null</span> =&gt; <span class="stringliteral">&quot;null&quot;</span>,</div>
+<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;                IEnumerable&lt;int&gt; ids =&gt; <a class="code" href="class_nop_1_1_core_1_1_caching_1_1_cache_key_service.html#a188945b10693a687d5fff51fc3722ed4">CreateIdsHash</a>(ids),</div>
+<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;                IEnumerable&lt;BaseEntity&gt; entities =&gt; <a class="code" href="class_nop_1_1_core_1_1_caching_1_1_cache_key_service.html#a188945b10693a687d5fff51fc3722ed4">CreateIdsHash</a>(entities.Select(entity =&gt; entity.Id)),</div>
+<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;                BaseEntity entity =&gt; entity.Id,</div>
+<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;                decimal param =&gt; param.ToString(CultureInfo.InvariantCulture),</div>
+<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;                _ =&gt; parameter</div>
+<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;            };</div>
+<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;        }</div>
+<div class="ttc" id="aclass_nop_1_1_core_1_1_caching_1_1_cache_key_service_html_a188945b10693a687d5fff51fc3722ed4"><div class="ttname"><a href="class_nop_1_1_core_1_1_caching_1_1_cache_key_service.html#a188945b10693a687d5fff51fc3722ed4">Nop.Core.Caching.CacheKeyService.CreateIdsHash</a></div><div class="ttdeci">virtual string CreateIdsHash(IEnumerable&lt; int &gt; ids)</div><div class="ttdoc">Create the hash value of the passed identifiers</div><div class="ttdef"><b>Definition:</b> CacheKeyService.cs:57</div></div>
+</div><!-- fragment -->
+<p class="reference">Referências <a class="el" href="class_nop_1_1_core_1_1_caching_1_1_cache_key_service.html#a188945b10693a687d5fff51fc3722ed4">Nop.Core.Caching.CacheKeyService.CreateIdsHash()</a> e <a class="el" href="class_nop_1_1_core_1_1_base_entity.html#a6908f7c042a024f82d7e7947e75bca53">Nop.Core.BaseEntity.Id</a>.</p>
+
+<p class="reference">Referenciado por <a class="el" href="class_nop_1_1_core_1_1_caching_1_1_cache_key_service.html#a35340b0e9e07404dacb6b4397f66f8fd">Nop.Core.Caching.CacheKeyService.PrepareKey()</a>, <a class="el" href="class_nop_1_1_core_1_1_caching_1_1_cache_key_service.html#a772f4bf4c42c409d1f57336253d91e3e">Nop.Core.Caching.CacheKeyService.PrepareKeyForDefaultCache()</a>, <a class="el" href="class_nop_1_1_core_1_1_caching_1_1_cache_key_service.html#ab1340c974cbf883e4332d46bf8d1e0bc">Nop.Core.Caching.CacheKeyService.PrepareKeyForShortTermCache()</a> e <a class="el" href="class_nop_1_1_core_1_1_caching_1_1_cache_key_service.html#aca13927df0c197ca6c10fee54095b611">Nop.Core.Caching.CacheKeyService.PrepareKeyPrefix()</a>.</p>
+
+</div>
+</div>
+<a id="a188945b10693a687d5fff51fc3722ed4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a188945b10693a687d5fff51fc3722ed4">&#9670;&nbsp;</a></span>CreateIdsHash()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual string Nop.Core.Caching.CacheKeyService.CreateIdsHash </td>
+          <td>(</td>
+          <td class="paramtype">IEnumerable&lt; int &gt;&#160;</td>
+          <td class="paramname"><em>ids</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Create the hash value of the passed identifiers </p>
+<dl class="params"><dt>Parâmetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">ids</td><td>Collection of identifiers</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Retorna</dt><dd>String hash value</dd></dl>
+<div class="fragment"><div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;        {</div>
+<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;            var identifiers = ids.ToList();</div>
+<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160; </div>
+<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;            <span class="keywordflow">if</span> (!identifiers.Any())</div>
+<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;                <span class="keywordflow">return</span> <span class="keywordtype">string</span>.Empty;</div>
+<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160; </div>
+<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;            var identifiersString = <span class="keywordtype">string</span>.Join(<span class="stringliteral">&quot;, &quot;</span>, identifiers.OrderBy(<span class="keywordtype">id</span> =&gt; <span class="keywordtype">id</span>));</div>
+<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;            <span class="keywordflow">return</span> HashHelper.CreateHash(Encoding.UTF8.GetBytes(identifiersString), <a class="code" href="class_nop_1_1_core_1_1_caching_1_1_cache_key_service.html#a1dd50b01e5d0230bf62b2e742f2d7621">HashAlgorithm</a>);</div>
+<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;        }</div>
+<div class="ttc" id="aclass_nop_1_1_core_1_1_caching_1_1_cache_key_service_html_a1dd50b01e5d0230bf62b2e742f2d7621"><div class="ttname"><a href="class_nop_1_1_core_1_1_caching_1_1_cache_key_service.html#a1dd50b01e5d0230bf62b2e742f2d7621">Nop.Core.Caching.CacheKeyService.HashAlgorithm</a></div><div class="ttdeci">string HashAlgorithm</div><div class="ttdoc">Gets an algorithm used to create the hash value of identifiers need to cache</div><div class="ttdef"><b>Definition:</b> CacheKeyService.cs:19</div></div>
+</div><!-- fragment -->
+<p class="reference">Referências <a class="el" href="class_nop_1_1_core_1_1_hash_helper.html#aca165fd0dc75f127b20c864d64ec02ef">Nop.Core.HashHelper.CreateHash()</a> e <a class="el" href="class_nop_1_1_core_1_1_caching_1_1_cache_key_service.html#a1dd50b01e5d0230bf62b2e742f2d7621">Nop.Core.Caching.CacheKeyService.HashAlgorithm</a>.</p>
+
+<p class="reference">Referenciado por <a class="el" href="class_nop_1_1_core_1_1_caching_1_1_cache_key_service.html#a1eda71014c72ebca83f38a6e9dfae0ab">Nop.Core.Caching.CacheKeyService.CreateCacheKeyParameters()</a>.</p>
+
+</div>
+</div>
+<a id="a35340b0e9e07404dacb6b4397f66f8fd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a35340b0e9e07404dacb6b4397f66f8fd">&#9670;&nbsp;</a></span>PrepareKey()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="class_nop_1_1_core_1_1_caching_1_1_cache_key.html">CacheKey</a> Nop.Core.Caching.CacheKeyService.PrepareKey </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_nop_1_1_core_1_1_caching_1_1_cache_key.html">CacheKey</a>&#160;</td>
+          <td class="paramname"><em>cacheKey</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">params object[]&#160;</td>
+          <td class="paramname"><em>cacheKeyParameters</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Create a copy of cache key and fills it by passed parameters </p>
+<dl class="params"><dt>Parâmetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">cacheKey</td><td>Initial cache key</td></tr>
+    <tr><td class="paramname">cacheKeyParameters</td><td>Parameters to create cache key</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Retorna</dt><dd>Cache key</dd></dl>
+<div class="fragment"><div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;        {</div>
+<div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;            <span class="keywordflow">return</span> cacheKey.Create(<a class="code" href="class_nop_1_1_core_1_1_caching_1_1_cache_key_service.html#a1eda71014c72ebca83f38a6e9dfae0ab">CreateCacheKeyParameters</a>, cacheKeyParameters);</div>
+<div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;        }</div>
+<div class="ttc" id="aclass_nop_1_1_core_1_1_caching_1_1_cache_key_service_html_a1eda71014c72ebca83f38a6e9dfae0ab"><div class="ttname"><a href="class_nop_1_1_core_1_1_caching_1_1_cache_key_service.html#a1eda71014c72ebca83f38a6e9dfae0ab">Nop.Core.Caching.CacheKeyService.CreateCacheKeyParameters</a></div><div class="ttdeci">virtual object CreateCacheKeyParameters(object parameter)</div><div class="ttdoc">Converts an object to cache parameter</div><div class="ttdef"><b>Definition:</b> CacheKeyService.cs:73</div></div>
+</div><!-- fragment -->
+<p class="reference">Referências <a class="el" href="class_nop_1_1_core_1_1_caching_1_1_cache_key.html#a6769d7c46ac6a50006f0678e57db3b11">Nop.Core.Caching.CacheKey.Create()</a> e <a class="el" href="class_nop_1_1_core_1_1_caching_1_1_cache_key_service.html#a1eda71014c72ebca83f38a6e9dfae0ab">Nop.Core.Caching.CacheKeyService.CreateCacheKeyParameters()</a>.</p>
+
+<p class="reference">Referenciado por <a class="el" href="class_nop_1_1_core_1_1_caching_1_1_memory_cache_manager.html#a80448ba9247442e77ce0433bbda4c3d0">Nop.Core.Caching.MemoryCacheManager.Remove()</a> e <a class="el" href="class_nop_1_1_core_1_1_caching_1_1_distributed_cache_manager.html#a744376480635dae44f8b48f8e82f2de8">Nop.Core.Caching.DistributedCacheManager.RemoveAsync()</a>.</p>
+
+</div>
+</div>
+<a id="a772f4bf4c42c409d1f57336253d91e3e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a772f4bf4c42c409d1f57336253d91e3e">&#9670;&nbsp;</a></span>PrepareKeyForDefaultCache()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="class_nop_1_1_core_1_1_caching_1_1_cache_key.html">CacheKey</a> Nop.Core.Caching.CacheKeyService.PrepareKeyForDefaultCache </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_nop_1_1_core_1_1_caching_1_1_cache_key.html">CacheKey</a>&#160;</td>
+          <td class="paramname"><em>cacheKey</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">params object[]&#160;</td>
+          <td class="paramname"><em>cacheKeyParameters</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Create a copy of cache key using the default cache time and fills it by passed parameters </p>
+<dl class="params"><dt>Parâmetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">cacheKey</td><td>Initial cache key</td></tr>
+    <tr><td class="paramname">cacheKeyParameters</td><td>Parameters to create cache key</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Retorna</dt><dd>Cache key</dd></dl>
+<div class="fragment"><div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;        {</div>
+<div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160;            var key = cacheKey.Create(<a class="code" href="class_nop_1_1_core_1_1_caching_1_1_cache_key_service.html#a1eda71014c72ebca83f38a6e9dfae0ab">CreateCacheKeyParameters</a>, cacheKeyParameters);</div>
+<div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160; </div>
+<div class="line"><a name="l00111"></a><span class="lineno">  111</span>&#160;            key.CacheTime = <a class="code" href="class_nop_1_1_core_1_1_caching_1_1_cache_key_service.html#aa77983c7bf57427020db514e7a886993">_appSettings</a>.<a class="code" href="class_nop_1_1_core_1_1_configuration_1_1_app_settings.html#ad5a5d899d1bbaef64eb88e3b75477617">CacheConfig</a>.<a class="code" href="class_nop_1_1_core_1_1_configuration_1_1_cache_config.html#a5f4fa467bc39de8337dfb4e7526cf6f2">DefaultCacheTime</a>;</div>
+<div class="line"><a name="l00112"></a><span class="lineno">  112</span>&#160; </div>
+<div class="line"><a name="l00113"></a><span class="lineno">  113</span>&#160;            <span class="keywordflow">return</span> key;</div>
+<div class="line"><a name="l00114"></a><span class="lineno">  114</span>&#160;        }</div>
+<div class="ttc" id="aclass_nop_1_1_core_1_1_configuration_1_1_app_settings_html_ad5a5d899d1bbaef64eb88e3b75477617"><div class="ttname"><a href="class_nop_1_1_core_1_1_configuration_1_1_app_settings.html#ad5a5d899d1bbaef64eb88e3b75477617">Nop.Core.Configuration.AppSettings.CacheConfig</a></div><div class="ttdeci">CacheConfig CacheConfig</div><div class="ttdoc">Gets or sets cache configuration parameters</div><div class="ttdef"><b>Definition:</b> AppSettings.cs:17</div></div>
+<div class="ttc" id="aclass_nop_1_1_core_1_1_configuration_1_1_cache_config_html_a5f4fa467bc39de8337dfb4e7526cf6f2"><div class="ttname"><a href="class_nop_1_1_core_1_1_configuration_1_1_cache_config.html#a5f4fa467bc39de8337dfb4e7526cf6f2">Nop.Core.Configuration.CacheConfig.DefaultCacheTime</a></div><div class="ttdeci">int DefaultCacheTime</div><div class="ttdoc">Gets or sets the default cache time in minutes</div><div class="ttdef"><b>Definition:</b> CacheConfig.cs:11</div></div>
+</div><!-- fragment -->
+<p class="reference">Referências <a class="el" href="class_nop_1_1_core_1_1_caching_1_1_cache_key_service.html#aa77983c7bf57427020db514e7a886993">Nop.Core.Caching.CacheKeyService._appSettings</a>, <a class="el" href="class_nop_1_1_core_1_1_configuration_1_1_app_settings.html#ad5a5d899d1bbaef64eb88e3b75477617">Nop.Core.Configuration.AppSettings.CacheConfig</a>, <a class="el" href="class_nop_1_1_core_1_1_caching_1_1_cache_key.html#a11fc098cbf5b8afd004485bed3bb4f98">Nop.Core.Caching.CacheKey.CacheTime</a>, <a class="el" href="class_nop_1_1_core_1_1_caching_1_1_cache_key.html#a6769d7c46ac6a50006f0678e57db3b11">Nop.Core.Caching.CacheKey.Create()</a>, <a class="el" href="class_nop_1_1_core_1_1_caching_1_1_cache_key_service.html#a1eda71014c72ebca83f38a6e9dfae0ab">Nop.Core.Caching.CacheKeyService.CreateCacheKeyParameters()</a> e <a class="el" href="class_nop_1_1_core_1_1_configuration_1_1_cache_config.html#a5f4fa467bc39de8337dfb4e7526cf6f2">Nop.Core.Configuration.CacheConfig.DefaultCacheTime</a>.</p>
+
+</div>
+</div>
+<a id="ab1340c974cbf883e4332d46bf8d1e0bc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab1340c974cbf883e4332d46bf8d1e0bc">&#9670;&nbsp;</a></span>PrepareKeyForShortTermCache()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="class_nop_1_1_core_1_1_caching_1_1_cache_key.html">CacheKey</a> Nop.Core.Caching.CacheKeyService.PrepareKeyForShortTermCache </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_nop_1_1_core_1_1_caching_1_1_cache_key.html">CacheKey</a>&#160;</td>
+          <td class="paramname"><em>cacheKey</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">params object[]&#160;</td>
+          <td class="paramname"><em>cacheKeyParameters</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Create a copy of cache key using the short cache time and fills it by passed parameters </p>
+<dl class="params"><dt>Parâmetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">cacheKey</td><td>Initial cache key</td></tr>
+    <tr><td class="paramname">cacheKeyParameters</td><td>Parameters to create cache key</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Retorna</dt><dd>Cache key</dd></dl>
+<div class="fragment"><div class="line"><a name="l00123"></a><span class="lineno">  123</span>&#160;        {</div>
+<div class="line"><a name="l00124"></a><span class="lineno">  124</span>&#160;            var key = cacheKey.Create(<a class="code" href="class_nop_1_1_core_1_1_caching_1_1_cache_key_service.html#a1eda71014c72ebca83f38a6e9dfae0ab">CreateCacheKeyParameters</a>, cacheKeyParameters);</div>
+<div class="line"><a name="l00125"></a><span class="lineno">  125</span>&#160; </div>
+<div class="line"><a name="l00126"></a><span class="lineno">  126</span>&#160;            key.CacheTime = <a class="code" href="class_nop_1_1_core_1_1_caching_1_1_cache_key_service.html#aa77983c7bf57427020db514e7a886993">_appSettings</a>.<a class="code" href="class_nop_1_1_core_1_1_configuration_1_1_app_settings.html#ad5a5d899d1bbaef64eb88e3b75477617">CacheConfig</a>.<a class="code" href="class_nop_1_1_core_1_1_configuration_1_1_cache_config.html#a8ecde8a35104d8cbe80b84ec942e94ff">ShortTermCacheTime</a>;</div>
+<div class="line"><a name="l00127"></a><span class="lineno">  127</span>&#160; </div>
+<div class="line"><a name="l00128"></a><span class="lineno">  128</span>&#160;            <span class="keywordflow">return</span> key;</div>
+<div class="line"><a name="l00129"></a><span class="lineno">  129</span>&#160;        }</div>
+<div class="ttc" id="aclass_nop_1_1_core_1_1_configuration_1_1_cache_config_html_a8ecde8a35104d8cbe80b84ec942e94ff"><div class="ttname"><a href="class_nop_1_1_core_1_1_configuration_1_1_cache_config.html#a8ecde8a35104d8cbe80b84ec942e94ff">Nop.Core.Configuration.CacheConfig.ShortTermCacheTime</a></div><div class="ttdeci">int ShortTermCacheTime</div><div class="ttdoc">Gets or sets the short term cache time in minutes</div><div class="ttdef"><b>Definition:</b> CacheConfig.cs:16</div></div>
+</div><!-- fragment -->
+<p class="reference">Referências <a class="el" href="class_nop_1_1_core_1_1_caching_1_1_cache_key_service.html#aa77983c7bf57427020db514e7a886993">Nop.Core.Caching.CacheKeyService._appSettings</a>, <a class="el" href="class_nop_1_1_core_1_1_configuration_1_1_app_settings.html#ad5a5d899d1bbaef64eb88e3b75477617">Nop.Core.Configuration.AppSettings.CacheConfig</a>, <a class="el" href="class_nop_1_1_core_1_1_caching_1_1_cache_key.html#a11fc098cbf5b8afd004485bed3bb4f98">Nop.Core.Caching.CacheKey.CacheTime</a>, <a class="el" href="class_nop_1_1_core_1_1_caching_1_1_cache_key.html#a6769d7c46ac6a50006f0678e57db3b11">Nop.Core.Caching.CacheKey.Create()</a>, <a class="el" href="class_nop_1_1_core_1_1_caching_1_1_cache_key_service.html#a1eda71014c72ebca83f38a6e9dfae0ab">Nop.Core.Caching.CacheKeyService.CreateCacheKeyParameters()</a> e <a class="el" href="class_nop_1_1_core_1_1_configuration_1_1_cache_config.html#a8ecde8a35104d8cbe80b84ec942e94ff">Nop.Core.Configuration.CacheConfig.ShortTermCacheTime</a>.</p>
+
+</div>
+</div>
+<a id="aca13927df0c197ca6c10fee54095b611"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aca13927df0c197ca6c10fee54095b611">&#9670;&nbsp;</a></span>PrepareKeyPrefix()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual string Nop.Core.Caching.CacheKeyService.PrepareKeyPrefix </td>
+          <td>(</td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>prefix</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">params object[]&#160;</td>
+          <td class="paramname"><em>prefixParameters</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Prepare the cache key prefix </p>
+<dl class="params"><dt>Parâmetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">prefix</td><td>Cache key prefix</td></tr>
+    <tr><td class="paramname">prefixParameters</td><td>Parameters to create cache key prefix</td></tr>
+  </table>
+  </dd>
+</dl>
+<div class="fragment"><div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;        {</div>
+<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;            <span class="keywordflow">return</span> prefixParameters?.Any() ?? <span class="keyword">false</span></div>
+<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;                ? <span class="keywordtype">string</span>.Format(prefix, prefixParameters.Select(<a class="code" href="class_nop_1_1_core_1_1_caching_1_1_cache_key_service.html#a1eda71014c72ebca83f38a6e9dfae0ab">CreateCacheKeyParameters</a>).ToArray())</div>
+<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;                : prefix;</div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;        }</div>
+</div><!-- fragment -->
+<p class="reference">Referências <a class="el" href="class_nop_1_1_core_1_1_caching_1_1_cache_key_service.html#a1eda71014c72ebca83f38a6e9dfae0ab">Nop.Core.Caching.CacheKeyService.CreateCacheKeyParameters()</a>.</p>
+
+<p class="reference">Referenciado por <a class="el" href="class_nop_1_1_core_1_1_caching_1_1_distributed_cache_manager.html#a12c2882bcb5d830b025a27293918340d">Nop.Core.Caching.DistributedCacheManager.RemoveByPrefixAsync()</a> e <a class="el" href="class_nop_1_1_core_1_1_caching_1_1_memory_cache_manager.html#a498713fa3a418128b08af8bc4ad8d5b2">Nop.Core.Caching.MemoryCacheManager.RemoveByPrefixAsync()</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">Documentação dos dados membro</h2>
+<a id="aa77983c7bf57427020db514e7a886993"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa77983c7bf57427020db514e7a886993">&#9670;&nbsp;</a></span>_appSettings</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">readonly <a class="el" href="class_nop_1_1_core_1_1_configuration_1_1_app_settings.html">AppSettings</a> Nop.Core.Caching.CacheKeyService._appSettings</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">Referenciado por <a class="el" href="class_nop_1_1_core_1_1_caching_1_1_cache_key_service.html#a455a6d0ddf132bcc75cc45b5988a45c7">Nop.Core.Caching.CacheKeyService.CacheKeyService()</a>, <a class="el" href="class_nop_1_1_core_1_1_caching_1_1_cache_key_service.html#a772f4bf4c42c409d1f57336253d91e3e">Nop.Core.Caching.CacheKeyService.PrepareKeyForDefaultCache()</a> e <a class="el" href="class_nop_1_1_core_1_1_caching_1_1_cache_key_service.html#ab1340c974cbf883e4332d46bf8d1e0bc">Nop.Core.Caching.CacheKeyService.PrepareKeyForShortTermCache()</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">Documentação das propriedades</h2>
+<a id="a1dd50b01e5d0230bf62b2e742f2d7621"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1dd50b01e5d0230bf62b2e742f2d7621">&#9670;&nbsp;</a></span>HashAlgorithm</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">string Nop.Core.Caching.CacheKeyService.HashAlgorithm</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Gets an algorithm used to create the hash value of identifiers need to cache </p>
+
+<p class="reference">Referenciado por <a class="el" href="class_nop_1_1_core_1_1_caching_1_1_cache_key_service.html#a188945b10693a687d5fff51fc3722ed4">Nop.Core.Caching.CacheKeyService.CreateIdsHash()</a>.</p>
+
+</div>
+</div>
+<hr/>A documentação para esta classe foi gerada a partir do seguinte ficheiro:<ul>
+<li>C:/Users/gabri/Documents/Projetos/GitHub/Estudos/Nopcommercer plugin/nopCommerce_4.40.3_Source - Copia/src/Libraries/Nop.Core/Caching/<a class="el" href="_cache_key_service_8cs.html">CacheKeyService.cs</a></li>
+</ul>
+</div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Gerado por&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1
+</small></address>
+</body>
+</html>

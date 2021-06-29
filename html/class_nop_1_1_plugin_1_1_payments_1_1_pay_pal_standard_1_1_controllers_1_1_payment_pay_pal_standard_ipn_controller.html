@@ -1,0 +1,683 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.9.1"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>NopCommerce 4.40: Referência à classe Nop.Plugin.Payments.PayPalStandard.Controllers.PaymentPayPalStandardIpnController</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectlogo"><img alt="Logo" src="download.png"/></td>
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">NopCommerce 4.40
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Gerado por Doxygen 1.9.1 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+var searchBox = new SearchBox("searchBox", "search",false,'Localizar','.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(function() {
+  initMenu('',true,false,'search.php','Localizar');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */</script>
+<div id="main-nav"></div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="namespace_nop.html">Nop</a></li><li class="navelem"><a class="el" href="namespace_nop_1_1_plugin.html">Plugin</a></li><li class="navelem"><a class="el" href="namespace_nop_1_1_plugin_1_1_payments.html">Payments</a></li><li class="navelem"><a class="el" href="namespace_nop_1_1_plugin_1_1_payments_1_1_pay_pal_standard.html">PayPalStandard</a></li><li class="navelem"><a class="el" href="namespace_nop_1_1_plugin_1_1_payments_1_1_pay_pal_standard_1_1_controllers.html">Controllers</a></li><li class="navelem"><a class="el" href="class_nop_1_1_plugin_1_1_payments_1_1_pay_pal_standard_1_1_controllers_1_1_payment_pay_pal_standard_ipn_controller.html">PaymentPayPalStandardIpnController</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">Membros públicos</a> &#124;
+<a href="#pro-methods">Membros protegidos</a> &#124;
+<a href="#pri-attribs">Atributos Privados</a> &#124;
+<a href="class_nop_1_1_plugin_1_1_payments_1_1_pay_pal_standard_1_1_controllers_1_1_payment_pay_pal_standard_ipn_controller-members.html">Mostrar lista completa dos membros</a>  </div>
+  <div class="headertitle">
+<div class="title">Referência à classe Nop.Plugin.Payments.PayPalStandard.Controllers.PaymentPayPalStandardIpnController</div>  </div>
+</div><!--header-->
+<div class="contents">
+<div class="dynheader">
+Diagrama de heranças da classe Nop.Plugin.Payments.PayPalStandard.Controllers.PaymentPayPalStandardIpnController</div>
+<div class="dyncontent">
+ <div class="center">
+  <img src="class_nop_1_1_plugin_1_1_payments_1_1_pay_pal_standard_1_1_controllers_1_1_payment_pay_pal_standard_ipn_controller.png" alt=""/>
+ </div></div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Membros públicos</h2></td></tr>
+<tr class="memitem:ad594a5c1dc27bf46e217586fe39dfec5"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_nop_1_1_plugin_1_1_payments_1_1_pay_pal_standard_1_1_controllers_1_1_payment_pay_pal_standard_ipn_controller.html#ad594a5c1dc27bf46e217586fe39dfec5">PaymentPayPalStandardIpnController</a> (<a class="el" href="interface_nop_1_1_services_1_1_logging_1_1_i_logger.html">ILogger</a> logger, <a class="el" href="interface_nop_1_1_services_1_1_orders_1_1_i_order_processing_service.html">IOrderProcessingService</a> orderProcessingService, <a class="el" href="interface_nop_1_1_services_1_1_orders_1_1_i_order_service.html">IOrderService</a> orderService, <a class="el" href="interface_nop_1_1_services_1_1_payments_1_1_i_payment_plugin_manager.html">IPaymentPluginManager</a> paymentPluginManager)</td></tr>
+<tr class="separator:ad594a5c1dc27bf46e217586fe39dfec5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaa0201269f99c71d08ec0b14b728ead1"><td class="memItemLeft" align="right" valign="top">async <a class="el" href="_sendinblue_plugin_8cs.html#a9f49374e6bc76a6b5261e5c211d2e63d">Task</a>&lt; IActionResult &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_nop_1_1_plugin_1_1_payments_1_1_pay_pal_standard_1_1_controllers_1_1_payment_pay_pal_standard_ipn_controller.html#aaa0201269f99c71d08ec0b14b728ead1">IPNHandler</a> ()</td></tr>
+<tr class="separator:aaa0201269f99c71d08ec0b14b728ead1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
+Membros protegidos</h2></td></tr>
+<tr class="memitem:acac556567d30b9c2250e29ec431bd668"><td class="memItemLeft" align="right" valign="top">virtual async <a class="el" href="_sendinblue_plugin_8cs.html#a9f49374e6bc76a6b5261e5c211d2e63d">Task</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_nop_1_1_plugin_1_1_payments_1_1_pay_pal_standard_1_1_controllers_1_1_payment_pay_pal_standard_ipn_controller.html#acac556567d30b9c2250e29ec431bd668">ProcessRecurringPaymentAsync</a> (string invoiceId, <a class="el" href="namespace_nop_1_1_core_1_1_domain_1_1_payments.html#a5af4d422e00c0b088770533afd7d2c22">PaymentStatus</a> newPaymentStatus, string transactionId, string ipnInfo)</td></tr>
+<tr class="memdesc:acac556567d30b9c2250e29ec431bd668"><td class="mdescLeft">&#160;</td><td class="mdescRight"><dl class="section return"><dt>Retorna</dt><dd>A task that represents the asynchronous operation</dd></dl>
+ <a href="class_nop_1_1_plugin_1_1_payments_1_1_pay_pal_standard_1_1_controllers_1_1_payment_pay_pal_standard_ipn_controller.html#acac556567d30b9c2250e29ec431bd668">Mais...</a><br /></td></tr>
+<tr class="separator:acac556567d30b9c2250e29ec431bd668"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a59dcafdb5d05e7ca716ae104db48b996"><td class="memItemLeft" align="right" valign="top">virtual async <a class="el" href="_sendinblue_plugin_8cs.html#a9f49374e6bc76a6b5261e5c211d2e63d">Task</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_nop_1_1_plugin_1_1_payments_1_1_pay_pal_standard_1_1_controllers_1_1_payment_pay_pal_standard_ipn_controller.html#a59dcafdb5d05e7ca716ae104db48b996">ProcessPaymentAsync</a> (string orderNumber, string ipnInfo, <a class="el" href="namespace_nop_1_1_core_1_1_domain_1_1_payments.html#a5af4d422e00c0b088770533afd7d2c22">PaymentStatus</a> newPaymentStatus, decimal mcGross, string transactionId)</td></tr>
+<tr class="memdesc:a59dcafdb5d05e7ca716ae104db48b996"><td class="mdescLeft">&#160;</td><td class="mdescRight"><dl class="section return"><dt>Retorna</dt><dd>A task that represents the asynchronous operation</dd></dl>
+ <a href="class_nop_1_1_plugin_1_1_payments_1_1_pay_pal_standard_1_1_controllers_1_1_payment_pay_pal_standard_ipn_controller.html#a59dcafdb5d05e7ca716ae104db48b996">Mais...</a><br /></td></tr>
+<tr class="separator:a59dcafdb5d05e7ca716ae104db48b996"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
+Atributos Privados</h2></td></tr>
+<tr class="memitem:a766fad751d20379ef166282c6fa34ee2"><td class="memItemLeft" align="right" valign="top">readonly <a class="el" href="interface_nop_1_1_services_1_1_logging_1_1_i_logger.html">ILogger</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_nop_1_1_plugin_1_1_payments_1_1_pay_pal_standard_1_1_controllers_1_1_payment_pay_pal_standard_ipn_controller.html#a766fad751d20379ef166282c6fa34ee2">_logger</a></td></tr>
+<tr class="separator:a766fad751d20379ef166282c6fa34ee2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac3962c324b7ae7014106a62f05bd8d4d"><td class="memItemLeft" align="right" valign="top">readonly <a class="el" href="interface_nop_1_1_services_1_1_orders_1_1_i_order_processing_service.html">IOrderProcessingService</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_nop_1_1_plugin_1_1_payments_1_1_pay_pal_standard_1_1_controllers_1_1_payment_pay_pal_standard_ipn_controller.html#ac3962c324b7ae7014106a62f05bd8d4d">_orderProcessingService</a></td></tr>
+<tr class="separator:ac3962c324b7ae7014106a62f05bd8d4d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae46e0f0801ce3c1d3c3f879dcbd2c188"><td class="memItemLeft" align="right" valign="top">readonly <a class="el" href="interface_nop_1_1_services_1_1_orders_1_1_i_order_service.html">IOrderService</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_nop_1_1_plugin_1_1_payments_1_1_pay_pal_standard_1_1_controllers_1_1_payment_pay_pal_standard_ipn_controller.html#ae46e0f0801ce3c1d3c3f879dcbd2c188">_orderService</a></td></tr>
+<tr class="separator:ae46e0f0801ce3c1d3c3f879dcbd2c188"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af2e9f616a5fc9923b171b90f8bcb63a3"><td class="memItemLeft" align="right" valign="top">readonly <a class="el" href="interface_nop_1_1_services_1_1_payments_1_1_i_payment_plugin_manager.html">IPaymentPluginManager</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_nop_1_1_plugin_1_1_payments_1_1_pay_pal_standard_1_1_controllers_1_1_payment_pay_pal_standard_ipn_controller.html#af2e9f616a5fc9923b171b90f8bcb63a3">_paymentPluginManager</a></td></tr>
+<tr class="separator:af2e9f616a5fc9923b171b90f8bcb63a3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<h2 class="groupheader">Documentação dos Construtores &amp; Destrutor</h2>
+<a id="ad594a5c1dc27bf46e217586fe39dfec5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad594a5c1dc27bf46e217586fe39dfec5">&#9670;&nbsp;</a></span>PaymentPayPalStandardIpnController()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Nop.Plugin.Payments.PayPalStandard.Controllers.PaymentPayPalStandardIpnController.PaymentPayPalStandardIpnController </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interface_nop_1_1_services_1_1_logging_1_1_i_logger.html">ILogger</a>&#160;</td>
+          <td class="paramname"><em>logger</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="interface_nop_1_1_services_1_1_orders_1_1_i_order_processing_service.html">IOrderProcessingService</a>&#160;</td>
+          <td class="paramname"><em>orderProcessingService</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="interface_nop_1_1_services_1_1_orders_1_1_i_order_service.html">IOrderService</a>&#160;</td>
+          <td class="paramname"><em>orderService</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="interface_nop_1_1_services_1_1_payments_1_1_i_payment_plugin_manager.html">IPaymentPluginManager</a>&#160;</td>
+          <td class="paramname"><em>paymentPluginManager</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;        {</div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;            <a class="code" href="class_nop_1_1_plugin_1_1_payments_1_1_pay_pal_standard_1_1_controllers_1_1_payment_pay_pal_standard_ipn_controller.html#a766fad751d20379ef166282c6fa34ee2">_logger</a> = logger;</div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;            <a class="code" href="class_nop_1_1_plugin_1_1_payments_1_1_pay_pal_standard_1_1_controllers_1_1_payment_pay_pal_standard_ipn_controller.html#ac3962c324b7ae7014106a62f05bd8d4d">_orderProcessingService</a> = orderProcessingService;</div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;            <a class="code" href="class_nop_1_1_plugin_1_1_payments_1_1_pay_pal_standard_1_1_controllers_1_1_payment_pay_pal_standard_ipn_controller.html#ae46e0f0801ce3c1d3c3f879dcbd2c188">_orderService</a> = orderService;</div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;            <a class="code" href="class_nop_1_1_plugin_1_1_payments_1_1_pay_pal_standard_1_1_controllers_1_1_payment_pay_pal_standard_ipn_controller.html#af2e9f616a5fc9923b171b90f8bcb63a3">_paymentPluginManager</a> = paymentPluginManager;</div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;        }</div>
+<div class="ttc" id="aclass_nop_1_1_plugin_1_1_payments_1_1_pay_pal_standard_1_1_controllers_1_1_payment_pay_pal_standard_ipn_controller_html_a766fad751d20379ef166282c6fa34ee2"><div class="ttname"><a href="class_nop_1_1_plugin_1_1_payments_1_1_pay_pal_standard_1_1_controllers_1_1_payment_pay_pal_standard_ipn_controller.html#a766fad751d20379ef166282c6fa34ee2">Nop.Plugin.Payments.PayPalStandard.Controllers.PaymentPayPalStandardIpnController._logger</a></div><div class="ttdeci">readonly ILogger _logger</div><div class="ttdef"><b>Definition:</b> PaymentPayPalStandardIpnController.cs:21</div></div>
+<div class="ttc" id="aclass_nop_1_1_plugin_1_1_payments_1_1_pay_pal_standard_1_1_controllers_1_1_payment_pay_pal_standard_ipn_controller_html_ac3962c324b7ae7014106a62f05bd8d4d"><div class="ttname"><a href="class_nop_1_1_plugin_1_1_payments_1_1_pay_pal_standard_1_1_controllers_1_1_payment_pay_pal_standard_ipn_controller.html#ac3962c324b7ae7014106a62f05bd8d4d">Nop.Plugin.Payments.PayPalStandard.Controllers.PaymentPayPalStandardIpnController._orderProcessingService</a></div><div class="ttdeci">readonly IOrderProcessingService _orderProcessingService</div><div class="ttdef"><b>Definition:</b> PaymentPayPalStandardIpnController.cs:22</div></div>
+<div class="ttc" id="aclass_nop_1_1_plugin_1_1_payments_1_1_pay_pal_standard_1_1_controllers_1_1_payment_pay_pal_standard_ipn_controller_html_ae46e0f0801ce3c1d3c3f879dcbd2c188"><div class="ttname"><a href="class_nop_1_1_plugin_1_1_payments_1_1_pay_pal_standard_1_1_controllers_1_1_payment_pay_pal_standard_ipn_controller.html#ae46e0f0801ce3c1d3c3f879dcbd2c188">Nop.Plugin.Payments.PayPalStandard.Controllers.PaymentPayPalStandardIpnController._orderService</a></div><div class="ttdeci">readonly IOrderService _orderService</div><div class="ttdef"><b>Definition:</b> PaymentPayPalStandardIpnController.cs:23</div></div>
+<div class="ttc" id="aclass_nop_1_1_plugin_1_1_payments_1_1_pay_pal_standard_1_1_controllers_1_1_payment_pay_pal_standard_ipn_controller_html_af2e9f616a5fc9923b171b90f8bcb63a3"><div class="ttname"><a href="class_nop_1_1_plugin_1_1_payments_1_1_pay_pal_standard_1_1_controllers_1_1_payment_pay_pal_standard_ipn_controller.html#af2e9f616a5fc9923b171b90f8bcb63a3">Nop.Plugin.Payments.PayPalStandard.Controllers.PaymentPayPalStandardIpnController._paymentPluginManager</a></div><div class="ttdeci">readonly IPaymentPluginManager _paymentPluginManager</div><div class="ttdef"><b>Definition:</b> PaymentPayPalStandardIpnController.cs:24</div></div>
+</div><!-- fragment -->
+<p class="reference">Referências <a class="el" href="class_nop_1_1_plugin_1_1_payments_1_1_pay_pal_standard_1_1_controllers_1_1_payment_pay_pal_standard_ipn_controller.html#a766fad751d20379ef166282c6fa34ee2">Nop.Plugin.Payments.PayPalStandard.Controllers.PaymentPayPalStandardIpnController._logger</a>, <a class="el" href="class_nop_1_1_plugin_1_1_payments_1_1_pay_pal_standard_1_1_controllers_1_1_payment_pay_pal_standard_ipn_controller.html#ac3962c324b7ae7014106a62f05bd8d4d">Nop.Plugin.Payments.PayPalStandard.Controllers.PaymentPayPalStandardIpnController._orderProcessingService</a>, <a class="el" href="class_nop_1_1_plugin_1_1_payments_1_1_pay_pal_standard_1_1_controllers_1_1_payment_pay_pal_standard_ipn_controller.html#ae46e0f0801ce3c1d3c3f879dcbd2c188">Nop.Plugin.Payments.PayPalStandard.Controllers.PaymentPayPalStandardIpnController._orderService</a> e <a class="el" href="class_nop_1_1_plugin_1_1_payments_1_1_pay_pal_standard_1_1_controllers_1_1_payment_pay_pal_standard_ipn_controller.html#af2e9f616a5fc9923b171b90f8bcb63a3">Nop.Plugin.Payments.PayPalStandard.Controllers.PaymentPayPalStandardIpnController._paymentPluginManager</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">Documentação dos métodos</h2>
+<a id="aaa0201269f99c71d08ec0b14b728ead1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaa0201269f99c71d08ec0b14b728ead1">&#9670;&nbsp;</a></span>IPNHandler()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">async <a class="el" href="_sendinblue_plugin_8cs.html#a9f49374e6bc76a6b5261e5c211d2e63d">Task</a>&lt;IActionResult&gt; Nop.Plugin.Payments.PayPalStandard.Controllers.PaymentPayPalStandardIpnController.IPNHandler </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><a name="l00213"></a><span class="lineno">  213</span>&#160;        {</div>
+<div class="line"><a name="l00214"></a><span class="lineno">  214</span>&#160;            await <span class="keyword">using</span> var stream = <span class="keyword">new</span> MemoryStream();</div>
+<div class="line"><a name="l00215"></a><span class="lineno">  215</span>&#160;            await Request.Body.CopyToAsync(stream);</div>
+<div class="line"><a name="l00216"></a><span class="lineno">  216</span>&#160;            var strRequest = Encoding.ASCII.GetString(stream.ToArray());</div>
+<div class="line"><a name="l00217"></a><span class="lineno">  217</span>&#160; </div>
+<div class="line"><a name="l00218"></a><span class="lineno">  218</span>&#160;            <span class="keywordflow">if</span> (await <a class="code" href="class_nop_1_1_plugin_1_1_payments_1_1_pay_pal_standard_1_1_controllers_1_1_payment_pay_pal_standard_ipn_controller.html#af2e9f616a5fc9923b171b90f8bcb63a3">_paymentPluginManager</a>.<a class="code" href="interface_nop_1_1_services_1_1_plugins_1_1_i_plugin_manager.html#ae65d47d1226a9c2099ff48e24a976235">LoadPluginBySystemNameAsync</a>(<span class="stringliteral">&quot;Payments.PayPalStandard&quot;</span>) is not PayPalStandardPaymentProcessor processor || !<a class="code" href="class_nop_1_1_plugin_1_1_payments_1_1_pay_pal_standard_1_1_controllers_1_1_payment_pay_pal_standard_ipn_controller.html#af2e9f616a5fc9923b171b90f8bcb63a3">_paymentPluginManager</a>.<a class="code" href="interface_nop_1_1_services_1_1_payments_1_1_i_payment_plugin_manager.html#a3ca5817d660c52b46621080a20598fc8">IsPluginActive</a>(processor))</div>
+<div class="line"><a name="l00219"></a><span class="lineno">  219</span>&#160;                <span class="keywordflow">throw</span> <span class="keyword">new</span> <a class="code" href="class_nop_1_1_core_1_1_nop_exception.html">NopException</a>(<span class="stringliteral">&quot;PayPal Standard module cannot be loaded&quot;</span>);</div>
+<div class="line"><a name="l00220"></a><span class="lineno">  220</span>&#160; </div>
+<div class="line"><a name="l00221"></a><span class="lineno">  221</span>&#160;            var (<a class="code" href="namespace_nop_1_1_web_1_1_models_1_1_blogs.html#a6cc3986434c188bc64f7d71789d4a5c8">result</a>, values) = await processor.VerifyIpnAsync(strRequest);</div>
+<div class="line"><a name="l00222"></a><span class="lineno">  222</span>&#160; </div>
+<div class="line"><a name="l00223"></a><span class="lineno">  223</span>&#160;            <span class="keywordflow">if</span> (!<a class="code" href="namespace_nop_1_1_web_1_1_models_1_1_blogs.html#a6cc3986434c188bc64f7d71789d4a5c8">result</a>)</div>
+<div class="line"><a name="l00224"></a><span class="lineno">  224</span>&#160;            {</div>
+<div class="line"><a name="l00225"></a><span class="lineno">  225</span>&#160;                await <a class="code" href="class_nop_1_1_plugin_1_1_payments_1_1_pay_pal_standard_1_1_controllers_1_1_payment_pay_pal_standard_ipn_controller.html#a766fad751d20379ef166282c6fa34ee2">_logger</a>.<a class="code" href="interface_nop_1_1_services_1_1_logging_1_1_i_logger.html#a79f003fceaa9adc00f36f8654be85913">ErrorAsync</a>(<span class="stringliteral">&quot;PayPal IPN failed.&quot;</span>, <span class="keyword">new</span> <a class="code" href="class_nop_1_1_core_1_1_nop_exception.html">NopException</a>(strRequest));</div>
+<div class="line"><a name="l00226"></a><span class="lineno">  226</span>&#160; </div>
+<div class="line"><a name="l00227"></a><span class="lineno">  227</span>&#160;                <span class="comment">//nothing should be rendered to visitor</span></div>
+<div class="line"><a name="l00228"></a><span class="lineno">  228</span>&#160;                <span class="keywordflow">return</span> Ok();</div>
+<div class="line"><a name="l00229"></a><span class="lineno">  229</span>&#160;            }</div>
+<div class="line"><a name="l00230"></a><span class="lineno">  230</span>&#160; </div>
+<div class="line"><a name="l00231"></a><span class="lineno">  231</span>&#160;            var mcGross = decimal.Zero;</div>
+<div class="line"><a name="l00232"></a><span class="lineno">  232</span>&#160; </div>
+<div class="line"><a name="l00233"></a><span class="lineno">  233</span>&#160;            <span class="keywordflow">try</span></div>
+<div class="line"><a name="l00234"></a><span class="lineno">  234</span>&#160;            {</div>
+<div class="line"><a name="l00235"></a><span class="lineno">  235</span>&#160;                mcGross = decimal.Parse(values[<span class="stringliteral">&quot;mc_gross&quot;</span>], <span class="keyword">new</span> CultureInfo(<span class="stringliteral">&quot;en-US&quot;</span>));</div>
+<div class="line"><a name="l00236"></a><span class="lineno">  236</span>&#160;            }</div>
+<div class="line"><a name="l00237"></a><span class="lineno">  237</span>&#160;            <span class="keywordflow">catch</span></div>
+<div class="line"><a name="l00238"></a><span class="lineno">  238</span>&#160;            {</div>
+<div class="line"><a name="l00239"></a><span class="lineno">  239</span>&#160;                <span class="comment">// ignored</span></div>
+<div class="line"><a name="l00240"></a><span class="lineno">  240</span>&#160;            }</div>
+<div class="line"><a name="l00241"></a><span class="lineno">  241</span>&#160; </div>
+<div class="line"><a name="l00242"></a><span class="lineno">  242</span>&#160;            values.TryGetValue(<span class="stringliteral">&quot;payment_status&quot;</span>, out var paymentStatus);</div>
+<div class="line"><a name="l00243"></a><span class="lineno">  243</span>&#160;            values.TryGetValue(<span class="stringliteral">&quot;pending_reason&quot;</span>, out var pendingReason);</div>
+<div class="line"><a name="l00244"></a><span class="lineno">  244</span>&#160;            values.TryGetValue(<span class="stringliteral">&quot;txn_id&quot;</span>, out var txnId);</div>
+<div class="line"><a name="l00245"></a><span class="lineno">  245</span>&#160;            values.TryGetValue(<span class="stringliteral">&quot;txn_type&quot;</span>, out var txnType);</div>
+<div class="line"><a name="l00246"></a><span class="lineno">  246</span>&#160;            values.TryGetValue(<span class="stringliteral">&quot;rp_invoice_id&quot;</span>, out var rpInvoiceId);</div>
+<div class="line"><a name="l00247"></a><span class="lineno">  247</span>&#160; </div>
+<div class="line"><a name="l00248"></a><span class="lineno">  248</span>&#160;            var sb = <span class="keyword">new</span> StringBuilder();</div>
+<div class="line"><a name="l00249"></a><span class="lineno">  249</span>&#160;            sb.AppendLine(<span class="stringliteral">&quot;PayPal IPN:&quot;</span>);</div>
+<div class="line"><a name="l00250"></a><span class="lineno">  250</span>&#160;            <span class="keywordflow">foreach</span> (var kvp <span class="keywordflow">in</span> values)</div>
+<div class="line"><a name="l00251"></a><span class="lineno">  251</span>&#160;            {</div>
+<div class="line"><a name="l00252"></a><span class="lineno">  252</span>&#160;                sb.AppendLine(kvp.Key + <span class="stringliteral">&quot;: &quot;</span> + kvp.Value);</div>
+<div class="line"><a name="l00253"></a><span class="lineno">  253</span>&#160;            }</div>
+<div class="line"><a name="l00254"></a><span class="lineno">  254</span>&#160; </div>
+<div class="line"><a name="l00255"></a><span class="lineno">  255</span>&#160;            var newPaymentStatus = PayPalHelper.GetPaymentStatus(paymentStatus, pendingReason);</div>
+<div class="line"><a name="l00256"></a><span class="lineno">  256</span>&#160;            sb.AppendLine(<span class="stringliteral">&quot;New payment status: &quot;</span> + newPaymentStatus);</div>
+<div class="line"><a name="l00257"></a><span class="lineno">  257</span>&#160; </div>
+<div class="line"><a name="l00258"></a><span class="lineno">  258</span>&#160;            var ipnInfo = sb.ToString();</div>
+<div class="line"><a name="l00259"></a><span class="lineno">  259</span>&#160; </div>
+<div class="line"><a name="l00260"></a><span class="lineno">  260</span>&#160;            <span class="keywordflow">switch</span> (txnType)</div>
+<div class="line"><a name="l00261"></a><span class="lineno">  261</span>&#160;            {</div>
+<div class="line"><a name="l00262"></a><span class="lineno">  262</span>&#160;                <span class="keywordflow">case</span> <span class="stringliteral">&quot;recurring_payment&quot;</span>:</div>
+<div class="line"><a name="l00263"></a><span class="lineno">  263</span>&#160;                    await <a class="code" href="class_nop_1_1_plugin_1_1_payments_1_1_pay_pal_standard_1_1_controllers_1_1_payment_pay_pal_standard_ipn_controller.html#acac556567d30b9c2250e29ec431bd668">ProcessRecurringPaymentAsync</a>(rpInvoiceId, newPaymentStatus, txnId, ipnInfo);</div>
+<div class="line"><a name="l00264"></a><span class="lineno">  264</span>&#160;                    <span class="keywordflow">break</span>;</div>
+<div class="line"><a name="l00265"></a><span class="lineno">  265</span>&#160;                <span class="keywordflow">case</span> <span class="stringliteral">&quot;recurring_payment_failed&quot;</span>:</div>
+<div class="line"><a name="l00266"></a><span class="lineno">  266</span>&#160;                    <span class="keywordflow">if</span> (Guid.TryParse(rpInvoiceId, out var orderGuid))</div>
+<div class="line"><a name="l00267"></a><span class="lineno">  267</span>&#160;                    {</div>
+<div class="line"><a name="l00268"></a><span class="lineno">  268</span>&#160;                        var order = await <a class="code" href="class_nop_1_1_plugin_1_1_payments_1_1_pay_pal_standard_1_1_controllers_1_1_payment_pay_pal_standard_ipn_controller.html#ae46e0f0801ce3c1d3c3f879dcbd2c188">_orderService</a>.<a class="code" href="interface_nop_1_1_services_1_1_orders_1_1_i_order_service.html#a0418e3bd07fafb4127e1b077832f35a2">GetOrderByGuidAsync</a>(orderGuid);</div>
+<div class="line"><a name="l00269"></a><span class="lineno">  269</span>&#160;                        <span class="keywordflow">if</span> (order != <span class="keyword">null</span>)</div>
+<div class="line"><a name="l00270"></a><span class="lineno">  270</span>&#160;                        {</div>
+<div class="line"><a name="l00271"></a><span class="lineno">  271</span>&#160;                            var recurringPayment = (await <a class="code" href="class_nop_1_1_plugin_1_1_payments_1_1_pay_pal_standard_1_1_controllers_1_1_payment_pay_pal_standard_ipn_controller.html#ae46e0f0801ce3c1d3c3f879dcbd2c188">_orderService</a>.<a class="code" href="interface_nop_1_1_services_1_1_orders_1_1_i_order_service.html#aab18b8ee56cc32d37977e38d032a36d7">SearchRecurringPaymentsAsync</a>(initialOrderId: order.Id))</div>
+<div class="line"><a name="l00272"></a><span class="lineno">  272</span>&#160;                                .FirstOrDefault();</div>
+<div class="line"><a name="l00273"></a><span class="lineno">  273</span>&#160;                            <span class="comment">//failed payment</span></div>
+<div class="line"><a name="l00274"></a><span class="lineno">  274</span>&#160;                            <span class="keywordflow">if</span> (recurringPayment != <span class="keyword">null</span>)</div>
+<div class="line"><a name="l00275"></a><span class="lineno">  275</span>&#160;                                await <a class="code" href="class_nop_1_1_plugin_1_1_payments_1_1_pay_pal_standard_1_1_controllers_1_1_payment_pay_pal_standard_ipn_controller.html#ac3962c324b7ae7014106a62f05bd8d4d">_orderProcessingService</a>.<a class="code" href="interface_nop_1_1_services_1_1_orders_1_1_i_order_processing_service.html#a68d5c51a0c443cd9d091ffc4608588a5">ProcessNextRecurringPaymentAsync</a>(recurringPayment,</div>
+<div class="line"><a name="l00276"></a><span class="lineno">  276</span>&#160;                                    <span class="keyword">new</span> <a class="code" href="class_nop_1_1_services_1_1_payments_1_1_process_payment_result.html">ProcessPaymentResult</a></div>
+<div class="line"><a name="l00277"></a><span class="lineno">  277</span>&#160;                                    {</div>
+<div class="line"><a name="l00278"></a><span class="lineno">  278</span>&#160;                                        <a class="code" href="namespace_nop_1_1_plugin_1_1_payments_1_1_pay_pal_smart_payment_buttons_1_1_models.html#afdedfbfc44407bcb9ae0ac57b38a0213">Errors</a> = <span class="keyword">new</span>[] { txnType },</div>
+<div class="line"><a name="l00279"></a><span class="lineno">  279</span>&#160;                                        RecurringPaymentFailed = <span class="keyword">true</span></div>
+<div class="line"><a name="l00280"></a><span class="lineno">  280</span>&#160;                                    });</div>
+<div class="line"><a name="l00281"></a><span class="lineno">  281</span>&#160;                        }</div>
+<div class="line"><a name="l00282"></a><span class="lineno">  282</span>&#160;                    }</div>
+<div class="line"><a name="l00283"></a><span class="lineno">  283</span>&#160; </div>
+<div class="line"><a name="l00284"></a><span class="lineno">  284</span>&#160;                    <span class="keywordflow">break</span>;</div>
+<div class="line"><a name="l00285"></a><span class="lineno">  285</span>&#160;                <span class="keywordflow">default</span>:</div>
+<div class="line"><a name="l00286"></a><span class="lineno">  286</span>&#160;                    values.TryGetValue(<span class="stringliteral">&quot;custom&quot;</span>, out var orderNumber);</div>
+<div class="line"><a name="l00287"></a><span class="lineno">  287</span>&#160;                    await <a class="code" href="class_nop_1_1_plugin_1_1_payments_1_1_pay_pal_standard_1_1_controllers_1_1_payment_pay_pal_standard_ipn_controller.html#a59dcafdb5d05e7ca716ae104db48b996">ProcessPaymentAsync</a>(orderNumber, ipnInfo, newPaymentStatus, mcGross, txnId);</div>
+<div class="line"><a name="l00288"></a><span class="lineno">  288</span>&#160; </div>
+<div class="line"><a name="l00289"></a><span class="lineno">  289</span>&#160;                    <span class="keywordflow">break</span>;</div>
+<div class="line"><a name="l00290"></a><span class="lineno">  290</span>&#160;            }</div>
+<div class="line"><a name="l00291"></a><span class="lineno">  291</span>&#160; </div>
+<div class="line"><a name="l00292"></a><span class="lineno">  292</span>&#160;            <span class="comment">//nothing should be rendered to visitor</span></div>
+<div class="line"><a name="l00293"></a><span class="lineno">  293</span>&#160;            <span class="keywordflow">return</span> Ok();</div>
+<div class="line"><a name="l00294"></a><span class="lineno">  294</span>&#160;        }</div>
+<div class="ttc" id="aclass_nop_1_1_core_1_1_nop_exception_html"><div class="ttname"><a href="class_nop_1_1_core_1_1_nop_exception.html">Nop.Core.NopException</a></div><div class="ttdoc">Represents errors that occur during application execution</div><div class="ttdef"><b>Definition:</b> NopException.cs:11</div></div>
+<div class="ttc" id="aclass_nop_1_1_plugin_1_1_payments_1_1_pay_pal_standard_1_1_controllers_1_1_payment_pay_pal_standard_ipn_controller_html_a59dcafdb5d05e7ca716ae104db48b996"><div class="ttname"><a href="class_nop_1_1_plugin_1_1_payments_1_1_pay_pal_standard_1_1_controllers_1_1_payment_pay_pal_standard_ipn_controller.html#a59dcafdb5d05e7ca716ae104db48b996">Nop.Plugin.Payments.PayPalStandard.Controllers.PaymentPayPalStandardIpnController.ProcessPaymentAsync</a></div><div class="ttdeci">virtual async Task ProcessPaymentAsync(string orderNumber, string ipnInfo, PaymentStatus newPaymentStatus, decimal mcGross, string transactionId)</div><div class="ttdoc">A task that represents the asynchronous operation</div><div class="ttdef"><b>Definition:</b> PaymentPayPalStandardIpnController.cs:120</div></div>
+<div class="ttc" id="aclass_nop_1_1_plugin_1_1_payments_1_1_pay_pal_standard_1_1_controllers_1_1_payment_pay_pal_standard_ipn_controller_html_acac556567d30b9c2250e29ec431bd668"><div class="ttname"><a href="class_nop_1_1_plugin_1_1_payments_1_1_pay_pal_standard_1_1_controllers_1_1_payment_pay_pal_standard_ipn_controller.html#acac556567d30b9c2250e29ec431bd668">Nop.Plugin.Payments.PayPalStandard.Controllers.PaymentPayPalStandardIpnController.ProcessRecurringPaymentAsync</a></div><div class="ttdeci">virtual async Task ProcessRecurringPaymentAsync(string invoiceId, PaymentStatus newPaymentStatus, string transactionId, string ipnInfo)</div><div class="ttdoc">A task that represents the asynchronous operation</div><div class="ttdef"><b>Definition:</b> PaymentPayPalStandardIpnController.cs:46</div></div>
+<div class="ttc" id="aclass_nop_1_1_services_1_1_payments_1_1_process_payment_result_html"><div class="ttname"><a href="class_nop_1_1_services_1_1_payments_1_1_process_payment_result.html">Nop.Services.Payments.ProcessPaymentResult</a></div><div class="ttdoc">Process payment result</div><div class="ttdef"><b>Definition:</b> ProcessPaymentResult.cs:11</div></div>
+<div class="ttc" id="ainterface_nop_1_1_services_1_1_logging_1_1_i_logger_html_a79f003fceaa9adc00f36f8654be85913"><div class="ttname"><a href="interface_nop_1_1_services_1_1_logging_1_1_i_logger.html#a79f003fceaa9adc00f36f8654be85913">Nop.Services.Logging.ILogger.ErrorAsync</a></div><div class="ttdeci">Task ErrorAsync(string message, Exception exception=null, Customer customer=null)</div><div class="ttdoc">Error</div></div>
+<div class="ttc" id="ainterface_nop_1_1_services_1_1_orders_1_1_i_order_processing_service_html_a68d5c51a0c443cd9d091ffc4608588a5"><div class="ttname"><a href="interface_nop_1_1_services_1_1_orders_1_1_i_order_processing_service.html#a68d5c51a0c443cd9d091ffc4608588a5">Nop.Services.Orders.IOrderProcessingService.ProcessNextRecurringPaymentAsync</a></div><div class="ttdeci">Task&lt; IEnumerable&lt; string &gt; &gt; ProcessNextRecurringPaymentAsync(RecurringPayment recurringPayment, ProcessPaymentResult paymentResult=null)</div><div class="ttdoc">Process next recurring payment</div></div>
+<div class="ttc" id="ainterface_nop_1_1_services_1_1_orders_1_1_i_order_service_html_a0418e3bd07fafb4127e1b077832f35a2"><div class="ttname"><a href="interface_nop_1_1_services_1_1_orders_1_1_i_order_service.html#a0418e3bd07fafb4127e1b077832f35a2">Nop.Services.Orders.IOrderService.GetOrderByGuidAsync</a></div><div class="ttdeci">Task&lt; Order &gt; GetOrderByGuidAsync(Guid orderGuid)</div><div class="ttdoc">Gets an order</div></div>
+<div class="ttc" id="ainterface_nop_1_1_services_1_1_orders_1_1_i_order_service_html_aab18b8ee56cc32d37977e38d032a36d7"><div class="ttname"><a href="interface_nop_1_1_services_1_1_orders_1_1_i_order_service.html#aab18b8ee56cc32d37977e38d032a36d7">Nop.Services.Orders.IOrderService.SearchRecurringPaymentsAsync</a></div><div class="ttdeci">Task&lt; IPagedList&lt; RecurringPayment &gt; &gt; SearchRecurringPaymentsAsync(int storeId=0, int customerId=0, int initialOrderId=0, OrderStatus? initialOrderStatus=null, int pageIndex=0, int pageSize=int.MaxValue, bool showHidden=false)</div><div class="ttdoc">Search recurring payments</div></div>
+<div class="ttc" id="ainterface_nop_1_1_services_1_1_payments_1_1_i_payment_plugin_manager_html_a3ca5817d660c52b46621080a20598fc8"><div class="ttname"><a href="interface_nop_1_1_services_1_1_payments_1_1_i_payment_plugin_manager.html#a3ca5817d660c52b46621080a20598fc8">Nop.Services.Payments.IPaymentPluginManager.IsPluginActive</a></div><div class="ttdeci">bool IsPluginActive(IPaymentMethod paymentMethod)</div><div class="ttdoc">Check whether the passed payment method is active</div></div>
+<div class="ttc" id="ainterface_nop_1_1_services_1_1_plugins_1_1_i_plugin_manager_html_ae65d47d1226a9c2099ff48e24a976235"><div class="ttname"><a href="interface_nop_1_1_services_1_1_plugins_1_1_i_plugin_manager.html#ae65d47d1226a9c2099ff48e24a976235">Nop.Services.Plugins.IPluginManager.LoadPluginBySystemNameAsync</a></div><div class="ttdeci">Task&lt; TPlugin &gt; LoadPluginBySystemNameAsync(string systemName, Customer customer=null, int storeId=0)</div><div class="ttdoc">Load plugin by system name</div></div>
+<div class="ttc" id="anamespace_nop_1_1_plugin_1_1_payments_1_1_pay_pal_smart_payment_buttons_1_1_models_html_afdedfbfc44407bcb9ae0ac57b38a0213"><div class="ttname"><a href="namespace_nop_1_1_plugin_1_1_payments_1_1_pay_pal_smart_payment_buttons_1_1_models.html#afdedfbfc44407bcb9ae0ac57b38a0213">Nop.Plugin.Payments.PayPalSmartPaymentButtons.Models.Errors</a></div><div class="ttdeci">string Errors</div><div class="ttdef"><b>Definition:</b> PaymentInfoModel.cs:14</div></div>
+<div class="ttc" id="anamespace_nop_1_1_web_1_1_models_1_1_blogs_html_a6cc3986434c188bc64f7d71789d4a5c8"><div class="ttname"><a href="namespace_nop_1_1_web_1_1_models_1_1_blogs.html#a6cc3986434c188bc64f7d71789d4a5c8">Nop.Web.Models.Blogs.result</a></div><div class="ttdeci">return result</div><div class="ttdef"><b>Definition:</b> BlogPagingFilteringModel.cs:21</div></div>
+</div><!-- fragment -->
+<p class="reference">Referências <a class="el" href="class_nop_1_1_plugin_1_1_payments_1_1_pay_pal_standard_1_1_controllers_1_1_payment_pay_pal_standard_ipn_controller.html#a766fad751d20379ef166282c6fa34ee2">Nop.Plugin.Payments.PayPalStandard.Controllers.PaymentPayPalStandardIpnController._logger</a>, <a class="el" href="class_nop_1_1_plugin_1_1_payments_1_1_pay_pal_standard_1_1_controllers_1_1_payment_pay_pal_standard_ipn_controller.html#ac3962c324b7ae7014106a62f05bd8d4d">Nop.Plugin.Payments.PayPalStandard.Controllers.PaymentPayPalStandardIpnController._orderProcessingService</a>, <a class="el" href="class_nop_1_1_plugin_1_1_payments_1_1_pay_pal_standard_1_1_controllers_1_1_payment_pay_pal_standard_ipn_controller.html#ae46e0f0801ce3c1d3c3f879dcbd2c188">Nop.Plugin.Payments.PayPalStandard.Controllers.PaymentPayPalStandardIpnController._orderService</a>, <a class="el" href="class_nop_1_1_plugin_1_1_payments_1_1_pay_pal_standard_1_1_controllers_1_1_payment_pay_pal_standard_ipn_controller.html#af2e9f616a5fc9923b171b90f8bcb63a3">Nop.Plugin.Payments.PayPalStandard.Controllers.PaymentPayPalStandardIpnController._paymentPluginManager</a>, <a class="el" href="interface_nop_1_1_services_1_1_logging_1_1_i_logger.html#a79f003fceaa9adc00f36f8654be85913">Nop.Services.Logging.ILogger.ErrorAsync()</a>, <a class="el" href="namespace_nop_1_1_plugin_1_1_payments_1_1_pay_pal_smart_payment_buttons_1_1_models.html#afdedfbfc44407bcb9ae0ac57b38a0213">Nop.Plugin.Payments.PayPalSmartPaymentButtons.Models.Errors</a>, <a class="el" href="interface_nop_1_1_services_1_1_orders_1_1_i_order_service.html#a0418e3bd07fafb4127e1b077832f35a2">Nop.Services.Orders.IOrderService.GetOrderByGuidAsync()</a>, <a class="el" href="class_nop_1_1_plugin_1_1_payments_1_1_pay_pal_standard_1_1_pay_pal_helper.html#aae7aa15e1cc7b991ed86d4692c5a2f99">Nop.Plugin.Payments.PayPalStandard.PayPalHelper.GetPaymentStatus()</a>, <a class="el" href="interface_nop_1_1_services_1_1_payments_1_1_i_payment_plugin_manager.html#a3ca5817d660c52b46621080a20598fc8">Nop.Services.Payments.IPaymentPluginManager.IsPluginActive()</a>, <a class="el" href="interface_nop_1_1_services_1_1_plugins_1_1_i_plugin_manager.html#ae65d47d1226a9c2099ff48e24a976235">Nop.Services.Plugins.IPluginManager&lt; TPlugin &gt;.LoadPluginBySystemNameAsync()</a>, <a class="el" href="interface_nop_1_1_services_1_1_orders_1_1_i_order_processing_service.html#a68d5c51a0c443cd9d091ffc4608588a5">Nop.Services.Orders.IOrderProcessingService.ProcessNextRecurringPaymentAsync()</a>, <a class="el" href="class_nop_1_1_plugin_1_1_payments_1_1_pay_pal_standard_1_1_controllers_1_1_payment_pay_pal_standard_ipn_controller.html#a59dcafdb5d05e7ca716ae104db48b996">Nop.Plugin.Payments.PayPalStandard.Controllers.PaymentPayPalStandardIpnController.ProcessPaymentAsync()</a>, <a class="el" href="class_nop_1_1_plugin_1_1_payments_1_1_pay_pal_standard_1_1_controllers_1_1_payment_pay_pal_standard_ipn_controller.html#acac556567d30b9c2250e29ec431bd668">Nop.Plugin.Payments.PayPalStandard.Controllers.PaymentPayPalStandardIpnController.ProcessRecurringPaymentAsync()</a>, <a class="el" href="namespace_nop_1_1_web_1_1_models_1_1_blogs.html#a6cc3986434c188bc64f7d71789d4a5c8">Nop.Web.Models.Blogs.result</a> e <a class="el" href="interface_nop_1_1_services_1_1_orders_1_1_i_order_service.html#aab18b8ee56cc32d37977e38d032a36d7">Nop.Services.Orders.IOrderService.SearchRecurringPaymentsAsync()</a>.</p>
+
+</div>
+</div>
+<a id="a59dcafdb5d05e7ca716ae104db48b996"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a59dcafdb5d05e7ca716ae104db48b996">&#9670;&nbsp;</a></span>ProcessPaymentAsync()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual async <a class="el" href="_sendinblue_plugin_8cs.html#a9f49374e6bc76a6b5261e5c211d2e63d">Task</a> Nop.Plugin.Payments.PayPalStandard.Controllers.PaymentPayPalStandardIpnController.ProcessPaymentAsync </td>
+          <td>(</td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>orderNumber</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>ipnInfo</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="namespace_nop_1_1_core_1_1_domain_1_1_payments.html#a5af4d422e00c0b088770533afd7d2c22">PaymentStatus</a>&#160;</td>
+          <td class="paramname"><em>newPaymentStatus</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">decimal&#160;</td>
+          <td class="paramname"><em>mcGross</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>transactionId</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><dl class="section return"><dt>Retorna</dt><dd>A task that represents the asynchronous operation</dd></dl>
+</p>
+<div class="fragment"><div class="line"><a name="l00121"></a><span class="lineno">  121</span>&#160;        {</div>
+<div class="line"><a name="l00122"></a><span class="lineno">  122</span>&#160;            Guid orderNumberGuid;</div>
+<div class="line"><a name="l00123"></a><span class="lineno">  123</span>&#160; </div>
+<div class="line"><a name="l00124"></a><span class="lineno">  124</span>&#160;            <span class="keywordflow">try</span></div>
+<div class="line"><a name="l00125"></a><span class="lineno">  125</span>&#160;            {</div>
+<div class="line"><a name="l00126"></a><span class="lineno">  126</span>&#160;                orderNumberGuid = <span class="keyword">new</span> Guid(orderNumber);</div>
+<div class="line"><a name="l00127"></a><span class="lineno">  127</span>&#160;            }</div>
+<div class="line"><a name="l00128"></a><span class="lineno">  128</span>&#160;            <span class="keywordflow">catch</span></div>
+<div class="line"><a name="l00129"></a><span class="lineno">  129</span>&#160;            {</div>
+<div class="line"><a name="l00130"></a><span class="lineno">  130</span>&#160;                orderNumberGuid = Guid.Empty;</div>
+<div class="line"><a name="l00131"></a><span class="lineno">  131</span>&#160;            }</div>
+<div class="line"><a name="l00132"></a><span class="lineno">  132</span>&#160; </div>
+<div class="line"><a name="l00133"></a><span class="lineno">  133</span>&#160;            var order = await <a class="code" href="class_nop_1_1_plugin_1_1_payments_1_1_pay_pal_standard_1_1_controllers_1_1_payment_pay_pal_standard_ipn_controller.html#ae46e0f0801ce3c1d3c3f879dcbd2c188">_orderService</a>.<a class="code" href="interface_nop_1_1_services_1_1_orders_1_1_i_order_service.html#a0418e3bd07fafb4127e1b077832f35a2">GetOrderByGuidAsync</a>(orderNumberGuid);</div>
+<div class="line"><a name="l00134"></a><span class="lineno">  134</span>&#160; </div>
+<div class="line"><a name="l00135"></a><span class="lineno">  135</span>&#160;            <span class="keywordflow">if</span> (order == <span class="keyword">null</span>)</div>
+<div class="line"><a name="l00136"></a><span class="lineno">  136</span>&#160;            {</div>
+<div class="line"><a name="l00137"></a><span class="lineno">  137</span>&#160;                await <a class="code" href="class_nop_1_1_plugin_1_1_payments_1_1_pay_pal_standard_1_1_controllers_1_1_payment_pay_pal_standard_ipn_controller.html#a766fad751d20379ef166282c6fa34ee2">_logger</a>.<a class="code" href="interface_nop_1_1_services_1_1_logging_1_1_i_logger.html#a79f003fceaa9adc00f36f8654be85913">ErrorAsync</a>(<span class="stringliteral">&quot;PayPal IPN. Order is not found&quot;</span>, <span class="keyword">new</span> <a class="code" href="class_nop_1_1_core_1_1_nop_exception.html">NopException</a>(ipnInfo));</div>
+<div class="line"><a name="l00138"></a><span class="lineno">  138</span>&#160;                <span class="keywordflow">return</span>;</div>
+<div class="line"><a name="l00139"></a><span class="lineno">  139</span>&#160;            }</div>
+<div class="line"><a name="l00140"></a><span class="lineno">  140</span>&#160; </div>
+<div class="line"><a name="l00141"></a><span class="lineno">  141</span>&#160;            <span class="comment">//order note</span></div>
+<div class="line"><a name="l00142"></a><span class="lineno">  142</span>&#160;            await <a class="code" href="class_nop_1_1_plugin_1_1_payments_1_1_pay_pal_standard_1_1_controllers_1_1_payment_pay_pal_standard_ipn_controller.html#ae46e0f0801ce3c1d3c3f879dcbd2c188">_orderService</a>.<a class="code" href="interface_nop_1_1_services_1_1_orders_1_1_i_order_service.html#a8050588c304b2eb1124db700048e9aca">InsertOrderNoteAsync</a>(<span class="keyword">new</span> <a class="code" href="class_nop_1_1_core_1_1_domain_1_1_orders_1_1_order_note.html">OrderNote</a></div>
+<div class="line"><a name="l00143"></a><span class="lineno">  143</span>&#160;            {</div>
+<div class="line"><a name="l00144"></a><span class="lineno">  144</span>&#160;                <a class="code" href="namespace_nop_1_1_web_1_1_areas_1_1_admin_1_1_models_1_1_discounts.html#acfc1f9bbdff6eb7524d793f0816abf27">OrderId</a> = order.Id,</div>
+<div class="line"><a name="l00145"></a><span class="lineno">  145</span>&#160;                <a class="code" href="namespace_nop_1_1_web_1_1_areas_1_1_admin_1_1_models_1_1_orders.html#a09633445d2625eaf1bcdb22508ee225d">Note</a> = ipnInfo,</div>
+<div class="line"><a name="l00146"></a><span class="lineno">  146</span>&#160;                <a class="code" href="namespace_nop_1_1_web_1_1_areas_1_1_admin_1_1_models_1_1_orders.html#a97fa178b181ac63a4b628d63c4b01a2b">DisplayToCustomer</a> = <span class="keyword">false</span>,</div>
+<div class="line"><a name="l00147"></a><span class="lineno">  147</span>&#160;                CreatedOnUtc = DateTime.UtcNow</div>
+<div class="line"><a name="l00148"></a><span class="lineno">  148</span>&#160;            });</div>
+<div class="line"><a name="l00149"></a><span class="lineno">  149</span>&#160; </div>
+<div class="line"><a name="l00150"></a><span class="lineno">  150</span>&#160;            <span class="comment">//validate order total</span></div>
+<div class="line"><a name="l00151"></a><span class="lineno">  151</span>&#160;            <span class="keywordflow">if</span> ((newPaymentStatus == <a class="code" href="namespace_nop_1_1_core_1_1_domain_1_1_payments.html#a5af4d422e00c0b088770533afd7d2c22">PaymentStatus</a>.Authorized || newPaymentStatus == <a class="code" href="namespace_nop_1_1_core_1_1_domain_1_1_payments.html#a5af4d422e00c0b088770533afd7d2c22">PaymentStatus</a>.Paid) &amp;&amp; !Math.Round(mcGross, 2).Equals(Math.Round(order.OrderTotal, 2)))</div>
+<div class="line"><a name="l00152"></a><span class="lineno">  152</span>&#160;            {</div>
+<div class="line"><a name="l00153"></a><span class="lineno">  153</span>&#160;                var errorStr = $<span class="stringliteral">&quot;PayPal IPN. Returned order total {mcGross} doesn&#39;t equal order total {order.OrderTotal}. Order# {order.Id}.&quot;</span>;</div>
+<div class="line"><a name="l00154"></a><span class="lineno">  154</span>&#160;                <span class="comment">//log</span></div>
+<div class="line"><a name="l00155"></a><span class="lineno">  155</span>&#160;                await <a class="code" href="class_nop_1_1_plugin_1_1_payments_1_1_pay_pal_standard_1_1_controllers_1_1_payment_pay_pal_standard_ipn_controller.html#a766fad751d20379ef166282c6fa34ee2">_logger</a>.<a class="code" href="interface_nop_1_1_services_1_1_logging_1_1_i_logger.html#a79f003fceaa9adc00f36f8654be85913">ErrorAsync</a>(errorStr);</div>
+<div class="line"><a name="l00156"></a><span class="lineno">  156</span>&#160;                <span class="comment">//order note</span></div>
+<div class="line"><a name="l00157"></a><span class="lineno">  157</span>&#160;                await <a class="code" href="class_nop_1_1_plugin_1_1_payments_1_1_pay_pal_standard_1_1_controllers_1_1_payment_pay_pal_standard_ipn_controller.html#ae46e0f0801ce3c1d3c3f879dcbd2c188">_orderService</a>.<a class="code" href="interface_nop_1_1_services_1_1_orders_1_1_i_order_service.html#a8050588c304b2eb1124db700048e9aca">InsertOrderNoteAsync</a>(<span class="keyword">new</span> <a class="code" href="class_nop_1_1_core_1_1_domain_1_1_orders_1_1_order_note.html">OrderNote</a></div>
+<div class="line"><a name="l00158"></a><span class="lineno">  158</span>&#160;                {</div>
+<div class="line"><a name="l00159"></a><span class="lineno">  159</span>&#160;                    <a class="code" href="namespace_nop_1_1_web_1_1_areas_1_1_admin_1_1_models_1_1_discounts.html#acfc1f9bbdff6eb7524d793f0816abf27">OrderId</a> = order.Id,</div>
+<div class="line"><a name="l00160"></a><span class="lineno">  160</span>&#160;                    <a class="code" href="namespace_nop_1_1_web_1_1_areas_1_1_admin_1_1_models_1_1_orders.html#a09633445d2625eaf1bcdb22508ee225d">Note</a> = errorStr,</div>
+<div class="line"><a name="l00161"></a><span class="lineno">  161</span>&#160;                    <a class="code" href="namespace_nop_1_1_web_1_1_areas_1_1_admin_1_1_models_1_1_orders.html#a97fa178b181ac63a4b628d63c4b01a2b">DisplayToCustomer</a> = <span class="keyword">false</span>,</div>
+<div class="line"><a name="l00162"></a><span class="lineno">  162</span>&#160;                    CreatedOnUtc = DateTime.UtcNow</div>
+<div class="line"><a name="l00163"></a><span class="lineno">  163</span>&#160;                });</div>
+<div class="line"><a name="l00164"></a><span class="lineno">  164</span>&#160; </div>
+<div class="line"><a name="l00165"></a><span class="lineno">  165</span>&#160;                <span class="keywordflow">return</span>;</div>
+<div class="line"><a name="l00166"></a><span class="lineno">  166</span>&#160;            }</div>
+<div class="line"><a name="l00167"></a><span class="lineno">  167</span>&#160; </div>
+<div class="line"><a name="l00168"></a><span class="lineno">  168</span>&#160;            <span class="keywordflow">switch</span> (newPaymentStatus)</div>
+<div class="line"><a name="l00169"></a><span class="lineno">  169</span>&#160;            {</div>
+<div class="line"><a name="l00170"></a><span class="lineno">  170</span>&#160;                <span class="keywordflow">case</span> <a class="code" href="namespace_nop_1_1_core_1_1_domain_1_1_payments.html#a5af4d422e00c0b088770533afd7d2c22">PaymentStatus</a>.Authorized:</div>
+<div class="line"><a name="l00171"></a><span class="lineno">  171</span>&#160;                    <span class="keywordflow">if</span> (<a class="code" href="class_nop_1_1_plugin_1_1_payments_1_1_pay_pal_standard_1_1_controllers_1_1_payment_pay_pal_standard_ipn_controller.html#ac3962c324b7ae7014106a62f05bd8d4d">_orderProcessingService</a>.<a class="code" href="interface_nop_1_1_services_1_1_orders_1_1_i_order_processing_service.html#a145d31a1e9c23c48548b44e5e3740e2e">CanMarkOrderAsAuthorized</a>(order))</div>
+<div class="line"><a name="l00172"></a><span class="lineno">  172</span>&#160;                        await <a class="code" href="class_nop_1_1_plugin_1_1_payments_1_1_pay_pal_standard_1_1_controllers_1_1_payment_pay_pal_standard_ipn_controller.html#ac3962c324b7ae7014106a62f05bd8d4d">_orderProcessingService</a>.<a class="code" href="interface_nop_1_1_services_1_1_orders_1_1_i_order_processing_service.html#a9183fd18943756d7ebafa1fe503c68d4">MarkAsAuthorizedAsync</a>(order);</div>
+<div class="line"><a name="l00173"></a><span class="lineno">  173</span>&#160;                    <span class="keywordflow">break</span>;</div>
+<div class="line"><a name="l00174"></a><span class="lineno">  174</span>&#160;                <span class="keywordflow">case</span> <a class="code" href="namespace_nop_1_1_core_1_1_domain_1_1_payments.html#a5af4d422e00c0b088770533afd7d2c22">PaymentStatus</a>.Paid:</div>
+<div class="line"><a name="l00175"></a><span class="lineno">  175</span>&#160;                    <span class="keywordflow">if</span> (<a class="code" href="class_nop_1_1_plugin_1_1_payments_1_1_pay_pal_standard_1_1_controllers_1_1_payment_pay_pal_standard_ipn_controller.html#ac3962c324b7ae7014106a62f05bd8d4d">_orderProcessingService</a>.<a class="code" href="interface_nop_1_1_services_1_1_orders_1_1_i_order_processing_service.html#a1f7dee67df2bf3480efdbd5ab0aa83d2">CanMarkOrderAsPaid</a>(order))</div>
+<div class="line"><a name="l00176"></a><span class="lineno">  176</span>&#160;                    {</div>
+<div class="line"><a name="l00177"></a><span class="lineno">  177</span>&#160;                        order.AuthorizationTransactionId = transactionId;</div>
+<div class="line"><a name="l00178"></a><span class="lineno">  178</span>&#160;                        await <a class="code" href="class_nop_1_1_plugin_1_1_payments_1_1_pay_pal_standard_1_1_controllers_1_1_payment_pay_pal_standard_ipn_controller.html#ae46e0f0801ce3c1d3c3f879dcbd2c188">_orderService</a>.<a class="code" href="interface_nop_1_1_services_1_1_orders_1_1_i_order_service.html#aef9bab53153d827f38ce1b4f6f785112">UpdateOrderAsync</a>(order);</div>
+<div class="line"><a name="l00179"></a><span class="lineno">  179</span>&#160; </div>
+<div class="line"><a name="l00180"></a><span class="lineno">  180</span>&#160;                        await <a class="code" href="class_nop_1_1_plugin_1_1_payments_1_1_pay_pal_standard_1_1_controllers_1_1_payment_pay_pal_standard_ipn_controller.html#ac3962c324b7ae7014106a62f05bd8d4d">_orderProcessingService</a>.<a class="code" href="interface_nop_1_1_services_1_1_orders_1_1_i_order_processing_service.html#a16248ae963e21a741b2f1387a9148a01">MarkOrderAsPaidAsync</a>(order);</div>
+<div class="line"><a name="l00181"></a><span class="lineno">  181</span>&#160;                    }</div>
+<div class="line"><a name="l00182"></a><span class="lineno">  182</span>&#160; </div>
+<div class="line"><a name="l00183"></a><span class="lineno">  183</span>&#160;                    <span class="keywordflow">break</span>;</div>
+<div class="line"><a name="l00184"></a><span class="lineno">  184</span>&#160;                <span class="keywordflow">case</span> <a class="code" href="namespace_nop_1_1_core_1_1_domain_1_1_payments.html#a5af4d422e00c0b088770533afd7d2c22">PaymentStatus</a>.Refunded:</div>
+<div class="line"><a name="l00185"></a><span class="lineno">  185</span>&#160;                    var totalToRefund = Math.Abs(mcGross);</div>
+<div class="line"><a name="l00186"></a><span class="lineno">  186</span>&#160;                    <span class="keywordflow">if</span> (totalToRefund &gt; 0 &amp;&amp; Math.Round(totalToRefund, 2).Equals(Math.Round(order.OrderTotal, 2)))</div>
+<div class="line"><a name="l00187"></a><span class="lineno">  187</span>&#160;                    {</div>
+<div class="line"><a name="l00188"></a><span class="lineno">  188</span>&#160;                        <span class="comment">//refund</span></div>
+<div class="line"><a name="l00189"></a><span class="lineno">  189</span>&#160;                        <span class="keywordflow">if</span> (<a class="code" href="class_nop_1_1_plugin_1_1_payments_1_1_pay_pal_standard_1_1_controllers_1_1_payment_pay_pal_standard_ipn_controller.html#ac3962c324b7ae7014106a62f05bd8d4d">_orderProcessingService</a>.<a class="code" href="interface_nop_1_1_services_1_1_orders_1_1_i_order_processing_service.html#adbb3e924a5983c61c70aad629e9276dc">CanRefundOffline</a>(order))</div>
+<div class="line"><a name="l00190"></a><span class="lineno">  190</span>&#160;                            await <a class="code" href="class_nop_1_1_plugin_1_1_payments_1_1_pay_pal_standard_1_1_controllers_1_1_payment_pay_pal_standard_ipn_controller.html#ac3962c324b7ae7014106a62f05bd8d4d">_orderProcessingService</a>.<a class="code" href="interface_nop_1_1_services_1_1_orders_1_1_i_order_processing_service.html#a26cd274c952a35f6bb34305b6a78bb34">RefundOfflineAsync</a>(order);</div>
+<div class="line"><a name="l00191"></a><span class="lineno">  191</span>&#160;                    }</div>
+<div class="line"><a name="l00192"></a><span class="lineno">  192</span>&#160;                    <span class="keywordflow">else</span></div>
+<div class="line"><a name="l00193"></a><span class="lineno">  193</span>&#160;                    {</div>
+<div class="line"><a name="l00194"></a><span class="lineno">  194</span>&#160;                        <span class="comment">//partial refund</span></div>
+<div class="line"><a name="l00195"></a><span class="lineno">  195</span>&#160;                        <span class="keywordflow">if</span> (<a class="code" href="class_nop_1_1_plugin_1_1_payments_1_1_pay_pal_standard_1_1_controllers_1_1_payment_pay_pal_standard_ipn_controller.html#ac3962c324b7ae7014106a62f05bd8d4d">_orderProcessingService</a>.<a class="code" href="interface_nop_1_1_services_1_1_orders_1_1_i_order_processing_service.html#a5e93c72b05d9b0df952fc0e5f5e7ce6b">CanPartiallyRefundOffline</a>(order, totalToRefund))</div>
+<div class="line"><a name="l00196"></a><span class="lineno">  196</span>&#160;                            await <a class="code" href="class_nop_1_1_plugin_1_1_payments_1_1_pay_pal_standard_1_1_controllers_1_1_payment_pay_pal_standard_ipn_controller.html#ac3962c324b7ae7014106a62f05bd8d4d">_orderProcessingService</a>.<a class="code" href="interface_nop_1_1_services_1_1_orders_1_1_i_order_processing_service.html#af9b75bce3c735a94ceffd5728d32e263">PartiallyRefundOfflineAsync</a>(order, totalToRefund);</div>
+<div class="line"><a name="l00197"></a><span class="lineno">  197</span>&#160;                    }</div>
+<div class="line"><a name="l00198"></a><span class="lineno">  198</span>&#160; </div>
+<div class="line"><a name="l00199"></a><span class="lineno">  199</span>&#160;                    <span class="keywordflow">break</span>;</div>
+<div class="line"><a name="l00200"></a><span class="lineno">  200</span>&#160;                <span class="keywordflow">case</span> <a class="code" href="namespace_nop_1_1_core_1_1_domain_1_1_payments.html#a5af4d422e00c0b088770533afd7d2c22">PaymentStatus</a>.Voided:</div>
+<div class="line"><a name="l00201"></a><span class="lineno">  201</span>&#160;                    <span class="keywordflow">if</span> (<a class="code" href="class_nop_1_1_plugin_1_1_payments_1_1_pay_pal_standard_1_1_controllers_1_1_payment_pay_pal_standard_ipn_controller.html#ac3962c324b7ae7014106a62f05bd8d4d">_orderProcessingService</a>.<a class="code" href="interface_nop_1_1_services_1_1_orders_1_1_i_order_processing_service.html#a9525f3983a5fde2adb138c1fda7a2ce2">CanVoidOffline</a>(order))</div>
+<div class="line"><a name="l00202"></a><span class="lineno">  202</span>&#160;                        await <a class="code" href="class_nop_1_1_plugin_1_1_payments_1_1_pay_pal_standard_1_1_controllers_1_1_payment_pay_pal_standard_ipn_controller.html#ac3962c324b7ae7014106a62f05bd8d4d">_orderProcessingService</a>.<a class="code" href="interface_nop_1_1_services_1_1_orders_1_1_i_order_processing_service.html#ae58afb23cc30edce9a6473f113fc5528">VoidOfflineAsync</a>(order);</div>
+<div class="line"><a name="l00203"></a><span class="lineno">  203</span>&#160; </div>
+<div class="line"><a name="l00204"></a><span class="lineno">  204</span>&#160;                    <span class="keywordflow">break</span>;</div>
+<div class="line"><a name="l00205"></a><span class="lineno">  205</span>&#160;            }</div>
+<div class="line"><a name="l00206"></a><span class="lineno">  206</span>&#160;        }</div>
+<div class="ttc" id="aclass_nop_1_1_core_1_1_domain_1_1_orders_1_1_order_note_html"><div class="ttname"><a href="class_nop_1_1_core_1_1_domain_1_1_orders_1_1_order_note.html">Nop.Core.Domain.Orders.OrderNote</a></div><div class="ttdoc">Represents an order note</div><div class="ttdef"><b>Definition:</b> OrderNote.cs:9</div></div>
+<div class="ttc" id="ainterface_nop_1_1_services_1_1_orders_1_1_i_order_processing_service_html_a145d31a1e9c23c48548b44e5e3740e2e"><div class="ttname"><a href="interface_nop_1_1_services_1_1_orders_1_1_i_order_processing_service.html#a145d31a1e9c23c48548b44e5e3740e2e">Nop.Services.Orders.IOrderProcessingService.CanMarkOrderAsAuthorized</a></div><div class="ttdeci">bool CanMarkOrderAsAuthorized(Order order)</div><div class="ttdoc">Gets a value indicating whether order can be marked as authorized</div></div>
+<div class="ttc" id="ainterface_nop_1_1_services_1_1_orders_1_1_i_order_processing_service_html_a16248ae963e21a741b2f1387a9148a01"><div class="ttname"><a href="interface_nop_1_1_services_1_1_orders_1_1_i_order_processing_service.html#a16248ae963e21a741b2f1387a9148a01">Nop.Services.Orders.IOrderProcessingService.MarkOrderAsPaidAsync</a></div><div class="ttdeci">Task MarkOrderAsPaidAsync(Order order)</div><div class="ttdoc">Marks order as paid</div></div>
+<div class="ttc" id="ainterface_nop_1_1_services_1_1_orders_1_1_i_order_processing_service_html_a1f7dee67df2bf3480efdbd5ab0aa83d2"><div class="ttname"><a href="interface_nop_1_1_services_1_1_orders_1_1_i_order_processing_service.html#a1f7dee67df2bf3480efdbd5ab0aa83d2">Nop.Services.Orders.IOrderProcessingService.CanMarkOrderAsPaid</a></div><div class="ttdeci">bool CanMarkOrderAsPaid(Order order)</div><div class="ttdoc">Gets a value indicating whether order can be marked as paid</div></div>
+<div class="ttc" id="ainterface_nop_1_1_services_1_1_orders_1_1_i_order_processing_service_html_a26cd274c952a35f6bb34305b6a78bb34"><div class="ttname"><a href="interface_nop_1_1_services_1_1_orders_1_1_i_order_processing_service.html#a26cd274c952a35f6bb34305b6a78bb34">Nop.Services.Orders.IOrderProcessingService.RefundOfflineAsync</a></div><div class="ttdeci">Task RefundOfflineAsync(Order order)</div><div class="ttdoc">Refunds an order (offline)</div></div>
+<div class="ttc" id="ainterface_nop_1_1_services_1_1_orders_1_1_i_order_processing_service_html_a5e93c72b05d9b0df952fc0e5f5e7ce6b"><div class="ttname"><a href="interface_nop_1_1_services_1_1_orders_1_1_i_order_processing_service.html#a5e93c72b05d9b0df952fc0e5f5e7ce6b">Nop.Services.Orders.IOrderProcessingService.CanPartiallyRefundOffline</a></div><div class="ttdeci">bool CanPartiallyRefundOffline(Order order, decimal amountToRefund)</div><div class="ttdoc">Gets a value indicating whether order can be marked as partially refunded</div></div>
+<div class="ttc" id="ainterface_nop_1_1_services_1_1_orders_1_1_i_order_processing_service_html_a9183fd18943756d7ebafa1fe503c68d4"><div class="ttname"><a href="interface_nop_1_1_services_1_1_orders_1_1_i_order_processing_service.html#a9183fd18943756d7ebafa1fe503c68d4">Nop.Services.Orders.IOrderProcessingService.MarkAsAuthorizedAsync</a></div><div class="ttdeci">Task MarkAsAuthorizedAsync(Order order)</div><div class="ttdoc">Marks order as authorized</div></div>
+<div class="ttc" id="ainterface_nop_1_1_services_1_1_orders_1_1_i_order_processing_service_html_a9525f3983a5fde2adb138c1fda7a2ce2"><div class="ttname"><a href="interface_nop_1_1_services_1_1_orders_1_1_i_order_processing_service.html#a9525f3983a5fde2adb138c1fda7a2ce2">Nop.Services.Orders.IOrderProcessingService.CanVoidOffline</a></div><div class="ttdeci">bool CanVoidOffline(Order order)</div><div class="ttdoc">Gets a value indicating whether order can be marked as Tasked</div></div>
+<div class="ttc" id="ainterface_nop_1_1_services_1_1_orders_1_1_i_order_processing_service_html_adbb3e924a5983c61c70aad629e9276dc"><div class="ttname"><a href="interface_nop_1_1_services_1_1_orders_1_1_i_order_processing_service.html#adbb3e924a5983c61c70aad629e9276dc">Nop.Services.Orders.IOrderProcessingService.CanRefundOffline</a></div><div class="ttdeci">bool CanRefundOffline(Order order)</div><div class="ttdoc">Gets a value indicating whether order can be marked as refunded</div></div>
+<div class="ttc" id="ainterface_nop_1_1_services_1_1_orders_1_1_i_order_processing_service_html_ae58afb23cc30edce9a6473f113fc5528"><div class="ttname"><a href="interface_nop_1_1_services_1_1_orders_1_1_i_order_processing_service.html#ae58afb23cc30edce9a6473f113fc5528">Nop.Services.Orders.IOrderProcessingService.VoidOfflineAsync</a></div><div class="ttdeci">Task VoidOfflineAsync(Order order)</div><div class="ttdoc">Voids order (offline)</div></div>
+<div class="ttc" id="ainterface_nop_1_1_services_1_1_orders_1_1_i_order_processing_service_html_af9b75bce3c735a94ceffd5728d32e263"><div class="ttname"><a href="interface_nop_1_1_services_1_1_orders_1_1_i_order_processing_service.html#af9b75bce3c735a94ceffd5728d32e263">Nop.Services.Orders.IOrderProcessingService.PartiallyRefundOfflineAsync</a></div><div class="ttdeci">Task PartiallyRefundOfflineAsync(Order order, decimal amountToRefund)</div><div class="ttdoc">Partially refunds an order (offline)</div></div>
+<div class="ttc" id="ainterface_nop_1_1_services_1_1_orders_1_1_i_order_service_html_a8050588c304b2eb1124db700048e9aca"><div class="ttname"><a href="interface_nop_1_1_services_1_1_orders_1_1_i_order_service.html#a8050588c304b2eb1124db700048e9aca">Nop.Services.Orders.IOrderService.InsertOrderNoteAsync</a></div><div class="ttdeci">Task InsertOrderNoteAsync(OrderNote orderNote)</div><div class="ttdoc">Inserts an order note</div></div>
+<div class="ttc" id="ainterface_nop_1_1_services_1_1_orders_1_1_i_order_service_html_aef9bab53153d827f38ce1b4f6f785112"><div class="ttname"><a href="interface_nop_1_1_services_1_1_orders_1_1_i_order_service.html#aef9bab53153d827f38ce1b4f6f785112">Nop.Services.Orders.IOrderService.UpdateOrderAsync</a></div><div class="ttdeci">Task UpdateOrderAsync(Order order)</div><div class="ttdoc">Updates the order</div></div>
+<div class="ttc" id="anamespace_nop_1_1_core_1_1_domain_1_1_payments_html_a5af4d422e00c0b088770533afd7d2c22"><div class="ttname"><a href="namespace_nop_1_1_core_1_1_domain_1_1_payments.html#a5af4d422e00c0b088770533afd7d2c22">Nop.Core.Domain.Payments.PaymentStatus</a></div><div class="ttdeci">PaymentStatus</div><div class="ttdoc">Represents a payment status enumeration</div><div class="ttdef"><b>Definition:</b> PaymentStatus.cs:7</div></div>
+<div class="ttc" id="anamespace_nop_1_1_web_1_1_areas_1_1_admin_1_1_models_1_1_discounts_html_acfc1f9bbdff6eb7524d793f0816abf27"><div class="ttname"><a href="namespace_nop_1_1_web_1_1_areas_1_1_admin_1_1_models_1_1_discounts.html#acfc1f9bbdff6eb7524d793f0816abf27">Nop.Web.Areas.Admin.Models.Discounts.OrderId</a></div><div class="ttdeci">int OrderId</div><div class="ttdef"><b>Definition:</b> DiscountUsageHistoryModel.cs:16</div></div>
+<div class="ttc" id="anamespace_nop_1_1_web_1_1_areas_1_1_admin_1_1_models_1_1_orders_html_a09633445d2625eaf1bcdb22508ee225d"><div class="ttname"><a href="namespace_nop_1_1_web_1_1_areas_1_1_admin_1_1_models_1_1_orders.html#a09633445d2625eaf1bcdb22508ee225d">Nop.Web.Areas.Admin.Models.Orders.Note</a></div><div class="ttdeci">string Note</div><div class="ttdef"><b>Definition:</b> OrderNoteModel.cs:20</div></div>
+<div class="ttc" id="anamespace_nop_1_1_web_1_1_areas_1_1_admin_1_1_models_1_1_orders_html_a97fa178b181ac63a4b628d63c4b01a2b"><div class="ttname"><a href="namespace_nop_1_1_web_1_1_areas_1_1_admin_1_1_models_1_1_orders.html#a97fa178b181ac63a4b628d63c4b01a2b">Nop.Web.Areas.Admin.Models.Orders.DisplayToCustomer</a></div><div class="ttdeci">bool DisplayToCustomer</div><div class="ttdef"><b>Definition:</b> OrderNoteModel.cs:17</div></div>
+</div><!-- fragment -->
+<p class="reference">Referências <a class="el" href="class_nop_1_1_plugin_1_1_payments_1_1_pay_pal_standard_1_1_controllers_1_1_payment_pay_pal_standard_ipn_controller.html#a766fad751d20379ef166282c6fa34ee2">Nop.Plugin.Payments.PayPalStandard.Controllers.PaymentPayPalStandardIpnController._logger</a>, <a class="el" href="class_nop_1_1_plugin_1_1_payments_1_1_pay_pal_standard_1_1_controllers_1_1_payment_pay_pal_standard_ipn_controller.html#ac3962c324b7ae7014106a62f05bd8d4d">Nop.Plugin.Payments.PayPalStandard.Controllers.PaymentPayPalStandardIpnController._orderProcessingService</a>, <a class="el" href="class_nop_1_1_plugin_1_1_payments_1_1_pay_pal_standard_1_1_controllers_1_1_payment_pay_pal_standard_ipn_controller.html#ae46e0f0801ce3c1d3c3f879dcbd2c188">Nop.Plugin.Payments.PayPalStandard.Controllers.PaymentPayPalStandardIpnController._orderService</a>, <a class="el" href="interface_nop_1_1_services_1_1_orders_1_1_i_order_processing_service.html#a145d31a1e9c23c48548b44e5e3740e2e">Nop.Services.Orders.IOrderProcessingService.CanMarkOrderAsAuthorized()</a>, <a class="el" href="interface_nop_1_1_services_1_1_orders_1_1_i_order_processing_service.html#a1f7dee67df2bf3480efdbd5ab0aa83d2">Nop.Services.Orders.IOrderProcessingService.CanMarkOrderAsPaid()</a>, <a class="el" href="interface_nop_1_1_services_1_1_orders_1_1_i_order_processing_service.html#a5e93c72b05d9b0df952fc0e5f5e7ce6b">Nop.Services.Orders.IOrderProcessingService.CanPartiallyRefundOffline()</a>, <a class="el" href="interface_nop_1_1_services_1_1_orders_1_1_i_order_processing_service.html#adbb3e924a5983c61c70aad629e9276dc">Nop.Services.Orders.IOrderProcessingService.CanRefundOffline()</a>, <a class="el" href="interface_nop_1_1_services_1_1_orders_1_1_i_order_processing_service.html#a9525f3983a5fde2adb138c1fda7a2ce2">Nop.Services.Orders.IOrderProcessingService.CanVoidOffline()</a>, <a class="el" href="namespace_nop_1_1_web_1_1_areas_1_1_admin_1_1_models_1_1_orders.html#a97fa178b181ac63a4b628d63c4b01a2b">Nop.Web.Areas.Admin.Models.Orders.DisplayToCustomer</a>, <a class="el" href="interface_nop_1_1_services_1_1_logging_1_1_i_logger.html#a79f003fceaa9adc00f36f8654be85913">Nop.Services.Logging.ILogger.ErrorAsync()</a>, <a class="el" href="interface_nop_1_1_services_1_1_orders_1_1_i_order_service.html#a0418e3bd07fafb4127e1b077832f35a2">Nop.Services.Orders.IOrderService.GetOrderByGuidAsync()</a>, <a class="el" href="interface_nop_1_1_services_1_1_orders_1_1_i_order_service.html#a8050588c304b2eb1124db700048e9aca">Nop.Services.Orders.IOrderService.InsertOrderNoteAsync()</a>, <a class="el" href="interface_nop_1_1_services_1_1_orders_1_1_i_order_processing_service.html#a9183fd18943756d7ebafa1fe503c68d4">Nop.Services.Orders.IOrderProcessingService.MarkAsAuthorizedAsync()</a>, <a class="el" href="interface_nop_1_1_services_1_1_orders_1_1_i_order_processing_service.html#a16248ae963e21a741b2f1387a9148a01">Nop.Services.Orders.IOrderProcessingService.MarkOrderAsPaidAsync()</a>, <a class="el" href="namespace_nop_1_1_web_1_1_areas_1_1_admin_1_1_models_1_1_orders.html#a09633445d2625eaf1bcdb22508ee225d">Nop.Web.Areas.Admin.Models.Orders.Note</a>, <a class="el" href="namespace_nop_1_1_web_1_1_areas_1_1_admin_1_1_models_1_1_discounts.html#acfc1f9bbdff6eb7524d793f0816abf27">Nop.Web.Areas.Admin.Models.Discounts.OrderId</a>, <a class="el" href="interface_nop_1_1_services_1_1_orders_1_1_i_order_processing_service.html#af9b75bce3c735a94ceffd5728d32e263">Nop.Services.Orders.IOrderProcessingService.PartiallyRefundOfflineAsync()</a>, <a class="el" href="interface_nop_1_1_services_1_1_orders_1_1_i_order_processing_service.html#a26cd274c952a35f6bb34305b6a78bb34">Nop.Services.Orders.IOrderProcessingService.RefundOfflineAsync()</a>, <a class="el" href="interface_nop_1_1_services_1_1_orders_1_1_i_order_service.html#aef9bab53153d827f38ce1b4f6f785112">Nop.Services.Orders.IOrderService.UpdateOrderAsync()</a> e <a class="el" href="interface_nop_1_1_services_1_1_orders_1_1_i_order_processing_service.html#ae58afb23cc30edce9a6473f113fc5528">Nop.Services.Orders.IOrderProcessingService.VoidOfflineAsync()</a>.</p>
+
+<p class="reference">Referenciado por <a class="el" href="class_nop_1_1_plugin_1_1_payments_1_1_pay_pal_standard_1_1_controllers_1_1_payment_pay_pal_standard_ipn_controller.html#aaa0201269f99c71d08ec0b14b728ead1">Nop.Plugin.Payments.PayPalStandard.Controllers.PaymentPayPalStandardIpnController.IPNHandler()</a>.</p>
+
+</div>
+</div>
+<a id="acac556567d30b9c2250e29ec431bd668"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acac556567d30b9c2250e29ec431bd668">&#9670;&nbsp;</a></span>ProcessRecurringPaymentAsync()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual async <a class="el" href="_sendinblue_plugin_8cs.html#a9f49374e6bc76a6b5261e5c211d2e63d">Task</a> Nop.Plugin.Payments.PayPalStandard.Controllers.PaymentPayPalStandardIpnController.ProcessRecurringPaymentAsync </td>
+          <td>(</td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>invoiceId</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="namespace_nop_1_1_core_1_1_domain_1_1_payments.html#a5af4d422e00c0b088770533afd7d2c22">PaymentStatus</a>&#160;</td>
+          <td class="paramname"><em>newPaymentStatus</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>transactionId</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>ipnInfo</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><dl class="section return"><dt>Retorna</dt><dd>A task that represents the asynchronous operation</dd></dl>
+</p>
+<div class="fragment"><div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;        {</div>
+<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;            Guid orderNumberGuid;</div>
+<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160; </div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;            <span class="keywordflow">try</span></div>
+<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;            {</div>
+<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;                orderNumberGuid = <span class="keyword">new</span> Guid(invoiceId);</div>
+<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;            }</div>
+<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;            <span class="keywordflow">catch</span></div>
+<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;            {</div>
+<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;                orderNumberGuid = Guid.Empty;</div>
+<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;            }</div>
+<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160; </div>
+<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;            var order = await <a class="code" href="class_nop_1_1_plugin_1_1_payments_1_1_pay_pal_standard_1_1_controllers_1_1_payment_pay_pal_standard_ipn_controller.html#ae46e0f0801ce3c1d3c3f879dcbd2c188">_orderService</a>.<a class="code" href="interface_nop_1_1_services_1_1_orders_1_1_i_order_service.html#a0418e3bd07fafb4127e1b077832f35a2">GetOrderByGuidAsync</a>(orderNumberGuid);</div>
+<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;            <span class="keywordflow">if</span> (order == <span class="keyword">null</span>)</div>
+<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;            {</div>
+<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;                await <a class="code" href="class_nop_1_1_plugin_1_1_payments_1_1_pay_pal_standard_1_1_controllers_1_1_payment_pay_pal_standard_ipn_controller.html#a766fad751d20379ef166282c6fa34ee2">_logger</a>.<a class="code" href="interface_nop_1_1_services_1_1_logging_1_1_i_logger.html#a79f003fceaa9adc00f36f8654be85913">ErrorAsync</a>(<span class="stringliteral">&quot;PayPal IPN. Order is not found&quot;</span>, <span class="keyword">new</span> <a class="code" href="class_nop_1_1_core_1_1_nop_exception.html">NopException</a>(ipnInfo));</div>
+<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;                <span class="keywordflow">return</span>;</div>
+<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;            }</div>
+<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160; </div>
+<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;            var recurringPayments = await <a class="code" href="class_nop_1_1_plugin_1_1_payments_1_1_pay_pal_standard_1_1_controllers_1_1_payment_pay_pal_standard_ipn_controller.html#ae46e0f0801ce3c1d3c3f879dcbd2c188">_orderService</a>.<a class="code" href="interface_nop_1_1_services_1_1_orders_1_1_i_order_service.html#aab18b8ee56cc32d37977e38d032a36d7">SearchRecurringPaymentsAsync</a>(initialOrderId: order.Id);</div>
+<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160; </div>
+<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;            <span class="keywordflow">foreach</span> (var rp <span class="keywordflow">in</span> recurringPayments)</div>
+<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;            {</div>
+<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;                <span class="keywordflow">switch</span> (newPaymentStatus)</div>
+<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;                {</div>
+<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;                    <span class="keywordflow">case</span> <a class="code" href="namespace_nop_1_1_core_1_1_domain_1_1_payments.html#a5af4d422e00c0b088770533afd7d2c22">PaymentStatus</a>.Authorized:</div>
+<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;                    <span class="keywordflow">case</span> <a class="code" href="namespace_nop_1_1_core_1_1_domain_1_1_payments.html#a5af4d422e00c0b088770533afd7d2c22">PaymentStatus</a>.Paid:</div>
+<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;                        {</div>
+<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;                            var recurringPaymentHistory = await <a class="code" href="class_nop_1_1_plugin_1_1_payments_1_1_pay_pal_standard_1_1_controllers_1_1_payment_pay_pal_standard_ipn_controller.html#ae46e0f0801ce3c1d3c3f879dcbd2c188">_orderService</a>.<a class="code" href="interface_nop_1_1_services_1_1_orders_1_1_i_order_service.html#a98b4cd370f0b1090c5e0dddbaacc7707">GetRecurringPaymentHistoryAsync</a>(rp);</div>
+<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;                            <span class="keywordflow">if</span> (!recurringPaymentHistory.Any())</div>
+<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;                            {</div>
+<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;                                await <a class="code" href="class_nop_1_1_plugin_1_1_payments_1_1_pay_pal_standard_1_1_controllers_1_1_payment_pay_pal_standard_ipn_controller.html#ae46e0f0801ce3c1d3c3f879dcbd2c188">_orderService</a>.<a class="code" href="interface_nop_1_1_services_1_1_orders_1_1_i_order_service.html#aa5d03d6d03cfeb2771e00796c0a04ded">InsertRecurringPaymentHistoryAsync</a>(<span class="keyword">new</span> <a class="code" href="class_nop_1_1_core_1_1_domain_1_1_orders_1_1_recurring_payment_history.html">RecurringPaymentHistory</a></div>
+<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;                                {</div>
+<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;                                    <a class="code" href="namespace_nop_1_1_web_1_1_areas_1_1_admin_1_1_models_1_1_orders.html#a661520bc33d33d1bf5a482fe00f1c984">RecurringPaymentId</a> = rp.Id,</div>
+<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;                                    <a class="code" href="namespace_nop_1_1_web_1_1_areas_1_1_admin_1_1_models_1_1_discounts.html#acfc1f9bbdff6eb7524d793f0816abf27">OrderId</a> = order.Id,</div>
+<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;                                    CreatedOnUtc = DateTime.UtcNow</div>
+<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;                                });</div>
+<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;                            }</div>
+<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;                            <span class="keywordflow">else</span></div>
+<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;                            {</div>
+<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;                                <span class="comment">//next payments</span></div>
+<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;                                var processPaymentResult = <span class="keyword">new</span> <a class="code" href="class_nop_1_1_services_1_1_payments_1_1_process_payment_result.html">ProcessPaymentResult</a></div>
+<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;                                {</div>
+<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;                                    NewPaymentStatus = newPaymentStatus</div>
+<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;                                };</div>
+<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;                                <span class="keywordflow">if</span> (newPaymentStatus == <a class="code" href="namespace_nop_1_1_core_1_1_domain_1_1_payments.html#a5af4d422e00c0b088770533afd7d2c22">PaymentStatus</a>.Authorized)</div>
+<div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;                                    processPaymentResult.<a class="code" href="class_nop_1_1_services_1_1_payments_1_1_process_payment_result.html#a51354ebec6390fd8a228ca2bdb394a3c">AuthorizationTransactionId</a> = transactionId;</div>
+<div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;                                <span class="keywordflow">else</span></div>
+<div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;                                    processPaymentResult.CaptureTransactionId = transactionId;</div>
+<div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160; </div>
+<div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;                                await <a class="code" href="class_nop_1_1_plugin_1_1_payments_1_1_pay_pal_standard_1_1_controllers_1_1_payment_pay_pal_standard_ipn_controller.html#ac3962c324b7ae7014106a62f05bd8d4d">_orderProcessingService</a>.<a class="code" href="interface_nop_1_1_services_1_1_orders_1_1_i_order_processing_service.html#a68d5c51a0c443cd9d091ffc4608588a5">ProcessNextRecurringPaymentAsync</a>(rp,</div>
+<div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;                                    processPaymentResult);</div>
+<div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;                            }</div>
+<div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;                        }</div>
+<div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160; </div>
+<div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;                        <span class="keywordflow">break</span>;</div>
+<div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;                    <span class="keywordflow">case</span> <a class="code" href="namespace_nop_1_1_core_1_1_domain_1_1_payments.html#a5af4d422e00c0b088770533afd7d2c22">PaymentStatus</a>.Voided:</div>
+<div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;                        <span class="comment">//failed payment</span></div>
+<div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;                        var failedPaymentResult = <span class="keyword">new</span> <a class="code" href="class_nop_1_1_services_1_1_payments_1_1_process_payment_result.html">ProcessPaymentResult</a></div>
+<div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;                        {</div>
+<div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;                            <a class="code" href="namespace_nop_1_1_plugin_1_1_payments_1_1_pay_pal_smart_payment_buttons_1_1_models.html#afdedfbfc44407bcb9ae0ac57b38a0213">Errors</a> = <span class="keyword">new</span>[] { $<span class="stringliteral">&quot;PayPal IPN. Recurring payment is {nameof(PaymentStatus.Voided).ToLower()} .&quot;</span> },</div>
+<div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;                            RecurringPaymentFailed = <span class="keyword">true</span></div>
+<div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160;                        };</div>
+<div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160;                        await <a class="code" href="class_nop_1_1_plugin_1_1_payments_1_1_pay_pal_standard_1_1_controllers_1_1_payment_pay_pal_standard_ipn_controller.html#ac3962c324b7ae7014106a62f05bd8d4d">_orderProcessingService</a>.<a class="code" href="interface_nop_1_1_services_1_1_orders_1_1_i_order_processing_service.html#a68d5c51a0c443cd9d091ffc4608588a5">ProcessNextRecurringPaymentAsync</a>(rp, failedPaymentResult);</div>
+<div class="line"><a name="l00111"></a><span class="lineno">  111</span>&#160;                        <span class="keywordflow">break</span>;</div>
+<div class="line"><a name="l00112"></a><span class="lineno">  112</span>&#160;                }</div>
+<div class="line"><a name="l00113"></a><span class="lineno">  113</span>&#160;            }</div>
+<div class="line"><a name="l00114"></a><span class="lineno">  114</span>&#160; </div>
+<div class="line"><a name="l00115"></a><span class="lineno">  115</span>&#160;            <span class="comment">//OrderService.InsertOrderNote(newOrder.OrderId, sb.ToString(), DateTime.UtcNow);</span></div>
+<div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160;            await <a class="code" href="class_nop_1_1_plugin_1_1_payments_1_1_pay_pal_standard_1_1_controllers_1_1_payment_pay_pal_standard_ipn_controller.html#a766fad751d20379ef166282c6fa34ee2">_logger</a>.<a class="code" href="interface_nop_1_1_services_1_1_logging_1_1_i_logger.html#a3403534c3801b0b06f96d9415ab8de82">InformationAsync</a>(<span class="stringliteral">&quot;PayPal IPN. Recurring info&quot;</span>, <span class="keyword">new</span> <a class="code" href="class_nop_1_1_core_1_1_nop_exception.html">NopException</a>(ipnInfo));</div>
+<div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160;        }</div>
+<div class="ttc" id="aclass_nop_1_1_core_1_1_domain_1_1_orders_1_1_recurring_payment_history_html"><div class="ttname"><a href="class_nop_1_1_core_1_1_domain_1_1_orders_1_1_recurring_payment_history.html">Nop.Core.Domain.Orders.RecurringPaymentHistory</a></div><div class="ttdoc">Represents a recurring payment history</div><div class="ttdef"><b>Definition:</b> RecurringPaymentHistory.cs:9</div></div>
+<div class="ttc" id="aclass_nop_1_1_services_1_1_payments_1_1_process_payment_result_html_a51354ebec6390fd8a228ca2bdb394a3c"><div class="ttname"><a href="class_nop_1_1_services_1_1_payments_1_1_process_payment_result.html#a51354ebec6390fd8a228ca2bdb394a3c">Nop.Services.Payments.ProcessPaymentResult.AuthorizationTransactionId</a></div><div class="ttdeci">string AuthorizationTransactionId</div><div class="ttdoc">Gets or sets the authorization transaction identifier</div><div class="ttdef"><b>Definition:</b> ProcessPaymentResult.cs:49</div></div>
+<div class="ttc" id="ainterface_nop_1_1_services_1_1_logging_1_1_i_logger_html_a3403534c3801b0b06f96d9415ab8de82"><div class="ttname"><a href="interface_nop_1_1_services_1_1_logging_1_1_i_logger.html#a3403534c3801b0b06f96d9415ab8de82">Nop.Services.Logging.ILogger.InformationAsync</a></div><div class="ttdeci">Task InformationAsync(string message, Exception exception=null, Customer customer=null)</div><div class="ttdoc">Information</div></div>
+<div class="ttc" id="ainterface_nop_1_1_services_1_1_orders_1_1_i_order_service_html_a98b4cd370f0b1090c5e0dddbaacc7707"><div class="ttname"><a href="interface_nop_1_1_services_1_1_orders_1_1_i_order_service.html#a98b4cd370f0b1090c5e0dddbaacc7707">Nop.Services.Orders.IOrderService.GetRecurringPaymentHistoryAsync</a></div><div class="ttdeci">Task&lt; IList&lt; RecurringPaymentHistory &gt; &gt; GetRecurringPaymentHistoryAsync(RecurringPayment recurringPayment)</div><div class="ttdoc">Gets a recurring payment history</div></div>
+<div class="ttc" id="ainterface_nop_1_1_services_1_1_orders_1_1_i_order_service_html_aa5d03d6d03cfeb2771e00796c0a04ded"><div class="ttname"><a href="interface_nop_1_1_services_1_1_orders_1_1_i_order_service.html#aa5d03d6d03cfeb2771e00796c0a04ded">Nop.Services.Orders.IOrderService.InsertRecurringPaymentHistoryAsync</a></div><div class="ttdeci">Task InsertRecurringPaymentHistoryAsync(RecurringPaymentHistory recurringPaymentHistory)</div><div class="ttdoc">Inserts a recurring payment history entry</div></div>
+<div class="ttc" id="anamespace_nop_1_1_web_1_1_areas_1_1_admin_1_1_models_1_1_orders_html_a661520bc33d33d1bf5a482fe00f1c984"><div class="ttname"><a href="namespace_nop_1_1_web_1_1_areas_1_1_admin_1_1_models_1_1_orders.html#a661520bc33d33d1bf5a482fe00f1c984">Nop.Web.Areas.Admin.Models.Orders.RecurringPaymentId</a></div><div class="ttdeci">int RecurringPaymentId</div><div class="ttdef"><b>Definition:</b> OrderModel.cs:137</div></div>
+</div><!-- fragment -->
+<p class="reference">Referências <a class="el" href="class_nop_1_1_plugin_1_1_payments_1_1_pay_pal_standard_1_1_controllers_1_1_payment_pay_pal_standard_ipn_controller.html#a766fad751d20379ef166282c6fa34ee2">Nop.Plugin.Payments.PayPalStandard.Controllers.PaymentPayPalStandardIpnController._logger</a>, <a class="el" href="class_nop_1_1_plugin_1_1_payments_1_1_pay_pal_standard_1_1_controllers_1_1_payment_pay_pal_standard_ipn_controller.html#ac3962c324b7ae7014106a62f05bd8d4d">Nop.Plugin.Payments.PayPalStandard.Controllers.PaymentPayPalStandardIpnController._orderProcessingService</a>, <a class="el" href="class_nop_1_1_plugin_1_1_payments_1_1_pay_pal_standard_1_1_controllers_1_1_payment_pay_pal_standard_ipn_controller.html#ae46e0f0801ce3c1d3c3f879dcbd2c188">Nop.Plugin.Payments.PayPalStandard.Controllers.PaymentPayPalStandardIpnController._orderService</a>, <a class="el" href="class_nop_1_1_services_1_1_payments_1_1_process_payment_result.html#a51354ebec6390fd8a228ca2bdb394a3c">Nop.Services.Payments.ProcessPaymentResult.AuthorizationTransactionId</a>, <a class="el" href="interface_nop_1_1_services_1_1_logging_1_1_i_logger.html#a79f003fceaa9adc00f36f8654be85913">Nop.Services.Logging.ILogger.ErrorAsync()</a>, <a class="el" href="namespace_nop_1_1_plugin_1_1_payments_1_1_pay_pal_smart_payment_buttons_1_1_models.html#afdedfbfc44407bcb9ae0ac57b38a0213">Nop.Plugin.Payments.PayPalSmartPaymentButtons.Models.Errors</a>, <a class="el" href="interface_nop_1_1_services_1_1_orders_1_1_i_order_service.html#a0418e3bd07fafb4127e1b077832f35a2">Nop.Services.Orders.IOrderService.GetOrderByGuidAsync()</a>, <a class="el" href="interface_nop_1_1_services_1_1_orders_1_1_i_order_service.html#a98b4cd370f0b1090c5e0dddbaacc7707">Nop.Services.Orders.IOrderService.GetRecurringPaymentHistoryAsync()</a>, <a class="el" href="interface_nop_1_1_services_1_1_logging_1_1_i_logger.html#a3403534c3801b0b06f96d9415ab8de82">Nop.Services.Logging.ILogger.InformationAsync()</a>, <a class="el" href="interface_nop_1_1_services_1_1_orders_1_1_i_order_service.html#aa5d03d6d03cfeb2771e00796c0a04ded">Nop.Services.Orders.IOrderService.InsertRecurringPaymentHistoryAsync()</a>, <a class="el" href="namespace_nop_1_1_web_1_1_areas_1_1_admin_1_1_models_1_1_discounts.html#acfc1f9bbdff6eb7524d793f0816abf27">Nop.Web.Areas.Admin.Models.Discounts.OrderId</a>, <a class="el" href="interface_nop_1_1_services_1_1_orders_1_1_i_order_processing_service.html#a68d5c51a0c443cd9d091ffc4608588a5">Nop.Services.Orders.IOrderProcessingService.ProcessNextRecurringPaymentAsync()</a>, <a class="el" href="namespace_nop_1_1_web_1_1_areas_1_1_admin_1_1_models_1_1_orders.html#a661520bc33d33d1bf5a482fe00f1c984">Nop.Web.Areas.Admin.Models.Orders.RecurringPaymentId</a> e <a class="el" href="interface_nop_1_1_services_1_1_orders_1_1_i_order_service.html#aab18b8ee56cc32d37977e38d032a36d7">Nop.Services.Orders.IOrderService.SearchRecurringPaymentsAsync()</a>.</p>
+
+<p class="reference">Referenciado por <a class="el" href="class_nop_1_1_plugin_1_1_payments_1_1_pay_pal_standard_1_1_controllers_1_1_payment_pay_pal_standard_ipn_controller.html#aaa0201269f99c71d08ec0b14b728ead1">Nop.Plugin.Payments.PayPalStandard.Controllers.PaymentPayPalStandardIpnController.IPNHandler()</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">Documentação dos dados membro</h2>
+<a id="a766fad751d20379ef166282c6fa34ee2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a766fad751d20379ef166282c6fa34ee2">&#9670;&nbsp;</a></span>_logger</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">readonly <a class="el" href="interface_nop_1_1_services_1_1_logging_1_1_i_logger.html">ILogger</a> Nop.Plugin.Payments.PayPalStandard.Controllers.PaymentPayPalStandardIpnController._logger</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">Referenciado por <a class="el" href="class_nop_1_1_plugin_1_1_payments_1_1_pay_pal_standard_1_1_controllers_1_1_payment_pay_pal_standard_ipn_controller.html#aaa0201269f99c71d08ec0b14b728ead1">Nop.Plugin.Payments.PayPalStandard.Controllers.PaymentPayPalStandardIpnController.IPNHandler()</a>, <a class="el" href="class_nop_1_1_plugin_1_1_payments_1_1_pay_pal_standard_1_1_controllers_1_1_payment_pay_pal_standard_ipn_controller.html#ad594a5c1dc27bf46e217586fe39dfec5">Nop.Plugin.Payments.PayPalStandard.Controllers.PaymentPayPalStandardIpnController.PaymentPayPalStandardIpnController()</a>, <a class="el" href="class_nop_1_1_plugin_1_1_payments_1_1_pay_pal_standard_1_1_controllers_1_1_payment_pay_pal_standard_ipn_controller.html#a59dcafdb5d05e7ca716ae104db48b996">Nop.Plugin.Payments.PayPalStandard.Controllers.PaymentPayPalStandardIpnController.ProcessPaymentAsync()</a> e <a class="el" href="class_nop_1_1_plugin_1_1_payments_1_1_pay_pal_standard_1_1_controllers_1_1_payment_pay_pal_standard_ipn_controller.html#acac556567d30b9c2250e29ec431bd668">Nop.Plugin.Payments.PayPalStandard.Controllers.PaymentPayPalStandardIpnController.ProcessRecurringPaymentAsync()</a>.</p>
+
+</div>
+</div>
+<a id="ac3962c324b7ae7014106a62f05bd8d4d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac3962c324b7ae7014106a62f05bd8d4d">&#9670;&nbsp;</a></span>_orderProcessingService</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">readonly <a class="el" href="interface_nop_1_1_services_1_1_orders_1_1_i_order_processing_service.html">IOrderProcessingService</a> Nop.Plugin.Payments.PayPalStandard.Controllers.PaymentPayPalStandardIpnController._orderProcessingService</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">Referenciado por <a class="el" href="class_nop_1_1_plugin_1_1_payments_1_1_pay_pal_standard_1_1_controllers_1_1_payment_pay_pal_standard_ipn_controller.html#aaa0201269f99c71d08ec0b14b728ead1">Nop.Plugin.Payments.PayPalStandard.Controllers.PaymentPayPalStandardIpnController.IPNHandler()</a>, <a class="el" href="class_nop_1_1_plugin_1_1_payments_1_1_pay_pal_standard_1_1_controllers_1_1_payment_pay_pal_standard_ipn_controller.html#ad594a5c1dc27bf46e217586fe39dfec5">Nop.Plugin.Payments.PayPalStandard.Controllers.PaymentPayPalStandardIpnController.PaymentPayPalStandardIpnController()</a>, <a class="el" href="class_nop_1_1_plugin_1_1_payments_1_1_pay_pal_standard_1_1_controllers_1_1_payment_pay_pal_standard_ipn_controller.html#a59dcafdb5d05e7ca716ae104db48b996">Nop.Plugin.Payments.PayPalStandard.Controllers.PaymentPayPalStandardIpnController.ProcessPaymentAsync()</a> e <a class="el" href="class_nop_1_1_plugin_1_1_payments_1_1_pay_pal_standard_1_1_controllers_1_1_payment_pay_pal_standard_ipn_controller.html#acac556567d30b9c2250e29ec431bd668">Nop.Plugin.Payments.PayPalStandard.Controllers.PaymentPayPalStandardIpnController.ProcessRecurringPaymentAsync()</a>.</p>
+
+</div>
+</div>
+<a id="ae46e0f0801ce3c1d3c3f879dcbd2c188"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae46e0f0801ce3c1d3c3f879dcbd2c188">&#9670;&nbsp;</a></span>_orderService</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">readonly <a class="el" href="interface_nop_1_1_services_1_1_orders_1_1_i_order_service.html">IOrderService</a> Nop.Plugin.Payments.PayPalStandard.Controllers.PaymentPayPalStandardIpnController._orderService</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">Referenciado por <a class="el" href="class_nop_1_1_plugin_1_1_payments_1_1_pay_pal_standard_1_1_controllers_1_1_payment_pay_pal_standard_ipn_controller.html#aaa0201269f99c71d08ec0b14b728ead1">Nop.Plugin.Payments.PayPalStandard.Controllers.PaymentPayPalStandardIpnController.IPNHandler()</a>, <a class="el" href="class_nop_1_1_plugin_1_1_payments_1_1_pay_pal_standard_1_1_controllers_1_1_payment_pay_pal_standard_ipn_controller.html#ad594a5c1dc27bf46e217586fe39dfec5">Nop.Plugin.Payments.PayPalStandard.Controllers.PaymentPayPalStandardIpnController.PaymentPayPalStandardIpnController()</a>, <a class="el" href="class_nop_1_1_plugin_1_1_payments_1_1_pay_pal_standard_1_1_controllers_1_1_payment_pay_pal_standard_ipn_controller.html#a59dcafdb5d05e7ca716ae104db48b996">Nop.Plugin.Payments.PayPalStandard.Controllers.PaymentPayPalStandardIpnController.ProcessPaymentAsync()</a> e <a class="el" href="class_nop_1_1_plugin_1_1_payments_1_1_pay_pal_standard_1_1_controllers_1_1_payment_pay_pal_standard_ipn_controller.html#acac556567d30b9c2250e29ec431bd668">Nop.Plugin.Payments.PayPalStandard.Controllers.PaymentPayPalStandardIpnController.ProcessRecurringPaymentAsync()</a>.</p>
+
+</div>
+</div>
+<a id="af2e9f616a5fc9923b171b90f8bcb63a3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af2e9f616a5fc9923b171b90f8bcb63a3">&#9670;&nbsp;</a></span>_paymentPluginManager</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">readonly <a class="el" href="interface_nop_1_1_services_1_1_payments_1_1_i_payment_plugin_manager.html">IPaymentPluginManager</a> Nop.Plugin.Payments.PayPalStandard.Controllers.PaymentPayPalStandardIpnController._paymentPluginManager</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">Referenciado por <a class="el" href="class_nop_1_1_plugin_1_1_payments_1_1_pay_pal_standard_1_1_controllers_1_1_payment_pay_pal_standard_ipn_controller.html#aaa0201269f99c71d08ec0b14b728ead1">Nop.Plugin.Payments.PayPalStandard.Controllers.PaymentPayPalStandardIpnController.IPNHandler()</a> e <a class="el" href="class_nop_1_1_plugin_1_1_payments_1_1_pay_pal_standard_1_1_controllers_1_1_payment_pay_pal_standard_ipn_controller.html#ad594a5c1dc27bf46e217586fe39dfec5">Nop.Plugin.Payments.PayPalStandard.Controllers.PaymentPayPalStandardIpnController.PaymentPayPalStandardIpnController()</a>.</p>
+
+</div>
+</div>
+<hr/>A documentação para esta classe foi gerada a partir do seguinte ficheiro:<ul>
+<li>C:/Users/gabri/Documents/Projetos/GitHub/Estudos/Nopcommercer plugin/nopCommerce_4.40.3_Source - Copia/src/Plugins/Nop.Plugin.Payments.PayPalStandard/Controllers/<a class="el" href="_payment_pay_pal_standard_ipn_controller_8cs.html">PaymentPayPalStandardIpnController.cs</a></li>
+</ul>
+</div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Gerado por&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1
+</small></address>
+</body>
+</html>

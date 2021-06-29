@@ -1,0 +1,987 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.9.1"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>NopCommerce 4.40: Referência à classe Nop.Web.Controllers.OrderController</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectlogo"><img alt="Logo" src="download.png"/></td>
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">NopCommerce 4.40
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Gerado por Doxygen 1.9.1 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+var searchBox = new SearchBox("searchBox", "search",false,'Localizar','.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(function() {
+  initMenu('',true,false,'search.php','Localizar');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */</script>
+<div id="main-nav"></div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="namespace_nop.html">Nop</a></li><li class="navelem"><a class="el" href="namespace_nop_1_1_web.html">Web</a></li><li class="navelem"><a class="el" href="namespace_nop_1_1_web_1_1_controllers.html">Controllers</a></li><li class="navelem"><a class="el" href="class_nop_1_1_web_1_1_controllers_1_1_order_controller.html">OrderController</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">Membros públicos</a> &#124;
+<a href="#pri-attribs">Atributos Privados</a> &#124;
+<a href="class_nop_1_1_web_1_1_controllers_1_1_order_controller-members.html">Mostrar lista completa dos membros</a>  </div>
+  <div class="headertitle">
+<div class="title">Referência à classe Nop.Web.Controllers.OrderController</div>  </div>
+</div><!--header-->
+<div class="contents">
+<div class="dynheader">
+Diagrama de heranças da classe Nop.Web.Controllers.OrderController</div>
+<div class="dyncontent">
+ <div class="center">
+  <img src="class_nop_1_1_web_1_1_controllers_1_1_order_controller.png" usemap="#Nop.Web.Controllers.OrderController_map" alt=""/>
+  <map id="Nop.Web.Controllers.OrderController_map" name="Nop.Web.Controllers.OrderController_map">
+<area href="class_nop_1_1_web_1_1_controllers_1_1_base_public_controller.html" alt="Nop.Web.Controllers.BasePublicController" shape="rect" coords="0,112,285,136"/>
+<area href="class_nop_1_1_web_1_1_framework_1_1_controllers_1_1_base_controller.html" title="Base controller" alt="Nop.Web.Framework.Controllers.BaseController" shape="rect" coords="0,56,285,80"/>
+  </map>
+</div></div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Membros públicos</h2></td></tr>
+<tr class="memitem:a6e4c59664c501967663478815443462d"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_nop_1_1_web_1_1_controllers_1_1_order_controller.html#a6e4c59664c501967663478815443462d">OrderController</a> (<a class="el" href="interface_nop_1_1_services_1_1_customers_1_1_i_customer_service.html">ICustomerService</a> customerService, <a class="el" href="interface_nop_1_1_web_1_1_factories_1_1_i_order_model_factory.html">IOrderModelFactory</a> orderModelFactory, <a class="el" href="interface_nop_1_1_services_1_1_orders_1_1_i_order_processing_service.html">IOrderProcessingService</a> orderProcessingService, <a class="el" href="interface_nop_1_1_services_1_1_orders_1_1_i_order_service.html">IOrderService</a> orderService, <a class="el" href="interface_nop_1_1_services_1_1_payments_1_1_i_payment_service.html">IPaymentService</a> paymentService, <a class="el" href="interface_nop_1_1_services_1_1_common_1_1_i_pdf_service.html">IPdfService</a> pdfService, <a class="el" href="interface_nop_1_1_services_1_1_shipping_1_1_i_shipment_service.html">IShipmentService</a> shipmentService, <a class="el" href="interface_nop_1_1_core_1_1_i_web_helper.html">IWebHelper</a> webHelper, <a class="el" href="interface_nop_1_1_core_1_1_i_work_context.html">IWorkContext</a> workContext, <a class="el" href="class_nop_1_1_core_1_1_domain_1_1_customers_1_1_reward_points_settings.html">RewardPointsSettings</a> rewardPointsSettings)</td></tr>
+<tr class="separator:a6e4c59664c501967663478815443462d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7d1a07625eafb317cc359feceb3dad60"><td class="memItemLeft" align="right" valign="top">virtual async <a class="el" href="_sendinblue_plugin_8cs.html#a9f49374e6bc76a6b5261e5c211d2e63d">Task</a>&lt; IActionResult &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_nop_1_1_web_1_1_controllers_1_1_order_controller.html#a7d1a07625eafb317cc359feceb3dad60">CustomerOrders</a> ()</td></tr>
+<tr class="separator:a7d1a07625eafb317cc359feceb3dad60"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acc30030ccab0a2139c69b33caa2af2b2"><td class="memItemLeft" align="right" valign="top">virtual async <a class="el" href="_sendinblue_plugin_8cs.html#a9f49374e6bc76a6b5261e5c211d2e63d">Task</a>&lt; IActionResult &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_nop_1_1_web_1_1_controllers_1_1_order_controller.html#acc30030ccab0a2139c69b33caa2af2b2">CancelRecurringPayment</a> (IFormCollection form)</td></tr>
+<tr class="separator:acc30030ccab0a2139c69b33caa2af2b2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4a015442c66c33f22458dba0cddf033b"><td class="memItemLeft" align="right" valign="top">virtual async <a class="el" href="_sendinblue_plugin_8cs.html#a9f49374e6bc76a6b5261e5c211d2e63d">Task</a>&lt; IActionResult &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_nop_1_1_web_1_1_controllers_1_1_order_controller.html#a4a015442c66c33f22458dba0cddf033b">RetryLastRecurringPayment</a> (IFormCollection form)</td></tr>
+<tr class="separator:a4a015442c66c33f22458dba0cddf033b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3e2f1811ff001fcf3f1ac777851de6ec"><td class="memItemLeft" align="right" valign="top">virtual async <a class="el" href="_sendinblue_plugin_8cs.html#a9f49374e6bc76a6b5261e5c211d2e63d">Task</a>&lt; IActionResult &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_nop_1_1_web_1_1_controllers_1_1_order_controller.html#a3e2f1811ff001fcf3f1ac777851de6ec">CustomerRewardPoints</a> (int? pageNumber)</td></tr>
+<tr class="separator:a3e2f1811ff001fcf3f1ac777851de6ec"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a58f076c4633d69d36b2306e32ebd609e"><td class="memItemLeft" align="right" valign="top">virtual async <a class="el" href="_sendinblue_plugin_8cs.html#a9f49374e6bc76a6b5261e5c211d2e63d">Task</a>&lt; IActionResult &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_nop_1_1_web_1_1_controllers_1_1_order_controller.html#a58f076c4633d69d36b2306e32ebd609e">Details</a> (int orderId)</td></tr>
+<tr class="separator:a58f076c4633d69d36b2306e32ebd609e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abb4247370793765e14ef7eb81b60c94b"><td class="memItemLeft" align="right" valign="top">virtual async <a class="el" href="_sendinblue_plugin_8cs.html#a9f49374e6bc76a6b5261e5c211d2e63d">Task</a>&lt; IActionResult &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_nop_1_1_web_1_1_controllers_1_1_order_controller.html#abb4247370793765e14ef7eb81b60c94b">PrintOrderDetails</a> (int orderId)</td></tr>
+<tr class="separator:abb4247370793765e14ef7eb81b60c94b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5c95e75f81ea502dde8d83ce5f8f758e"><td class="memItemLeft" align="right" valign="top">virtual async <a class="el" href="_sendinblue_plugin_8cs.html#a9f49374e6bc76a6b5261e5c211d2e63d">Task</a>&lt; IActionResult &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_nop_1_1_web_1_1_controllers_1_1_order_controller.html#a5c95e75f81ea502dde8d83ce5f8f758e">GetPdfInvoice</a> (int orderId)</td></tr>
+<tr class="separator:a5c95e75f81ea502dde8d83ce5f8f758e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a07db0be8bc92b8917b7aeaf2a4c7ba1d"><td class="memItemLeft" align="right" valign="top">virtual async <a class="el" href="_sendinblue_plugin_8cs.html#a9f49374e6bc76a6b5261e5c211d2e63d">Task</a>&lt; IActionResult &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_nop_1_1_web_1_1_controllers_1_1_order_controller.html#a07db0be8bc92b8917b7aeaf2a4c7ba1d">ReOrder</a> (int orderId)</td></tr>
+<tr class="separator:a07db0be8bc92b8917b7aeaf2a4c7ba1d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a94064c908bafd0808d05252dc7576972"><td class="memItemLeft" align="right" valign="top">virtual async <a class="el" href="_sendinblue_plugin_8cs.html#a9f49374e6bc76a6b5261e5c211d2e63d">Task</a>&lt; IActionResult &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_nop_1_1_web_1_1_controllers_1_1_order_controller.html#a94064c908bafd0808d05252dc7576972">RePostPayment</a> (int orderId)</td></tr>
+<tr class="separator:a94064c908bafd0808d05252dc7576972"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a053c11ecfc8a83e398bdbcfebb00f6e3"><td class="memItemLeft" align="right" valign="top">virtual async <a class="el" href="_sendinblue_plugin_8cs.html#a9f49374e6bc76a6b5261e5c211d2e63d">Task</a>&lt; IActionResult &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_nop_1_1_web_1_1_controllers_1_1_order_controller.html#a053c11ecfc8a83e398bdbcfebb00f6e3">ShipmentDetails</a> (int shipmentId)</td></tr>
+<tr class="separator:a053c11ecfc8a83e398bdbcfebb00f6e3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_methods_class_nop_1_1_web_1_1_framework_1_1_controllers_1_1_base_controller"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_class_nop_1_1_web_1_1_framework_1_1_controllers_1_1_base_controller')"><img src="closed.png" alt="-"/>&#160;Membros públicos herdados de <a class="el" href="class_nop_1_1_web_1_1_framework_1_1_controllers_1_1_base_controller.html">Nop.Web.Framework.Controllers.BaseController</a></td></tr>
+<tr class="memitem:a81ec7851145b6ba0bc5aebe6e3be4c17 inherit pub_methods_class_nop_1_1_web_1_1_framework_1_1_controllers_1_1_base_controller"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_nop_1_1_web_1_1_framework_1_1_controllers_1_1_base_controller.html#a81ec7851145b6ba0bc5aebe6e3be4c17">SaveSelectedCardName</a> (string cardName, bool persistForTheNextRequest=true)</td></tr>
+<tr class="memdesc:a81ec7851145b6ba0bc5aebe6e3be4c17 inherit pub_methods_class_nop_1_1_web_1_1_framework_1_1_controllers_1_1_base_controller"><td class="mdescLeft">&#160;</td><td class="mdescRight">Save selected card name  <a href="class_nop_1_1_web_1_1_framework_1_1_controllers_1_1_base_controller.html#a81ec7851145b6ba0bc5aebe6e3be4c17">Mais...</a><br /></td></tr>
+<tr class="separator:a81ec7851145b6ba0bc5aebe6e3be4c17 inherit pub_methods_class_nop_1_1_web_1_1_framework_1_1_controllers_1_1_base_controller"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3db1ceff409de6599c0b652d5db60e47 inherit pub_methods_class_nop_1_1_web_1_1_framework_1_1_controllers_1_1_base_controller"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_nop_1_1_web_1_1_framework_1_1_controllers_1_1_base_controller.html#a3db1ceff409de6599c0b652d5db60e47">SaveSelectedTabName</a> (string tabName=&quot;&quot;, bool persistForTheNextRequest=true)</td></tr>
+<tr class="memdesc:a3db1ceff409de6599c0b652d5db60e47 inherit pub_methods_class_nop_1_1_web_1_1_framework_1_1_controllers_1_1_base_controller"><td class="mdescLeft">&#160;</td><td class="mdescRight">Save selected tab name  <a href="class_nop_1_1_web_1_1_framework_1_1_controllers_1_1_base_controller.html#a3db1ceff409de6599c0b652d5db60e47">Mais...</a><br /></td></tr>
+<tr class="separator:a3db1ceff409de6599c0b652d5db60e47 inherit pub_methods_class_nop_1_1_web_1_1_framework_1_1_controllers_1_1_base_controller"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab7145f6c833305414e7c911d46d68f66 inherit pub_methods_class_nop_1_1_web_1_1_framework_1_1_controllers_1_1_base_controller"><td class="memItemLeft" align="right" valign="top">JsonResult&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_nop_1_1_web_1_1_framework_1_1_controllers_1_1_base_controller.html#ab7145f6c833305414e7c911d46d68f66">Json&lt; T &gt;</a> (BasePagedListModel&lt; T &gt; model)</td></tr>
+<tr class="memdesc:ab7145f6c833305414e7c911d46d68f66 inherit pub_methods_class_nop_1_1_web_1_1_framework_1_1_controllers_1_1_base_controller"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates an object that serializes the specified object to JSON Used to serialize data for DataTables  <a href="class_nop_1_1_web_1_1_framework_1_1_controllers_1_1_base_controller.html#ab7145f6c833305414e7c911d46d68f66">Mais...</a><br /></td></tr>
+<tr class="separator:ab7145f6c833305414e7c911d46d68f66 inherit pub_methods_class_nop_1_1_web_1_1_framework_1_1_controllers_1_1_base_controller"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
+Atributos Privados</h2></td></tr>
+<tr class="memitem:a38ff2597c63f44f6866f3796e19e8d43"><td class="memItemLeft" align="right" valign="top">readonly <a class="el" href="interface_nop_1_1_services_1_1_customers_1_1_i_customer_service.html">ICustomerService</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_nop_1_1_web_1_1_controllers_1_1_order_controller.html#a38ff2597c63f44f6866f3796e19e8d43">_customerService</a></td></tr>
+<tr class="separator:a38ff2597c63f44f6866f3796e19e8d43"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3d292d3d4820af5587f923d742b592a5"><td class="memItemLeft" align="right" valign="top">readonly <a class="el" href="interface_nop_1_1_web_1_1_factories_1_1_i_order_model_factory.html">IOrderModelFactory</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_nop_1_1_web_1_1_controllers_1_1_order_controller.html#a3d292d3d4820af5587f923d742b592a5">_orderModelFactory</a></td></tr>
+<tr class="separator:a3d292d3d4820af5587f923d742b592a5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a84ddd1c98c01cc42725088b66801e216"><td class="memItemLeft" align="right" valign="top">readonly <a class="el" href="interface_nop_1_1_services_1_1_orders_1_1_i_order_processing_service.html">IOrderProcessingService</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_nop_1_1_web_1_1_controllers_1_1_order_controller.html#a84ddd1c98c01cc42725088b66801e216">_orderProcessingService</a></td></tr>
+<tr class="separator:a84ddd1c98c01cc42725088b66801e216"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa238e360db777b2e75accde57bd852e4"><td class="memItemLeft" align="right" valign="top">readonly <a class="el" href="interface_nop_1_1_services_1_1_orders_1_1_i_order_service.html">IOrderService</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_nop_1_1_web_1_1_controllers_1_1_order_controller.html#aa238e360db777b2e75accde57bd852e4">_orderService</a></td></tr>
+<tr class="separator:aa238e360db777b2e75accde57bd852e4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ace02813b907a0816d3ec72762d9951bc"><td class="memItemLeft" align="right" valign="top">readonly <a class="el" href="interface_nop_1_1_services_1_1_payments_1_1_i_payment_service.html">IPaymentService</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_nop_1_1_web_1_1_controllers_1_1_order_controller.html#ace02813b907a0816d3ec72762d9951bc">_paymentService</a></td></tr>
+<tr class="separator:ace02813b907a0816d3ec72762d9951bc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8a312ac04bb4b1ac2a39b58b44e4805a"><td class="memItemLeft" align="right" valign="top">readonly <a class="el" href="interface_nop_1_1_services_1_1_common_1_1_i_pdf_service.html">IPdfService</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_nop_1_1_web_1_1_controllers_1_1_order_controller.html#a8a312ac04bb4b1ac2a39b58b44e4805a">_pdfService</a></td></tr>
+<tr class="separator:a8a312ac04bb4b1ac2a39b58b44e4805a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a692f612de204b31325a9f4d5f88ca779"><td class="memItemLeft" align="right" valign="top">readonly <a class="el" href="interface_nop_1_1_services_1_1_shipping_1_1_i_shipment_service.html">IShipmentService</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_nop_1_1_web_1_1_controllers_1_1_order_controller.html#a692f612de204b31325a9f4d5f88ca779">_shipmentService</a></td></tr>
+<tr class="separator:a692f612de204b31325a9f4d5f88ca779"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2d480169b10b9357e20f268c675c283f"><td class="memItemLeft" align="right" valign="top">readonly <a class="el" href="interface_nop_1_1_core_1_1_i_web_helper.html">IWebHelper</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_nop_1_1_web_1_1_controllers_1_1_order_controller.html#a2d480169b10b9357e20f268c675c283f">_webHelper</a></td></tr>
+<tr class="separator:a2d480169b10b9357e20f268c675c283f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9d60086889c2f98f82f3191689b7335e"><td class="memItemLeft" align="right" valign="top">readonly <a class="el" href="interface_nop_1_1_core_1_1_i_work_context.html">IWorkContext</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_nop_1_1_web_1_1_controllers_1_1_order_controller.html#a9d60086889c2f98f82f3191689b7335e">_workContext</a></td></tr>
+<tr class="separator:a9d60086889c2f98f82f3191689b7335e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab60b9b0556df269bf704e6e5961bd03c"><td class="memItemLeft" align="right" valign="top">readonly <a class="el" href="class_nop_1_1_core_1_1_domain_1_1_customers_1_1_reward_points_settings.html">RewardPointsSettings</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_nop_1_1_web_1_1_controllers_1_1_order_controller.html#ab60b9b0556df269bf704e6e5961bd03c">_rewardPointsSettings</a></td></tr>
+<tr class="separator:ab60b9b0556df269bf704e6e5961bd03c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="inherited"></a>
+Outros membros herdados</h2></td></tr>
+<tr class="inherit_header pro_methods_class_nop_1_1_web_1_1_controllers_1_1_base_public_controller"><td colspan="2" onclick="javascript:toggleInherit('pro_methods_class_nop_1_1_web_1_1_controllers_1_1_base_public_controller')"><img src="closed.png" alt="-"/>&#160;Membros protegidos herdados de <a class="el" href="class_nop_1_1_web_1_1_controllers_1_1_base_public_controller.html">Nop.Web.Controllers.BasePublicController</a></td></tr>
+<tr class="memitem:a0f5015000232710a6c566bce1c1e232a inherit pro_methods_class_nop_1_1_web_1_1_controllers_1_1_base_public_controller"><td class="memItemLeft" align="right" valign="top">virtual IActionResult&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_nop_1_1_web_1_1_controllers_1_1_base_public_controller.html#a0f5015000232710a6c566bce1c1e232a">InvokeHttp404</a> ()</td></tr>
+<tr class="separator:a0f5015000232710a6c566bce1c1e232a inherit pro_methods_class_nop_1_1_web_1_1_controllers_1_1_base_public_controller"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pro_methods_class_nop_1_1_web_1_1_framework_1_1_controllers_1_1_base_controller"><td colspan="2" onclick="javascript:toggleInherit('pro_methods_class_nop_1_1_web_1_1_framework_1_1_controllers_1_1_base_controller')"><img src="closed.png" alt="-"/>&#160;Membros protegidos herdados de <a class="el" href="class_nop_1_1_web_1_1_framework_1_1_controllers_1_1_base_controller.html">Nop.Web.Framework.Controllers.BaseController</a></td></tr>
+<tr class="memitem:a6821e76fe0aa49fb9a7dd1e50ef38a80 inherit pro_methods_class_nop_1_1_web_1_1_framework_1_1_controllers_1_1_base_controller"><td class="memItemLeft" align="right" valign="top">virtual async <a class="el" href="_sendinblue_plugin_8cs.html#a9f49374e6bc76a6b5261e5c211d2e63d">Task</a>&lt; string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_nop_1_1_web_1_1_framework_1_1_controllers_1_1_base_controller.html#a6821e76fe0aa49fb9a7dd1e50ef38a80">RenderViewComponentToStringAsync</a> (string componentName, object arguments=null)</td></tr>
+<tr class="memdesc:a6821e76fe0aa49fb9a7dd1e50ef38a80 inherit pro_methods_class_nop_1_1_web_1_1_framework_1_1_controllers_1_1_base_controller"><td class="mdescLeft">&#160;</td><td class="mdescRight">Render component to string  <a href="class_nop_1_1_web_1_1_framework_1_1_controllers_1_1_base_controller.html#a6821e76fe0aa49fb9a7dd1e50ef38a80">Mais...</a><br /></td></tr>
+<tr class="separator:a6821e76fe0aa49fb9a7dd1e50ef38a80 inherit pro_methods_class_nop_1_1_web_1_1_framework_1_1_controllers_1_1_base_controller"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7d52ab436bd2b3048d4a84ecc0ae5cf2 inherit pro_methods_class_nop_1_1_web_1_1_framework_1_1_controllers_1_1_base_controller"><td class="memItemLeft" align="right" valign="top">virtual async <a class="el" href="_sendinblue_plugin_8cs.html#a9f49374e6bc76a6b5261e5c211d2e63d">Task</a>&lt; string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_nop_1_1_web_1_1_framework_1_1_controllers_1_1_base_controller.html#a7d52ab436bd2b3048d4a84ecc0ae5cf2">RenderPartialViewToStringAsync</a> (string viewName, object model)</td></tr>
+<tr class="memdesc:a7d52ab436bd2b3048d4a84ecc0ae5cf2 inherit pro_methods_class_nop_1_1_web_1_1_framework_1_1_controllers_1_1_base_controller"><td class="mdescLeft">&#160;</td><td class="mdescRight">Render partial view to string  <a href="class_nop_1_1_web_1_1_framework_1_1_controllers_1_1_base_controller.html#a7d52ab436bd2b3048d4a84ecc0ae5cf2">Mais...</a><br /></td></tr>
+<tr class="separator:a7d52ab436bd2b3048d4a84ecc0ae5cf2 inherit pro_methods_class_nop_1_1_web_1_1_framework_1_1_controllers_1_1_base_controller"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afe040afef446050fed6a411d417684a8 inherit pro_methods_class_nop_1_1_web_1_1_framework_1_1_controllers_1_1_base_controller"><td class="memItemLeft" align="right" valign="top">JsonResult&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_nop_1_1_web_1_1_framework_1_1_controllers_1_1_base_controller.html#afe040afef446050fed6a411d417684a8">ErrorJson</a> (string error)</td></tr>
+<tr class="memdesc:afe040afef446050fed6a411d417684a8 inherit pro_methods_class_nop_1_1_web_1_1_framework_1_1_controllers_1_1_base_controller"><td class="mdescLeft">&#160;</td><td class="mdescRight">Error's JSON data  <a href="class_nop_1_1_web_1_1_framework_1_1_controllers_1_1_base_controller.html#afe040afef446050fed6a411d417684a8">Mais...</a><br /></td></tr>
+<tr class="separator:afe040afef446050fed6a411d417684a8 inherit pro_methods_class_nop_1_1_web_1_1_framework_1_1_controllers_1_1_base_controller"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad02665cdcc90b6b1b546edb3aaa09a55 inherit pro_methods_class_nop_1_1_web_1_1_framework_1_1_controllers_1_1_base_controller"><td class="memItemLeft" align="right" valign="top">JsonResult&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_nop_1_1_web_1_1_framework_1_1_controllers_1_1_base_controller.html#ad02665cdcc90b6b1b546edb3aaa09a55">ErrorJson</a> (object errors)</td></tr>
+<tr class="memdesc:ad02665cdcc90b6b1b546edb3aaa09a55 inherit pro_methods_class_nop_1_1_web_1_1_framework_1_1_controllers_1_1_base_controller"><td class="mdescLeft">&#160;</td><td class="mdescRight">Error's JSON data  <a href="class_nop_1_1_web_1_1_framework_1_1_controllers_1_1_base_controller.html#ad02665cdcc90b6b1b546edb3aaa09a55">Mais...</a><br /></td></tr>
+<tr class="separator:ad02665cdcc90b6b1b546edb3aaa09a55 inherit pro_methods_class_nop_1_1_web_1_1_framework_1_1_controllers_1_1_base_controller"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0b92f22b6ecf3e59e48dbbccb31fe5b0 inherit pro_methods_class_nop_1_1_web_1_1_framework_1_1_controllers_1_1_base_controller"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_nop_1_1_web_1_1_framework_1_1_controllers_1_1_base_controller.html#a0b92f22b6ecf3e59e48dbbccb31fe5b0">DisplayEditLink</a> (string editPageUrl)</td></tr>
+<tr class="memdesc:a0b92f22b6ecf3e59e48dbbccb31fe5b0 inherit pro_methods_class_nop_1_1_web_1_1_framework_1_1_controllers_1_1_base_controller"><td class="mdescLeft">&#160;</td><td class="mdescRight">Display "Edit" (manage) link (in public store)  <a href="class_nop_1_1_web_1_1_framework_1_1_controllers_1_1_base_controller.html#a0b92f22b6ecf3e59e48dbbccb31fe5b0">Mais...</a><br /></td></tr>
+<tr class="separator:a0b92f22b6ecf3e59e48dbbccb31fe5b0 inherit pro_methods_class_nop_1_1_web_1_1_framework_1_1_controllers_1_1_base_controller"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3347c2144d3a87d39aeb5df0b5177b78 inherit pro_methods_class_nop_1_1_web_1_1_framework_1_1_controllers_1_1_base_controller"><td class="memItemLeft" align="right" valign="top">virtual async <a class="el" href="_sendinblue_plugin_8cs.html#a9f49374e6bc76a6b5261e5c211d2e63d">Task</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_nop_1_1_web_1_1_framework_1_1_controllers_1_1_base_controller.html#a3347c2144d3a87d39aeb5df0b5177b78">AddLocalesAsync&lt; TLocalizedModelLocal &gt;</a> (<a class="el" href="interface_nop_1_1_services_1_1_localization_1_1_i_language_service.html">ILanguageService</a> languageService, IList&lt; TLocalizedModelLocal &gt; locales)</td></tr>
+<tr class="memdesc:a3347c2144d3a87d39aeb5df0b5177b78 inherit pro_methods_class_nop_1_1_web_1_1_framework_1_1_controllers_1_1_base_controller"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add locales for localizable entities  <a href="class_nop_1_1_web_1_1_framework_1_1_controllers_1_1_base_controller.html#a3347c2144d3a87d39aeb5df0b5177b78">Mais...</a><br /></td></tr>
+<tr class="separator:a3347c2144d3a87d39aeb5df0b5177b78 inherit pro_methods_class_nop_1_1_web_1_1_framework_1_1_controllers_1_1_base_controller"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a03a3806d8fdad244b8fbcb5f2e7189fa inherit pro_methods_class_nop_1_1_web_1_1_framework_1_1_controllers_1_1_base_controller"><td class="memItemLeft" align="right" valign="top">virtual async <a class="el" href="_sendinblue_plugin_8cs.html#a9f49374e6bc76a6b5261e5c211d2e63d">Task</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_nop_1_1_web_1_1_framework_1_1_controllers_1_1_base_controller.html#a03a3806d8fdad244b8fbcb5f2e7189fa">AddLocalesAsync&lt; TLocalizedModelLocal &gt;</a> (<a class="el" href="interface_nop_1_1_services_1_1_localization_1_1_i_language_service.html">ILanguageService</a> languageService, IList&lt; TLocalizedModelLocal &gt; locales, Action&lt; TLocalizedModelLocal, int &gt; configure)</td></tr>
+<tr class="memdesc:a03a3806d8fdad244b8fbcb5f2e7189fa inherit pro_methods_class_nop_1_1_web_1_1_framework_1_1_controllers_1_1_base_controller"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add locales for localizable entities  <a href="class_nop_1_1_web_1_1_framework_1_1_controllers_1_1_base_controller.html#a03a3806d8fdad244b8fbcb5f2e7189fa">Mais...</a><br /></td></tr>
+<tr class="separator:a03a3806d8fdad244b8fbcb5f2e7189fa inherit pro_methods_class_nop_1_1_web_1_1_framework_1_1_controllers_1_1_base_controller"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaab3ec122bf4e8d48aced6cf0bcbddba inherit pro_methods_class_nop_1_1_web_1_1_framework_1_1_controllers_1_1_base_controller"><td class="memItemLeft" align="right" valign="top">virtual IActionResult&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_nop_1_1_web_1_1_framework_1_1_controllers_1_1_base_controller.html#aaab3ec122bf4e8d48aced6cf0bcbddba">AccessDeniedView</a> ()</td></tr>
+<tr class="memdesc:aaab3ec122bf4e8d48aced6cf0bcbddba inherit pro_methods_class_nop_1_1_web_1_1_framework_1_1_controllers_1_1_base_controller"><td class="mdescLeft">&#160;</td><td class="mdescRight">Access denied view  <a href="class_nop_1_1_web_1_1_framework_1_1_controllers_1_1_base_controller.html#aaab3ec122bf4e8d48aced6cf0bcbddba">Mais...</a><br /></td></tr>
+<tr class="separator:aaab3ec122bf4e8d48aced6cf0bcbddba inherit pro_methods_class_nop_1_1_web_1_1_framework_1_1_controllers_1_1_base_controller"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6afe34b44b9a4966c4fb4c0d08718046 inherit pro_methods_class_nop_1_1_web_1_1_framework_1_1_controllers_1_1_base_controller"><td class="memItemLeft" align="right" valign="top">async <a class="el" href="_sendinblue_plugin_8cs.html#a9f49374e6bc76a6b5261e5c211d2e63d">Task</a>&lt; JsonResult &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_nop_1_1_web_1_1_framework_1_1_controllers_1_1_base_controller.html#a6afe34b44b9a4966c4fb4c0d08718046">AccessDeniedDataTablesJson</a> ()</td></tr>
+<tr class="memdesc:a6afe34b44b9a4966c4fb4c0d08718046 inherit pro_methods_class_nop_1_1_web_1_1_framework_1_1_controllers_1_1_base_controller"><td class="mdescLeft">&#160;</td><td class="mdescRight">Access denied JSON data for DataTables  <a href="class_nop_1_1_web_1_1_framework_1_1_controllers_1_1_base_controller.html#a6afe34b44b9a4966c4fb4c0d08718046">Mais...</a><br /></td></tr>
+<tr class="separator:a6afe34b44b9a4966c4fb4c0d08718046 inherit pro_methods_class_nop_1_1_web_1_1_framework_1_1_controllers_1_1_base_controller"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae4774371ff0286b683d3d5fc43a0622a inherit pro_methods_class_nop_1_1_web_1_1_framework_1_1_controllers_1_1_base_controller"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_nop_1_1_web_1_1_framework_1_1_controllers_1_1_base_controller.html#ae4774371ff0286b683d3d5fc43a0622a">SaveSelectedTabName</a> (string tabName, string formKey, string dataKeyPrefix, bool persistForTheNextRequest)</td></tr>
+<tr class="memdesc:ae4774371ff0286b683d3d5fc43a0622a inherit pro_methods_class_nop_1_1_web_1_1_framework_1_1_controllers_1_1_base_controller"><td class="mdescLeft">&#160;</td><td class="mdescRight">Save selected tab name  <a href="class_nop_1_1_web_1_1_framework_1_1_controllers_1_1_base_controller.html#ae4774371ff0286b683d3d5fc43a0622a">Mais...</a><br /></td></tr>
+<tr class="separator:ae4774371ff0286b683d3d5fc43a0622a inherit pro_methods_class_nop_1_1_web_1_1_framework_1_1_controllers_1_1_base_controller"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<h2 class="groupheader">Documentação dos Construtores &amp; Destrutor</h2>
+<a id="a6e4c59664c501967663478815443462d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6e4c59664c501967663478815443462d">&#9670;&nbsp;</a></span>OrderController()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Nop.Web.Controllers.OrderController.OrderController </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interface_nop_1_1_services_1_1_customers_1_1_i_customer_service.html">ICustomerService</a>&#160;</td>
+          <td class="paramname"><em>customerService</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="interface_nop_1_1_web_1_1_factories_1_1_i_order_model_factory.html">IOrderModelFactory</a>&#160;</td>
+          <td class="paramname"><em>orderModelFactory</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="interface_nop_1_1_services_1_1_orders_1_1_i_order_processing_service.html">IOrderProcessingService</a>&#160;</td>
+          <td class="paramname"><em>orderProcessingService</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="interface_nop_1_1_services_1_1_orders_1_1_i_order_service.html">IOrderService</a>&#160;</td>
+          <td class="paramname"><em>orderService</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="interface_nop_1_1_services_1_1_payments_1_1_i_payment_service.html">IPaymentService</a>&#160;</td>
+          <td class="paramname"><em>paymentService</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="interface_nop_1_1_services_1_1_common_1_1_i_pdf_service.html">IPdfService</a>&#160;</td>
+          <td class="paramname"><em>pdfService</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="interface_nop_1_1_services_1_1_shipping_1_1_i_shipment_service.html">IShipmentService</a>&#160;</td>
+          <td class="paramname"><em>shipmentService</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="interface_nop_1_1_core_1_1_i_web_helper.html">IWebHelper</a>&#160;</td>
+          <td class="paramname"><em>webHelper</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="interface_nop_1_1_core_1_1_i_work_context.html">IWorkContext</a>&#160;</td>
+          <td class="paramname"><em>workContext</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="class_nop_1_1_core_1_1_domain_1_1_customers_1_1_reward_points_settings.html">RewardPointsSettings</a>&#160;</td>
+          <td class="paramname"><em>rewardPointsSettings</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;        {</div>
+<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;            <a class="code" href="class_nop_1_1_web_1_1_controllers_1_1_order_controller.html#a38ff2597c63f44f6866f3796e19e8d43">_customerService</a> = customerService;</div>
+<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;            <a class="code" href="class_nop_1_1_web_1_1_controllers_1_1_order_controller.html#a3d292d3d4820af5587f923d742b592a5">_orderModelFactory</a> = orderModelFactory;</div>
+<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;            <a class="code" href="class_nop_1_1_web_1_1_controllers_1_1_order_controller.html#a84ddd1c98c01cc42725088b66801e216">_orderProcessingService</a> = orderProcessingService;</div>
+<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;            <a class="code" href="class_nop_1_1_web_1_1_controllers_1_1_order_controller.html#aa238e360db777b2e75accde57bd852e4">_orderService</a> = orderService;</div>
+<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;            <a class="code" href="class_nop_1_1_web_1_1_controllers_1_1_order_controller.html#ace02813b907a0816d3ec72762d9951bc">_paymentService</a> = paymentService;</div>
+<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;            <a class="code" href="class_nop_1_1_web_1_1_controllers_1_1_order_controller.html#a8a312ac04bb4b1ac2a39b58b44e4805a">_pdfService</a> = pdfService;</div>
+<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;            <a class="code" href="class_nop_1_1_web_1_1_controllers_1_1_order_controller.html#a692f612de204b31325a9f4d5f88ca779">_shipmentService</a> = shipmentService;</div>
+<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;            <a class="code" href="class_nop_1_1_web_1_1_controllers_1_1_order_controller.html#a2d480169b10b9357e20f268c675c283f">_webHelper</a> = webHelper;</div>
+<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;            <a class="code" href="class_nop_1_1_web_1_1_controllers_1_1_order_controller.html#a9d60086889c2f98f82f3191689b7335e">_workContext</a> = workContext;</div>
+<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;            <a class="code" href="class_nop_1_1_web_1_1_controllers_1_1_order_controller.html#ab60b9b0556df269bf704e6e5961bd03c">_rewardPointsSettings</a> = rewardPointsSettings;</div>
+<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;        }</div>
+<div class="ttc" id="aclass_nop_1_1_web_1_1_controllers_1_1_order_controller_html_a2d480169b10b9357e20f268c675c283f"><div class="ttname"><a href="class_nop_1_1_web_1_1_controllers_1_1_order_controller.html#a2d480169b10b9357e20f268c675c283f">Nop.Web.Controllers.OrderController._webHelper</a></div><div class="ttdeci">readonly IWebHelper _webHelper</div><div class="ttdef"><b>Definition:</b> OrderController.cs:33</div></div>
+<div class="ttc" id="aclass_nop_1_1_web_1_1_controllers_1_1_order_controller_html_a38ff2597c63f44f6866f3796e19e8d43"><div class="ttname"><a href="class_nop_1_1_web_1_1_controllers_1_1_order_controller.html#a38ff2597c63f44f6866f3796e19e8d43">Nop.Web.Controllers.OrderController._customerService</a></div><div class="ttdeci">readonly ICustomerService _customerService</div><div class="ttdef"><b>Definition:</b> OrderController.cs:26</div></div>
+<div class="ttc" id="aclass_nop_1_1_web_1_1_controllers_1_1_order_controller_html_a3d292d3d4820af5587f923d742b592a5"><div class="ttname"><a href="class_nop_1_1_web_1_1_controllers_1_1_order_controller.html#a3d292d3d4820af5587f923d742b592a5">Nop.Web.Controllers.OrderController._orderModelFactory</a></div><div class="ttdeci">readonly IOrderModelFactory _orderModelFactory</div><div class="ttdef"><b>Definition:</b> OrderController.cs:27</div></div>
+<div class="ttc" id="aclass_nop_1_1_web_1_1_controllers_1_1_order_controller_html_a692f612de204b31325a9f4d5f88ca779"><div class="ttname"><a href="class_nop_1_1_web_1_1_controllers_1_1_order_controller.html#a692f612de204b31325a9f4d5f88ca779">Nop.Web.Controllers.OrderController._shipmentService</a></div><div class="ttdeci">readonly IShipmentService _shipmentService</div><div class="ttdef"><b>Definition:</b> OrderController.cs:32</div></div>
+<div class="ttc" id="aclass_nop_1_1_web_1_1_controllers_1_1_order_controller_html_a84ddd1c98c01cc42725088b66801e216"><div class="ttname"><a href="class_nop_1_1_web_1_1_controllers_1_1_order_controller.html#a84ddd1c98c01cc42725088b66801e216">Nop.Web.Controllers.OrderController._orderProcessingService</a></div><div class="ttdeci">readonly IOrderProcessingService _orderProcessingService</div><div class="ttdef"><b>Definition:</b> OrderController.cs:28</div></div>
+<div class="ttc" id="aclass_nop_1_1_web_1_1_controllers_1_1_order_controller_html_a8a312ac04bb4b1ac2a39b58b44e4805a"><div class="ttname"><a href="class_nop_1_1_web_1_1_controllers_1_1_order_controller.html#a8a312ac04bb4b1ac2a39b58b44e4805a">Nop.Web.Controllers.OrderController._pdfService</a></div><div class="ttdeci">readonly IPdfService _pdfService</div><div class="ttdef"><b>Definition:</b> OrderController.cs:31</div></div>
+<div class="ttc" id="aclass_nop_1_1_web_1_1_controllers_1_1_order_controller_html_a9d60086889c2f98f82f3191689b7335e"><div class="ttname"><a href="class_nop_1_1_web_1_1_controllers_1_1_order_controller.html#a9d60086889c2f98f82f3191689b7335e">Nop.Web.Controllers.OrderController._workContext</a></div><div class="ttdeci">readonly IWorkContext _workContext</div><div class="ttdef"><b>Definition:</b> OrderController.cs:34</div></div>
+<div class="ttc" id="aclass_nop_1_1_web_1_1_controllers_1_1_order_controller_html_aa238e360db777b2e75accde57bd852e4"><div class="ttname"><a href="class_nop_1_1_web_1_1_controllers_1_1_order_controller.html#aa238e360db777b2e75accde57bd852e4">Nop.Web.Controllers.OrderController._orderService</a></div><div class="ttdeci">readonly IOrderService _orderService</div><div class="ttdef"><b>Definition:</b> OrderController.cs:29</div></div>
+<div class="ttc" id="aclass_nop_1_1_web_1_1_controllers_1_1_order_controller_html_ab60b9b0556df269bf704e6e5961bd03c"><div class="ttname"><a href="class_nop_1_1_web_1_1_controllers_1_1_order_controller.html#ab60b9b0556df269bf704e6e5961bd03c">Nop.Web.Controllers.OrderController._rewardPointsSettings</a></div><div class="ttdeci">readonly RewardPointsSettings _rewardPointsSettings</div><div class="ttdef"><b>Definition:</b> OrderController.cs:35</div></div>
+<div class="ttc" id="aclass_nop_1_1_web_1_1_controllers_1_1_order_controller_html_ace02813b907a0816d3ec72762d9951bc"><div class="ttname"><a href="class_nop_1_1_web_1_1_controllers_1_1_order_controller.html#ace02813b907a0816d3ec72762d9951bc">Nop.Web.Controllers.OrderController._paymentService</a></div><div class="ttdeci">readonly IPaymentService _paymentService</div><div class="ttdef"><b>Definition:</b> OrderController.cs:30</div></div>
+</div><!-- fragment -->
+<p class="reference">Referências <a class="el" href="class_nop_1_1_web_1_1_controllers_1_1_order_controller.html#a38ff2597c63f44f6866f3796e19e8d43">Nop.Web.Controllers.OrderController._customerService</a>, <a class="el" href="class_nop_1_1_web_1_1_controllers_1_1_order_controller.html#a3d292d3d4820af5587f923d742b592a5">Nop.Web.Controllers.OrderController._orderModelFactory</a>, <a class="el" href="class_nop_1_1_web_1_1_controllers_1_1_order_controller.html#a84ddd1c98c01cc42725088b66801e216">Nop.Web.Controllers.OrderController._orderProcessingService</a>, <a class="el" href="class_nop_1_1_web_1_1_controllers_1_1_order_controller.html#aa238e360db777b2e75accde57bd852e4">Nop.Web.Controllers.OrderController._orderService</a>, <a class="el" href="class_nop_1_1_web_1_1_controllers_1_1_order_controller.html#ace02813b907a0816d3ec72762d9951bc">Nop.Web.Controllers.OrderController._paymentService</a>, <a class="el" href="class_nop_1_1_web_1_1_controllers_1_1_order_controller.html#a8a312ac04bb4b1ac2a39b58b44e4805a">Nop.Web.Controllers.OrderController._pdfService</a>, <a class="el" href="class_nop_1_1_web_1_1_controllers_1_1_order_controller.html#ab60b9b0556df269bf704e6e5961bd03c">Nop.Web.Controllers.OrderController._rewardPointsSettings</a>, <a class="el" href="class_nop_1_1_web_1_1_controllers_1_1_order_controller.html#a692f612de204b31325a9f4d5f88ca779">Nop.Web.Controllers.OrderController._shipmentService</a>, <a class="el" href="class_nop_1_1_web_1_1_controllers_1_1_order_controller.html#a2d480169b10b9357e20f268c675c283f">Nop.Web.Controllers.OrderController._webHelper</a> e <a class="el" href="class_nop_1_1_web_1_1_controllers_1_1_order_controller.html#a9d60086889c2f98f82f3191689b7335e">Nop.Web.Controllers.OrderController._workContext</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">Documentação dos métodos</h2>
+<a id="acc30030ccab0a2139c69b33caa2af2b2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acc30030ccab0a2139c69b33caa2af2b2">&#9670;&nbsp;</a></span>CancelRecurringPayment()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual async <a class="el" href="_sendinblue_plugin_8cs.html#a9f49374e6bc76a6b5261e5c211d2e63d">Task</a>&lt;IActionResult&gt; Nop.Web.Controllers.OrderController.CancelRecurringPayment </td>
+          <td>(</td>
+          <td class="paramtype">IFormCollection&#160;</td>
+          <td class="paramname"><em>form</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;        {</div>
+<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;            <span class="keywordflow">if</span> (!await <a class="code" href="class_nop_1_1_web_1_1_controllers_1_1_order_controller.html#a38ff2597c63f44f6866f3796e19e8d43">_customerService</a>.<a class="code" href="interface_nop_1_1_services_1_1_customers_1_1_i_customer_service.html#af6b928fad7e1ea6d21e194c5aa74fc6b">IsRegisteredAsync</a>(await <a class="code" href="class_nop_1_1_web_1_1_controllers_1_1_order_controller.html#a9d60086889c2f98f82f3191689b7335e">_workContext</a>.<a class="code" href="interface_nop_1_1_core_1_1_i_work_context.html#a1117b7898ed056459a9ff3f0446bbbe1">GetCurrentCustomerAsync</a>()))</div>
+<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;                <span class="keywordflow">return</span> Challenge();</div>
+<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160; </div>
+<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;            <span class="comment">//get recurring payment identifier</span></div>
+<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;            var recurringPaymentId = 0;</div>
+<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;            <span class="keywordflow">foreach</span> (var formValue <span class="keywordflow">in</span> form.Keys)</div>
+<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;                <span class="keywordflow">if</span> (formValue.StartsWith(<span class="stringliteral">&quot;cancelRecurringPayment&quot;</span>, StringComparison.InvariantCultureIgnoreCase))</div>
+<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;                    recurringPaymentId = Convert.ToInt32(formValue[<span class="stringliteral">&quot;cancelRecurringPayment&quot;</span>.<a class="code" href="namespace_nop_1_1_web_1_1_areas_1_1_admin_1_1_models_1_1_common.html#aba1b88b314a6228ae8ec8192cabfabef">Length</a>..]);</div>
+<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160; </div>
+<div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;            var recurringPayment = await <a class="code" href="class_nop_1_1_web_1_1_controllers_1_1_order_controller.html#aa238e360db777b2e75accde57bd852e4">_orderService</a>.<a class="code" href="interface_nop_1_1_services_1_1_orders_1_1_i_order_service.html#ad89c5b2f192fd253347f9a76692d2069">GetRecurringPaymentByIdAsync</a>(recurringPaymentId);</div>
+<div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;            <span class="keywordflow">if</span> (recurringPayment == <span class="keyword">null</span>)</div>
+<div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;            {</div>
+<div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;                <span class="keywordflow">return</span> RedirectToRoute(<span class="stringliteral">&quot;CustomerOrders&quot;</span>);</div>
+<div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;            }</div>
+<div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160; </div>
+<div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;            <span class="keywordflow">if</span> (await <a class="code" href="class_nop_1_1_web_1_1_controllers_1_1_order_controller.html#a84ddd1c98c01cc42725088b66801e216">_orderProcessingService</a>.<a class="code" href="interface_nop_1_1_services_1_1_orders_1_1_i_order_processing_service.html#a648cbf64534695f3612c9c289343b138">CanCancelRecurringPaymentAsync</a>(await <a class="code" href="class_nop_1_1_web_1_1_controllers_1_1_order_controller.html#a9d60086889c2f98f82f3191689b7335e">_workContext</a>.<a class="code" href="interface_nop_1_1_core_1_1_i_work_context.html#a1117b7898ed056459a9ff3f0446bbbe1">GetCurrentCustomerAsync</a>(), recurringPayment))</div>
+<div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;            {</div>
+<div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;                var errors = await <a class="code" href="class_nop_1_1_web_1_1_controllers_1_1_order_controller.html#a84ddd1c98c01cc42725088b66801e216">_orderProcessingService</a>.<a class="code" href="interface_nop_1_1_services_1_1_orders_1_1_i_order_processing_service.html#a1cb0979376feeb18f0dea77bdb190c50">CancelRecurringPaymentAsync</a>(recurringPayment);</div>
+<div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160; </div>
+<div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;                var model = await <a class="code" href="class_nop_1_1_web_1_1_controllers_1_1_order_controller.html#a3d292d3d4820af5587f923d742b592a5">_orderModelFactory</a>.<a class="code" href="interface_nop_1_1_web_1_1_factories_1_1_i_order_model_factory.html#ab6f6489c2cca84cc9c12f6f546c3cc11">PrepareCustomerOrderListModelAsync</a>();</div>
+<div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;                model.RecurringPaymentErrors = errors;</div>
+<div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160; </div>
+<div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;                <span class="keywordflow">return</span> View(model);</div>
+<div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;            }</div>
+<div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160; </div>
+<div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160;            <span class="keywordflow">return</span> RedirectToRoute(<span class="stringliteral">&quot;CustomerOrders&quot;</span>);</div>
+<div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160;        }</div>
+<div class="ttc" id="ainterface_nop_1_1_core_1_1_i_work_context_html_a1117b7898ed056459a9ff3f0446bbbe1"><div class="ttname"><a href="interface_nop_1_1_core_1_1_i_work_context.html#a1117b7898ed056459a9ff3f0446bbbe1">Nop.Core.IWorkContext.GetCurrentCustomerAsync</a></div><div class="ttdeci">Task&lt; Customer &gt; GetCurrentCustomerAsync()</div><div class="ttdoc">Gets the current customer</div></div>
+<div class="ttc" id="ainterface_nop_1_1_services_1_1_customers_1_1_i_customer_service_html_af6b928fad7e1ea6d21e194c5aa74fc6b"><div class="ttname"><a href="interface_nop_1_1_services_1_1_customers_1_1_i_customer_service.html#af6b928fad7e1ea6d21e194c5aa74fc6b">Nop.Services.Customers.ICustomerService.IsRegisteredAsync</a></div><div class="ttdeci">Task&lt; bool &gt; IsRegisteredAsync(Customer customer, bool onlyActiveCustomerRoles=true)</div><div class="ttdoc">Gets a value indicating whether customer is registered</div></div>
+<div class="ttc" id="ainterface_nop_1_1_services_1_1_orders_1_1_i_order_processing_service_html_a1cb0979376feeb18f0dea77bdb190c50"><div class="ttname"><a href="interface_nop_1_1_services_1_1_orders_1_1_i_order_processing_service.html#a1cb0979376feeb18f0dea77bdb190c50">Nop.Services.Orders.IOrderProcessingService.CancelRecurringPaymentAsync</a></div><div class="ttdeci">Task&lt; IList&lt; string &gt; &gt; CancelRecurringPaymentAsync(RecurringPayment recurringPayment)</div><div class="ttdoc">Cancels a recurring payment</div></div>
+<div class="ttc" id="ainterface_nop_1_1_services_1_1_orders_1_1_i_order_processing_service_html_a648cbf64534695f3612c9c289343b138"><div class="ttname"><a href="interface_nop_1_1_services_1_1_orders_1_1_i_order_processing_service.html#a648cbf64534695f3612c9c289343b138">Nop.Services.Orders.IOrderProcessingService.CanCancelRecurringPaymentAsync</a></div><div class="ttdeci">Task&lt; bool &gt; CanCancelRecurringPaymentAsync(Customer customerToValidate, RecurringPayment recurringPayment)</div><div class="ttdoc">Gets a value indicating whether a customer can cancel recurring payment</div></div>
+<div class="ttc" id="ainterface_nop_1_1_services_1_1_orders_1_1_i_order_service_html_ad89c5b2f192fd253347f9a76692d2069"><div class="ttname"><a href="interface_nop_1_1_services_1_1_orders_1_1_i_order_service.html#ad89c5b2f192fd253347f9a76692d2069">Nop.Services.Orders.IOrderService.GetRecurringPaymentByIdAsync</a></div><div class="ttdeci">Task&lt; RecurringPayment &gt; GetRecurringPaymentByIdAsync(int recurringPaymentId)</div><div class="ttdoc">Gets a recurring payment</div></div>
+<div class="ttc" id="ainterface_nop_1_1_web_1_1_factories_1_1_i_order_model_factory_html_ab6f6489c2cca84cc9c12f6f546c3cc11"><div class="ttname"><a href="interface_nop_1_1_web_1_1_factories_1_1_i_order_model_factory.html#ab6f6489c2cca84cc9c12f6f546c3cc11">Nop.Web.Factories.IOrderModelFactory.PrepareCustomerOrderListModelAsync</a></div><div class="ttdeci">Task&lt; CustomerOrderListModel &gt; PrepareCustomerOrderListModelAsync()</div><div class="ttdoc">Prepare the customer order list model</div></div>
+<div class="ttc" id="anamespace_nop_1_1_web_1_1_areas_1_1_admin_1_1_models_1_1_common_html_aba1b88b314a6228ae8ec8192cabfabef"><div class="ttname"><a href="namespace_nop_1_1_web_1_1_areas_1_1_admin_1_1_models_1_1_common.html#aba1b88b314a6228ae8ec8192cabfabef">Nop.Web.Areas.Admin.Models.Common.Length</a></div><div class="ttdeci">string Length</div><div class="ttdef"><b>Definition:</b> BackupFileModel.cs:14</div></div>
+</div><!-- fragment -->
+<p class="reference">Referências <a class="el" href="class_nop_1_1_web_1_1_controllers_1_1_order_controller.html#a38ff2597c63f44f6866f3796e19e8d43">Nop.Web.Controllers.OrderController._customerService</a>, <a class="el" href="class_nop_1_1_web_1_1_controllers_1_1_order_controller.html#a3d292d3d4820af5587f923d742b592a5">Nop.Web.Controllers.OrderController._orderModelFactory</a>, <a class="el" href="class_nop_1_1_web_1_1_controllers_1_1_order_controller.html#a84ddd1c98c01cc42725088b66801e216">Nop.Web.Controllers.OrderController._orderProcessingService</a>, <a class="el" href="class_nop_1_1_web_1_1_controllers_1_1_order_controller.html#aa238e360db777b2e75accde57bd852e4">Nop.Web.Controllers.OrderController._orderService</a>, <a class="el" href="class_nop_1_1_web_1_1_controllers_1_1_order_controller.html#a9d60086889c2f98f82f3191689b7335e">Nop.Web.Controllers.OrderController._workContext</a>, <a class="el" href="interface_nop_1_1_services_1_1_orders_1_1_i_order_processing_service.html#a648cbf64534695f3612c9c289343b138">Nop.Services.Orders.IOrderProcessingService.CanCancelRecurringPaymentAsync()</a>, <a class="el" href="interface_nop_1_1_services_1_1_orders_1_1_i_order_processing_service.html#a1cb0979376feeb18f0dea77bdb190c50">Nop.Services.Orders.IOrderProcessingService.CancelRecurringPaymentAsync()</a>, <a class="el" href="interface_nop_1_1_core_1_1_i_work_context.html#a1117b7898ed056459a9ff3f0446bbbe1">Nop.Core.IWorkContext.GetCurrentCustomerAsync()</a>, <a class="el" href="interface_nop_1_1_services_1_1_orders_1_1_i_order_service.html#ad89c5b2f192fd253347f9a76692d2069">Nop.Services.Orders.IOrderService.GetRecurringPaymentByIdAsync()</a>, <a class="el" href="interface_nop_1_1_services_1_1_customers_1_1_i_customer_service.html#af6b928fad7e1ea6d21e194c5aa74fc6b">Nop.Services.Customers.ICustomerService.IsRegisteredAsync()</a>, <a class="el" href="namespace_nop_1_1_web_1_1_areas_1_1_admin_1_1_models_1_1_common.html#aba1b88b314a6228ae8ec8192cabfabef">Nop.Web.Areas.Admin.Models.Common.Length</a> e <a class="el" href="interface_nop_1_1_web_1_1_factories_1_1_i_order_model_factory.html#ab6f6489c2cca84cc9c12f6f546c3cc11">Nop.Web.Factories.IOrderModelFactory.PrepareCustomerOrderListModelAsync()</a>.</p>
+
+</div>
+</div>
+<a id="a7d1a07625eafb317cc359feceb3dad60"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7d1a07625eafb317cc359feceb3dad60">&#9670;&nbsp;</a></span>CustomerOrders()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual async <a class="el" href="_sendinblue_plugin_8cs.html#a9f49374e6bc76a6b5261e5c211d2e63d">Task</a>&lt;IActionResult&gt; Nop.Web.Controllers.OrderController.CustomerOrders </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;        {</div>
+<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;            <span class="keywordflow">if</span> (!await <a class="code" href="class_nop_1_1_web_1_1_controllers_1_1_order_controller.html#a38ff2597c63f44f6866f3796e19e8d43">_customerService</a>.<a class="code" href="interface_nop_1_1_services_1_1_customers_1_1_i_customer_service.html#af6b928fad7e1ea6d21e194c5aa74fc6b">IsRegisteredAsync</a>(await <a class="code" href="class_nop_1_1_web_1_1_controllers_1_1_order_controller.html#a9d60086889c2f98f82f3191689b7335e">_workContext</a>.<a class="code" href="interface_nop_1_1_core_1_1_i_work_context.html#a1117b7898ed056459a9ff3f0446bbbe1">GetCurrentCustomerAsync</a>()))</div>
+<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;                <span class="keywordflow">return</span> Challenge();</div>
+<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160; </div>
+<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;            var model = await <a class="code" href="class_nop_1_1_web_1_1_controllers_1_1_order_controller.html#a3d292d3d4820af5587f923d742b592a5">_orderModelFactory</a>.<a class="code" href="interface_nop_1_1_web_1_1_factories_1_1_i_order_model_factory.html#ab6f6489c2cca84cc9c12f6f546c3cc11">PrepareCustomerOrderListModelAsync</a>();</div>
+<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;            <span class="keywordflow">return</span> View(model);</div>
+<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;        }</div>
+</div><!-- fragment -->
+<p class="reference">Referências <a class="el" href="class_nop_1_1_web_1_1_controllers_1_1_order_controller.html#a38ff2597c63f44f6866f3796e19e8d43">Nop.Web.Controllers.OrderController._customerService</a>, <a class="el" href="class_nop_1_1_web_1_1_controllers_1_1_order_controller.html#a3d292d3d4820af5587f923d742b592a5">Nop.Web.Controllers.OrderController._orderModelFactory</a>, <a class="el" href="class_nop_1_1_web_1_1_controllers_1_1_order_controller.html#a9d60086889c2f98f82f3191689b7335e">Nop.Web.Controllers.OrderController._workContext</a>, <a class="el" href="interface_nop_1_1_core_1_1_i_work_context.html#a1117b7898ed056459a9ff3f0446bbbe1">Nop.Core.IWorkContext.GetCurrentCustomerAsync()</a>, <a class="el" href="interface_nop_1_1_services_1_1_customers_1_1_i_customer_service.html#af6b928fad7e1ea6d21e194c5aa74fc6b">Nop.Services.Customers.ICustomerService.IsRegisteredAsync()</a> e <a class="el" href="interface_nop_1_1_web_1_1_factories_1_1_i_order_model_factory.html#ab6f6489c2cca84cc9c12f6f546c3cc11">Nop.Web.Factories.IOrderModelFactory.PrepareCustomerOrderListModelAsync()</a>.</p>
+
+</div>
+</div>
+<a id="a3e2f1811ff001fcf3f1ac777851de6ec"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3e2f1811ff001fcf3f1ac777851de6ec">&#9670;&nbsp;</a></span>CustomerRewardPoints()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual async <a class="el" href="_sendinblue_plugin_8cs.html#a9f49374e6bc76a6b5261e5c211d2e63d">Task</a>&lt;IActionResult&gt; Nop.Web.Controllers.OrderController.CustomerRewardPoints </td>
+          <td>(</td>
+          <td class="paramtype">int?&#160;</td>
+          <td class="paramname"><em>pageNumber</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><a name="l00145"></a><span class="lineno">  145</span>&#160;        {</div>
+<div class="line"><a name="l00146"></a><span class="lineno">  146</span>&#160;            <span class="keywordflow">if</span> (!await <a class="code" href="class_nop_1_1_web_1_1_controllers_1_1_order_controller.html#a38ff2597c63f44f6866f3796e19e8d43">_customerService</a>.<a class="code" href="interface_nop_1_1_services_1_1_customers_1_1_i_customer_service.html#af6b928fad7e1ea6d21e194c5aa74fc6b">IsRegisteredAsync</a>(await <a class="code" href="class_nop_1_1_web_1_1_controllers_1_1_order_controller.html#a9d60086889c2f98f82f3191689b7335e">_workContext</a>.<a class="code" href="interface_nop_1_1_core_1_1_i_work_context.html#a1117b7898ed056459a9ff3f0446bbbe1">GetCurrentCustomerAsync</a>()))</div>
+<div class="line"><a name="l00147"></a><span class="lineno">  147</span>&#160;                <span class="keywordflow">return</span> Challenge();</div>
+<div class="line"><a name="l00148"></a><span class="lineno">  148</span>&#160; </div>
+<div class="line"><a name="l00149"></a><span class="lineno">  149</span>&#160;            <span class="keywordflow">if</span> (!<a class="code" href="class_nop_1_1_web_1_1_controllers_1_1_order_controller.html#ab60b9b0556df269bf704e6e5961bd03c">_rewardPointsSettings</a>.<a class="code" href="class_nop_1_1_core_1_1_domain_1_1_customers_1_1_reward_points_settings.html#a79303e9e7d40dce2406649a2f7459938">Enabled</a>)</div>
+<div class="line"><a name="l00150"></a><span class="lineno">  150</span>&#160;                <span class="keywordflow">return</span> RedirectToRoute(<span class="stringliteral">&quot;CustomerInfo&quot;</span>);</div>
+<div class="line"><a name="l00151"></a><span class="lineno">  151</span>&#160; </div>
+<div class="line"><a name="l00152"></a><span class="lineno">  152</span>&#160;            var model = await <a class="code" href="class_nop_1_1_web_1_1_controllers_1_1_order_controller.html#a3d292d3d4820af5587f923d742b592a5">_orderModelFactory</a>.<a class="code" href="interface_nop_1_1_web_1_1_factories_1_1_i_order_model_factory.html#ab915a4086ee8e46051f21a2dde946729">PrepareCustomerRewardPointsAsync</a>(<a class="code" href="namespace_nop_1_1_web_1_1_models_1_1_common.html#ac028601fb938a8cd280f81589753e327">pageNumber</a>);</div>
+<div class="line"><a name="l00153"></a><span class="lineno">  153</span>&#160;            <span class="keywordflow">return</span> View(model);</div>
+<div class="line"><a name="l00154"></a><span class="lineno">  154</span>&#160;        }</div>
+<div class="ttc" id="aclass_nop_1_1_core_1_1_domain_1_1_customers_1_1_reward_points_settings_html_a79303e9e7d40dce2406649a2f7459938"><div class="ttname"><a href="class_nop_1_1_core_1_1_domain_1_1_customers_1_1_reward_points_settings.html#a79303e9e7d40dce2406649a2f7459938">Nop.Core.Domain.Customers.RewardPointsSettings.Enabled</a></div><div class="ttdeci">bool Enabled</div><div class="ttdoc">Gets or sets a value indicating whether Reward Points Program is enabled</div><div class="ttdef"><b>Definition:</b> RewardPointsSettings.cs:13</div></div>
+<div class="ttc" id="ainterface_nop_1_1_web_1_1_factories_1_1_i_order_model_factory_html_ab915a4086ee8e46051f21a2dde946729"><div class="ttname"><a href="interface_nop_1_1_web_1_1_factories_1_1_i_order_model_factory.html#ab915a4086ee8e46051f21a2dde946729">Nop.Web.Factories.IOrderModelFactory.PrepareCustomerRewardPointsAsync</a></div><div class="ttdeci">Task&lt; CustomerRewardPointsModel &gt; PrepareCustomerRewardPointsAsync(int? page)</div><div class="ttdoc">Prepare the customer reward points model</div></div>
+<div class="ttc" id="anamespace_nop_1_1_web_1_1_models_1_1_common_html_ac028601fb938a8cd280f81589753e327"><div class="ttname"><a href="namespace_nop_1_1_web_1_1_models_1_1_common.html#ac028601fb938a8cd280f81589753e327">Nop.Web.Models.Common.pageNumber</a></div><div class="ttdeci">int pageNumber</div><div class="ttdef"><b>Definition:</b> PagerModel.cs:303</div></div>
+</div><!-- fragment -->
+<p class="reference">Referências <a class="el" href="class_nop_1_1_web_1_1_controllers_1_1_order_controller.html#a38ff2597c63f44f6866f3796e19e8d43">Nop.Web.Controllers.OrderController._customerService</a>, <a class="el" href="class_nop_1_1_web_1_1_controllers_1_1_order_controller.html#a3d292d3d4820af5587f923d742b592a5">Nop.Web.Controllers.OrderController._orderModelFactory</a>, <a class="el" href="class_nop_1_1_web_1_1_controllers_1_1_order_controller.html#ab60b9b0556df269bf704e6e5961bd03c">Nop.Web.Controllers.OrderController._rewardPointsSettings</a>, <a class="el" href="class_nop_1_1_web_1_1_controllers_1_1_order_controller.html#a9d60086889c2f98f82f3191689b7335e">Nop.Web.Controllers.OrderController._workContext</a>, <a class="el" href="class_nop_1_1_core_1_1_domain_1_1_customers_1_1_reward_points_settings.html#a79303e9e7d40dce2406649a2f7459938">Nop.Core.Domain.Customers.RewardPointsSettings.Enabled</a>, <a class="el" href="interface_nop_1_1_core_1_1_i_work_context.html#a1117b7898ed056459a9ff3f0446bbbe1">Nop.Core.IWorkContext.GetCurrentCustomerAsync()</a>, <a class="el" href="interface_nop_1_1_services_1_1_customers_1_1_i_customer_service.html#af6b928fad7e1ea6d21e194c5aa74fc6b">Nop.Services.Customers.ICustomerService.IsRegisteredAsync()</a>, <a class="el" href="namespace_nop_1_1_web_1_1_models_1_1_common.html#ac028601fb938a8cd280f81589753e327">Nop.Web.Models.Common.pageNumber</a> e <a class="el" href="interface_nop_1_1_web_1_1_factories_1_1_i_order_model_factory.html#ab915a4086ee8e46051f21a2dde946729">Nop.Web.Factories.IOrderModelFactory.PrepareCustomerRewardPointsAsync()</a>.</p>
+
+</div>
+</div>
+<a id="a58f076c4633d69d36b2306e32ebd609e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a58f076c4633d69d36b2306e32ebd609e">&#9670;&nbsp;</a></span>Details()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual async <a class="el" href="_sendinblue_plugin_8cs.html#a9f49374e6bc76a6b5261e5c211d2e63d">Task</a>&lt;IActionResult&gt; Nop.Web.Controllers.OrderController.Details </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>orderId</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><a name="l00158"></a><span class="lineno">  158</span>&#160;        {</div>
+<div class="line"><a name="l00159"></a><span class="lineno">  159</span>&#160;            var order = await <a class="code" href="class_nop_1_1_web_1_1_controllers_1_1_order_controller.html#aa238e360db777b2e75accde57bd852e4">_orderService</a>.<a class="code" href="interface_nop_1_1_services_1_1_orders_1_1_i_order_service.html#a75bc6860ccdf693731b275018e462978">GetOrderByIdAsync</a>(orderId);</div>
+<div class="line"><a name="l00160"></a><span class="lineno">  160</span>&#160;            <span class="keywordflow">if</span> (order == <span class="keyword">null</span> || order.Deleted || (await <a class="code" href="class_nop_1_1_web_1_1_controllers_1_1_order_controller.html#a9d60086889c2f98f82f3191689b7335e">_workContext</a>.<a class="code" href="interface_nop_1_1_core_1_1_i_work_context.html#a1117b7898ed056459a9ff3f0446bbbe1">GetCurrentCustomerAsync</a>()).Id != order.CustomerId)</div>
+<div class="line"><a name="l00161"></a><span class="lineno">  161</span>&#160;                <span class="keywordflow">return</span> Challenge();</div>
+<div class="line"><a name="l00162"></a><span class="lineno">  162</span>&#160; </div>
+<div class="line"><a name="l00163"></a><span class="lineno">  163</span>&#160;            var model = await <a class="code" href="class_nop_1_1_web_1_1_controllers_1_1_order_controller.html#a3d292d3d4820af5587f923d742b592a5">_orderModelFactory</a>.<a class="code" href="interface_nop_1_1_web_1_1_factories_1_1_i_order_model_factory.html#a4e5c8cbc47f580458dc6138b2591e53b">PrepareOrderDetailsModelAsync</a>(order);</div>
+<div class="line"><a name="l00164"></a><span class="lineno">  164</span>&#160;            <span class="keywordflow">return</span> View(model);</div>
+<div class="line"><a name="l00165"></a><span class="lineno">  165</span>&#160;        }</div>
+<div class="ttc" id="ainterface_nop_1_1_services_1_1_orders_1_1_i_order_service_html_a75bc6860ccdf693731b275018e462978"><div class="ttname"><a href="interface_nop_1_1_services_1_1_orders_1_1_i_order_service.html#a75bc6860ccdf693731b275018e462978">Nop.Services.Orders.IOrderService.GetOrderByIdAsync</a></div><div class="ttdeci">Task&lt; Order &gt; GetOrderByIdAsync(int orderId)</div><div class="ttdoc">Gets an order</div></div>
+<div class="ttc" id="ainterface_nop_1_1_web_1_1_factories_1_1_i_order_model_factory_html_a4e5c8cbc47f580458dc6138b2591e53b"><div class="ttname"><a href="interface_nop_1_1_web_1_1_factories_1_1_i_order_model_factory.html#a4e5c8cbc47f580458dc6138b2591e53b">Nop.Web.Factories.IOrderModelFactory.PrepareOrderDetailsModelAsync</a></div><div class="ttdeci">Task&lt; OrderDetailsModel &gt; PrepareOrderDetailsModelAsync(Order order)</div><div class="ttdoc">Prepare the order details model</div></div>
+</div><!-- fragment -->
+<p class="reference">Referências <a class="el" href="class_nop_1_1_web_1_1_controllers_1_1_order_controller.html#a3d292d3d4820af5587f923d742b592a5">Nop.Web.Controllers.OrderController._orderModelFactory</a>, <a class="el" href="class_nop_1_1_web_1_1_controllers_1_1_order_controller.html#aa238e360db777b2e75accde57bd852e4">Nop.Web.Controllers.OrderController._orderService</a>, <a class="el" href="class_nop_1_1_web_1_1_controllers_1_1_order_controller.html#a9d60086889c2f98f82f3191689b7335e">Nop.Web.Controllers.OrderController._workContext</a>, <a class="el" href="interface_nop_1_1_core_1_1_i_work_context.html#a1117b7898ed056459a9ff3f0446bbbe1">Nop.Core.IWorkContext.GetCurrentCustomerAsync()</a>, <a class="el" href="interface_nop_1_1_services_1_1_orders_1_1_i_order_service.html#a75bc6860ccdf693731b275018e462978">Nop.Services.Orders.IOrderService.GetOrderByIdAsync()</a> e <a class="el" href="interface_nop_1_1_web_1_1_factories_1_1_i_order_model_factory.html#a4e5c8cbc47f580458dc6138b2591e53b">Nop.Web.Factories.IOrderModelFactory.PrepareOrderDetailsModelAsync()</a>.</p>
+
+</div>
+</div>
+<a id="a5c95e75f81ea502dde8d83ce5f8f758e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5c95e75f81ea502dde8d83ce5f8f758e">&#9670;&nbsp;</a></span>GetPdfInvoice()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual async <a class="el" href="_sendinblue_plugin_8cs.html#a9f49374e6bc76a6b5261e5c211d2e63d">Task</a>&lt;IActionResult&gt; Nop.Web.Controllers.OrderController.GetPdfInvoice </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>orderId</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><a name="l00183"></a><span class="lineno">  183</span>&#160;        {</div>
+<div class="line"><a name="l00184"></a><span class="lineno">  184</span>&#160;            var order = await <a class="code" href="class_nop_1_1_web_1_1_controllers_1_1_order_controller.html#aa238e360db777b2e75accde57bd852e4">_orderService</a>.<a class="code" href="interface_nop_1_1_services_1_1_orders_1_1_i_order_service.html#a75bc6860ccdf693731b275018e462978">GetOrderByIdAsync</a>(orderId);</div>
+<div class="line"><a name="l00185"></a><span class="lineno">  185</span>&#160;            <span class="keywordflow">if</span> (order == <span class="keyword">null</span> || order.Deleted || (await <a class="code" href="class_nop_1_1_web_1_1_controllers_1_1_order_controller.html#a9d60086889c2f98f82f3191689b7335e">_workContext</a>.<a class="code" href="interface_nop_1_1_core_1_1_i_work_context.html#a1117b7898ed056459a9ff3f0446bbbe1">GetCurrentCustomerAsync</a>()).Id != order.CustomerId)</div>
+<div class="line"><a name="l00186"></a><span class="lineno">  186</span>&#160;                <span class="keywordflow">return</span> Challenge();</div>
+<div class="line"><a name="l00187"></a><span class="lineno">  187</span>&#160; </div>
+<div class="line"><a name="l00188"></a><span class="lineno">  188</span>&#160;            var orders = <span class="keyword">new</span> List&lt;Order&gt;();</div>
+<div class="line"><a name="l00189"></a><span class="lineno">  189</span>&#160;            orders.Add(order);</div>
+<div class="line"><a name="l00190"></a><span class="lineno">  190</span>&#160;            <span class="keywordtype">byte</span>[] bytes;</div>
+<div class="line"><a name="l00191"></a><span class="lineno">  191</span>&#160;            await <span class="keyword">using</span> (var stream = <span class="keyword">new</span> MemoryStream())</div>
+<div class="line"><a name="l00192"></a><span class="lineno">  192</span>&#160;            {</div>
+<div class="line"><a name="l00193"></a><span class="lineno">  193</span>&#160;                await <a class="code" href="class_nop_1_1_web_1_1_controllers_1_1_order_controller.html#a8a312ac04bb4b1ac2a39b58b44e4805a">_pdfService</a>.<a class="code" href="interface_nop_1_1_services_1_1_common_1_1_i_pdf_service.html#a3793379803ee585341834afe0cd7a4df">PrintOrdersToPdfAsync</a>(stream, orders, (await <a class="code" href="class_nop_1_1_web_1_1_controllers_1_1_order_controller.html#a9d60086889c2f98f82f3191689b7335e">_workContext</a>.<a class="code" href="interface_nop_1_1_core_1_1_i_work_context.html#a686f2cf36883b0c44436ddbf33a023a5">GetWorkingLanguageAsync</a>()).Id);</div>
+<div class="line"><a name="l00194"></a><span class="lineno">  194</span>&#160;                bytes = stream.ToArray();</div>
+<div class="line"><a name="l00195"></a><span class="lineno">  195</span>&#160;            }</div>
+<div class="line"><a name="l00196"></a><span class="lineno">  196</span>&#160;            <span class="keywordflow">return</span> File(bytes, MimeTypes.ApplicationPdf, $<span class="stringliteral">&quot;order_{order.Id}.pdf&quot;</span>);</div>
+<div class="line"><a name="l00197"></a><span class="lineno">  197</span>&#160;        }</div>
+<div class="ttc" id="ainterface_nop_1_1_core_1_1_i_work_context_html_a686f2cf36883b0c44436ddbf33a023a5"><div class="ttname"><a href="interface_nop_1_1_core_1_1_i_work_context.html#a686f2cf36883b0c44436ddbf33a023a5">Nop.Core.IWorkContext.GetWorkingLanguageAsync</a></div><div class="ttdeci">Task&lt; Language &gt; GetWorkingLanguageAsync()</div><div class="ttdoc">Gets current user working language</div></div>
+<div class="ttc" id="ainterface_nop_1_1_services_1_1_common_1_1_i_pdf_service_html_a3793379803ee585341834afe0cd7a4df"><div class="ttname"><a href="interface_nop_1_1_services_1_1_common_1_1_i_pdf_service.html#a3793379803ee585341834afe0cd7a4df">Nop.Services.Common.IPdfService.PrintOrdersToPdfAsync</a></div><div class="ttdeci">Task PrintOrdersToPdfAsync(Stream stream, IList&lt; Order &gt; orders, int languageId=0, int vendorId=0)</div><div class="ttdoc">Print orders to PDF</div></div>
+</div><!-- fragment -->
+<p class="reference">Referências <a class="el" href="class_nop_1_1_web_1_1_controllers_1_1_order_controller.html#aa238e360db777b2e75accde57bd852e4">Nop.Web.Controllers.OrderController._orderService</a>, <a class="el" href="class_nop_1_1_web_1_1_controllers_1_1_order_controller.html#a8a312ac04bb4b1ac2a39b58b44e4805a">Nop.Web.Controllers.OrderController._pdfService</a>, <a class="el" href="class_nop_1_1_web_1_1_controllers_1_1_order_controller.html#a9d60086889c2f98f82f3191689b7335e">Nop.Web.Controllers.OrderController._workContext</a>, <a class="el" href="interface_nop_1_1_core_1_1_i_work_context.html#a1117b7898ed056459a9ff3f0446bbbe1">Nop.Core.IWorkContext.GetCurrentCustomerAsync()</a>, <a class="el" href="interface_nop_1_1_services_1_1_orders_1_1_i_order_service.html#a75bc6860ccdf693731b275018e462978">Nop.Services.Orders.IOrderService.GetOrderByIdAsync()</a>, <a class="el" href="interface_nop_1_1_core_1_1_i_work_context.html#a686f2cf36883b0c44436ddbf33a023a5">Nop.Core.IWorkContext.GetWorkingLanguageAsync()</a> e <a class="el" href="interface_nop_1_1_services_1_1_common_1_1_i_pdf_service.html#a3793379803ee585341834afe0cd7a4df">Nop.Services.Common.IPdfService.PrintOrdersToPdfAsync()</a>.</p>
+
+</div>
+</div>
+<a id="abb4247370793765e14ef7eb81b60c94b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abb4247370793765e14ef7eb81b60c94b">&#9670;&nbsp;</a></span>PrintOrderDetails()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual async <a class="el" href="_sendinblue_plugin_8cs.html#a9f49374e6bc76a6b5261e5c211d2e63d">Task</a>&lt;IActionResult&gt; Nop.Web.Controllers.OrderController.PrintOrderDetails </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>orderId</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><a name="l00169"></a><span class="lineno">  169</span>&#160;        {</div>
+<div class="line"><a name="l00170"></a><span class="lineno">  170</span>&#160;            var order = await <a class="code" href="class_nop_1_1_web_1_1_controllers_1_1_order_controller.html#aa238e360db777b2e75accde57bd852e4">_orderService</a>.<a class="code" href="interface_nop_1_1_services_1_1_orders_1_1_i_order_service.html#a75bc6860ccdf693731b275018e462978">GetOrderByIdAsync</a>(orderId);</div>
+<div class="line"><a name="l00171"></a><span class="lineno">  171</span>&#160;            <span class="keywordflow">if</span> (order == <span class="keyword">null</span> || order.Deleted || (await <a class="code" href="class_nop_1_1_web_1_1_controllers_1_1_order_controller.html#a9d60086889c2f98f82f3191689b7335e">_workContext</a>.<a class="code" href="interface_nop_1_1_core_1_1_i_work_context.html#a1117b7898ed056459a9ff3f0446bbbe1">GetCurrentCustomerAsync</a>()).Id != order.CustomerId)</div>
+<div class="line"><a name="l00172"></a><span class="lineno">  172</span>&#160;                <span class="keywordflow">return</span> Challenge();</div>
+<div class="line"><a name="l00173"></a><span class="lineno">  173</span>&#160; </div>
+<div class="line"><a name="l00174"></a><span class="lineno">  174</span>&#160;            var model = await <a class="code" href="class_nop_1_1_web_1_1_controllers_1_1_order_controller.html#a3d292d3d4820af5587f923d742b592a5">_orderModelFactory</a>.<a class="code" href="interface_nop_1_1_web_1_1_factories_1_1_i_order_model_factory.html#a4e5c8cbc47f580458dc6138b2591e53b">PrepareOrderDetailsModelAsync</a>(order);</div>
+<div class="line"><a name="l00175"></a><span class="lineno">  175</span>&#160;            model.PrintMode = <span class="keyword">true</span>;</div>
+<div class="line"><a name="l00176"></a><span class="lineno">  176</span>&#160; </div>
+<div class="line"><a name="l00177"></a><span class="lineno">  177</span>&#160;            <span class="keywordflow">return</span> View(<span class="stringliteral">&quot;Details&quot;</span>, model);</div>
+<div class="line"><a name="l00178"></a><span class="lineno">  178</span>&#160;        }</div>
+</div><!-- fragment -->
+<p class="reference">Referências <a class="el" href="class_nop_1_1_web_1_1_controllers_1_1_order_controller.html#a3d292d3d4820af5587f923d742b592a5">Nop.Web.Controllers.OrderController._orderModelFactory</a>, <a class="el" href="class_nop_1_1_web_1_1_controllers_1_1_order_controller.html#aa238e360db777b2e75accde57bd852e4">Nop.Web.Controllers.OrderController._orderService</a>, <a class="el" href="class_nop_1_1_web_1_1_controllers_1_1_order_controller.html#a9d60086889c2f98f82f3191689b7335e">Nop.Web.Controllers.OrderController._workContext</a>, <a class="el" href="interface_nop_1_1_core_1_1_i_work_context.html#a1117b7898ed056459a9ff3f0446bbbe1">Nop.Core.IWorkContext.GetCurrentCustomerAsync()</a>, <a class="el" href="interface_nop_1_1_services_1_1_orders_1_1_i_order_service.html#a75bc6860ccdf693731b275018e462978">Nop.Services.Orders.IOrderService.GetOrderByIdAsync()</a> e <a class="el" href="interface_nop_1_1_web_1_1_factories_1_1_i_order_model_factory.html#a4e5c8cbc47f580458dc6138b2591e53b">Nop.Web.Factories.IOrderModelFactory.PrepareOrderDetailsModelAsync()</a>.</p>
+
+</div>
+</div>
+<a id="a07db0be8bc92b8917b7aeaf2a4c7ba1d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a07db0be8bc92b8917b7aeaf2a4c7ba1d">&#9670;&nbsp;</a></span>ReOrder()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual async <a class="el" href="_sendinblue_plugin_8cs.html#a9f49374e6bc76a6b5261e5c211d2e63d">Task</a>&lt;IActionResult&gt; Nop.Web.Controllers.OrderController.ReOrder </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>orderId</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><a name="l00201"></a><span class="lineno">  201</span>&#160;        {</div>
+<div class="line"><a name="l00202"></a><span class="lineno">  202</span>&#160;            var order = await <a class="code" href="class_nop_1_1_web_1_1_controllers_1_1_order_controller.html#aa238e360db777b2e75accde57bd852e4">_orderService</a>.<a class="code" href="interface_nop_1_1_services_1_1_orders_1_1_i_order_service.html#a75bc6860ccdf693731b275018e462978">GetOrderByIdAsync</a>(orderId);</div>
+<div class="line"><a name="l00203"></a><span class="lineno">  203</span>&#160;            <span class="keywordflow">if</span> (order == <span class="keyword">null</span> || order.Deleted || (await <a class="code" href="class_nop_1_1_web_1_1_controllers_1_1_order_controller.html#a9d60086889c2f98f82f3191689b7335e">_workContext</a>.<a class="code" href="interface_nop_1_1_core_1_1_i_work_context.html#a1117b7898ed056459a9ff3f0446bbbe1">GetCurrentCustomerAsync</a>()).Id != order.CustomerId)</div>
+<div class="line"><a name="l00204"></a><span class="lineno">  204</span>&#160;                <span class="keywordflow">return</span> Challenge();</div>
+<div class="line"><a name="l00205"></a><span class="lineno">  205</span>&#160; </div>
+<div class="line"><a name="l00206"></a><span class="lineno">  206</span>&#160;            await <a class="code" href="class_nop_1_1_web_1_1_controllers_1_1_order_controller.html#a84ddd1c98c01cc42725088b66801e216">_orderProcessingService</a>.<a class="code" href="interface_nop_1_1_services_1_1_orders_1_1_i_order_processing_service.html#ac4e5e08b1ad9887b86eb206ffc0d4ed3">ReOrderAsync</a>(order);</div>
+<div class="line"><a name="l00207"></a><span class="lineno">  207</span>&#160;            <span class="keywordflow">return</span> RedirectToRoute(<span class="stringliteral">&quot;ShoppingCart&quot;</span>);</div>
+<div class="line"><a name="l00208"></a><span class="lineno">  208</span>&#160;        }</div>
+<div class="ttc" id="ainterface_nop_1_1_services_1_1_orders_1_1_i_order_processing_service_html_ac4e5e08b1ad9887b86eb206ffc0d4ed3"><div class="ttname"><a href="interface_nop_1_1_services_1_1_orders_1_1_i_order_processing_service.html#ac4e5e08b1ad9887b86eb206ffc0d4ed3">Nop.Services.Orders.IOrderProcessingService.ReOrderAsync</a></div><div class="ttdeci">Task ReOrderAsync(Order order)</div><div class="ttdoc">Place order items in current user shopping cart.</div></div>
+</div><!-- fragment -->
+<p class="reference">Referências <a class="el" href="class_nop_1_1_web_1_1_controllers_1_1_order_controller.html#a84ddd1c98c01cc42725088b66801e216">Nop.Web.Controllers.OrderController._orderProcessingService</a>, <a class="el" href="class_nop_1_1_web_1_1_controllers_1_1_order_controller.html#aa238e360db777b2e75accde57bd852e4">Nop.Web.Controllers.OrderController._orderService</a>, <a class="el" href="class_nop_1_1_web_1_1_controllers_1_1_order_controller.html#a9d60086889c2f98f82f3191689b7335e">Nop.Web.Controllers.OrderController._workContext</a>, <a class="el" href="interface_nop_1_1_core_1_1_i_work_context.html#a1117b7898ed056459a9ff3f0446bbbe1">Nop.Core.IWorkContext.GetCurrentCustomerAsync()</a>, <a class="el" href="interface_nop_1_1_services_1_1_orders_1_1_i_order_service.html#a75bc6860ccdf693731b275018e462978">Nop.Services.Orders.IOrderService.GetOrderByIdAsync()</a> e <a class="el" href="interface_nop_1_1_services_1_1_orders_1_1_i_order_processing_service.html#ac4e5e08b1ad9887b86eb206ffc0d4ed3">Nop.Services.Orders.IOrderProcessingService.ReOrderAsync()</a>.</p>
+
+</div>
+</div>
+<a id="a94064c908bafd0808d05252dc7576972"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a94064c908bafd0808d05252dc7576972">&#9670;&nbsp;</a></span>RePostPayment()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual async <a class="el" href="_sendinblue_plugin_8cs.html#a9f49374e6bc76a6b5261e5c211d2e63d">Task</a>&lt;IActionResult&gt; Nop.Web.Controllers.OrderController.RePostPayment </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>orderId</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><a name="l00215"></a><span class="lineno">  215</span>&#160;        {</div>
+<div class="line"><a name="l00216"></a><span class="lineno">  216</span>&#160;            var order = await <a class="code" href="class_nop_1_1_web_1_1_controllers_1_1_order_controller.html#aa238e360db777b2e75accde57bd852e4">_orderService</a>.<a class="code" href="interface_nop_1_1_services_1_1_orders_1_1_i_order_service.html#a75bc6860ccdf693731b275018e462978">GetOrderByIdAsync</a>(orderId);</div>
+<div class="line"><a name="l00217"></a><span class="lineno">  217</span>&#160;            <span class="keywordflow">if</span> (order == <span class="keyword">null</span> || order.Deleted || (await <a class="code" href="class_nop_1_1_web_1_1_controllers_1_1_order_controller.html#a9d60086889c2f98f82f3191689b7335e">_workContext</a>.<a class="code" href="interface_nop_1_1_core_1_1_i_work_context.html#a1117b7898ed056459a9ff3f0446bbbe1">GetCurrentCustomerAsync</a>()).Id != order.CustomerId)</div>
+<div class="line"><a name="l00218"></a><span class="lineno">  218</span>&#160;                <span class="keywordflow">return</span> Challenge();</div>
+<div class="line"><a name="l00219"></a><span class="lineno">  219</span>&#160; </div>
+<div class="line"><a name="l00220"></a><span class="lineno">  220</span>&#160;            <span class="keywordflow">if</span> (!await <a class="code" href="class_nop_1_1_web_1_1_controllers_1_1_order_controller.html#ace02813b907a0816d3ec72762d9951bc">_paymentService</a>.<a class="code" href="interface_nop_1_1_services_1_1_payments_1_1_i_payment_service.html#adfa1b437eba991e72604126025ceddb0">CanRePostProcessPaymentAsync</a>(order))</div>
+<div class="line"><a name="l00221"></a><span class="lineno">  221</span>&#160;                <span class="keywordflow">return</span> RedirectToRoute(<span class="stringliteral">&quot;OrderDetails&quot;</span>, <span class="keyword">new</span> { orderId = orderId });</div>
+<div class="line"><a name="l00222"></a><span class="lineno">  222</span>&#160; </div>
+<div class="line"><a name="l00223"></a><span class="lineno">  223</span>&#160;            var postProcessPaymentRequest = <span class="keyword">new</span> <a class="code" href="class_nop_1_1_services_1_1_payments_1_1_post_process_payment_request.html">PostProcessPaymentRequest</a></div>
+<div class="line"><a name="l00224"></a><span class="lineno">  224</span>&#160;            {</div>
+<div class="line"><a name="l00225"></a><span class="lineno">  225</span>&#160;                <a class="code" href="class_nop_1_1_core_1_1_domain_1_1_orders_1_1_order.html">Order</a> = order</div>
+<div class="line"><a name="l00226"></a><span class="lineno">  226</span>&#160;            };</div>
+<div class="line"><a name="l00227"></a><span class="lineno">  227</span>&#160;            await <a class="code" href="class_nop_1_1_web_1_1_controllers_1_1_order_controller.html#ace02813b907a0816d3ec72762d9951bc">_paymentService</a>.<a class="code" href="interface_nop_1_1_services_1_1_payments_1_1_i_payment_service.html#aa48c9ef2ff5b93559d6000f7f941a1ee">PostProcessPaymentAsync</a>(postProcessPaymentRequest);</div>
+<div class="line"><a name="l00228"></a><span class="lineno">  228</span>&#160; </div>
+<div class="line"><a name="l00229"></a><span class="lineno">  229</span>&#160;            <span class="keywordflow">if</span> (<a class="code" href="class_nop_1_1_web_1_1_controllers_1_1_order_controller.html#a2d480169b10b9357e20f268c675c283f">_webHelper</a>.<a class="code" href="interface_nop_1_1_core_1_1_i_web_helper.html#ab9583ee024d8a0926d482a819b8f7906">IsRequestBeingRedirected</a> || <a class="code" href="class_nop_1_1_web_1_1_controllers_1_1_order_controller.html#a2d480169b10b9357e20f268c675c283f">_webHelper</a>.<a class="code" href="interface_nop_1_1_core_1_1_i_web_helper.html#a3e5d88af7425d058d1e069a8235949e9">IsPostBeingDone</a>)</div>
+<div class="line"><a name="l00230"></a><span class="lineno">  230</span>&#160;            {</div>
+<div class="line"><a name="l00231"></a><span class="lineno">  231</span>&#160;                <span class="comment">//redirection or POST has been done in PostProcessPayment</span></div>
+<div class="line"><a name="l00232"></a><span class="lineno">  232</span>&#160;                <span class="keywordflow">return</span> Content(<span class="stringliteral">&quot;Redirected&quot;</span>);</div>
+<div class="line"><a name="l00233"></a><span class="lineno">  233</span>&#160;            }</div>
+<div class="line"><a name="l00234"></a><span class="lineno">  234</span>&#160; </div>
+<div class="line"><a name="l00235"></a><span class="lineno">  235</span>&#160;            <span class="comment">//if no redirection has been done (to a third-party payment page)</span></div>
+<div class="line"><a name="l00236"></a><span class="lineno">  236</span>&#160;            <span class="comment">//theoretically it&#39;s not possible</span></div>
+<div class="line"><a name="l00237"></a><span class="lineno">  237</span>&#160;            <span class="keywordflow">return</span> RedirectToRoute(<span class="stringliteral">&quot;OrderDetails&quot;</span>, <span class="keyword">new</span> { orderId = orderId });</div>
+<div class="line"><a name="l00238"></a><span class="lineno">  238</span>&#160;        }</div>
+<div class="ttc" id="aclass_nop_1_1_core_1_1_domain_1_1_orders_1_1_order_html"><div class="ttname"><a href="class_nop_1_1_core_1_1_domain_1_1_orders_1_1_order.html">Nop.Core.Domain.Orders.Order</a></div><div class="ttdoc">Represents an order</div><div class="ttdef"><b>Definition:</b> Order.cs:13</div></div>
+<div class="ttc" id="aclass_nop_1_1_services_1_1_payments_1_1_post_process_payment_request_html"><div class="ttname"><a href="class_nop_1_1_services_1_1_payments_1_1_post_process_payment_request.html">Nop.Services.Payments.PostProcessPaymentRequest</a></div><div class="ttdoc">Represents a PostProcessPaymentRequest</div><div class="ttdef"><b>Definition:</b> PostProcessPaymentRequest.cs:9</div></div>
+<div class="ttc" id="ainterface_nop_1_1_core_1_1_i_web_helper_html_a3e5d88af7425d058d1e069a8235949e9"><div class="ttname"><a href="interface_nop_1_1_core_1_1_i_web_helper.html#a3e5d88af7425d058d1e069a8235949e9">Nop.Core.IWebHelper.IsPostBeingDone</a></div><div class="ttdeci">bool IsPostBeingDone</div><div class="ttdoc">Gets or sets a value that indicates whether the client is being redirected to a new location using PO...</div><div class="ttdef"><b>Definition:</b> IWebHelper.cs:96</div></div>
+<div class="ttc" id="ainterface_nop_1_1_core_1_1_i_web_helper_html_ab9583ee024d8a0926d482a819b8f7906"><div class="ttname"><a href="interface_nop_1_1_core_1_1_i_web_helper.html#ab9583ee024d8a0926d482a819b8f7906">Nop.Core.IWebHelper.IsRequestBeingRedirected</a></div><div class="ttdeci">bool IsRequestBeingRedirected</div><div class="ttdoc">Gets a value that indicates whether the client is being redirected to a new location</div><div class="ttdef"><b>Definition:</b> IWebHelper.cs:91</div></div>
+<div class="ttc" id="ainterface_nop_1_1_services_1_1_payments_1_1_i_payment_service_html_aa48c9ef2ff5b93559d6000f7f941a1ee"><div class="ttname"><a href="interface_nop_1_1_services_1_1_payments_1_1_i_payment_service.html#aa48c9ef2ff5b93559d6000f7f941a1ee">Nop.Services.Payments.IPaymentService.PostProcessPaymentAsync</a></div><div class="ttdeci">Task PostProcessPaymentAsync(PostProcessPaymentRequest postProcessPaymentRequest)</div><div class="ttdoc">Post process payment (used by payment gateways that require redirecting to a third-party URL)</div></div>
+<div class="ttc" id="ainterface_nop_1_1_services_1_1_payments_1_1_i_payment_service_html_adfa1b437eba991e72604126025ceddb0"><div class="ttname"><a href="interface_nop_1_1_services_1_1_payments_1_1_i_payment_service.html#adfa1b437eba991e72604126025ceddb0">Nop.Services.Payments.IPaymentService.CanRePostProcessPaymentAsync</a></div><div class="ttdeci">Task&lt; bool &gt; CanRePostProcessPaymentAsync(Order order)</div><div class="ttdoc">Gets a value indicating whether customers can complete a payment after order is placed but not comple...</div></div>
+</div><!-- fragment -->
+<p class="reference">Referências <a class="el" href="class_nop_1_1_web_1_1_controllers_1_1_order_controller.html#aa238e360db777b2e75accde57bd852e4">Nop.Web.Controllers.OrderController._orderService</a>, <a class="el" href="class_nop_1_1_web_1_1_controllers_1_1_order_controller.html#ace02813b907a0816d3ec72762d9951bc">Nop.Web.Controllers.OrderController._paymentService</a>, <a class="el" href="class_nop_1_1_web_1_1_controllers_1_1_order_controller.html#a2d480169b10b9357e20f268c675c283f">Nop.Web.Controllers.OrderController._webHelper</a>, <a class="el" href="class_nop_1_1_web_1_1_controllers_1_1_order_controller.html#a9d60086889c2f98f82f3191689b7335e">Nop.Web.Controllers.OrderController._workContext</a>, <a class="el" href="interface_nop_1_1_services_1_1_payments_1_1_i_payment_service.html#adfa1b437eba991e72604126025ceddb0">Nop.Services.Payments.IPaymentService.CanRePostProcessPaymentAsync()</a>, <a class="el" href="interface_nop_1_1_core_1_1_i_work_context.html#a1117b7898ed056459a9ff3f0446bbbe1">Nop.Core.IWorkContext.GetCurrentCustomerAsync()</a>, <a class="el" href="interface_nop_1_1_services_1_1_orders_1_1_i_order_service.html#a75bc6860ccdf693731b275018e462978">Nop.Services.Orders.IOrderService.GetOrderByIdAsync()</a>, <a class="el" href="interface_nop_1_1_core_1_1_i_web_helper.html#a3e5d88af7425d058d1e069a8235949e9">Nop.Core.IWebHelper.IsPostBeingDone</a>, <a class="el" href="interface_nop_1_1_core_1_1_i_web_helper.html#ab9583ee024d8a0926d482a819b8f7906">Nop.Core.IWebHelper.IsRequestBeingRedirected</a> e <a class="el" href="interface_nop_1_1_services_1_1_payments_1_1_i_payment_service.html#aa48c9ef2ff5b93559d6000f7f941a1ee">Nop.Services.Payments.IPaymentService.PostProcessPaymentAsync()</a>.</p>
+
+</div>
+</div>
+<a id="a4a015442c66c33f22458dba0cddf033b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4a015442c66c33f22458dba0cddf033b">&#9670;&nbsp;</a></span>RetryLastRecurringPayment()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual async <a class="el" href="_sendinblue_plugin_8cs.html#a9f49374e6bc76a6b5261e5c211d2e63d">Task</a>&lt;IActionResult&gt; Nop.Web.Controllers.OrderController.RetryLastRecurringPayment </td>
+          <td>(</td>
+          <td class="paramtype">IFormCollection&#160;</td>
+          <td class="paramname"><em>form</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160;        {</div>
+<div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160;            <span class="keywordflow">if</span> (!await <a class="code" href="class_nop_1_1_web_1_1_controllers_1_1_order_controller.html#a38ff2597c63f44f6866f3796e19e8d43">_customerService</a>.<a class="code" href="interface_nop_1_1_services_1_1_customers_1_1_i_customer_service.html#af6b928fad7e1ea6d21e194c5aa74fc6b">IsRegisteredAsync</a>(await <a class="code" href="class_nop_1_1_web_1_1_controllers_1_1_order_controller.html#a9d60086889c2f98f82f3191689b7335e">_workContext</a>.<a class="code" href="interface_nop_1_1_core_1_1_i_work_context.html#a1117b7898ed056459a9ff3f0446bbbe1">GetCurrentCustomerAsync</a>()))</div>
+<div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160;                <span class="keywordflow">return</span> Challenge();</div>
+<div class="line"><a name="l00120"></a><span class="lineno">  120</span>&#160; </div>
+<div class="line"><a name="l00121"></a><span class="lineno">  121</span>&#160;            <span class="comment">//get recurring payment identifier</span></div>
+<div class="line"><a name="l00122"></a><span class="lineno">  122</span>&#160;            var recurringPaymentId = 0;</div>
+<div class="line"><a name="l00123"></a><span class="lineno">  123</span>&#160;            <span class="keywordflow">if</span> (!form.Keys.Any(formValue =&gt; formValue.StartsWith(<span class="stringliteral">&quot;retryLastPayment&quot;</span>, StringComparison.InvariantCultureIgnoreCase) &amp;&amp;</div>
+<div class="line"><a name="l00124"></a><span class="lineno">  124</span>&#160;                <span class="keywordtype">int</span>.TryParse(formValue[(formValue.IndexOf(<span class="charliteral">&#39;_&#39;</span>) + 1)..], out recurringPaymentId)))</div>
+<div class="line"><a name="l00125"></a><span class="lineno">  125</span>&#160;            {</div>
+<div class="line"><a name="l00126"></a><span class="lineno">  126</span>&#160;                <span class="keywordflow">return</span> RedirectToRoute(<span class="stringliteral">&quot;CustomerOrders&quot;</span>);</div>
+<div class="line"><a name="l00127"></a><span class="lineno">  127</span>&#160;            }</div>
+<div class="line"><a name="l00128"></a><span class="lineno">  128</span>&#160; </div>
+<div class="line"><a name="l00129"></a><span class="lineno">  129</span>&#160;            var recurringPayment = await <a class="code" href="class_nop_1_1_web_1_1_controllers_1_1_order_controller.html#aa238e360db777b2e75accde57bd852e4">_orderService</a>.<a class="code" href="interface_nop_1_1_services_1_1_orders_1_1_i_order_service.html#ad89c5b2f192fd253347f9a76692d2069">GetRecurringPaymentByIdAsync</a>(recurringPaymentId);</div>
+<div class="line"><a name="l00130"></a><span class="lineno">  130</span>&#160;            <span class="keywordflow">if</span> (recurringPayment == <span class="keyword">null</span>)</div>
+<div class="line"><a name="l00131"></a><span class="lineno">  131</span>&#160;                <span class="keywordflow">return</span> RedirectToRoute(<span class="stringliteral">&quot;CustomerOrders&quot;</span>);</div>
+<div class="line"><a name="l00132"></a><span class="lineno">  132</span>&#160; </div>
+<div class="line"><a name="l00133"></a><span class="lineno">  133</span>&#160;            <span class="keywordflow">if</span> (!await <a class="code" href="class_nop_1_1_web_1_1_controllers_1_1_order_controller.html#a84ddd1c98c01cc42725088b66801e216">_orderProcessingService</a>.<a class="code" href="interface_nop_1_1_services_1_1_orders_1_1_i_order_processing_service.html#a26b76294ab65eea84737723eadd05921">CanRetryLastRecurringPaymentAsync</a>(await <a class="code" href="class_nop_1_1_web_1_1_controllers_1_1_order_controller.html#a9d60086889c2f98f82f3191689b7335e">_workContext</a>.<a class="code" href="interface_nop_1_1_core_1_1_i_work_context.html#a1117b7898ed056459a9ff3f0446bbbe1">GetCurrentCustomerAsync</a>(), recurringPayment))</div>
+<div class="line"><a name="l00134"></a><span class="lineno">  134</span>&#160;                <span class="keywordflow">return</span> RedirectToRoute(<span class="stringliteral">&quot;CustomerOrders&quot;</span>);</div>
+<div class="line"><a name="l00135"></a><span class="lineno">  135</span>&#160; </div>
+<div class="line"><a name="l00136"></a><span class="lineno">  136</span>&#160;            var errors = await <a class="code" href="class_nop_1_1_web_1_1_controllers_1_1_order_controller.html#a84ddd1c98c01cc42725088b66801e216">_orderProcessingService</a>.<a class="code" href="interface_nop_1_1_services_1_1_orders_1_1_i_order_processing_service.html#a68d5c51a0c443cd9d091ffc4608588a5">ProcessNextRecurringPaymentAsync</a>(recurringPayment);</div>
+<div class="line"><a name="l00137"></a><span class="lineno">  137</span>&#160;            var model = await <a class="code" href="class_nop_1_1_web_1_1_controllers_1_1_order_controller.html#a3d292d3d4820af5587f923d742b592a5">_orderModelFactory</a>.<a class="code" href="interface_nop_1_1_web_1_1_factories_1_1_i_order_model_factory.html#ab6f6489c2cca84cc9c12f6f546c3cc11">PrepareCustomerOrderListModelAsync</a>();</div>
+<div class="line"><a name="l00138"></a><span class="lineno">  138</span>&#160;            model.RecurringPaymentErrors = errors.ToList();</div>
+<div class="line"><a name="l00139"></a><span class="lineno">  139</span>&#160; </div>
+<div class="line"><a name="l00140"></a><span class="lineno">  140</span>&#160;            <span class="keywordflow">return</span> View(model);</div>
+<div class="line"><a name="l00141"></a><span class="lineno">  141</span>&#160;        }</div>
+<div class="ttc" id="ainterface_nop_1_1_services_1_1_orders_1_1_i_order_processing_service_html_a26b76294ab65eea84737723eadd05921"><div class="ttname"><a href="interface_nop_1_1_services_1_1_orders_1_1_i_order_processing_service.html#a26b76294ab65eea84737723eadd05921">Nop.Services.Orders.IOrderProcessingService.CanRetryLastRecurringPaymentAsync</a></div><div class="ttdeci">Task&lt; bool &gt; CanRetryLastRecurringPaymentAsync(Customer customer, RecurringPayment recurringPayment)</div><div class="ttdoc">Gets a value indicating whether a customer can retry last failed recurring payment</div></div>
+<div class="ttc" id="ainterface_nop_1_1_services_1_1_orders_1_1_i_order_processing_service_html_a68d5c51a0c443cd9d091ffc4608588a5"><div class="ttname"><a href="interface_nop_1_1_services_1_1_orders_1_1_i_order_processing_service.html#a68d5c51a0c443cd9d091ffc4608588a5">Nop.Services.Orders.IOrderProcessingService.ProcessNextRecurringPaymentAsync</a></div><div class="ttdeci">Task&lt; IEnumerable&lt; string &gt; &gt; ProcessNextRecurringPaymentAsync(RecurringPayment recurringPayment, ProcessPaymentResult paymentResult=null)</div><div class="ttdoc">Process next recurring payment</div></div>
+</div><!-- fragment -->
+<p class="reference">Referências <a class="el" href="class_nop_1_1_web_1_1_controllers_1_1_order_controller.html#a38ff2597c63f44f6866f3796e19e8d43">Nop.Web.Controllers.OrderController._customerService</a>, <a class="el" href="class_nop_1_1_web_1_1_controllers_1_1_order_controller.html#a3d292d3d4820af5587f923d742b592a5">Nop.Web.Controllers.OrderController._orderModelFactory</a>, <a class="el" href="class_nop_1_1_web_1_1_controllers_1_1_order_controller.html#a84ddd1c98c01cc42725088b66801e216">Nop.Web.Controllers.OrderController._orderProcessingService</a>, <a class="el" href="class_nop_1_1_web_1_1_controllers_1_1_order_controller.html#aa238e360db777b2e75accde57bd852e4">Nop.Web.Controllers.OrderController._orderService</a>, <a class="el" href="class_nop_1_1_web_1_1_controllers_1_1_order_controller.html#a9d60086889c2f98f82f3191689b7335e">Nop.Web.Controllers.OrderController._workContext</a>, <a class="el" href="interface_nop_1_1_services_1_1_orders_1_1_i_order_processing_service.html#a26b76294ab65eea84737723eadd05921">Nop.Services.Orders.IOrderProcessingService.CanRetryLastRecurringPaymentAsync()</a>, <a class="el" href="interface_nop_1_1_core_1_1_i_work_context.html#a1117b7898ed056459a9ff3f0446bbbe1">Nop.Core.IWorkContext.GetCurrentCustomerAsync()</a>, <a class="el" href="interface_nop_1_1_services_1_1_orders_1_1_i_order_service.html#ad89c5b2f192fd253347f9a76692d2069">Nop.Services.Orders.IOrderService.GetRecurringPaymentByIdAsync()</a>, <a class="el" href="interface_nop_1_1_services_1_1_customers_1_1_i_customer_service.html#af6b928fad7e1ea6d21e194c5aa74fc6b">Nop.Services.Customers.ICustomerService.IsRegisteredAsync()</a>, <a class="el" href="interface_nop_1_1_web_1_1_factories_1_1_i_order_model_factory.html#ab6f6489c2cca84cc9c12f6f546c3cc11">Nop.Web.Factories.IOrderModelFactory.PrepareCustomerOrderListModelAsync()</a> e <a class="el" href="interface_nop_1_1_services_1_1_orders_1_1_i_order_processing_service.html#a68d5c51a0c443cd9d091ffc4608588a5">Nop.Services.Orders.IOrderProcessingService.ProcessNextRecurringPaymentAsync()</a>.</p>
+
+</div>
+</div>
+<a id="a053c11ecfc8a83e398bdbcfebb00f6e3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a053c11ecfc8a83e398bdbcfebb00f6e3">&#9670;&nbsp;</a></span>ShipmentDetails()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual async <a class="el" href="_sendinblue_plugin_8cs.html#a9f49374e6bc76a6b5261e5c211d2e63d">Task</a>&lt;IActionResult&gt; Nop.Web.Controllers.OrderController.ShipmentDetails </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>shipmentId</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><a name="l00242"></a><span class="lineno">  242</span>&#160;        {</div>
+<div class="line"><a name="l00243"></a><span class="lineno">  243</span>&#160;            var shipment = await <a class="code" href="class_nop_1_1_web_1_1_controllers_1_1_order_controller.html#a692f612de204b31325a9f4d5f88ca779">_shipmentService</a>.<a class="code" href="interface_nop_1_1_services_1_1_shipping_1_1_i_shipment_service.html#a1b02c5bd8c741762dc23a665faa85f55">GetShipmentByIdAsync</a>(shipmentId);</div>
+<div class="line"><a name="l00244"></a><span class="lineno">  244</span>&#160;            <span class="keywordflow">if</span> (shipment == <span class="keyword">null</span>)</div>
+<div class="line"><a name="l00245"></a><span class="lineno">  245</span>&#160;                <span class="keywordflow">return</span> Challenge();</div>
+<div class="line"><a name="l00246"></a><span class="lineno">  246</span>&#160; </div>
+<div class="line"><a name="l00247"></a><span class="lineno">  247</span>&#160;            var order = await <a class="code" href="class_nop_1_1_web_1_1_controllers_1_1_order_controller.html#aa238e360db777b2e75accde57bd852e4">_orderService</a>.<a class="code" href="interface_nop_1_1_services_1_1_orders_1_1_i_order_service.html#a75bc6860ccdf693731b275018e462978">GetOrderByIdAsync</a>(shipment.OrderId);</div>
+<div class="line"><a name="l00248"></a><span class="lineno">  248</span>&#160;            </div>
+<div class="line"><a name="l00249"></a><span class="lineno">  249</span>&#160;            <span class="keywordflow">if</span> (order == <span class="keyword">null</span> || order.Deleted || (await <a class="code" href="class_nop_1_1_web_1_1_controllers_1_1_order_controller.html#a9d60086889c2f98f82f3191689b7335e">_workContext</a>.<a class="code" href="interface_nop_1_1_core_1_1_i_work_context.html#a1117b7898ed056459a9ff3f0446bbbe1">GetCurrentCustomerAsync</a>()).Id != order.CustomerId)</div>
+<div class="line"><a name="l00250"></a><span class="lineno">  250</span>&#160;                <span class="keywordflow">return</span> Challenge();</div>
+<div class="line"><a name="l00251"></a><span class="lineno">  251</span>&#160; </div>
+<div class="line"><a name="l00252"></a><span class="lineno">  252</span>&#160;            var model = await <a class="code" href="class_nop_1_1_web_1_1_controllers_1_1_order_controller.html#a3d292d3d4820af5587f923d742b592a5">_orderModelFactory</a>.<a class="code" href="interface_nop_1_1_web_1_1_factories_1_1_i_order_model_factory.html#afc704c6ee0688b09d77becb818a204d6">PrepareShipmentDetailsModelAsync</a>(shipment);</div>
+<div class="line"><a name="l00253"></a><span class="lineno">  253</span>&#160;            <span class="keywordflow">return</span> View(model);</div>
+<div class="line"><a name="l00254"></a><span class="lineno">  254</span>&#160;        }</div>
+<div class="ttc" id="ainterface_nop_1_1_services_1_1_shipping_1_1_i_shipment_service_html_a1b02c5bd8c741762dc23a665faa85f55"><div class="ttname"><a href="interface_nop_1_1_services_1_1_shipping_1_1_i_shipment_service.html#a1b02c5bd8c741762dc23a665faa85f55">Nop.Services.Shipping.IShipmentService.GetShipmentByIdAsync</a></div><div class="ttdeci">Task&lt; Shipment &gt; GetShipmentByIdAsync(int shipmentId)</div><div class="ttdoc">Gets a shipment</div></div>
+<div class="ttc" id="ainterface_nop_1_1_web_1_1_factories_1_1_i_order_model_factory_html_afc704c6ee0688b09d77becb818a204d6"><div class="ttname"><a href="interface_nop_1_1_web_1_1_factories_1_1_i_order_model_factory.html#afc704c6ee0688b09d77becb818a204d6">Nop.Web.Factories.IOrderModelFactory.PrepareShipmentDetailsModelAsync</a></div><div class="ttdeci">Task&lt; ShipmentDetailsModel &gt; PrepareShipmentDetailsModelAsync(Shipment shipment)</div><div class="ttdoc">Prepare the shipment details model</div></div>
+</div><!-- fragment -->
+<p class="reference">Referências <a class="el" href="class_nop_1_1_web_1_1_controllers_1_1_order_controller.html#a3d292d3d4820af5587f923d742b592a5">Nop.Web.Controllers.OrderController._orderModelFactory</a>, <a class="el" href="class_nop_1_1_web_1_1_controllers_1_1_order_controller.html#aa238e360db777b2e75accde57bd852e4">Nop.Web.Controllers.OrderController._orderService</a>, <a class="el" href="class_nop_1_1_web_1_1_controllers_1_1_order_controller.html#a692f612de204b31325a9f4d5f88ca779">Nop.Web.Controllers.OrderController._shipmentService</a>, <a class="el" href="class_nop_1_1_web_1_1_controllers_1_1_order_controller.html#a9d60086889c2f98f82f3191689b7335e">Nop.Web.Controllers.OrderController._workContext</a>, <a class="el" href="interface_nop_1_1_core_1_1_i_work_context.html#a1117b7898ed056459a9ff3f0446bbbe1">Nop.Core.IWorkContext.GetCurrentCustomerAsync()</a>, <a class="el" href="interface_nop_1_1_services_1_1_orders_1_1_i_order_service.html#a75bc6860ccdf693731b275018e462978">Nop.Services.Orders.IOrderService.GetOrderByIdAsync()</a>, <a class="el" href="interface_nop_1_1_services_1_1_shipping_1_1_i_shipment_service.html#a1b02c5bd8c741762dc23a665faa85f55">Nop.Services.Shipping.IShipmentService.GetShipmentByIdAsync()</a> e <a class="el" href="interface_nop_1_1_web_1_1_factories_1_1_i_order_model_factory.html#afc704c6ee0688b09d77becb818a204d6">Nop.Web.Factories.IOrderModelFactory.PrepareShipmentDetailsModelAsync()</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">Documentação dos dados membro</h2>
+<a id="a38ff2597c63f44f6866f3796e19e8d43"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a38ff2597c63f44f6866f3796e19e8d43">&#9670;&nbsp;</a></span>_customerService</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">readonly <a class="el" href="interface_nop_1_1_services_1_1_customers_1_1_i_customer_service.html">ICustomerService</a> Nop.Web.Controllers.OrderController._customerService</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">Referenciado por <a class="el" href="class_nop_1_1_web_1_1_controllers_1_1_order_controller.html#acc30030ccab0a2139c69b33caa2af2b2">Nop.Web.Controllers.OrderController.CancelRecurringPayment()</a>, <a class="el" href="class_nop_1_1_web_1_1_controllers_1_1_order_controller.html#a7d1a07625eafb317cc359feceb3dad60">Nop.Web.Controllers.OrderController.CustomerOrders()</a>, <a class="el" href="class_nop_1_1_web_1_1_controllers_1_1_order_controller.html#a3e2f1811ff001fcf3f1ac777851de6ec">Nop.Web.Controllers.OrderController.CustomerRewardPoints()</a>, <a class="el" href="class_nop_1_1_web_1_1_controllers_1_1_order_controller.html#a6e4c59664c501967663478815443462d">Nop.Web.Controllers.OrderController.OrderController()</a> e <a class="el" href="class_nop_1_1_web_1_1_controllers_1_1_order_controller.html#a4a015442c66c33f22458dba0cddf033b">Nop.Web.Controllers.OrderController.RetryLastRecurringPayment()</a>.</p>
+
+</div>
+</div>
+<a id="a3d292d3d4820af5587f923d742b592a5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3d292d3d4820af5587f923d742b592a5">&#9670;&nbsp;</a></span>_orderModelFactory</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">readonly <a class="el" href="interface_nop_1_1_web_1_1_factories_1_1_i_order_model_factory.html">IOrderModelFactory</a> Nop.Web.Controllers.OrderController._orderModelFactory</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">Referenciado por <a class="el" href="class_nop_1_1_web_1_1_controllers_1_1_order_controller.html#acc30030ccab0a2139c69b33caa2af2b2">Nop.Web.Controllers.OrderController.CancelRecurringPayment()</a>, <a class="el" href="class_nop_1_1_web_1_1_controllers_1_1_order_controller.html#a7d1a07625eafb317cc359feceb3dad60">Nop.Web.Controllers.OrderController.CustomerOrders()</a>, <a class="el" href="class_nop_1_1_web_1_1_controllers_1_1_order_controller.html#a3e2f1811ff001fcf3f1ac777851de6ec">Nop.Web.Controllers.OrderController.CustomerRewardPoints()</a>, <a class="el" href="class_nop_1_1_web_1_1_controllers_1_1_order_controller.html#a58f076c4633d69d36b2306e32ebd609e">Nop.Web.Controllers.OrderController.Details()</a>, <a class="el" href="class_nop_1_1_web_1_1_controllers_1_1_order_controller.html#a6e4c59664c501967663478815443462d">Nop.Web.Controllers.OrderController.OrderController()</a>, <a class="el" href="class_nop_1_1_web_1_1_controllers_1_1_order_controller.html#abb4247370793765e14ef7eb81b60c94b">Nop.Web.Controllers.OrderController.PrintOrderDetails()</a>, <a class="el" href="class_nop_1_1_web_1_1_controllers_1_1_order_controller.html#a4a015442c66c33f22458dba0cddf033b">Nop.Web.Controllers.OrderController.RetryLastRecurringPayment()</a> e <a class="el" href="class_nop_1_1_web_1_1_controllers_1_1_order_controller.html#a053c11ecfc8a83e398bdbcfebb00f6e3">Nop.Web.Controllers.OrderController.ShipmentDetails()</a>.</p>
+
+</div>
+</div>
+<a id="a84ddd1c98c01cc42725088b66801e216"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a84ddd1c98c01cc42725088b66801e216">&#9670;&nbsp;</a></span>_orderProcessingService</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">readonly <a class="el" href="interface_nop_1_1_services_1_1_orders_1_1_i_order_processing_service.html">IOrderProcessingService</a> Nop.Web.Controllers.OrderController._orderProcessingService</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">Referenciado por <a class="el" href="class_nop_1_1_web_1_1_controllers_1_1_order_controller.html#acc30030ccab0a2139c69b33caa2af2b2">Nop.Web.Controllers.OrderController.CancelRecurringPayment()</a>, <a class="el" href="class_nop_1_1_web_1_1_controllers_1_1_order_controller.html#a6e4c59664c501967663478815443462d">Nop.Web.Controllers.OrderController.OrderController()</a>, <a class="el" href="class_nop_1_1_web_1_1_controllers_1_1_order_controller.html#a07db0be8bc92b8917b7aeaf2a4c7ba1d">Nop.Web.Controllers.OrderController.ReOrder()</a> e <a class="el" href="class_nop_1_1_web_1_1_controllers_1_1_order_controller.html#a4a015442c66c33f22458dba0cddf033b">Nop.Web.Controllers.OrderController.RetryLastRecurringPayment()</a>.</p>
+
+</div>
+</div>
+<a id="aa238e360db777b2e75accde57bd852e4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa238e360db777b2e75accde57bd852e4">&#9670;&nbsp;</a></span>_orderService</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">readonly <a class="el" href="interface_nop_1_1_services_1_1_orders_1_1_i_order_service.html">IOrderService</a> Nop.Web.Controllers.OrderController._orderService</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">Referenciado por <a class="el" href="class_nop_1_1_web_1_1_controllers_1_1_order_controller.html#acc30030ccab0a2139c69b33caa2af2b2">Nop.Web.Controllers.OrderController.CancelRecurringPayment()</a>, <a class="el" href="class_nop_1_1_web_1_1_controllers_1_1_order_controller.html#a58f076c4633d69d36b2306e32ebd609e">Nop.Web.Controllers.OrderController.Details()</a>, <a class="el" href="class_nop_1_1_web_1_1_controllers_1_1_order_controller.html#a5c95e75f81ea502dde8d83ce5f8f758e">Nop.Web.Controllers.OrderController.GetPdfInvoice()</a>, <a class="el" href="class_nop_1_1_web_1_1_controllers_1_1_order_controller.html#a6e4c59664c501967663478815443462d">Nop.Web.Controllers.OrderController.OrderController()</a>, <a class="el" href="class_nop_1_1_web_1_1_controllers_1_1_order_controller.html#abb4247370793765e14ef7eb81b60c94b">Nop.Web.Controllers.OrderController.PrintOrderDetails()</a>, <a class="el" href="class_nop_1_1_web_1_1_controllers_1_1_order_controller.html#a07db0be8bc92b8917b7aeaf2a4c7ba1d">Nop.Web.Controllers.OrderController.ReOrder()</a>, <a class="el" href="class_nop_1_1_web_1_1_controllers_1_1_order_controller.html#a94064c908bafd0808d05252dc7576972">Nop.Web.Controllers.OrderController.RePostPayment()</a>, <a class="el" href="class_nop_1_1_web_1_1_controllers_1_1_order_controller.html#a4a015442c66c33f22458dba0cddf033b">Nop.Web.Controllers.OrderController.RetryLastRecurringPayment()</a> e <a class="el" href="class_nop_1_1_web_1_1_controllers_1_1_order_controller.html#a053c11ecfc8a83e398bdbcfebb00f6e3">Nop.Web.Controllers.OrderController.ShipmentDetails()</a>.</p>
+
+</div>
+</div>
+<a id="ace02813b907a0816d3ec72762d9951bc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ace02813b907a0816d3ec72762d9951bc">&#9670;&nbsp;</a></span>_paymentService</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">readonly <a class="el" href="interface_nop_1_1_services_1_1_payments_1_1_i_payment_service.html">IPaymentService</a> Nop.Web.Controllers.OrderController._paymentService</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">Referenciado por <a class="el" href="class_nop_1_1_web_1_1_controllers_1_1_order_controller.html#a6e4c59664c501967663478815443462d">Nop.Web.Controllers.OrderController.OrderController()</a> e <a class="el" href="class_nop_1_1_web_1_1_controllers_1_1_order_controller.html#a94064c908bafd0808d05252dc7576972">Nop.Web.Controllers.OrderController.RePostPayment()</a>.</p>
+
+</div>
+</div>
+<a id="a8a312ac04bb4b1ac2a39b58b44e4805a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8a312ac04bb4b1ac2a39b58b44e4805a">&#9670;&nbsp;</a></span>_pdfService</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">readonly <a class="el" href="interface_nop_1_1_services_1_1_common_1_1_i_pdf_service.html">IPdfService</a> Nop.Web.Controllers.OrderController._pdfService</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">Referenciado por <a class="el" href="class_nop_1_1_web_1_1_controllers_1_1_order_controller.html#a5c95e75f81ea502dde8d83ce5f8f758e">Nop.Web.Controllers.OrderController.GetPdfInvoice()</a> e <a class="el" href="class_nop_1_1_web_1_1_controllers_1_1_order_controller.html#a6e4c59664c501967663478815443462d">Nop.Web.Controllers.OrderController.OrderController()</a>.</p>
+
+</div>
+</div>
+<a id="ab60b9b0556df269bf704e6e5961bd03c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab60b9b0556df269bf704e6e5961bd03c">&#9670;&nbsp;</a></span>_rewardPointsSettings</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">readonly <a class="el" href="class_nop_1_1_core_1_1_domain_1_1_customers_1_1_reward_points_settings.html">RewardPointsSettings</a> Nop.Web.Controllers.OrderController._rewardPointsSettings</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">Referenciado por <a class="el" href="class_nop_1_1_web_1_1_controllers_1_1_order_controller.html#a3e2f1811ff001fcf3f1ac777851de6ec">Nop.Web.Controllers.OrderController.CustomerRewardPoints()</a> e <a class="el" href="class_nop_1_1_web_1_1_controllers_1_1_order_controller.html#a6e4c59664c501967663478815443462d">Nop.Web.Controllers.OrderController.OrderController()</a>.</p>
+
+</div>
+</div>
+<a id="a692f612de204b31325a9f4d5f88ca779"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a692f612de204b31325a9f4d5f88ca779">&#9670;&nbsp;</a></span>_shipmentService</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">readonly <a class="el" href="interface_nop_1_1_services_1_1_shipping_1_1_i_shipment_service.html">IShipmentService</a> Nop.Web.Controllers.OrderController._shipmentService</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">Referenciado por <a class="el" href="class_nop_1_1_web_1_1_controllers_1_1_order_controller.html#a6e4c59664c501967663478815443462d">Nop.Web.Controllers.OrderController.OrderController()</a> e <a class="el" href="class_nop_1_1_web_1_1_controllers_1_1_order_controller.html#a053c11ecfc8a83e398bdbcfebb00f6e3">Nop.Web.Controllers.OrderController.ShipmentDetails()</a>.</p>
+
+</div>
+</div>
+<a id="a2d480169b10b9357e20f268c675c283f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2d480169b10b9357e20f268c675c283f">&#9670;&nbsp;</a></span>_webHelper</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">readonly <a class="el" href="interface_nop_1_1_core_1_1_i_web_helper.html">IWebHelper</a> Nop.Web.Controllers.OrderController._webHelper</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">Referenciado por <a class="el" href="class_nop_1_1_web_1_1_controllers_1_1_order_controller.html#a6e4c59664c501967663478815443462d">Nop.Web.Controllers.OrderController.OrderController()</a> e <a class="el" href="class_nop_1_1_web_1_1_controllers_1_1_order_controller.html#a94064c908bafd0808d05252dc7576972">Nop.Web.Controllers.OrderController.RePostPayment()</a>.</p>
+
+</div>
+</div>
+<a id="a9d60086889c2f98f82f3191689b7335e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9d60086889c2f98f82f3191689b7335e">&#9670;&nbsp;</a></span>_workContext</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">readonly <a class="el" href="interface_nop_1_1_core_1_1_i_work_context.html">IWorkContext</a> Nop.Web.Controllers.OrderController._workContext</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">Referenciado por <a class="el" href="class_nop_1_1_web_1_1_controllers_1_1_order_controller.html#acc30030ccab0a2139c69b33caa2af2b2">Nop.Web.Controllers.OrderController.CancelRecurringPayment()</a>, <a class="el" href="class_nop_1_1_web_1_1_controllers_1_1_order_controller.html#a7d1a07625eafb317cc359feceb3dad60">Nop.Web.Controllers.OrderController.CustomerOrders()</a>, <a class="el" href="class_nop_1_1_web_1_1_controllers_1_1_order_controller.html#a3e2f1811ff001fcf3f1ac777851de6ec">Nop.Web.Controllers.OrderController.CustomerRewardPoints()</a>, <a class="el" href="class_nop_1_1_web_1_1_controllers_1_1_order_controller.html#a58f076c4633d69d36b2306e32ebd609e">Nop.Web.Controllers.OrderController.Details()</a>, <a class="el" href="class_nop_1_1_web_1_1_controllers_1_1_order_controller.html#a5c95e75f81ea502dde8d83ce5f8f758e">Nop.Web.Controllers.OrderController.GetPdfInvoice()</a>, <a class="el" href="class_nop_1_1_web_1_1_controllers_1_1_order_controller.html#a6e4c59664c501967663478815443462d">Nop.Web.Controllers.OrderController.OrderController()</a>, <a class="el" href="class_nop_1_1_web_1_1_controllers_1_1_order_controller.html#abb4247370793765e14ef7eb81b60c94b">Nop.Web.Controllers.OrderController.PrintOrderDetails()</a>, <a class="el" href="class_nop_1_1_web_1_1_controllers_1_1_order_controller.html#a07db0be8bc92b8917b7aeaf2a4c7ba1d">Nop.Web.Controllers.OrderController.ReOrder()</a>, <a class="el" href="class_nop_1_1_web_1_1_controllers_1_1_order_controller.html#a94064c908bafd0808d05252dc7576972">Nop.Web.Controllers.OrderController.RePostPayment()</a>, <a class="el" href="class_nop_1_1_web_1_1_controllers_1_1_order_controller.html#a4a015442c66c33f22458dba0cddf033b">Nop.Web.Controllers.OrderController.RetryLastRecurringPayment()</a> e <a class="el" href="class_nop_1_1_web_1_1_controllers_1_1_order_controller.html#a053c11ecfc8a83e398bdbcfebb00f6e3">Nop.Web.Controllers.OrderController.ShipmentDetails()</a>.</p>
+
+</div>
+</div>
+<hr/>A documentação para esta classe foi gerada a partir do seguinte ficheiro:<ul>
+<li>C:/Users/gabri/Documents/Projetos/GitHub/Estudos/Nopcommercer plugin/nopCommerce_4.40.3_Source - Copia/src/Presentation/Nop.Web/Controllers/<a class="el" href="_controllers_2_order_controller_8cs.html">OrderController.cs</a></li>
+</ul>
+</div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Gerado por&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1
+</small></address>
+</body>
+</html>

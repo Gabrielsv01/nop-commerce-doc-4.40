@@ -1,0 +1,1665 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.9.1"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>NopCommerce 4.40: Referência à classe Nop.Data.DataProviders.BaseDataProvider</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectlogo"><img alt="Logo" src="download.png"/></td>
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">NopCommerce 4.40
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Gerado por Doxygen 1.9.1 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+var searchBox = new SearchBox("searchBox", "search",false,'Localizar','.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(function() {
+  initMenu('',true,false,'search.php','Localizar');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */</script>
+<div id="main-nav"></div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="namespace_nop.html">Nop</a></li><li class="navelem"><a class="el" href="namespace_nop_1_1_data.html">Data</a></li><li class="navelem"><a class="el" href="namespace_nop_1_1_data_1_1_data_providers.html">DataProviders</a></li><li class="navelem"><a class="el" href="class_nop_1_1_data_1_1_data_providers_1_1_base_data_provider.html">BaseDataProvider</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">Membros públicos</a> &#124;
+<a href="#pro-methods">Membros protegidos</a> &#124;
+<a href="#properties">Propriedades</a> &#124;
+<a href="#pri-methods">Membros privados</a> &#124;
+<a href="class_nop_1_1_data_1_1_data_providers_1_1_base_data_provider-members.html">Mostrar lista completa dos membros</a>  </div>
+  <div class="headertitle">
+<div class="title">Referência à classe Nop.Data.DataProviders.BaseDataProvider<span class="mlabels"><span class="mlabel">abstract</span></span></div>  </div>
+</div><!--header-->
+<div class="contents">
+<div class="dynheader">
+Diagrama de heranças da classe Nop.Data.DataProviders.BaseDataProvider</div>
+<div class="dyncontent">
+ <div class="center">
+  <img src="class_nop_1_1_data_1_1_data_providers_1_1_base_data_provider.png" usemap="#Nop.Data.DataProviders.BaseDataProvider_map" alt=""/>
+  <map id="Nop.Data.DataProviders.BaseDataProvider_map" name="Nop.Data.DataProviders.BaseDataProvider_map">
+<area href="class_nop_1_1_data_1_1_data_providers_1_1_ms_sql_nop_data_provider.html" title="Represents the MS SQL Server data provider" alt="Nop.Data.DataProviders.MsSqlNopDataProvider" shape="rect" coords="0,56,289,80"/>
+<area href="class_nop_1_1_data_1_1_data_providers_1_1_my_sql_nop_data_provider.html" alt="Nop.Data.DataProviders.MySqlNopDataProvider" shape="rect" coords="299,56,588,80"/>
+<area href="class_nop_1_1_data_1_1_data_providers_1_1_postgre_sql_data_provider.html" alt="Nop.Data.DataProviders.PostgreSqlDataProvider" shape="rect" coords="598,56,887,80"/>
+  </map>
+</div></div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Membros públicos</h2></td></tr>
+<tr class="memitem:a942c567ef36d75a8e234b2f976c1350e"><td class="memItemLeft" align="right" valign="top">virtual async <a class="el" href="_sendinblue_plugin_8cs.html#a9f49374e6bc76a6b5261e5c211d2e63d">Task</a>&lt; <a class="el" href="interface_nop_1_1_data_1_1_i_temp_data_storage.html">ITempDataStorage</a>&lt; TItem &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_nop_1_1_data_1_1_data_providers_1_1_base_data_provider.html#a942c567ef36d75a8e234b2f976c1350e">CreateTempDataStorageAsync&lt; TItem &gt;</a> (string storeKey, IQueryable&lt; TItem &gt; query)</td></tr>
+<tr class="memdesc:a942c567ef36d75a8e234b2f976c1350e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a new temporary storage and populate it using data from provided query  <a href="class_nop_1_1_data_1_1_data_providers_1_1_base_data_provider.html#a942c567ef36d75a8e234b2f976c1350e">Mais...</a><br /></td></tr>
+<tr class="separator:a942c567ef36d75a8e234b2f976c1350e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a374611db4b509677d6fe6898fe7b67d3"><td class="memItemLeft" align="right" valign="top">EntityDescriptor&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_nop_1_1_data_1_1_data_providers_1_1_base_data_provider.html#a374611db4b509677d6fe6898fe7b67d3">GetEntityDescriptor&lt; TEntity &gt;</a> ()</td></tr>
+<tr class="memdesc:a374611db4b509677d6fe6898fe7b67d3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns mapped entity descriptor.  <a href="class_nop_1_1_data_1_1_data_providers_1_1_base_data_provider.html#a374611db4b509677d6fe6898fe7b67d3">Mais...</a><br /></td></tr>
+<tr class="separator:a374611db4b509677d6fe6898fe7b67d3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab59a7abe457e3f1e96ad3c74d16f2d9e"><td class="memItemLeft" align="right" valign="top">virtual async <a class="el" href="_sendinblue_plugin_8cs.html#a9f49374e6bc76a6b5261e5c211d2e63d">Task</a>&lt; ITable&lt; TEntity &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_nop_1_1_data_1_1_data_providers_1_1_base_data_provider.html#ab59a7abe457e3f1e96ad3c74d16f2d9e">GetTableAsync&lt; TEntity &gt;</a> ()</td></tr>
+<tr class="memdesc:ab59a7abe457e3f1e96ad3c74d16f2d9e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns queryable source for specified mapping class for current connection, mapped to database table or view.  <a href="class_nop_1_1_data_1_1_data_providers_1_1_base_data_provider.html#ab59a7abe457e3f1e96ad3c74d16f2d9e">Mais...</a><br /></td></tr>
+<tr class="separator:ab59a7abe457e3f1e96ad3c74d16f2d9e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aedcfae6c598b842731bf8c1e4dc0f01c"><td class="memItemLeft" align="right" valign="top">virtual ITable&lt; TEntity &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_nop_1_1_data_1_1_data_providers_1_1_base_data_provider.html#aedcfae6c598b842731bf8c1e4dc0f01c">GetTable&lt; TEntity &gt;</a> ()</td></tr>
+<tr class="memdesc:aedcfae6c598b842731bf8c1e4dc0f01c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns queryable source for specified mapping class for current connection, mapped to database table or view.  <a href="class_nop_1_1_data_1_1_data_providers_1_1_base_data_provider.html#aedcfae6c598b842731bf8c1e4dc0f01c">Mais...</a><br /></td></tr>
+<tr class="separator:aedcfae6c598b842731bf8c1e4dc0f01c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad8c748fd02a7285f5f43e17f9b82952f"><td class="memItemLeft" align="right" valign="top">virtual async <a class="el" href="_sendinblue_plugin_8cs.html#a9f49374e6bc76a6b5261e5c211d2e63d">Task</a>&lt; TEntity &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_nop_1_1_data_1_1_data_providers_1_1_base_data_provider.html#ad8c748fd02a7285f5f43e17f9b82952f">InsertEntityAsync&lt; TEntity &gt;</a> (TEntity entity)</td></tr>
+<tr class="memdesc:ad8c748fd02a7285f5f43e17f9b82952f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Inserts record into table. Returns inserted entity with identity  <a href="class_nop_1_1_data_1_1_data_providers_1_1_base_data_provider.html#ad8c748fd02a7285f5f43e17f9b82952f">Mais...</a><br /></td></tr>
+<tr class="separator:ad8c748fd02a7285f5f43e17f9b82952f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a808cee8d9e3295613d681466717cb3a5"><td class="memItemLeft" align="right" valign="top">virtual TEntity&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_nop_1_1_data_1_1_data_providers_1_1_base_data_provider.html#a808cee8d9e3295613d681466717cb3a5">InsertEntity&lt; TEntity &gt;</a> (TEntity entity)</td></tr>
+<tr class="memdesc:a808cee8d9e3295613d681466717cb3a5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Inserts record into table. Returns inserted entity with identity  <a href="class_nop_1_1_data_1_1_data_providers_1_1_base_data_provider.html#a808cee8d9e3295613d681466717cb3a5">Mais...</a><br /></td></tr>
+<tr class="separator:a808cee8d9e3295613d681466717cb3a5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aeb307b0f5298c969d7bec75e3deeb408"><td class="memItemLeft" align="right" valign="top">virtual async <a class="el" href="_sendinblue_plugin_8cs.html#a9f49374e6bc76a6b5261e5c211d2e63d">Task</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_nop_1_1_data_1_1_data_providers_1_1_base_data_provider.html#aeb307b0f5298c969d7bec75e3deeb408">UpdateEntityAsync&lt; TEntity &gt;</a> (TEntity entity)</td></tr>
+<tr class="memdesc:aeb307b0f5298c969d7bec75e3deeb408"><td class="mdescLeft">&#160;</td><td class="mdescRight">Updates record in table, using values from entity parameter. Record to update identified by match on primary key value from obj value.  <a href="class_nop_1_1_data_1_1_data_providers_1_1_base_data_provider.html#aeb307b0f5298c969d7bec75e3deeb408">Mais...</a><br /></td></tr>
+<tr class="separator:aeb307b0f5298c969d7bec75e3deeb408"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afedc727f9388801bc8bd5b443395ae4f"><td class="memItemLeft" align="right" valign="top">virtual async <a class="el" href="_sendinblue_plugin_8cs.html#a9f49374e6bc76a6b5261e5c211d2e63d">Task</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_nop_1_1_data_1_1_data_providers_1_1_base_data_provider.html#afedc727f9388801bc8bd5b443395ae4f">UpdateEntitiesAsync&lt; TEntity &gt;</a> (IEnumerable&lt; TEntity &gt; entities)</td></tr>
+<tr class="memdesc:afedc727f9388801bc8bd5b443395ae4f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Updates records in table, using values from entity parameter. Records to update are identified by match on primary key value from obj value.  <a href="class_nop_1_1_data_1_1_data_providers_1_1_base_data_provider.html#afedc727f9388801bc8bd5b443395ae4f">Mais...</a><br /></td></tr>
+<tr class="separator:afedc727f9388801bc8bd5b443395ae4f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4e2888347a3940c629faeb76f2ff2e76"><td class="memItemLeft" align="right" valign="top">virtual async <a class="el" href="_sendinblue_plugin_8cs.html#a9f49374e6bc76a6b5261e5c211d2e63d">Task</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_nop_1_1_data_1_1_data_providers_1_1_base_data_provider.html#a4e2888347a3940c629faeb76f2ff2e76">DeleteEntityAsync&lt; TEntity &gt;</a> (TEntity entity)</td></tr>
+<tr class="memdesc:a4e2888347a3940c629faeb76f2ff2e76"><td class="mdescLeft">&#160;</td><td class="mdescRight">Deletes record in table. Record to delete identified by match on primary key value from obj value.  <a href="class_nop_1_1_data_1_1_data_providers_1_1_base_data_provider.html#a4e2888347a3940c629faeb76f2ff2e76">Mais...</a><br /></td></tr>
+<tr class="separator:a4e2888347a3940c629faeb76f2ff2e76"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af4d84cff311da1721598677178bc2b1a"><td class="memItemLeft" align="right" valign="top">virtual async <a class="el" href="_sendinblue_plugin_8cs.html#a9f49374e6bc76a6b5261e5c211d2e63d">Task</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_nop_1_1_data_1_1_data_providers_1_1_base_data_provider.html#af4d84cff311da1721598677178bc2b1a">BulkDeleteEntitiesAsync&lt; TEntity &gt;</a> (IList&lt; TEntity &gt; entities)</td></tr>
+<tr class="memdesc:af4d84cff311da1721598677178bc2b1a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Performs delete records in a table  <a href="class_nop_1_1_data_1_1_data_providers_1_1_base_data_provider.html#af4d84cff311da1721598677178bc2b1a">Mais...</a><br /></td></tr>
+<tr class="separator:af4d84cff311da1721598677178bc2b1a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a24fa5eb455d02fc73b3d357ecc896ea9"><td class="memItemLeft" align="right" valign="top">virtual async <a class="el" href="_sendinblue_plugin_8cs.html#a9f49374e6bc76a6b5261e5c211d2e63d">Task</a>&lt; int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_nop_1_1_data_1_1_data_providers_1_1_base_data_provider.html#a24fa5eb455d02fc73b3d357ecc896ea9">BulkDeleteEntitiesAsync&lt; TEntity &gt;</a> (Expression&lt; Func&lt; TEntity, bool &gt;&gt; predicate)</td></tr>
+<tr class="memdesc:a24fa5eb455d02fc73b3d357ecc896ea9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Performs delete records in a table by a condition  <a href="class_nop_1_1_data_1_1_data_providers_1_1_base_data_provider.html#a24fa5eb455d02fc73b3d357ecc896ea9">Mais...</a><br /></td></tr>
+<tr class="separator:a24fa5eb455d02fc73b3d357ecc896ea9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a79879a6dfc1a0443a0352b669e3d7891"><td class="memItemLeft" align="right" valign="top">virtual async <a class="el" href="_sendinblue_plugin_8cs.html#a9f49374e6bc76a6b5261e5c211d2e63d">Task</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_nop_1_1_data_1_1_data_providers_1_1_base_data_provider.html#a79879a6dfc1a0443a0352b669e3d7891">BulkInsertEntitiesAsync&lt; TEntity &gt;</a> (IEnumerable&lt; TEntity &gt; entities)</td></tr>
+<tr class="memdesc:a79879a6dfc1a0443a0352b669e3d7891"><td class="mdescLeft">&#160;</td><td class="mdescRight">Performs bulk insert operation for entity colllection.  <a href="class_nop_1_1_data_1_1_data_providers_1_1_base_data_provider.html#a79879a6dfc1a0443a0352b669e3d7891">Mais...</a><br /></td></tr>
+<tr class="separator:a79879a6dfc1a0443a0352b669e3d7891"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aee36c2be218e31de4c21635b813f7957"><td class="memItemLeft" align="right" valign="top">virtual async <a class="el" href="_sendinblue_plugin_8cs.html#a9f49374e6bc76a6b5261e5c211d2e63d">Task</a>&lt; int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_nop_1_1_data_1_1_data_providers_1_1_base_data_provider.html#aee36c2be218e31de4c21635b813f7957">ExecuteNonQueryAsync</a> (string sql, params DataParameter[] dataParameters)</td></tr>
+<tr class="memdesc:aee36c2be218e31de4c21635b813f7957"><td class="mdescLeft">&#160;</td><td class="mdescRight">Executes command asynchronously and returns number of affected records  <a href="class_nop_1_1_data_1_1_data_providers_1_1_base_data_provider.html#aee36c2be218e31de4c21635b813f7957">Mais...</a><br /></td></tr>
+<tr class="separator:aee36c2be218e31de4c21635b813f7957"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab3c2e883588f3f2cdf4269ed4e3e985a"><td class="memItemLeft" align="right" valign="top">virtual async <a class="el" href="_sendinblue_plugin_8cs.html#a9f49374e6bc76a6b5261e5c211d2e63d">Task</a>&lt; IList&lt; T &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_nop_1_1_data_1_1_data_providers_1_1_base_data_provider.html#ab3c2e883588f3f2cdf4269ed4e3e985a">QueryProcAsync&lt; T &gt;</a> (string procedureName, params DataParameter[] parameters)</td></tr>
+<tr class="memdesc:ab3c2e883588f3f2cdf4269ed4e3e985a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Executes command using System.Data.CommandType.StoredProcedure command type and returns results as collection of values of specified type  <a href="class_nop_1_1_data_1_1_data_providers_1_1_base_data_provider.html#ab3c2e883588f3f2cdf4269ed4e3e985a">Mais...</a><br /></td></tr>
+<tr class="separator:ab3c2e883588f3f2cdf4269ed4e3e985a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acec2ae3e4cdaa3084d95effbe3953113"><td class="memItemLeft" align="right" valign="top">virtual async <a class="el" href="_sendinblue_plugin_8cs.html#a9f49374e6bc76a6b5261e5c211d2e63d">Task</a>&lt; IList&lt; T &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_nop_1_1_data_1_1_data_providers_1_1_base_data_provider.html#acec2ae3e4cdaa3084d95effbe3953113">QueryAsync&lt; T &gt;</a> (string sql, params DataParameter[] parameters)</td></tr>
+<tr class="memdesc:acec2ae3e4cdaa3084d95effbe3953113"><td class="mdescLeft">&#160;</td><td class="mdescRight">Executes SQL command and returns results as collection of values of specified type  <a href="class_nop_1_1_data_1_1_data_providers_1_1_base_data_provider.html#acec2ae3e4cdaa3084d95effbe3953113">Mais...</a><br /></td></tr>
+<tr class="separator:acec2ae3e4cdaa3084d95effbe3953113"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
+Membros protegidos</h2></td></tr>
+<tr class="memitem:aa4683ceac1d05822930e01180b0d3654"><td class="memItemLeft" align="right" valign="top">abstract DbConnection&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_nop_1_1_data_1_1_data_providers_1_1_base_data_provider.html#aa4683ceac1d05822930e01180b0d3654">GetInternalDbConnection</a> (string connectionString)</td></tr>
+<tr class="memdesc:aa4683ceac1d05822930e01180b0d3654"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets a connection to the database for a current data provider  <a href="class_nop_1_1_data_1_1_data_providers_1_1_base_data_provider.html#aa4683ceac1d05822930e01180b0d3654">Mais...</a><br /></td></tr>
+<tr class="separator:aa4683ceac1d05822930e01180b0d3654"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4c283445c3053223be9392ddc9cd0a79"><td class="memItemLeft" align="right" valign="top">virtual async <a class="el" href="_sendinblue_plugin_8cs.html#a9f49374e6bc76a6b5261e5c211d2e63d">Task</a>&lt; DataConnection &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_nop_1_1_data_1_1_data_providers_1_1_base_data_provider.html#a4c283445c3053223be9392ddc9cd0a79">CreateDataConnectionAsync</a> ()</td></tr>
+<tr class="memdesc:a4c283445c3053223be9392ddc9cd0a79"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates the database connection  <a href="class_nop_1_1_data_1_1_data_providers_1_1_base_data_provider.html#a4c283445c3053223be9392ddc9cd0a79">Mais...</a><br /></td></tr>
+<tr class="separator:a4c283445c3053223be9392ddc9cd0a79"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acb1850c883a6565cd3012b6fdde7ff16"><td class="memItemLeft" align="right" valign="top">virtual DataConnection&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_nop_1_1_data_1_1_data_providers_1_1_base_data_provider.html#acb1850c883a6565cd3012b6fdde7ff16">CreateDataConnection</a> ()</td></tr>
+<tr class="memdesc:acb1850c883a6565cd3012b6fdde7ff16"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates the database connection  <a href="class_nop_1_1_data_1_1_data_providers_1_1_base_data_provider.html#acb1850c883a6565cd3012b6fdde7ff16">Mais...</a><br /></td></tr>
+<tr class="separator:acb1850c883a6565cd3012b6fdde7ff16"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a384b69bd0c38429bf3855efc4e2baf20"><td class="memItemLeft" align="right" valign="top">virtual async <a class="el" href="_sendinblue_plugin_8cs.html#a9f49374e6bc76a6b5261e5c211d2e63d">Task</a>&lt; DataConnection &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_nop_1_1_data_1_1_data_providers_1_1_base_data_provider.html#a384b69bd0c38429bf3855efc4e2baf20">CreateDataConnectionAsync</a> (IDataProvider dataProvider)</td></tr>
+<tr class="memdesc:a384b69bd0c38429bf3855efc4e2baf20"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates the database connection  <a href="class_nop_1_1_data_1_1_data_providers_1_1_base_data_provider.html#a384b69bd0c38429bf3855efc4e2baf20">Mais...</a><br /></td></tr>
+<tr class="separator:a384b69bd0c38429bf3855efc4e2baf20"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a985fef369228a578e0e7d3c59fd53933"><td class="memItemLeft" align="right" valign="top">virtual DataConnection&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_nop_1_1_data_1_1_data_providers_1_1_base_data_provider.html#a985fef369228a578e0e7d3c59fd53933">CreateDataConnection</a> (IDataProvider dataProvider)</td></tr>
+<tr class="memdesc:a985fef369228a578e0e7d3c59fd53933"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates the database connection  <a href="class_nop_1_1_data_1_1_data_providers_1_1_base_data_provider.html#a985fef369228a578e0e7d3c59fd53933">Mais...</a><br /></td></tr>
+<tr class="separator:a985fef369228a578e0e7d3c59fd53933"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad03869ee0f8ce1cbb40ca64e6eb0a147"><td class="memItemLeft" align="right" valign="top">virtual async <a class="el" href="_sendinblue_plugin_8cs.html#a9f49374e6bc76a6b5261e5c211d2e63d">Task</a>&lt; IDbConnection &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_nop_1_1_data_1_1_data_providers_1_1_base_data_provider.html#ad03869ee0f8ce1cbb40ca64e6eb0a147">CreateDbConnectionAsync</a> (string connectionString=null)</td></tr>
+<tr class="memdesc:ad03869ee0f8ce1cbb40ca64e6eb0a147"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a connection to a database  <a href="class_nop_1_1_data_1_1_data_providers_1_1_base_data_provider.html#ad03869ee0f8ce1cbb40ca64e6eb0a147">Mais...</a><br /></td></tr>
+<tr class="separator:ad03869ee0f8ce1cbb40ca64e6eb0a147"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a41769285bc754692ed85399e40d5bf4d"><td class="memItemLeft" align="right" valign="top">virtual IDbConnection&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_nop_1_1_data_1_1_data_providers_1_1_base_data_provider.html#a41769285bc754692ed85399e40d5bf4d">CreateDbConnection</a> (string connectionString=null)</td></tr>
+<tr class="memdesc:a41769285bc754692ed85399e40d5bf4d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a connection to a database  <a href="class_nop_1_1_data_1_1_data_providers_1_1_base_data_provider.html#a41769285bc754692ed85399e40d5bf4d">Mais...</a><br /></td></tr>
+<tr class="separator:a41769285bc754692ed85399e40d5bf4d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a30f81c86a9390b301176d5446ad8ec2b"><td class="memItemLeft" align="right" valign="top">async <a class="el" href="_sendinblue_plugin_8cs.html#a9f49374e6bc76a6b5261e5c211d2e63d">Task</a>&lt; string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_nop_1_1_data_1_1_data_providers_1_1_base_data_provider.html#a30f81c86a9390b301176d5446ad8ec2b">GetCurrentConnectionStringAsync</a> ()</td></tr>
+<tr class="memdesc:a30f81c86a9390b301176d5446ad8ec2b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Database connection string  <a href="class_nop_1_1_data_1_1_data_providers_1_1_base_data_provider.html#a30f81c86a9390b301176d5446ad8ec2b">Mais...</a><br /></td></tr>
+<tr class="separator:a30f81c86a9390b301176d5446ad8ec2b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a706d9457e3c81a0374b880ba75b1ab81"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_nop_1_1_data_1_1_data_providers_1_1_base_data_provider.html#a706d9457e3c81a0374b880ba75b1ab81">GetCurrentConnectionString</a> ()</td></tr>
+<tr class="memdesc:a706d9457e3c81a0374b880ba75b1ab81"><td class="mdescLeft">&#160;</td><td class="mdescRight">Database connection string  <a href="class_nop_1_1_data_1_1_data_providers_1_1_base_data_provider.html#a706d9457e3c81a0374b880ba75b1ab81">Mais...</a><br /></td></tr>
+<tr class="separator:a706d9457e3c81a0374b880ba75b1ab81"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="properties"></a>
+Propriedades</h2></td></tr>
+<tr class="memitem:af63cb698a8c56f1a916838f9fa5c6960"><td class="memItemLeft" align="right" valign="top">abstract IDataProvider&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_nop_1_1_data_1_1_data_providers_1_1_base_data_provider.html#af63cb698a8c56f1a916838f9fa5c6960">LinqToDbDataProvider</a><code> [get]</code></td></tr>
+<tr class="memdesc:af63cb698a8c56f1a916838f9fa5c6960"><td class="mdescLeft">&#160;</td><td class="mdescRight">Linq2Db data provider  <a href="class_nop_1_1_data_1_1_data_providers_1_1_base_data_provider.html#af63cb698a8c56f1a916838f9fa5c6960">Mais...</a><br /></td></tr>
+<tr class="separator:af63cb698a8c56f1a916838f9fa5c6960"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9b67993d8d156e040c77731b070f6e74"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_nop_1_1_data_1_1_data_providers_1_1_base_data_provider.html#a9b67993d8d156e040c77731b070f6e74">MiniProfillerEnabled</a><code> [get]</code></td></tr>
+<tr class="memdesc:a9b67993d8d156e040c77731b070f6e74"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets or sets a value that indicates whether should use MiniProfiler for the current connection  <a href="class_nop_1_1_data_1_1_data_providers_1_1_base_data_provider.html#a9b67993d8d156e040c77731b070f6e74">Mais...</a><br /></td></tr>
+<tr class="separator:a9b67993d8d156e040c77731b070f6e74"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3757ab8bc73dee4c826752ff8c59f0b4"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_nop_1_1_data_1_1_data_providers_1_1_base_data_provider.html#a3757ab8bc73dee4c826752ff8c59f0b4">ConfigurationName</a><code> [get]</code></td></tr>
+<tr class="memdesc:a3757ab8bc73dee4c826752ff8c59f0b4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Name of database provider  <a href="class_nop_1_1_data_1_1_data_providers_1_1_base_data_provider.html#a3757ab8bc73dee4c826752ff8c59f0b4">Mais...</a><br /></td></tr>
+<tr class="separator:a3757ab8bc73dee4c826752ff8c59f0b4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
+Membros privados</h2></td></tr>
+<tr class="memitem:aeb701165071dcc45ead5973c80ab12d7"><td class="memItemLeft" align="right" valign="top">MappingSchema&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_nop_1_1_data_1_1_data_providers_1_1_base_data_provider.html#aeb701165071dcc45ead5973c80ab12d7">GetMappingSchema</a> ()</td></tr>
+<tr class="memdesc:aeb701165071dcc45ead5973c80ab12d7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets an additional mapping schema  <a href="class_nop_1_1_data_1_1_data_providers_1_1_base_data_provider.html#aeb701165071dcc45ead5973c80ab12d7">Mais...</a><br /></td></tr>
+<tr class="separator:aeb701165071dcc45ead5973c80ab12d7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af959c8fdc7f2c9a3d1c65935d9c9d674"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_nop_1_1_data_1_1_data_providers_1_1_base_data_provider.html#af959c8fdc7f2c9a3d1c65935d9c9d674">UpdateParameterValue</a> (DataConnection dataConnection, DataParameter parameter)</td></tr>
+<tr class="separator:af959c8fdc7f2c9a3d1c65935d9c9d674"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a208736903f9d4895d42e97809aff37f2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_nop_1_1_data_1_1_data_providers_1_1_base_data_provider.html#a208736903f9d4895d42e97809aff37f2">UpdateOutputParameters</a> (DataConnection dataConnection, DataParameter[] dataParameters)</td></tr>
+<tr class="separator:a208736903f9d4895d42e97809aff37f2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<h2 class="groupheader">Documentação dos métodos</h2>
+<a id="a24fa5eb455d02fc73b3d357ecc896ea9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a24fa5eb455d02fc73b3d357ecc896ea9">&#9670;&nbsp;</a></span>BulkDeleteEntitiesAsync&lt; TEntity &gt;() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual async <a class="el" href="_sendinblue_plugin_8cs.html#a9f49374e6bc76a6b5261e5c211d2e63d">Task</a>&lt;int&gt; Nop.Data.DataProviders.BaseDataProvider.BulkDeleteEntitiesAsync&lt; TEntity &gt; </td>
+          <td>(</td>
+          <td class="paramtype">Expression&lt; Func&lt; TEntity, bool &gt;&gt;&#160;</td>
+          <td class="paramname"><em>predicate</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Performs delete records in a table by a condition </p>
+<dl class="params"><dt>Parâmetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">predicate</td><td>A function to test each element for a condition.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="tparams"><dt>Parâmetros de template</dt><dd>
+  <table class="tparams">
+    <tr><td class="paramname">TEntity</td><td>Entity type</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Retorna</dt><dd>A task that represents the asynchronous operation The task result contains the number of deleted records </dd></dl>
+<div class="typeconstraint">
+<dl><dt><b>Restrições do Tipo</b></dt><dd>
+<table border="0" cellspacing="2" cellpadding="0">
+<tr><td valign="top"><em>TEntity</em></td><td>&#160;:</td><td valign="top"><em>BaseEntity</em></td><td>&#160;</td></tr>
+</table>
+</dd>
+</dl>
+</div>
+<div class="fragment"><div class="line"><a name="l00327"></a><span class="lineno">  327</span>&#160;                                                                                                                                 : <a class="code" href="class_nop_1_1_core_1_1_base_entity.html">BaseEntity</a></div>
+<div class="line"><a name="l00328"></a><span class="lineno">  328</span>&#160;        {</div>
+<div class="line"><a name="l00329"></a><span class="lineno">  329</span>&#160;            <span class="keyword">using</span> var dataContext = await <a class="code" href="class_nop_1_1_data_1_1_data_providers_1_1_base_data_provider.html#a4c283445c3053223be9392ddc9cd0a79">CreateDataConnectionAsync</a>();</div>
+<div class="line"><a name="l00330"></a><span class="lineno">  330</span>&#160;            <span class="keywordflow">return</span> await dataContext.GetTable&lt;TEntity&gt;()</div>
+<div class="line"><a name="l00331"></a><span class="lineno">  331</span>&#160;                .Where(predicate)</div>
+<div class="line"><a name="l00332"></a><span class="lineno">  332</span>&#160;                .DeleteAsync();</div>
+<div class="line"><a name="l00333"></a><span class="lineno">  333</span>&#160;        }</div>
+<div class="ttc" id="aclass_nop_1_1_core_1_1_base_entity_html"><div class="ttname"><a href="class_nop_1_1_core_1_1_base_entity.html">Nop.Core.BaseEntity</a></div><div class="ttdoc">Represents the base class for entities</div><div class="ttdef"><b>Definition:</b> BaseEntity.cs:7</div></div>
+<div class="ttc" id="aclass_nop_1_1_data_1_1_data_providers_1_1_base_data_provider_html_a4c283445c3053223be9392ddc9cd0a79"><div class="ttname"><a href="class_nop_1_1_data_1_1_data_providers_1_1_base_data_provider.html#a4c283445c3053223be9392ddc9cd0a79">Nop.Data.DataProviders.BaseDataProvider.CreateDataConnectionAsync</a></div><div class="ttdeci">virtual async Task&lt; DataConnection &gt; CreateDataConnectionAsync()</div><div class="ttdoc">Creates the database connection</div><div class="ttdef"><b>Definition:</b> BaseDataProvider.cs:94</div></div>
+</div><!-- fragment -->
+<p class="reference">Referências <a class="el" href="class_nop_1_1_data_1_1_data_providers_1_1_base_data_provider.html#a4c283445c3053223be9392ddc9cd0a79">Nop.Data.DataProviders.BaseDataProvider.CreateDataConnectionAsync()</a>.</p>
+
+</div>
+</div>
+<a id="af4d84cff311da1721598677178bc2b1a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af4d84cff311da1721598677178bc2b1a">&#9670;&nbsp;</a></span>BulkDeleteEntitiesAsync&lt; TEntity &gt;() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual async <a class="el" href="_sendinblue_plugin_8cs.html#a9f49374e6bc76a6b5261e5c211d2e63d">Task</a> Nop.Data.DataProviders.BaseDataProvider.BulkDeleteEntitiesAsync&lt; TEntity &gt; </td>
+          <td>(</td>
+          <td class="paramtype">IList&lt; TEntity &gt;&#160;</td>
+          <td class="paramname"><em>entities</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Performs delete records in a table </p>
+<dl class="params"><dt>Parâmetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">entities</td><td>Entities for delete operation</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="tparams"><dt>Parâmetros de template</dt><dd>
+  <table class="tparams">
+    <tr><td class="paramname">TEntity</td><td>Entity type</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Retorna</dt><dd>A task that represents the asynchronous operation</dd></dl>
+<div class="typeconstraint">
+<dl><dt><b>Restrições do Tipo</b></dt><dd>
+<table border="0" cellspacing="2" cellpadding="0">
+<tr><td valign="top"><em>TEntity</em></td><td>&#160;:</td><td valign="top"><em>BaseEntity</em></td><td>&#160;</td></tr>
+</table>
+</dd>
+</dl>
+</div>
+<div class="fragment"><div class="line"><a name="l00306"></a><span class="lineno">  306</span>&#160;                                                                                                          : <a class="code" href="class_nop_1_1_core_1_1_base_entity.html">BaseEntity</a></div>
+<div class="line"><a name="l00307"></a><span class="lineno">  307</span>&#160;        {</div>
+<div class="line"><a name="l00308"></a><span class="lineno">  308</span>&#160;            <span class="keyword">using</span> var dataContext = await <a class="code" href="class_nop_1_1_data_1_1_data_providers_1_1_base_data_provider.html#a4c283445c3053223be9392ddc9cd0a79">CreateDataConnectionAsync</a>();</div>
+<div class="line"><a name="l00309"></a><span class="lineno">  309</span>&#160;            <span class="keywordflow">if</span> (entities.All(entity =&gt; entity.Id == 0))</div>
+<div class="line"><a name="l00310"></a><span class="lineno">  310</span>&#160;                <span class="keywordflow">foreach</span> (var entity <span class="keywordflow">in</span> entities)</div>
+<div class="line"><a name="l00311"></a><span class="lineno">  311</span>&#160;                    await dataContext.DeleteAsync(entity);</div>
+<div class="line"><a name="l00312"></a><span class="lineno">  312</span>&#160;            <span class="keywordflow">else</span></div>
+<div class="line"><a name="l00313"></a><span class="lineno">  313</span>&#160;                await dataContext.GetTable&lt;TEntity&gt;()</div>
+<div class="line"><a name="l00314"></a><span class="lineno">  314</span>&#160;                    .Where(e =&gt; e.Id.In(entities.Select(x =&gt; x.Id)))</div>
+<div class="line"><a name="l00315"></a><span class="lineno">  315</span>&#160;                    .DeleteAsync();</div>
+<div class="line"><a name="l00316"></a><span class="lineno">  316</span>&#160;        }</div>
+</div><!-- fragment -->
+<p class="reference">Referências <a class="el" href="class_nop_1_1_data_1_1_data_providers_1_1_base_data_provider.html#a4c283445c3053223be9392ddc9cd0a79">Nop.Data.DataProviders.BaseDataProvider.CreateDataConnectionAsync()</a>.</p>
+
+</div>
+</div>
+<a id="a79879a6dfc1a0443a0352b669e3d7891"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a79879a6dfc1a0443a0352b669e3d7891">&#9670;&nbsp;</a></span>BulkInsertEntitiesAsync&lt; TEntity &gt;()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual async <a class="el" href="_sendinblue_plugin_8cs.html#a9f49374e6bc76a6b5261e5c211d2e63d">Task</a> Nop.Data.DataProviders.BaseDataProvider.BulkInsertEntitiesAsync&lt; TEntity &gt; </td>
+          <td>(</td>
+          <td class="paramtype">IEnumerable&lt; TEntity &gt;&#160;</td>
+          <td class="paramname"><em>entities</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Performs bulk insert operation for entity colllection. </p>
+<dl class="params"><dt>Parâmetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">entities</td><td>Entities for insert operation</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="tparams"><dt>Parâmetros de template</dt><dd>
+  <table class="tparams">
+    <tr><td class="paramname">TEntity</td><td>Entity type</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Retorna</dt><dd>A task that represents the asynchronous operation</dd></dl>
+<div class="typeconstraint">
+<dl><dt><b>Restrições do Tipo</b></dt><dd>
+<table border="0" cellspacing="2" cellpadding="0">
+<tr><td valign="top"><em>TEntity</em></td><td>&#160;:</td><td valign="top"><em>BaseEntity</em></td><td>&#160;</td></tr>
+</table>
+</dd>
+</dl>
+</div>
+<div class="fragment"><div class="line"><a name="l00341"></a><span class="lineno">  341</span>&#160;                                                                                                                : <a class="code" href="class_nop_1_1_core_1_1_base_entity.html">BaseEntity</a></div>
+<div class="line"><a name="l00342"></a><span class="lineno">  342</span>&#160;        {</div>
+<div class="line"><a name="l00343"></a><span class="lineno">  343</span>&#160;            <span class="keyword">using</span> var dataContext = await <a class="code" href="class_nop_1_1_data_1_1_data_providers_1_1_base_data_provider.html#a4c283445c3053223be9392ddc9cd0a79">CreateDataConnectionAsync</a>(<a class="code" href="class_nop_1_1_data_1_1_data_providers_1_1_base_data_provider.html#af63cb698a8c56f1a916838f9fa5c6960">LinqToDbDataProvider</a>);</div>
+<div class="line"><a name="l00344"></a><span class="lineno">  344</span>&#160;            await dataContext.BulkCopyAsync(<span class="keyword">new</span> BulkCopyOptions(), entities.RetrieveIdentity(dataContext));</div>
+<div class="line"><a name="l00345"></a><span class="lineno">  345</span>&#160;        }</div>
+<div class="ttc" id="aclass_nop_1_1_data_1_1_data_providers_1_1_base_data_provider_html_af63cb698a8c56f1a916838f9fa5c6960"><div class="ttname"><a href="class_nop_1_1_data_1_1_data_providers_1_1_base_data_provider.html#af63cb698a8c56f1a916838f9fa5c6960">Nop.Data.DataProviders.BaseDataProvider.LinqToDbDataProvider</a></div><div class="ttdeci">abstract IDataProvider LinqToDbDataProvider</div><div class="ttdoc">Linq2Db data provider</div><div class="ttdef"><b>Definition:</b> BaseDataProvider.cs:408</div></div>
+</div><!-- fragment -->
+<p class="reference">Referências <a class="el" href="class_nop_1_1_data_1_1_data_providers_1_1_base_data_provider.html#a4c283445c3053223be9392ddc9cd0a79">Nop.Data.DataProviders.BaseDataProvider.CreateDataConnectionAsync()</a> e <a class="el" href="class_nop_1_1_data_1_1_data_providers_1_1_base_data_provider.html#af63cb698a8c56f1a916838f9fa5c6960">Nop.Data.DataProviders.BaseDataProvider.LinqToDbDataProvider</a>.</p>
+
+</div>
+</div>
+<a id="acb1850c883a6565cd3012b6fdde7ff16"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acb1850c883a6565cd3012b6fdde7ff16">&#9670;&nbsp;</a></span>CreateDataConnection() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual DataConnection Nop.Data.DataProviders.BaseDataProvider.CreateDataConnection </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Creates the database connection </p>
+
+<p>Reimplementado em <a class="el" href="class_nop_1_1_data_1_1_data_providers_1_1_postgre_sql_data_provider.html#a557ee51235501f5fad3aeef3c065f017">Nop.Data.DataProviders.PostgreSqlDataProvider</a>.</p>
+<div class="fragment"><div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;        {</div>
+<div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;            <span class="keywordflow">return</span> <a class="code" href="class_nop_1_1_data_1_1_data_providers_1_1_base_data_provider.html#acb1850c883a6565cd3012b6fdde7ff16">CreateDataConnection</a>(<a class="code" href="class_nop_1_1_data_1_1_data_providers_1_1_base_data_provider.html#af63cb698a8c56f1a916838f9fa5c6960">LinqToDbDataProvider</a>);</div>
+<div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;        }</div>
+<div class="ttc" id="aclass_nop_1_1_data_1_1_data_providers_1_1_base_data_provider_html_acb1850c883a6565cd3012b6fdde7ff16"><div class="ttname"><a href="class_nop_1_1_data_1_1_data_providers_1_1_base_data_provider.html#acb1850c883a6565cd3012b6fdde7ff16">Nop.Data.DataProviders.BaseDataProvider.CreateDataConnection</a></div><div class="ttdeci">virtual DataConnection CreateDataConnection()</div><div class="ttdoc">Creates the database connection</div><div class="ttdef"><b>Definition:</b> BaseDataProvider.cs:102</div></div>
+</div><!-- fragment -->
+<p class="reference">Referências <a class="el" href="class_nop_1_1_data_1_1_data_providers_1_1_base_data_provider.html#af63cb698a8c56f1a916838f9fa5c6960">Nop.Data.DataProviders.BaseDataProvider.LinqToDbDataProvider</a>.</p>
+
+<p class="reference">Referenciado por <a class="el" href="class_nop_1_1_data_1_1_data_providers_1_1_base_data_provider.html#a808cee8d9e3295613d681466717cb3a5">Nop.Data.DataProviders.BaseDataProvider.InsertEntity&lt; TEntity &gt;()</a>.</p>
+
+</div>
+</div>
+<a id="a985fef369228a578e0e7d3c59fd53933"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a985fef369228a578e0e7d3c59fd53933">&#9670;&nbsp;</a></span>CreateDataConnection() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual DataConnection Nop.Data.DataProviders.BaseDataProvider.CreateDataConnection </td>
+          <td>(</td>
+          <td class="paramtype">IDataProvider&#160;</td>
+          <td class="paramname"><em>dataProvider</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Creates the database connection </p>
+<dl class="params"><dt>Parâmetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">dataProvider</td><td><a class="el" href="namespace_nop_1_1_data.html">Data</a> provider</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Retorna</dt><dd>Database connection</dd></dl>
+<div class="fragment"><div class="line"><a name="l00134"></a><span class="lineno">  134</span>&#160;        {</div>
+<div class="line"><a name="l00135"></a><span class="lineno">  135</span>&#160;            <span class="keywordflow">if</span> (dataProvider is <span class="keyword">null</span>)</div>
+<div class="line"><a name="l00136"></a><span class="lineno">  136</span>&#160;                <span class="keywordflow">throw</span> <span class="keyword">new</span> ArgumentNullException(nameof(dataProvider));</div>
+<div class="line"><a name="l00137"></a><span class="lineno">  137</span>&#160; </div>
+<div class="line"><a name="l00138"></a><span class="lineno">  138</span>&#160;            var dataContext = <span class="keyword">new</span> DataConnection(dataProvider, <a class="code" href="class_nop_1_1_data_1_1_data_providers_1_1_base_data_provider.html#a41769285bc754692ed85399e40d5bf4d">CreateDbConnection</a>(), <a class="code" href="class_nop_1_1_data_1_1_data_providers_1_1_base_data_provider.html#aeb701165071dcc45ead5973c80ab12d7">GetMappingSchema</a>())</div>
+<div class="line"><a name="l00139"></a><span class="lineno">  139</span>&#160;            {</div>
+<div class="line"><a name="l00140"></a><span class="lineno">  140</span>&#160;                CommandTimeout = DataSettingsManager.GetSqlCommandTimeout()</div>
+<div class="line"><a name="l00141"></a><span class="lineno">  141</span>&#160;            };</div>
+<div class="line"><a name="l00142"></a><span class="lineno">  142</span>&#160; </div>
+<div class="line"><a name="l00143"></a><span class="lineno">  143</span>&#160;            <span class="keywordflow">return</span> dataContext;</div>
+<div class="line"><a name="l00144"></a><span class="lineno">  144</span>&#160;        }</div>
+<div class="ttc" id="aclass_nop_1_1_data_1_1_data_providers_1_1_base_data_provider_html_a41769285bc754692ed85399e40d5bf4d"><div class="ttname"><a href="class_nop_1_1_data_1_1_data_providers_1_1_base_data_provider.html#a41769285bc754692ed85399e40d5bf4d">Nop.Data.DataProviders.BaseDataProvider.CreateDbConnection</a></div><div class="ttdeci">virtual IDbConnection CreateDbConnection(string connectionString=null)</div><div class="ttdoc">Creates a connection to a database</div><div class="ttdef"><b>Definition:</b> BaseDataProvider.cs:166</div></div>
+<div class="ttc" id="aclass_nop_1_1_data_1_1_data_providers_1_1_base_data_provider_html_aeb701165071dcc45ead5973c80ab12d7"><div class="ttname"><a href="class_nop_1_1_data_1_1_data_providers_1_1_base_data_provider.html#aeb701165071dcc45ead5973c80ab12d7">Nop.Data.DataProviders.BaseDataProvider.GetMappingSchema</a></div><div class="ttdeci">MappingSchema GetMappingSchema()</div><div class="ttdoc">Gets an additional mapping schema</div><div class="ttdef"><b>Definition:</b> BaseDataProvider.cs:29</div></div>
+</div><!-- fragment -->
+<p class="reference">Referências <a class="el" href="class_nop_1_1_data_1_1_data_providers_1_1_base_data_provider.html#a41769285bc754692ed85399e40d5bf4d">Nop.Data.DataProviders.BaseDataProvider.CreateDbConnection()</a>, <a class="el" href="class_nop_1_1_data_1_1_data_providers_1_1_base_data_provider.html#aeb701165071dcc45ead5973c80ab12d7">Nop.Data.DataProviders.BaseDataProvider.GetMappingSchema()</a> e <a class="el" href="class_nop_1_1_data_1_1_data_settings_manager.html#ac13c7365530b1f20c1701e75fd2e97d6">Nop.Data.DataSettingsManager.GetSqlCommandTimeout()</a>.</p>
+
+</div>
+</div>
+<a id="a4c283445c3053223be9392ddc9cd0a79"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4c283445c3053223be9392ddc9cd0a79">&#9670;&nbsp;</a></span>CreateDataConnectionAsync() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual async <a class="el" href="_sendinblue_plugin_8cs.html#a9f49374e6bc76a6b5261e5c211d2e63d">Task</a>&lt;DataConnection&gt; Nop.Data.DataProviders.BaseDataProvider.CreateDataConnectionAsync </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Creates the database connection </p>
+<dl class="section return"><dt>Retorna</dt><dd>A task that represents the asynchronous operation</dd></dl>
+
+<p>Reimplementado em <a class="el" href="class_nop_1_1_data_1_1_data_providers_1_1_my_sql_nop_data_provider.html#ac71718a45e1bbc6a7d4cb0736555b9a1">Nop.Data.DataProviders.MySqlNopDataProvider</a>.</p>
+<div class="fragment"><div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;        {</div>
+<div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;            <span class="keywordflow">return</span> await <a class="code" href="class_nop_1_1_data_1_1_data_providers_1_1_base_data_provider.html#a4c283445c3053223be9392ddc9cd0a79">CreateDataConnectionAsync</a>(<a class="code" href="class_nop_1_1_data_1_1_data_providers_1_1_base_data_provider.html#af63cb698a8c56f1a916838f9fa5c6960">LinqToDbDataProvider</a>);</div>
+<div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;        }</div>
+</div><!-- fragment -->
+<p class="reference">Referências <a class="el" href="class_nop_1_1_data_1_1_data_providers_1_1_base_data_provider.html#af63cb698a8c56f1a916838f9fa5c6960">Nop.Data.DataProviders.BaseDataProvider.LinqToDbDataProvider</a>.</p>
+
+<p class="reference">Referenciado por <a class="el" href="class_nop_1_1_data_1_1_data_providers_1_1_ms_sql_nop_data_provider.html#a9145dcedd2eb745f6532acbdb594b50c">Nop.Data.DataProviders.MsSqlNopDataProvider.BackupDatabaseAsync()</a>, <a class="el" href="class_nop_1_1_data_1_1_data_providers_1_1_base_data_provider.html#af4d84cff311da1721598677178bc2b1a">Nop.Data.DataProviders.BaseDataProvider.BulkDeleteEntitiesAsync&lt; TEntity &gt;()</a>, <a class="el" href="class_nop_1_1_data_1_1_data_providers_1_1_base_data_provider.html#a79879a6dfc1a0443a0352b669e3d7891">Nop.Data.DataProviders.BaseDataProvider.BulkInsertEntitiesAsync&lt; TEntity &gt;()</a>, <a class="el" href="class_nop_1_1_data_1_1_data_providers_1_1_base_data_provider.html#a942c567ef36d75a8e234b2f976c1350e">Nop.Data.DataProviders.BaseDataProvider.CreateTempDataStorageAsync&lt; TItem &gt;()</a>, <a class="el" href="class_nop_1_1_data_1_1_data_providers_1_1_base_data_provider.html#a4e2888347a3940c629faeb76f2ff2e76">Nop.Data.DataProviders.BaseDataProvider.DeleteEntityAsync&lt; TEntity &gt;()</a>, <a class="el" href="class_nop_1_1_data_1_1_data_providers_1_1_base_data_provider.html#aee36c2be218e31de4c21635b813f7957">Nop.Data.DataProviders.BaseDataProvider.ExecuteNonQueryAsync()</a>, <a class="el" href="class_nop_1_1_data_1_1_data_providers_1_1_ms_sql_nop_data_provider.html#a12e9178ccf30530a0aa935d54ba5f7e2">Nop.Data.DataProviders.MsSqlNopDataProvider.GetTableIdentAsync&lt; TEntity &gt;()</a>, <a class="el" href="class_nop_1_1_data_1_1_data_providers_1_1_postgre_sql_data_provider.html#a128842b3e8dcacf5f6b582756714cc0c">Nop.Data.DataProviders.PostgreSqlDataProvider.GetTableIdentAsync&lt; TEntity &gt;()</a>, <a class="el" href="class_nop_1_1_data_1_1_data_providers_1_1_base_data_provider.html#ad8c748fd02a7285f5f43e17f9b82952f">Nop.Data.DataProviders.BaseDataProvider.InsertEntityAsync&lt; TEntity &gt;()</a>, <a class="el" href="class_nop_1_1_data_1_1_data_providers_1_1_postgre_sql_data_provider.html#a78398a09ebd1377d2345ac72a667983a">Nop.Data.DataProviders.PostgreSqlDataProvider.InsertEntityAsync&lt; TEntity &gt;()</a>, <a class="el" href="class_nop_1_1_data_1_1_data_providers_1_1_base_data_provider.html#acec2ae3e4cdaa3084d95effbe3953113">Nop.Data.DataProviders.BaseDataProvider.QueryAsync&lt; T &gt;()</a>, <a class="el" href="class_nop_1_1_data_1_1_data_providers_1_1_base_data_provider.html#ab3c2e883588f3f2cdf4269ed4e3e985a">Nop.Data.DataProviders.BaseDataProvider.QueryProcAsync&lt; T &gt;()</a>, <a class="el" href="class_nop_1_1_data_1_1_data_providers_1_1_ms_sql_nop_data_provider.html#a6b58d3dbd6bf13fa451c17180cf32f94">Nop.Data.DataProviders.MsSqlNopDataProvider.ReIndexTablesAsync()</a>, <a class="el" href="class_nop_1_1_data_1_1_data_providers_1_1_postgre_sql_data_provider.html#aa9fe908bd4aba493b6faaca8d03b6215">Nop.Data.DataProviders.PostgreSqlDataProvider.ReIndexTablesAsync()</a>, <a class="el" href="class_nop_1_1_data_1_1_data_providers_1_1_ms_sql_nop_data_provider.html#adb93dc8f377beb448e7675ca73ba57d7">Nop.Data.DataProviders.MsSqlNopDataProvider.RestoreDatabaseAsync()</a>, <a class="el" href="class_nop_1_1_data_1_1_data_providers_1_1_ms_sql_nop_data_provider.html#a7bcd0caaa32831a4b2faf05bd2c0dfae">Nop.Data.DataProviders.MsSqlNopDataProvider.SetTableIdentAsync&lt; TEntity &gt;()</a>, <a class="el" href="class_nop_1_1_data_1_1_data_providers_1_1_postgre_sql_data_provider.html#a0e2de947ce1bd908bc69101d349655f1">Nop.Data.DataProviders.PostgreSqlDataProvider.SetTableIdentAsync&lt; TEntity &gt;()</a>, <a class="el" href="class_nop_1_1_data_1_1_data_providers_1_1_ms_sql_nop_data_provider.html#ae6f3fa00c327b29c4d1f7f5f5318e408">Nop.Data.DataProviders.MsSqlNopDataProvider.UpdateEntitiesAsync&lt; TEntity &gt;()</a> e <a class="el" href="class_nop_1_1_data_1_1_data_providers_1_1_base_data_provider.html#aeb307b0f5298c969d7bec75e3deeb408">Nop.Data.DataProviders.BaseDataProvider.UpdateEntityAsync&lt; TEntity &gt;()</a>.</p>
+
+</div>
+</div>
+<a id="a384b69bd0c38429bf3855efc4e2baf20"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a384b69bd0c38429bf3855efc4e2baf20">&#9670;&nbsp;</a></span>CreateDataConnectionAsync() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual async <a class="el" href="_sendinblue_plugin_8cs.html#a9f49374e6bc76a6b5261e5c211d2e63d">Task</a>&lt;DataConnection&gt; Nop.Data.DataProviders.BaseDataProvider.CreateDataConnectionAsync </td>
+          <td>(</td>
+          <td class="paramtype">IDataProvider&#160;</td>
+          <td class="paramname"><em>dataProvider</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Creates the database connection </p>
+<dl class="params"><dt>Parâmetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">dataProvider</td><td><a class="el" href="namespace_nop_1_1_data.html">Data</a> provider</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Retorna</dt><dd>A task that represents the asynchronous operation The task result contains the database connection </dd></dl>
+<div class="fragment"><div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160;        {</div>
+<div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160;            <span class="keywordflow">if</span> (dataProvider is <span class="keyword">null</span>)</div>
+<div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160;                <span class="keywordflow">throw</span> <span class="keyword">new</span> ArgumentNullException(nameof(dataProvider));</div>
+<div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160; </div>
+<div class="line"><a name="l00120"></a><span class="lineno">  120</span>&#160;            var dataContext = <span class="keyword">new</span> DataConnection(dataProvider, await <a class="code" href="class_nop_1_1_data_1_1_data_providers_1_1_base_data_provider.html#ad03869ee0f8ce1cbb40ca64e6eb0a147">CreateDbConnectionAsync</a>(), <a class="code" href="class_nop_1_1_data_1_1_data_providers_1_1_base_data_provider.html#aeb701165071dcc45ead5973c80ab12d7">GetMappingSchema</a>())</div>
+<div class="line"><a name="l00121"></a><span class="lineno">  121</span>&#160;            {</div>
+<div class="line"><a name="l00122"></a><span class="lineno">  122</span>&#160;                CommandTimeout = await DataSettingsManager.GetSqlCommandTimeoutAsync()</div>
+<div class="line"><a name="l00123"></a><span class="lineno">  123</span>&#160;            };</div>
+<div class="line"><a name="l00124"></a><span class="lineno">  124</span>&#160; </div>
+<div class="line"><a name="l00125"></a><span class="lineno">  125</span>&#160;            <span class="keywordflow">return</span> dataContext;</div>
+<div class="line"><a name="l00126"></a><span class="lineno">  126</span>&#160;        }</div>
+<div class="ttc" id="aclass_nop_1_1_data_1_1_data_providers_1_1_base_data_provider_html_ad03869ee0f8ce1cbb40ca64e6eb0a147"><div class="ttname"><a href="class_nop_1_1_data_1_1_data_providers_1_1_base_data_provider.html#ad03869ee0f8ce1cbb40ca64e6eb0a147">Nop.Data.DataProviders.BaseDataProvider.CreateDbConnectionAsync</a></div><div class="ttdeci">virtual async Task&lt; IDbConnection &gt; CreateDbConnectionAsync(string connectionString=null)</div><div class="ttdoc">Creates a connection to a database</div><div class="ttdef"><b>Definition:</b> BaseDataProvider.cs:154</div></div>
+</div><!-- fragment -->
+<p class="reference">Referências <a class="el" href="class_nop_1_1_data_1_1_data_providers_1_1_base_data_provider.html#ad03869ee0f8ce1cbb40ca64e6eb0a147">Nop.Data.DataProviders.BaseDataProvider.CreateDbConnectionAsync()</a>, <a class="el" href="class_nop_1_1_data_1_1_data_providers_1_1_base_data_provider.html#aeb701165071dcc45ead5973c80ab12d7">Nop.Data.DataProviders.BaseDataProvider.GetMappingSchema()</a> e <a class="el" href="class_nop_1_1_data_1_1_data_settings_manager.html#ac0feaec503bc78a7d8a95453c057c231">Nop.Data.DataSettingsManager.GetSqlCommandTimeoutAsync()</a>.</p>
+
+</div>
+</div>
+<a id="a41769285bc754692ed85399e40d5bf4d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a41769285bc754692ed85399e40d5bf4d">&#9670;&nbsp;</a></span>CreateDbConnection()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual IDbConnection Nop.Data.DataProviders.BaseDataProvider.CreateDbConnection </td>
+          <td>(</td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>connectionString</em> = <code>null</code></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Creates a connection to a database </p>
+<dl class="params"><dt>Parâmetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">connectionString</td><td>Connection string</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Retorna</dt><dd>Connection to a database</dd></dl>
+<div class="fragment"><div class="line"><a name="l00167"></a><span class="lineno">  167</span>&#160;        {</div>
+<div class="line"><a name="l00168"></a><span class="lineno">  168</span>&#160;            var dbConnection = <a class="code" href="class_nop_1_1_data_1_1_data_providers_1_1_base_data_provider.html#aa4683ceac1d05822930e01180b0d3654">GetInternalDbConnection</a>(!<span class="keywordtype">string</span>.IsNullOrEmpty(connectionString) ? connectionString : <a class="code" href="class_nop_1_1_data_1_1_data_providers_1_1_base_data_provider.html#a706d9457e3c81a0374b880ba75b1ab81">GetCurrentConnectionString</a>());</div>
+<div class="line"><a name="l00169"></a><span class="lineno">  169</span>&#160; </div>
+<div class="line"><a name="l00170"></a><span class="lineno">  170</span>&#160;            <span class="keywordflow">return</span> <a class="code" href="class_nop_1_1_data_1_1_data_providers_1_1_base_data_provider.html#a9b67993d8d156e040c77731b070f6e74">MiniProfillerEnabled</a> ? <span class="keyword">new</span> ProfiledDbConnection((DbConnection)dbConnection, MiniProfiler.Current) : dbConnection;</div>
+<div class="line"><a name="l00171"></a><span class="lineno">  171</span>&#160;        }</div>
+<div class="ttc" id="aclass_nop_1_1_data_1_1_data_providers_1_1_base_data_provider_html_a706d9457e3c81a0374b880ba75b1ab81"><div class="ttname"><a href="class_nop_1_1_data_1_1_data_providers_1_1_base_data_provider.html#a706d9457e3c81a0374b880ba75b1ab81">Nop.Data.DataProviders.BaseDataProvider.GetCurrentConnectionString</a></div><div class="ttdeci">string GetCurrentConnectionString()</div><div class="ttdoc">Database connection string</div><div class="ttdef"><b>Definition:</b> BaseDataProvider.cs:428</div></div>
+<div class="ttc" id="aclass_nop_1_1_data_1_1_data_providers_1_1_base_data_provider_html_a9b67993d8d156e040c77731b070f6e74"><div class="ttname"><a href="class_nop_1_1_data_1_1_data_providers_1_1_base_data_provider.html#a9b67993d8d156e040c77731b070f6e74">Nop.Data.DataProviders.BaseDataProvider.MiniProfillerEnabled</a></div><div class="ttdeci">bool MiniProfillerEnabled</div><div class="ttdoc">Gets or sets a value that indicates whether should use MiniProfiler for the current connection</div><div class="ttdef"><b>Definition:</b> BaseDataProvider.cs:414</div></div>
+<div class="ttc" id="aclass_nop_1_1_data_1_1_data_providers_1_1_base_data_provider_html_aa4683ceac1d05822930e01180b0d3654"><div class="ttname"><a href="class_nop_1_1_data_1_1_data_providers_1_1_base_data_provider.html#aa4683ceac1d05822930e01180b0d3654">Nop.Data.DataProviders.BaseDataProvider.GetInternalDbConnection</a></div><div class="ttdeci">abstract DbConnection GetInternalDbConnection(string connectionString)</div><div class="ttdoc">Gets a connection to the database for a current data provider</div></div>
+</div><!-- fragment -->
+<p class="reference">Referências <a class="el" href="class_nop_1_1_data_1_1_data_providers_1_1_base_data_provider.html#a706d9457e3c81a0374b880ba75b1ab81">Nop.Data.DataProviders.BaseDataProvider.GetCurrentConnectionString()</a>, <a class="el" href="class_nop_1_1_data_1_1_data_providers_1_1_base_data_provider.html#aa4683ceac1d05822930e01180b0d3654">Nop.Data.DataProviders.BaseDataProvider.GetInternalDbConnection()</a> e <a class="el" href="class_nop_1_1_data_1_1_data_providers_1_1_base_data_provider.html#a9b67993d8d156e040c77731b070f6e74">Nop.Data.DataProviders.BaseDataProvider.MiniProfillerEnabled</a>.</p>
+
+<p class="reference">Referenciado por <a class="el" href="class_nop_1_1_data_1_1_data_providers_1_1_base_data_provider.html#a985fef369228a578e0e7d3c59fd53933">Nop.Data.DataProviders.BaseDataProvider.CreateDataConnection()</a> e <a class="el" href="class_nop_1_1_data_1_1_data_providers_1_1_my_sql_nop_data_provider.html#a3e0e46dbfc0171b7935f785faa14610c">Nop.Data.DataProviders.MySqlNopDataProvider.DatabaseExists()</a>.</p>
+
+</div>
+</div>
+<a id="ad03869ee0f8ce1cbb40ca64e6eb0a147"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad03869ee0f8ce1cbb40ca64e6eb0a147">&#9670;&nbsp;</a></span>CreateDbConnectionAsync()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual async <a class="el" href="_sendinblue_plugin_8cs.html#a9f49374e6bc76a6b5261e5c211d2e63d">Task</a>&lt;IDbConnection&gt; Nop.Data.DataProviders.BaseDataProvider.CreateDbConnectionAsync </td>
+          <td>(</td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>connectionString</em> = <code>null</code></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Creates a connection to a database </p>
+<dl class="params"><dt>Parâmetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">connectionString</td><td>Connection string</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Retorna</dt><dd>A task that represents the asynchronous operation The task result contains the connection to a database </dd></dl>
+<div class="fragment"><div class="line"><a name="l00155"></a><span class="lineno">  155</span>&#160;        {</div>
+<div class="line"><a name="l00156"></a><span class="lineno">  156</span>&#160;            var dbConnection = <a class="code" href="class_nop_1_1_data_1_1_data_providers_1_1_base_data_provider.html#aa4683ceac1d05822930e01180b0d3654">GetInternalDbConnection</a>(!<span class="keywordtype">string</span>.IsNullOrEmpty(connectionString) ? connectionString : await <a class="code" href="class_nop_1_1_data_1_1_data_providers_1_1_base_data_provider.html#a30f81c86a9390b301176d5446ad8ec2b">GetCurrentConnectionStringAsync</a>());</div>
+<div class="line"><a name="l00157"></a><span class="lineno">  157</span>&#160; </div>
+<div class="line"><a name="l00158"></a><span class="lineno">  158</span>&#160;            <span class="keywordflow">return</span> <a class="code" href="class_nop_1_1_data_1_1_data_providers_1_1_base_data_provider.html#a9b67993d8d156e040c77731b070f6e74">MiniProfillerEnabled</a> ? <span class="keyword">new</span> ProfiledDbConnection((DbConnection)dbConnection, MiniProfiler.Current) : dbConnection;</div>
+<div class="line"><a name="l00159"></a><span class="lineno">  159</span>&#160;        }</div>
+<div class="ttc" id="aclass_nop_1_1_data_1_1_data_providers_1_1_base_data_provider_html_a30f81c86a9390b301176d5446ad8ec2b"><div class="ttname"><a href="class_nop_1_1_data_1_1_data_providers_1_1_base_data_provider.html#a30f81c86a9390b301176d5446ad8ec2b">Nop.Data.DataProviders.BaseDataProvider.GetCurrentConnectionStringAsync</a></div><div class="ttdeci">async Task&lt; string &gt; GetCurrentConnectionStringAsync()</div><div class="ttdoc">Database connection string</div><div class="ttdef"><b>Definition:</b> BaseDataProvider.cs:420</div></div>
+</div><!-- fragment -->
+<p class="reference">Referências <a class="el" href="class_nop_1_1_data_1_1_data_providers_1_1_base_data_provider.html#a30f81c86a9390b301176d5446ad8ec2b">Nop.Data.DataProviders.BaseDataProvider.GetCurrentConnectionStringAsync()</a>, <a class="el" href="class_nop_1_1_data_1_1_data_providers_1_1_base_data_provider.html#aa4683ceac1d05822930e01180b0d3654">Nop.Data.DataProviders.BaseDataProvider.GetInternalDbConnection()</a> e <a class="el" href="class_nop_1_1_data_1_1_data_providers_1_1_base_data_provider.html#a9b67993d8d156e040c77731b070f6e74">Nop.Data.DataProviders.BaseDataProvider.MiniProfillerEnabled</a>.</p>
+
+<p class="reference">Referenciado por <a class="el" href="class_nop_1_1_data_1_1_data_providers_1_1_base_data_provider.html#a384b69bd0c38429bf3855efc4e2baf20">Nop.Data.DataProviders.BaseDataProvider.CreateDataConnectionAsync()</a>.</p>
+
+</div>
+</div>
+<a id="a942c567ef36d75a8e234b2f976c1350e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a942c567ef36d75a8e234b2f976c1350e">&#9670;&nbsp;</a></span>CreateTempDataStorageAsync&lt; TItem &gt;()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual async <a class="el" href="_sendinblue_plugin_8cs.html#a9f49374e6bc76a6b5261e5c211d2e63d">Task</a>&lt;<a class="el" href="interface_nop_1_1_data_1_1_i_temp_data_storage.html">ITempDataStorage</a>&lt;TItem&gt; &gt; Nop.Data.DataProviders.BaseDataProvider.CreateTempDataStorageAsync&lt; TItem &gt; </td>
+          <td>(</td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>storeKey</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">IQueryable&lt; TItem &gt;&#160;</td>
+          <td class="paramname"><em>query</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Creates a new temporary storage and populate it using data from provided query </p>
+<dl class="params"><dt>Parâmetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">storeKey</td><td>Name of temporary storage</td></tr>
+    <tr><td class="paramname">query</td><td>Query to get records to populate created storage with initial data</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="tparams"><dt>Parâmetros de template</dt><dd>
+  <table class="tparams">
+    <tr><td class="paramname">TItem</td><td>Storage record mapping class</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Retorna</dt><dd>A task that represents the asynchronous operation The task result contains the iQueryable instance of temporary storage </dd></dl>
+<div class="typeconstraint">
+<dl><dt><b>Restrições do Tipo</b></dt><dd>
+<table border="0" cellspacing="2" cellpadding="0">
+<tr><td valign="top"><em>TItem</em></td><td>&#160;:</td><td valign="top"><em>class</em></td><td>&#160;</td></tr>
+</table>
+</dd>
+</dl>
+</div>
+<div class="fragment"><div class="line"><a name="l00188"></a><span class="lineno">  188</span>&#160;                        : <span class="keyword">class</span></div>
+<div class="line"><a name="l00189"></a><span class="lineno">  189</span>&#160;        {</div>
+<div class="line"><a name="l00190"></a><span class="lineno">  190</span>&#160;            <span class="keywordflow">return</span> <span class="keyword">new</span> TempSqlDataStorage&lt;TItem&gt;(storeKey, query, await <a class="code" href="class_nop_1_1_data_1_1_data_providers_1_1_base_data_provider.html#a4c283445c3053223be9392ddc9cd0a79">CreateDataConnectionAsync</a>());</div>
+<div class="line"><a name="l00191"></a><span class="lineno">  191</span>&#160;        }</div>
+</div><!-- fragment -->
+<p class="reference">Referências <a class="el" href="class_nop_1_1_data_1_1_data_providers_1_1_base_data_provider.html#a4c283445c3053223be9392ddc9cd0a79">Nop.Data.DataProviders.BaseDataProvider.CreateDataConnectionAsync()</a>.</p>
+
+</div>
+</div>
+<a id="a4e2888347a3940c629faeb76f2ff2e76"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4e2888347a3940c629faeb76f2ff2e76">&#9670;&nbsp;</a></span>DeleteEntityAsync&lt; TEntity &gt;()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual async <a class="el" href="_sendinblue_plugin_8cs.html#a9f49374e6bc76a6b5261e5c211d2e63d">Task</a> Nop.Data.DataProviders.BaseDataProvider.DeleteEntityAsync&lt; TEntity &gt; </td>
+          <td>(</td>
+          <td class="paramtype">TEntity&#160;</td>
+          <td class="paramname"><em>entity</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Deletes record in table. Record to delete identified by match on primary key value from obj value. </p>
+<dl class="params"><dt>Parâmetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">entity</td><td>Entity for delete operation</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="tparams"><dt>Parâmetros de template</dt><dd>
+  <table class="tparams">
+    <tr><td class="paramname">TEntity</td><td>Entity type</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Retorna</dt><dd>A task that represents the asynchronous operation</dd></dl>
+<div class="typeconstraint">
+<dl><dt><b>Restrições do Tipo</b></dt><dd>
+<table border="0" cellspacing="2" cellpadding="0">
+<tr><td valign="top"><em>TEntity</em></td><td>&#160;:</td><td valign="top"><em>BaseEntity</em></td><td>&#160;</td></tr>
+</table>
+</dd>
+</dl>
+</div>
+<div class="fragment"><div class="line"><a name="l00294"></a><span class="lineno">  294</span>&#160;                                                                                           : <a class="code" href="class_nop_1_1_core_1_1_base_entity.html">BaseEntity</a></div>
+<div class="line"><a name="l00295"></a><span class="lineno">  295</span>&#160;        {</div>
+<div class="line"><a name="l00296"></a><span class="lineno">  296</span>&#160;            <span class="keyword">using</span> var dataContext = await <a class="code" href="class_nop_1_1_data_1_1_data_providers_1_1_base_data_provider.html#a4c283445c3053223be9392ddc9cd0a79">CreateDataConnectionAsync</a>();</div>
+<div class="line"><a name="l00297"></a><span class="lineno">  297</span>&#160;            await dataContext.DeleteAsync(entity);</div>
+<div class="line"><a name="l00298"></a><span class="lineno">  298</span>&#160;        }</div>
+</div><!-- fragment -->
+<p class="reference">Referências <a class="el" href="class_nop_1_1_data_1_1_data_providers_1_1_base_data_provider.html#a4c283445c3053223be9392ddc9cd0a79">Nop.Data.DataProviders.BaseDataProvider.CreateDataConnectionAsync()</a>.</p>
+
+</div>
+</div>
+<a id="aee36c2be218e31de4c21635b813f7957"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aee36c2be218e31de4c21635b813f7957">&#9670;&nbsp;</a></span>ExecuteNonQueryAsync()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual async <a class="el" href="_sendinblue_plugin_8cs.html#a9f49374e6bc76a6b5261e5c211d2e63d">Task</a>&lt;int&gt; Nop.Data.DataProviders.BaseDataProvider.ExecuteNonQueryAsync </td>
+          <td>(</td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>sql</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">params DataParameter[]&#160;</td>
+          <td class="paramname"><em>dataParameters</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Executes command asynchronously and returns number of affected records </p>
+<dl class="params"><dt>Parâmetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">sql</td><td>Command text</td></tr>
+    <tr><td class="paramname">dataParameters</td><td>Command parameters</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Retorna</dt><dd>A task that represents the asynchronous operation The task result contains the number of records, affected by command execution. </dd></dl>
+<div class="fragment"><div class="line"><a name="l00357"></a><span class="lineno">  357</span>&#160;        {</div>
+<div class="line"><a name="l00358"></a><span class="lineno">  358</span>&#160;            <span class="keyword">using</span> var dataContext = await <a class="code" href="class_nop_1_1_data_1_1_data_providers_1_1_base_data_provider.html#a4c283445c3053223be9392ddc9cd0a79">CreateDataConnectionAsync</a>();</div>
+<div class="line"><a name="l00359"></a><span class="lineno">  359</span>&#160;            var command = <span class="keyword">new</span> CommandInfo(dataContext, sql, dataParameters);</div>
+<div class="line"><a name="l00360"></a><span class="lineno">  360</span>&#160;            var affectedRecords = await command.ExecuteAsync();</div>
+<div class="line"><a name="l00361"></a><span class="lineno">  361</span>&#160;            <a class="code" href="class_nop_1_1_data_1_1_data_providers_1_1_base_data_provider.html#a208736903f9d4895d42e97809aff37f2">UpdateOutputParameters</a>(dataContext, dataParameters);</div>
+<div class="line"><a name="l00362"></a><span class="lineno">  362</span>&#160;            <span class="keywordflow">return</span> affectedRecords;</div>
+<div class="line"><a name="l00363"></a><span class="lineno">  363</span>&#160;        }</div>
+<div class="ttc" id="aclass_nop_1_1_data_1_1_data_providers_1_1_base_data_provider_html_a208736903f9d4895d42e97809aff37f2"><div class="ttname"><a href="class_nop_1_1_data_1_1_data_providers_1_1_base_data_provider.html#a208736903f9d4895d42e97809aff37f2">Nop.Data.DataProviders.BaseDataProvider.UpdateOutputParameters</a></div><div class="ttdeci">void UpdateOutputParameters(DataConnection dataConnection, DataParameter[] dataParameters)</div><div class="ttdef"><b>Definition:</b> BaseDataProvider.cs:72</div></div>
+</div><!-- fragment -->
+<p class="reference">Referências <a class="el" href="class_nop_1_1_data_1_1_data_providers_1_1_base_data_provider.html#a4c283445c3053223be9392ddc9cd0a79">Nop.Data.DataProviders.BaseDataProvider.CreateDataConnectionAsync()</a> e <a class="el" href="class_nop_1_1_data_1_1_data_providers_1_1_base_data_provider.html#a208736903f9d4895d42e97809aff37f2">Nop.Data.DataProviders.BaseDataProvider.UpdateOutputParameters()</a>.</p>
+
+</div>
+</div>
+<a id="a706d9457e3c81a0374b880ba75b1ab81"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a706d9457e3c81a0374b880ba75b1ab81">&#9670;&nbsp;</a></span>GetCurrentConnectionString()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">string Nop.Data.DataProviders.BaseDataProvider.GetCurrentConnectionString </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Database connection string </p>
+<div class="fragment"><div class="line"><a name="l00429"></a><span class="lineno">  429</span>&#160;        {</div>
+<div class="line"><a name="l00430"></a><span class="lineno">  430</span>&#160;            <span class="keywordflow">return</span> DataSettingsManager.LoadSettings().ConnectionString;</div>
+<div class="line"><a name="l00431"></a><span class="lineno">  431</span>&#160;        }</div>
+</div><!-- fragment -->
+<p class="reference">Referências <a class="el" href="class_nop_1_1_data_1_1_data_settings.html#a01ad0c15b1ed88dd9c93ae7e5e9b0d9a">Nop.Data.DataSettings.ConnectionString</a> e <a class="el" href="class_nop_1_1_data_1_1_data_settings_manager.html#a23dee568560d3e5c51e0e13a9b310272">Nop.Data.DataSettingsManager.LoadSettings()</a>.</p>
+
+<p class="reference">Referenciado por <a class="el" href="class_nop_1_1_data_1_1_data_providers_1_1_base_data_provider.html#a41769285bc754692ed85399e40d5bf4d">Nop.Data.DataProviders.BaseDataProvider.CreateDbConnection()</a>, <a class="el" href="class_nop_1_1_data_1_1_data_providers_1_1_ms_sql_nop_data_provider.html#a128db26951edf7fe9b08b7a3058e2636">Nop.Data.DataProviders.MsSqlNopDataProvider.DatabaseExists()</a>, <a class="el" href="class_nop_1_1_data_1_1_data_providers_1_1_postgre_sql_data_provider.html#a75ab21ae618f57167bfb6bc50ea4c569">Nop.Data.DataProviders.PostgreSqlDataProvider.DatabaseExists()</a>, <a class="el" href="class_nop_1_1_data_1_1_data_providers_1_1_my_sql_nop_data_provider.html#a118f8e228c471fd3bca466db13e52ebf">Nop.Data.DataProviders.MySqlNopDataProvider.GetConnectionStringBuilder()</a>, <a class="el" href="class_nop_1_1_data_1_1_data_providers_1_1_postgre_sql_data_provider.html#a0ead49d77ee7c9a7199988d096d821d3">Nop.Data.DataProviders.PostgreSqlDataProvider.GetConnectionStringBuilder()</a> e <a class="el" href="class_nop_1_1_data_1_1_data_providers_1_1_base_data_provider.html#aedcfae6c598b842731bf8c1e4dc0f01c">Nop.Data.DataProviders.BaseDataProvider.GetTable&lt; TEntity &gt;()</a>.</p>
+
+</div>
+</div>
+<a id="a30f81c86a9390b301176d5446ad8ec2b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a30f81c86a9390b301176d5446ad8ec2b">&#9670;&nbsp;</a></span>GetCurrentConnectionStringAsync()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">async <a class="el" href="_sendinblue_plugin_8cs.html#a9f49374e6bc76a6b5261e5c211d2e63d">Task</a>&lt;string&gt; Nop.Data.DataProviders.BaseDataProvider.GetCurrentConnectionStringAsync </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Database connection string </p>
+<dl class="section return"><dt>Retorna</dt><dd>A task that represents the asynchronous operation</dd></dl>
+<div class="fragment"><div class="line"><a name="l00421"></a><span class="lineno">  421</span>&#160;        {</div>
+<div class="line"><a name="l00422"></a><span class="lineno">  422</span>&#160;            <span class="keywordflow">return</span> (await DataSettingsManager.LoadSettingsAsync()).ConnectionString;</div>
+<div class="line"><a name="l00423"></a><span class="lineno">  423</span>&#160;        }</div>
+</div><!-- fragment -->
+<p class="reference">Referências <a class="el" href="class_nop_1_1_data_1_1_data_settings_manager.html#a44774471442e090f99751beeccc346cf">Nop.Data.DataSettingsManager.LoadSettingsAsync()</a>.</p>
+
+<p class="reference">Referenciado por <a class="el" href="class_nop_1_1_data_1_1_data_providers_1_1_base_data_provider.html#ad03869ee0f8ce1cbb40ca64e6eb0a147">Nop.Data.DataProviders.BaseDataProvider.CreateDbConnectionAsync()</a>, <a class="el" href="class_nop_1_1_data_1_1_data_providers_1_1_ms_sql_nop_data_provider.html#ac195311c7a157f6dbea63609f16aa51a">Nop.Data.DataProviders.MsSqlNopDataProvider.DatabaseExistsAsync()</a>, <a class="el" href="class_nop_1_1_data_1_1_data_providers_1_1_my_sql_nop_data_provider.html#a7d79297e118fe8533744797b876b764f">Nop.Data.DataProviders.MySqlNopDataProvider.DatabaseExistsAsync()</a>, <a class="el" href="class_nop_1_1_data_1_1_data_providers_1_1_postgre_sql_data_provider.html#a81ab122998478827b39e747fa7ce1e81">Nop.Data.DataProviders.PostgreSqlDataProvider.DatabaseExistsAsync()</a>, <a class="el" href="class_nop_1_1_data_1_1_data_providers_1_1_base_data_provider.html#ab59a7abe457e3f1e96ad3c74d16f2d9e">Nop.Data.DataProviders.BaseDataProvider.GetTableAsync&lt; TEntity &gt;()</a> e <a class="el" href="class_nop_1_1_data_1_1_data_providers_1_1_my_sql_nop_data_provider.html#a448ad1f7f731c8ea85115f623d35cb09">Nop.Data.DataProviders.MySqlNopDataProvider.GetTableIdentAsync&lt; TEntity &gt;()</a>.</p>
+
+</div>
+</div>
+<a id="a374611db4b509677d6fe6898fe7b67d3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a374611db4b509677d6fe6898fe7b67d3">&#9670;&nbsp;</a></span>GetEntityDescriptor&lt; TEntity &gt;()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">EntityDescriptor Nop.Data.DataProviders.BaseDataProvider.GetEntityDescriptor&lt; TEntity &gt; </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returns mapped entity descriptor. </p>
+<dl class="tparams"><dt>Parâmetros de template</dt><dd>
+  <table class="tparams">
+    <tr><td class="paramname">TEntity</td><td>Entity type</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Retorna</dt><dd><a class="el" href="namespace_nop_1_1_data_1_1_mapping.html">Mapping</a> descriptor</dd></dl>
+<div class="typeconstraint">
+<dl><dt><b>Restrições do Tipo</b></dt><dd>
+<table border="0" cellspacing="2" cellpadding="0">
+<tr><td valign="top"><em>TEntity</em></td><td>&#160;:</td><td valign="top"><em>BaseEntity</em></td><td>&#160;</td></tr>
+</table>
+</dd>
+</dl>
+</div>
+<div class="fragment"><div class="line"><a name="l00198"></a><span class="lineno">  198</span>&#160;                                                                             : <a class="code" href="class_nop_1_1_core_1_1_base_entity.html">BaseEntity</a></div>
+<div class="line"><a name="l00199"></a><span class="lineno">  199</span>&#160;        {</div>
+<div class="line"><a name="l00200"></a><span class="lineno">  200</span>&#160;            <span class="keywordflow">return</span> <a class="code" href="class_nop_1_1_data_1_1_data_providers_1_1_base_data_provider.html#aeb701165071dcc45ead5973c80ab12d7">GetMappingSchema</a>()?.GetEntityDescriptor(typeof(TEntity));</div>
+<div class="line"><a name="l00201"></a><span class="lineno">  201</span>&#160;        }</div>
+</div><!-- fragment -->
+<p class="reference">Referências <a class="el" href="class_nop_1_1_data_1_1_data_providers_1_1_base_data_provider.html#aeb701165071dcc45ead5973c80ab12d7">Nop.Data.DataProviders.BaseDataProvider.GetMappingSchema()</a>.</p>
+
+<p class="reference">Referenciado por <a class="el" href="class_nop_1_1_data_1_1_data_providers_1_1_postgre_sql_data_provider.html#ad2814a5205d420ef943a6ec5d35173a8">Nop.Data.DataProviders.PostgreSqlDataProvider.GetSequenceName&lt; TEntity &gt;()</a>, <a class="el" href="class_nop_1_1_data_1_1_data_providers_1_1_ms_sql_nop_data_provider.html#a12e9178ccf30530a0aa935d54ba5f7e2">Nop.Data.DataProviders.MsSqlNopDataProvider.GetTableIdentAsync&lt; TEntity &gt;()</a>, <a class="el" href="class_nop_1_1_data_1_1_data_providers_1_1_my_sql_nop_data_provider.html#a448ad1f7f731c8ea85115f623d35cb09">Nop.Data.DataProviders.MySqlNopDataProvider.GetTableIdentAsync&lt; TEntity &gt;()</a>, <a class="el" href="class_nop_1_1_data_1_1_data_providers_1_1_ms_sql_nop_data_provider.html#a7bcd0caaa32831a4b2faf05bd2c0dfae">Nop.Data.DataProviders.MsSqlNopDataProvider.SetTableIdentAsync&lt; TEntity &gt;()</a> e <a class="el" href="class_nop_1_1_data_1_1_data_providers_1_1_my_sql_nop_data_provider.html#a78a638c2dfd38c395a8178c997ccc259">Nop.Data.DataProviders.MySqlNopDataProvider.SetTableIdentAsync&lt; TEntity &gt;()</a>.</p>
+
+</div>
+</div>
+<a id="aa4683ceac1d05822930e01180b0d3654"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa4683ceac1d05822930e01180b0d3654">&#9670;&nbsp;</a></span>GetInternalDbConnection()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">abstract DbConnection Nop.Data.DataProviders.BaseDataProvider.GetInternalDbConnection </td>
+          <td>(</td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>connectionString</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Gets a connection to the database for a current data provider </p>
+<dl class="params"><dt>Parâmetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">connectionString</td><td>Connection string</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Retorna</dt><dd>Connection to a database</dd></dl>
+
+<p>Implementado em <a class="el" href="class_nop_1_1_data_1_1_data_providers_1_1_postgre_sql_data_provider.html#acafcf00021fde43929e1f0e7519278f8">Nop.Data.DataProviders.PostgreSqlDataProvider</a>, <a class="el" href="class_nop_1_1_data_1_1_data_providers_1_1_my_sql_nop_data_provider.html#a2d46143dd08366645b6e3df3913227f1">Nop.Data.DataProviders.MySqlNopDataProvider</a> e <a class="el" href="class_nop_1_1_data_1_1_data_providers_1_1_ms_sql_nop_data_provider.html#adc69236f82fc178fc18c365c0f671d2c">Nop.Data.DataProviders.MsSqlNopDataProvider</a>.</p>
+
+<p class="reference">Referenciado por <a class="el" href="class_nop_1_1_data_1_1_data_providers_1_1_base_data_provider.html#a41769285bc754692ed85399e40d5bf4d">Nop.Data.DataProviders.BaseDataProvider.CreateDbConnection()</a> e <a class="el" href="class_nop_1_1_data_1_1_data_providers_1_1_base_data_provider.html#ad03869ee0f8ce1cbb40ca64e6eb0a147">Nop.Data.DataProviders.BaseDataProvider.CreateDbConnectionAsync()</a>.</p>
+
+</div>
+</div>
+<a id="aeb701165071dcc45ead5973c80ab12d7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aeb701165071dcc45ead5973c80ab12d7">&#9670;&nbsp;</a></span>GetMappingSchema()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">MappingSchema Nop.Data.DataProviders.BaseDataProvider.GetMappingSchema </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Gets an additional mapping schema </p>
+<div class="fragment"><div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;        {</div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;            <span class="keywordflow">if</span> (<a class="code" href="class_nop_1_1_core_1_1_infrastructure_1_1_singleton.html">Singleton&lt;MappingSchema&gt;</a>.Instance is <span class="keyword">null</span>)</div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;            {</div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;                <a class="code" href="class_nop_1_1_core_1_1_infrastructure_1_1_singleton.html">Singleton&lt;MappingSchema&gt;</a>.<a class="code" href="class_nop_1_1_core_1_1_infrastructure_1_1_singleton.html#a606163b2eb82b0f9a9c2431484d53d2c">Instance</a> = <span class="keyword">new</span> MappingSchema(<a class="code" href="class_nop_1_1_data_1_1_data_providers_1_1_base_data_provider.html#a3757ab8bc73dee4c826752ff8c59f0b4">ConfigurationName</a>)</div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;                {</div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;                    MetadataReader = <span class="keyword">new</span> <a class="code" href="class_nop_1_1_data_1_1_mapping_1_1_fluent_migrator_metadata_reader.html">FluentMigratorMetadataReader</a>()</div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;                };</div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;            }</div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160; </div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;            <span class="keywordflow">if</span> (<a class="code" href="class_nop_1_1_data_1_1_data_providers_1_1_base_data_provider.html#a9b67993d8d156e040c77731b070f6e74">MiniProfillerEnabled</a>)</div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;            {</div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;                var mpMappingSchema = <span class="keyword">new</span> MappingSchema(<span class="keyword">new</span>[] { <a class="code" href="class_nop_1_1_core_1_1_infrastructure_1_1_singleton.html">Singleton&lt;MappingSchema&gt;</a>.<a class="code" href="class_nop_1_1_core_1_1_infrastructure_1_1_singleton.html#a606163b2eb82b0f9a9c2431484d53d2c">Instance</a> });</div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160; </div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;                mpMappingSchema.SetConvertExpression&lt;ProfiledDbConnection, IDbConnection&gt;(db =&gt; db.WrappedConnection);</div>
+<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;                mpMappingSchema.SetConvertExpression&lt;ProfiledDbDataReader, IDataReader&gt;(db =&gt; db.WrappedReader);</div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;                mpMappingSchema.SetConvertExpression&lt;ProfiledDbTransaction, IDbTransaction&gt;(db =&gt; db.WrappedTransaction);</div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;                mpMappingSchema.SetConvertExpression&lt;ProfiledDbCommand, IDbCommand&gt;(db =&gt; db.InternalCommand);</div>
+<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160; </div>
+<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;                <span class="keywordflow">return</span> mpMappingSchema;</div>
+<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;            }</div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160; </div>
+<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;            <span class="keywordflow">return</span> <a class="code" href="class_nop_1_1_core_1_1_infrastructure_1_1_singleton.html">Singleton&lt;MappingSchema&gt;</a>.<a class="code" href="class_nop_1_1_core_1_1_infrastructure_1_1_singleton.html#a606163b2eb82b0f9a9c2431484d53d2c">Instance</a>;</div>
+<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160; </div>
+<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;        }</div>
+<div class="ttc" id="aclass_nop_1_1_core_1_1_infrastructure_1_1_singleton_html"><div class="ttname"><a href="class_nop_1_1_core_1_1_infrastructure_1_1_singleton.html">Nop.Core.Infrastructure.Singleton</a></div><div class="ttdoc">A statically compiled &quot;singleton&quot; used to store objects throughout the lifetime of the app domain....</div><div class="ttdef"><b>Definition:</b> Singleton.cs:11</div></div>
+<div class="ttc" id="aclass_nop_1_1_core_1_1_infrastructure_1_1_singleton_html_a606163b2eb82b0f9a9c2431484d53d2c"><div class="ttname"><a href="class_nop_1_1_core_1_1_infrastructure_1_1_singleton.html#a606163b2eb82b0f9a9c2431484d53d2c">Nop.Core.Infrastructure.Singleton.Instance</a></div><div class="ttdeci">static T Instance</div><div class="ttdoc">The singleton instance for the specified type T. Only one instance (at the time) of this object for e...</div><div class="ttdef"><b>Definition:</b> Singleton.cs:18</div></div>
+<div class="ttc" id="aclass_nop_1_1_data_1_1_data_providers_1_1_base_data_provider_html_a3757ab8bc73dee4c826752ff8c59f0b4"><div class="ttname"><a href="class_nop_1_1_data_1_1_data_providers_1_1_base_data_provider.html#a3757ab8bc73dee4c826752ff8c59f0b4">Nop.Data.DataProviders.BaseDataProvider.ConfigurationName</a></div><div class="ttdeci">string ConfigurationName</div><div class="ttdoc">Name of database provider</div><div class="ttdef"><b>Definition:</b> BaseDataProvider.cs:436</div></div>
+<div class="ttc" id="aclass_nop_1_1_data_1_1_mapping_1_1_fluent_migrator_metadata_reader_html"><div class="ttname"><a href="class_nop_1_1_data_1_1_mapping_1_1_fluent_migrator_metadata_reader.html">Nop.Data.Mapping.FluentMigratorMetadataReader</a></div><div class="ttdoc">LINQ To DB metadata reader for schema created by FluentMigrator</div><div class="ttdef"><b>Definition:</b> FluentMigratorMetadataReader.cs:19</div></div>
+</div><!-- fragment -->
+<p class="reference">Referências <a class="el" href="class_nop_1_1_data_1_1_data_providers_1_1_base_data_provider.html#a3757ab8bc73dee4c826752ff8c59f0b4">Nop.Data.DataProviders.BaseDataProvider.ConfigurationName</a>, <a class="el" href="class_nop_1_1_core_1_1_infrastructure_1_1_singleton.html#a606163b2eb82b0f9a9c2431484d53d2c">Nop.Core.Infrastructure.Singleton&lt; T &gt;.Instance</a> e <a class="el" href="class_nop_1_1_data_1_1_data_providers_1_1_base_data_provider.html#a9b67993d8d156e040c77731b070f6e74">Nop.Data.DataProviders.BaseDataProvider.MiniProfillerEnabled</a>.</p>
+
+<p class="reference">Referenciado por <a class="el" href="class_nop_1_1_data_1_1_data_providers_1_1_base_data_provider.html#a985fef369228a578e0e7d3c59fd53933">Nop.Data.DataProviders.BaseDataProvider.CreateDataConnection()</a>, <a class="el" href="class_nop_1_1_data_1_1_data_providers_1_1_base_data_provider.html#a384b69bd0c38429bf3855efc4e2baf20">Nop.Data.DataProviders.BaseDataProvider.CreateDataConnectionAsync()</a>, <a class="el" href="class_nop_1_1_data_1_1_data_providers_1_1_base_data_provider.html#a374611db4b509677d6fe6898fe7b67d3">Nop.Data.DataProviders.BaseDataProvider.GetEntityDescriptor&lt; TEntity &gt;()</a>, <a class="el" href="class_nop_1_1_data_1_1_data_providers_1_1_base_data_provider.html#aedcfae6c598b842731bf8c1e4dc0f01c">Nop.Data.DataProviders.BaseDataProvider.GetTable&lt; TEntity &gt;()</a> e <a class="el" href="class_nop_1_1_data_1_1_data_providers_1_1_base_data_provider.html#ab59a7abe457e3f1e96ad3c74d16f2d9e">Nop.Data.DataProviders.BaseDataProvider.GetTableAsync&lt; TEntity &gt;()</a>.</p>
+
+</div>
+</div>
+<a id="aedcfae6c598b842731bf8c1e4dc0f01c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aedcfae6c598b842731bf8c1e4dc0f01c">&#9670;&nbsp;</a></span>GetTable&lt; TEntity &gt;()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual ITable&lt;TEntity&gt; Nop.Data.DataProviders.BaseDataProvider.GetTable&lt; TEntity &gt; </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Returns queryable source for specified mapping class for current connection, mapped to database table or view. </p>
+<dl class="tparams"><dt>Parâmetros de template</dt><dd>
+  <table class="tparams">
+    <tr><td class="paramname">TEntity</td><td>Entity type</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Retorna</dt><dd>Queryable source</dd></dl>
+<div class="typeconstraint">
+<dl><dt><b>Restrições do Tipo</b></dt><dd>
+<table border="0" cellspacing="2" cellpadding="0">
+<tr><td valign="top"><em>TEntity</em></td><td>&#160;:</td><td valign="top"><em>BaseEntity</em></td><td>&#160;</td></tr>
+</table>
+</dd>
+</dl>
+</div>
+<div class="fragment"><div class="line"><a name="l00224"></a><span class="lineno">  224</span>&#160;                                                                         : <a class="code" href="class_nop_1_1_core_1_1_base_entity.html">BaseEntity</a></div>
+<div class="line"><a name="l00225"></a><span class="lineno">  225</span>&#160;        {</div>
+<div class="line"><a name="l00226"></a><span class="lineno">  226</span>&#160;            <span class="keywordflow">return</span> <span class="keyword">new</span> DataContext(<a class="code" href="class_nop_1_1_data_1_1_data_providers_1_1_base_data_provider.html#af63cb698a8c56f1a916838f9fa5c6960">LinqToDbDataProvider</a>, <a class="code" href="class_nop_1_1_data_1_1_data_providers_1_1_base_data_provider.html#a706d9457e3c81a0374b880ba75b1ab81">GetCurrentConnectionString</a>()) { MappingSchema = <a class="code" href="class_nop_1_1_data_1_1_data_providers_1_1_base_data_provider.html#aeb701165071dcc45ead5973c80ab12d7">GetMappingSchema</a>() }</div>
+<div class="line"><a name="l00227"></a><span class="lineno">  227</span>&#160;                .GetTable&lt;TEntity&gt;();</div>
+<div class="line"><a name="l00228"></a><span class="lineno">  228</span>&#160;        }</div>
+</div><!-- fragment -->
+<p class="reference">Referências <a class="el" href="class_nop_1_1_data_1_1_data_providers_1_1_base_data_provider.html#a706d9457e3c81a0374b880ba75b1ab81">Nop.Data.DataProviders.BaseDataProvider.GetCurrentConnectionString()</a>, <a class="el" href="class_nop_1_1_data_1_1_data_providers_1_1_base_data_provider.html#aeb701165071dcc45ead5973c80ab12d7">Nop.Data.DataProviders.BaseDataProvider.GetMappingSchema()</a> e <a class="el" href="class_nop_1_1_data_1_1_data_providers_1_1_base_data_provider.html#af63cb698a8c56f1a916838f9fa5c6960">Nop.Data.DataProviders.BaseDataProvider.LinqToDbDataProvider</a>.</p>
+
+</div>
+</div>
+<a id="ab59a7abe457e3f1e96ad3c74d16f2d9e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab59a7abe457e3f1e96ad3c74d16f2d9e">&#9670;&nbsp;</a></span>GetTableAsync&lt; TEntity &gt;()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual async <a class="el" href="_sendinblue_plugin_8cs.html#a9f49374e6bc76a6b5261e5c211d2e63d">Task</a>&lt;ITable&lt;TEntity&gt; &gt; Nop.Data.DataProviders.BaseDataProvider.GetTableAsync&lt; TEntity &gt; </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Returns queryable source for specified mapping class for current connection, mapped to database table or view. </p>
+<dl class="tparams"><dt>Parâmetros de template</dt><dd>
+  <table class="tparams">
+    <tr><td class="paramname">TEntity</td><td>Entity type</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Retorna</dt><dd>A task that represents the asynchronous operation The task result contains the queryable source </dd></dl>
+<div class="typeconstraint">
+<dl><dt><b>Restrições do Tipo</b></dt><dd>
+<table border="0" cellspacing="2" cellpadding="0">
+<tr><td valign="top"><em>TEntity</em></td><td>&#160;:</td><td valign="top"><em>BaseEntity</em></td><td>&#160;</td></tr>
+</table>
+</dd>
+</dl>
+</div>
+<div class="fragment"><div class="line"><a name="l00212"></a><span class="lineno">  212</span>&#160;                                                                                          : <a class="code" href="class_nop_1_1_core_1_1_base_entity.html">BaseEntity</a></div>
+<div class="line"><a name="l00213"></a><span class="lineno">  213</span>&#160;        {</div>
+<div class="line"><a name="l00214"></a><span class="lineno">  214</span>&#160;            <span class="keywordflow">return</span> <span class="keyword">new</span> DataContext(<a class="code" href="class_nop_1_1_data_1_1_data_providers_1_1_base_data_provider.html#af63cb698a8c56f1a916838f9fa5c6960">LinqToDbDataProvider</a>, await <a class="code" href="class_nop_1_1_data_1_1_data_providers_1_1_base_data_provider.html#a30f81c86a9390b301176d5446ad8ec2b">GetCurrentConnectionStringAsync</a>()) { MappingSchema = <a class="code" href="class_nop_1_1_data_1_1_data_providers_1_1_base_data_provider.html#aeb701165071dcc45ead5973c80ab12d7">GetMappingSchema</a>() }</div>
+<div class="line"><a name="l00215"></a><span class="lineno">  215</span>&#160;                .GetTable&lt;TEntity&gt;();</div>
+<div class="line"><a name="l00216"></a><span class="lineno">  216</span>&#160;        }</div>
+</div><!-- fragment -->
+<p class="reference">Referências <a class="el" href="class_nop_1_1_data_1_1_data_providers_1_1_base_data_provider.html#a30f81c86a9390b301176d5446ad8ec2b">Nop.Data.DataProviders.BaseDataProvider.GetCurrentConnectionStringAsync()</a>, <a class="el" href="class_nop_1_1_data_1_1_data_providers_1_1_base_data_provider.html#aeb701165071dcc45ead5973c80ab12d7">Nop.Data.DataProviders.BaseDataProvider.GetMappingSchema()</a> e <a class="el" href="class_nop_1_1_data_1_1_data_providers_1_1_base_data_provider.html#af63cb698a8c56f1a916838f9fa5c6960">Nop.Data.DataProviders.BaseDataProvider.LinqToDbDataProvider</a>.</p>
+
+</div>
+</div>
+<a id="a808cee8d9e3295613d681466717cb3a5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a808cee8d9e3295613d681466717cb3a5">&#9670;&nbsp;</a></span>InsertEntity&lt; TEntity &gt;()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual TEntity Nop.Data.DataProviders.BaseDataProvider.InsertEntity&lt; TEntity &gt; </td>
+          <td>(</td>
+          <td class="paramtype">TEntity&#160;</td>
+          <td class="paramname"><em>entity</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Inserts record into table. Returns inserted entity with identity </p>
+<dl class="params"><dt>Parâmetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">entity</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="tparams"><dt>Parâmetros de template</dt><dd>
+  <table class="tparams">
+    <tr><td class="paramname">TEntity</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Retorna</dt><dd>Inserted entity</dd></dl>
+
+<p>Reimplementado em <a class="el" href="class_nop_1_1_data_1_1_data_providers_1_1_postgre_sql_data_provider.html#af31c484b8f7c4caf802b7b1010f775fa">Nop.Data.DataProviders.PostgreSqlDataProvider</a>.</p>
+<div class="typeconstraint">
+<dl><dt><b>Restrições do Tipo</b></dt><dd>
+<table border="0" cellspacing="2" cellpadding="0">
+<tr><td valign="top"><em>TEntity</em></td><td>&#160;:</td><td valign="top"><em>BaseEntity</em></td><td>&#160;</td></tr>
+</table>
+</dd>
+</dl>
+</div>
+<div class="fragment"><div class="line"><a name="l00252"></a><span class="lineno">  252</span>&#160;                                                                                   : <a class="code" href="class_nop_1_1_core_1_1_base_entity.html">BaseEntity</a></div>
+<div class="line"><a name="l00253"></a><span class="lineno">  253</span>&#160;        {</div>
+<div class="line"><a name="l00254"></a><span class="lineno">  254</span>&#160;            <span class="keyword">using</span> var dataContext = <a class="code" href="class_nop_1_1_data_1_1_data_providers_1_1_base_data_provider.html#acb1850c883a6565cd3012b6fdde7ff16">CreateDataConnection</a>();</div>
+<div class="line"><a name="l00255"></a><span class="lineno">  255</span>&#160;            entity.Id = dataContext.InsertWithInt32Identity(entity);</div>
+<div class="line"><a name="l00256"></a><span class="lineno">  256</span>&#160;            <span class="keywordflow">return</span> entity;</div>
+<div class="line"><a name="l00257"></a><span class="lineno">  257</span>&#160;        }</div>
+</div><!-- fragment -->
+<p class="reference">Referências <a class="el" href="class_nop_1_1_data_1_1_data_providers_1_1_base_data_provider.html#acb1850c883a6565cd3012b6fdde7ff16">Nop.Data.DataProviders.BaseDataProvider.CreateDataConnection()</a>.</p>
+
+</div>
+</div>
+<a id="ad8c748fd02a7285f5f43e17f9b82952f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad8c748fd02a7285f5f43e17f9b82952f">&#9670;&nbsp;</a></span>InsertEntityAsync&lt; TEntity &gt;()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual async <a class="el" href="_sendinblue_plugin_8cs.html#a9f49374e6bc76a6b5261e5c211d2e63d">Task</a>&lt;TEntity&gt; Nop.Data.DataProviders.BaseDataProvider.InsertEntityAsync&lt; TEntity &gt; </td>
+          <td>(</td>
+          <td class="paramtype">TEntity&#160;</td>
+          <td class="paramname"><em>entity</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Inserts record into table. Returns inserted entity with identity </p>
+<dl class="params"><dt>Parâmetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">entity</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="tparams"><dt>Parâmetros de template</dt><dd>
+  <table class="tparams">
+    <tr><td class="paramname">TEntity</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Retorna</dt><dd>A task that represents the asynchronous operation The task result contains the inserted entity </dd></dl>
+
+<p>Reimplementado em <a class="el" href="class_nop_1_1_data_1_1_data_providers_1_1_postgre_sql_data_provider.html#a78398a09ebd1377d2345ac72a667983a">Nop.Data.DataProviders.PostgreSqlDataProvider</a>.</p>
+<div class="typeconstraint">
+<dl><dt><b>Restrições do Tipo</b></dt><dd>
+<table border="0" cellspacing="2" cellpadding="0">
+<tr><td valign="top"><em>TEntity</em></td><td>&#160;:</td><td valign="top"><em>BaseEntity</em></td><td>&#160;</td></tr>
+</table>
+</dd>
+</dl>
+</div>
+<div class="fragment"><div class="line"><a name="l00239"></a><span class="lineno">  239</span>&#160;                                                                                                    : <a class="code" href="class_nop_1_1_core_1_1_base_entity.html">BaseEntity</a></div>
+<div class="line"><a name="l00240"></a><span class="lineno">  240</span>&#160;        {</div>
+<div class="line"><a name="l00241"></a><span class="lineno">  241</span>&#160;            <span class="keyword">using</span> var dataContext = await <a class="code" href="class_nop_1_1_data_1_1_data_providers_1_1_base_data_provider.html#a4c283445c3053223be9392ddc9cd0a79">CreateDataConnectionAsync</a>();</div>
+<div class="line"><a name="l00242"></a><span class="lineno">  242</span>&#160;            entity.Id = await dataContext.InsertWithInt32IdentityAsync(entity);</div>
+<div class="line"><a name="l00243"></a><span class="lineno">  243</span>&#160;            <span class="keywordflow">return</span> entity;</div>
+<div class="line"><a name="l00244"></a><span class="lineno">  244</span>&#160;        }</div>
+</div><!-- fragment -->
+<p class="reference">Referências <a class="el" href="class_nop_1_1_data_1_1_data_providers_1_1_base_data_provider.html#a4c283445c3053223be9392ddc9cd0a79">Nop.Data.DataProviders.BaseDataProvider.CreateDataConnectionAsync()</a>.</p>
+
+</div>
+</div>
+<a id="acec2ae3e4cdaa3084d95effbe3953113"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acec2ae3e4cdaa3084d95effbe3953113">&#9670;&nbsp;</a></span>QueryAsync&lt; T &gt;()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual async <a class="el" href="_sendinblue_plugin_8cs.html#a9f49374e6bc76a6b5261e5c211d2e63d">Task</a>&lt;IList&lt;T&gt; &gt; Nop.Data.DataProviders.BaseDataProvider.QueryAsync&lt; T &gt; </td>
+          <td>(</td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>sql</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">params DataParameter[]&#160;</td>
+          <td class="paramname"><em>parameters</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Executes SQL command and returns results as collection of values of specified type </p>
+<dl class="tparams"><dt>Parâmetros de template</dt><dd>
+  <table class="tparams">
+    <tr><td class="paramname">T</td><td>Type of result items</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="params"><dt>Parâmetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">sql</td><td>SQL command text</td></tr>
+    <tr><td class="paramname">parameters</td><td>Parameters to execute the SQL command</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Retorna</dt><dd>A task that represents the asynchronous operation The task result contains the collection of values of specified type </dd></dl>
+<div class="fragment"><div class="line"><a name="l00396"></a><span class="lineno">  396</span>&#160;        {</div>
+<div class="line"><a name="l00397"></a><span class="lineno">  397</span>&#160;            <span class="keyword">using</span> var dataContext = await <a class="code" href="class_nop_1_1_data_1_1_data_providers_1_1_base_data_provider.html#a4c283445c3053223be9392ddc9cd0a79">CreateDataConnectionAsync</a>();</div>
+<div class="line"><a name="l00398"></a><span class="lineno">  398</span>&#160;            <span class="keywordflow">return</span> dataContext.Query&lt;<a class="code" href="namespace_nop_1_1_web_1_1_framework_1_1_models.html#ad3daf01ef5002359798d78d3f7bab58d">T</a>&gt;(sql, parameters).ToList();</div>
+<div class="line"><a name="l00399"></a><span class="lineno">  399</span>&#160;        }</div>
+<div class="ttc" id="anamespace_nop_1_1_web_1_1_framework_1_1_models_html_ad3daf01ef5002359798d78d3f7bab58d"><div class="ttname"><a href="namespace_nop_1_1_web_1_1_framework_1_1_models.html#ad3daf01ef5002359798d78d3f7bab58d">Nop.Web.Framework.Models.T</a></div><div class="ttdeci">abstract partial record IPagedModel&lt; T &gt; where T</div><div class="ttdef"><b>Definition:</b> BasePagedListModel.cs:13</div></div>
+</div><!-- fragment -->
+<p class="reference">Referências <a class="el" href="class_nop_1_1_data_1_1_data_providers_1_1_base_data_provider.html#a4c283445c3053223be9392ddc9cd0a79">Nop.Data.DataProviders.BaseDataProvider.CreateDataConnectionAsync()</a> e <a class="el" href="namespace_nop_1_1_web_1_1_framework_1_1_models.html#ad3daf01ef5002359798d78d3f7bab58d">Nop.Web.Framework.Models.T</a>.</p>
+
+</div>
+</div>
+<a id="ab3c2e883588f3f2cdf4269ed4e3e985a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab3c2e883588f3f2cdf4269ed4e3e985a">&#9670;&nbsp;</a></span>QueryProcAsync&lt; T &gt;()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual async <a class="el" href="_sendinblue_plugin_8cs.html#a9f49374e6bc76a6b5261e5c211d2e63d">Task</a>&lt;IList&lt;T&gt; &gt; Nop.Data.DataProviders.BaseDataProvider.QueryProcAsync&lt; T &gt; </td>
+          <td>(</td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>procedureName</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">params DataParameter[]&#160;</td>
+          <td class="paramname"><em>parameters</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Executes command using System.Data.CommandType.StoredProcedure command type and returns results as collection of values of specified type </p>
+<dl class="tparams"><dt>Parâmetros de template</dt><dd>
+  <table class="tparams">
+    <tr><td class="paramname">T</td><td>Result record type</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="params"><dt>Parâmetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">procedureName</td><td>Procedure name</td></tr>
+    <tr><td class="paramname">parameters</td><td>Command parameters</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Retorna</dt><dd>A task that represents the asynchronous operation The task result contains the returns collection of query result records </dd></dl>
+<div class="fragment"><div class="line"><a name="l00377"></a><span class="lineno">  377</span>&#160;        {</div>
+<div class="line"><a name="l00378"></a><span class="lineno">  378</span>&#160;            <span class="keyword">using</span> var dataContext = await <a class="code" href="class_nop_1_1_data_1_1_data_providers_1_1_base_data_provider.html#a4c283445c3053223be9392ddc9cd0a79">CreateDataConnectionAsync</a>();</div>
+<div class="line"><a name="l00379"></a><span class="lineno">  379</span>&#160;            var command = <span class="keyword">new</span> CommandInfo(dataContext, procedureName, parameters);</div>
+<div class="line"><a name="l00380"></a><span class="lineno">  380</span>&#160;            var rez = command.QueryProc&lt;<a class="code" href="namespace_nop_1_1_web_1_1_framework_1_1_models.html#ad3daf01ef5002359798d78d3f7bab58d">T</a>&gt;().ToList();</div>
+<div class="line"><a name="l00381"></a><span class="lineno">  381</span>&#160;            <a class="code" href="class_nop_1_1_data_1_1_data_providers_1_1_base_data_provider.html#a208736903f9d4895d42e97809aff37f2">UpdateOutputParameters</a>(dataContext, parameters);</div>
+<div class="line"><a name="l00382"></a><span class="lineno">  382</span>&#160;            <span class="keywordflow">return</span> rez;</div>
+<div class="line"><a name="l00383"></a><span class="lineno">  383</span>&#160;        }</div>
+</div><!-- fragment -->
+<p class="reference">Referências <a class="el" href="class_nop_1_1_data_1_1_data_providers_1_1_base_data_provider.html#a4c283445c3053223be9392ddc9cd0a79">Nop.Data.DataProviders.BaseDataProvider.CreateDataConnectionAsync()</a>, <a class="el" href="namespace_nop_1_1_web_1_1_framework_1_1_models.html#ad3daf01ef5002359798d78d3f7bab58d">Nop.Web.Framework.Models.T</a> e <a class="el" href="class_nop_1_1_data_1_1_data_providers_1_1_base_data_provider.html#a208736903f9d4895d42e97809aff37f2">Nop.Data.DataProviders.BaseDataProvider.UpdateOutputParameters()</a>.</p>
+
+</div>
+</div>
+<a id="afedc727f9388801bc8bd5b443395ae4f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afedc727f9388801bc8bd5b443395ae4f">&#9670;&nbsp;</a></span>UpdateEntitiesAsync&lt; TEntity &gt;()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual async <a class="el" href="_sendinblue_plugin_8cs.html#a9f49374e6bc76a6b5261e5c211d2e63d">Task</a> Nop.Data.DataProviders.BaseDataProvider.UpdateEntitiesAsync&lt; TEntity &gt; </td>
+          <td>(</td>
+          <td class="paramtype">IEnumerable&lt; TEntity &gt;&#160;</td>
+          <td class="paramname"><em>entities</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Updates records in table, using values from entity parameter. Records to update are identified by match on primary key value from obj value. </p>
+<dl class="params"><dt>Parâmetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">entities</td><td>Entities with data to update</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="tparams"><dt>Parâmetros de template</dt><dd>
+  <table class="tparams">
+    <tr><td class="paramname">TEntity</td><td>Entity type</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Retorna</dt><dd>A task that represents the asynchronous operation</dd></dl>
+
+<p>Reimplementado em <a class="el" href="class_nop_1_1_data_1_1_data_providers_1_1_ms_sql_nop_data_provider.html#ae6f3fa00c327b29c4d1f7f5f5318e408">Nop.Data.DataProviders.MsSqlNopDataProvider</a>.</p>
+<div class="typeconstraint">
+<dl><dt><b>Restrições do Tipo</b></dt><dd>
+<table border="0" cellspacing="2" cellpadding="0">
+<tr><td valign="top"><em>TEntity</em></td><td>&#160;:</td><td valign="top"><em>BaseEntity</em></td><td>&#160;</td></tr>
+</table>
+</dd>
+</dl>
+</div>
+<div class="fragment"><div class="line"><a name="l00279"></a><span class="lineno">  279</span>&#160;                                                                                                            : <a class="code" href="class_nop_1_1_core_1_1_base_entity.html">BaseEntity</a></div>
+<div class="line"><a name="l00280"></a><span class="lineno">  280</span>&#160;        {</div>
+<div class="line"><a name="l00281"></a><span class="lineno">  281</span>&#160;            <span class="comment">//we don&#39;t use the Merge API on this level, because this API not support all databases.</span></div>
+<div class="line"><a name="l00282"></a><span class="lineno">  282</span>&#160;            <span class="comment">//you may see all supported databases by the following link: https://linq2db.github.io/articles/sql/merge/Merge-API.html#supported-databases</span></div>
+<div class="line"><a name="l00283"></a><span class="lineno">  283</span>&#160;            <span class="keywordflow">foreach</span> (var entity <span class="keywordflow">in</span> entities)</div>
+<div class="line"><a name="l00284"></a><span class="lineno">  284</span>&#160;                await UpdateEntityAsync(entity);</div>
+<div class="line"><a name="l00285"></a><span class="lineno">  285</span>&#160;        }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="aeb307b0f5298c969d7bec75e3deeb408"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aeb307b0f5298c969d7bec75e3deeb408">&#9670;&nbsp;</a></span>UpdateEntityAsync&lt; TEntity &gt;()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual async <a class="el" href="_sendinblue_plugin_8cs.html#a9f49374e6bc76a6b5261e5c211d2e63d">Task</a> Nop.Data.DataProviders.BaseDataProvider.UpdateEntityAsync&lt; TEntity &gt; </td>
+          <td>(</td>
+          <td class="paramtype">TEntity&#160;</td>
+          <td class="paramname"><em>entity</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Updates record in table, using values from entity parameter. Record to update identified by match on primary key value from obj value. </p>
+<dl class="params"><dt>Parâmetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">entity</td><td>Entity with data to update</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="tparams"><dt>Parâmetros de template</dt><dd>
+  <table class="tparams">
+    <tr><td class="paramname">TEntity</td><td>Entity type</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Retorna</dt><dd>A task that represents the asynchronous operation</dd></dl>
+<div class="typeconstraint">
+<dl><dt><b>Restrições do Tipo</b></dt><dd>
+<table border="0" cellspacing="2" cellpadding="0">
+<tr><td valign="top"><em>TEntity</em></td><td>&#160;:</td><td valign="top"><em>BaseEntity</em></td><td>&#160;</td></tr>
+</table>
+</dd>
+</dl>
+</div>
+<div class="fragment"><div class="line"><a name="l00266"></a><span class="lineno">  266</span>&#160;                                                                                           : <a class="code" href="class_nop_1_1_core_1_1_base_entity.html">BaseEntity</a></div>
+<div class="line"><a name="l00267"></a><span class="lineno">  267</span>&#160;        {</div>
+<div class="line"><a name="l00268"></a><span class="lineno">  268</span>&#160;            <span class="keyword">using</span> var dataContext = await <a class="code" href="class_nop_1_1_data_1_1_data_providers_1_1_base_data_provider.html#a4c283445c3053223be9392ddc9cd0a79">CreateDataConnectionAsync</a>();</div>
+<div class="line"><a name="l00269"></a><span class="lineno">  269</span>&#160;            await dataContext.UpdateAsync(entity);</div>
+<div class="line"><a name="l00270"></a><span class="lineno">  270</span>&#160;        }</div>
+</div><!-- fragment -->
+<p class="reference">Referências <a class="el" href="class_nop_1_1_data_1_1_data_providers_1_1_base_data_provider.html#a4c283445c3053223be9392ddc9cd0a79">Nop.Data.DataProviders.BaseDataProvider.CreateDataConnectionAsync()</a>.</p>
+
+</div>
+</div>
+<a id="a208736903f9d4895d42e97809aff37f2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a208736903f9d4895d42e97809aff37f2">&#9670;&nbsp;</a></span>UpdateOutputParameters()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Nop.Data.DataProviders.BaseDataProvider.UpdateOutputParameters </td>
+          <td>(</td>
+          <td class="paramtype">DataConnection&#160;</td>
+          <td class="paramname"><em>dataConnection</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">DataParameter[]&#160;</td>
+          <td class="paramname"><em>dataParameters</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;        {</div>
+<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;            <span class="keywordflow">if</span> (dataParameters is <span class="keyword">null</span> || dataParameters.Length == 0)</div>
+<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;                <span class="keywordflow">return</span>;</div>
+<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160; </div>
+<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;            <span class="keywordflow">foreach</span> (var dataParam <span class="keywordflow">in</span> dataParameters.Where(p =&gt; p.Direction == ParameterDirection.Output))</div>
+<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;            {</div>
+<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;                <a class="code" href="class_nop_1_1_data_1_1_data_providers_1_1_base_data_provider.html#af959c8fdc7f2c9a3d1c65935d9c9d674">UpdateParameterValue</a>(dataConnection, dataParam);</div>
+<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;            }</div>
+<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;        }</div>
+<div class="ttc" id="aclass_nop_1_1_data_1_1_data_providers_1_1_base_data_provider_html_af959c8fdc7f2c9a3d1c65935d9c9d674"><div class="ttname"><a href="class_nop_1_1_data_1_1_data_providers_1_1_base_data_provider.html#af959c8fdc7f2c9a3d1c65935d9c9d674">Nop.Data.DataProviders.BaseDataProvider.UpdateParameterValue</a></div><div class="ttdeci">void UpdateParameterValue(DataConnection dataConnection, DataParameter parameter)</div><div class="ttdef"><b>Definition:</b> BaseDataProvider.cs:55</div></div>
+</div><!-- fragment -->
+<p class="reference">Referências <a class="el" href="class_nop_1_1_data_1_1_data_providers_1_1_base_data_provider.html#af959c8fdc7f2c9a3d1c65935d9c9d674">Nop.Data.DataProviders.BaseDataProvider.UpdateParameterValue()</a>.</p>
+
+<p class="reference">Referenciado por <a class="el" href="class_nop_1_1_data_1_1_data_providers_1_1_base_data_provider.html#aee36c2be218e31de4c21635b813f7957">Nop.Data.DataProviders.BaseDataProvider.ExecuteNonQueryAsync()</a> e <a class="el" href="class_nop_1_1_data_1_1_data_providers_1_1_base_data_provider.html#ab3c2e883588f3f2cdf4269ed4e3e985a">Nop.Data.DataProviders.BaseDataProvider.QueryProcAsync&lt; T &gt;()</a>.</p>
+
+</div>
+</div>
+<a id="af959c8fdc7f2c9a3d1c65935d9c9d674"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af959c8fdc7f2c9a3d1c65935d9c9d674">&#9670;&nbsp;</a></span>UpdateParameterValue()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Nop.Data.DataProviders.BaseDataProvider.UpdateParameterValue </td>
+          <td>(</td>
+          <td class="paramtype">DataConnection&#160;</td>
+          <td class="paramname"><em>dataConnection</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">DataParameter&#160;</td>
+          <td class="paramname"><em>parameter</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;        {</div>
+<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;            <span class="keywordflow">if</span> (dataConnection is <span class="keyword">null</span>)</div>
+<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;                <span class="keywordflow">throw</span> <span class="keyword">new</span> ArgumentNullException(nameof(dataConnection));</div>
+<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160; </div>
+<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;            <span class="keywordflow">if</span> (parameter is <span class="keyword">null</span>)</div>
+<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;                <span class="keywordflow">throw</span> <span class="keyword">new</span> ArgumentNullException(nameof(parameter));</div>
+<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160; </div>
+<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;            <span class="keywordflow">if</span> (dataConnection.Command is IDbCommand command &amp;&amp;</div>
+<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;                command.Parameters.Count &gt; 0 &amp;&amp;</div>
+<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;                command.Parameters.Contains(parameter.Name) &amp;&amp;</div>
+<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;                command.Parameters[parameter.Name] is IDbDataParameter param)</div>
+<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;            {</div>
+<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;                parameter.Value = param.Value;</div>
+<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;            }</div>
+<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;        }</div>
+</div><!-- fragment -->
+<p class="reference">Referenciado por <a class="el" href="class_nop_1_1_data_1_1_data_providers_1_1_base_data_provider.html#a208736903f9d4895d42e97809aff37f2">Nop.Data.DataProviders.BaseDataProvider.UpdateOutputParameters()</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">Documentação das propriedades</h2>
+<a id="a3757ab8bc73dee4c826752ff8c59f0b4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3757ab8bc73dee4c826752ff8c59f0b4">&#9670;&nbsp;</a></span>ConfigurationName</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">string Nop.Data.DataProviders.BaseDataProvider.ConfigurationName</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Name of database provider </p>
+
+<p class="reference">Referenciado por <a class="el" href="class_nop_1_1_data_1_1_data_providers_1_1_base_data_provider.html#aeb701165071dcc45ead5973c80ab12d7">Nop.Data.DataProviders.BaseDataProvider.GetMappingSchema()</a>.</p>
+
+</div>
+</div>
+<a id="af63cb698a8c56f1a916838f9fa5c6960"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af63cb698a8c56f1a916838f9fa5c6960">&#9670;&nbsp;</a></span>LinqToDbDataProvider</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">abstract IDataProvider Nop.Data.DataProviders.BaseDataProvider.LinqToDbDataProvider</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Linq2Db data provider </p>
+<div class="fragment"><div class="line"><a name="l00408"></a><span class="lineno">  408</span>&#160;{ <span class="keyword">get</span>; }</div>
+</div><!-- fragment -->
+<p class="reference">Referenciado por <a class="el" href="class_nop_1_1_data_1_1_data_providers_1_1_base_data_provider.html#a79879a6dfc1a0443a0352b669e3d7891">Nop.Data.DataProviders.BaseDataProvider.BulkInsertEntitiesAsync&lt; TEntity &gt;()</a>, <a class="el" href="class_nop_1_1_data_1_1_data_providers_1_1_base_data_provider.html#acb1850c883a6565cd3012b6fdde7ff16">Nop.Data.DataProviders.BaseDataProvider.CreateDataConnection()</a>, <a class="el" href="class_nop_1_1_data_1_1_data_providers_1_1_base_data_provider.html#a4c283445c3053223be9392ddc9cd0a79">Nop.Data.DataProviders.BaseDataProvider.CreateDataConnectionAsync()</a>, <a class="el" href="class_nop_1_1_data_1_1_data_providers_1_1_base_data_provider.html#aedcfae6c598b842731bf8c1e4dc0f01c">Nop.Data.DataProviders.BaseDataProvider.GetTable&lt; TEntity &gt;()</a> e <a class="el" href="class_nop_1_1_data_1_1_data_providers_1_1_base_data_provider.html#ab59a7abe457e3f1e96ad3c74d16f2d9e">Nop.Data.DataProviders.BaseDataProvider.GetTableAsync&lt; TEntity &gt;()</a>.</p>
+
+</div>
+</div>
+<a id="a9b67993d8d156e040c77731b070f6e74"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9b67993d8d156e040c77731b070f6e74">&#9670;&nbsp;</a></span>MiniProfillerEnabled</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Nop.Data.DataProviders.BaseDataProvider.MiniProfillerEnabled</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Gets or sets a value that indicates whether should use MiniProfiler for the current connection </p>
+
+<p class="reference">Referenciado por <a class="el" href="class_nop_1_1_data_1_1_data_providers_1_1_base_data_provider.html#a41769285bc754692ed85399e40d5bf4d">Nop.Data.DataProviders.BaseDataProvider.CreateDbConnection()</a>, <a class="el" href="class_nop_1_1_data_1_1_data_providers_1_1_base_data_provider.html#ad03869ee0f8ce1cbb40ca64e6eb0a147">Nop.Data.DataProviders.BaseDataProvider.CreateDbConnectionAsync()</a> e <a class="el" href="class_nop_1_1_data_1_1_data_providers_1_1_base_data_provider.html#aeb701165071dcc45ead5973c80ab12d7">Nop.Data.DataProviders.BaseDataProvider.GetMappingSchema()</a>.</p>
+
+</div>
+</div>
+<hr/>A documentação para esta classe foi gerada a partir do seguinte ficheiro:<ul>
+<li>C:/Users/gabri/Documents/Projetos/GitHub/Estudos/Nopcommercer plugin/nopCommerce_4.40.3_Source - Copia/src/Libraries/Nop.Data/DataProviders/<a class="el" href="_base_data_provider_8cs.html">BaseDataProvider.cs</a></li>
+</ul>
+</div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Gerado por&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1
+</small></address>
+</body>
+</html>

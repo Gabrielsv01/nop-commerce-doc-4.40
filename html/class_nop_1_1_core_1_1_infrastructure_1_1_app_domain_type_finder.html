@@ -1,0 +1,1009 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.9.1"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>NopCommerce 4.40: Referência à classe Nop.Core.Infrastructure.AppDomainTypeFinder</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectlogo"><img alt="Logo" src="download.png"/></td>
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">NopCommerce 4.40
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Gerado por Doxygen 1.9.1 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+var searchBox = new SearchBox("searchBox", "search",false,'Localizar','.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(function() {
+  initMenu('',true,false,'search.php','Localizar');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */</script>
+<div id="main-nav"></div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="namespace_nop.html">Nop</a></li><li class="navelem"><a class="el" href="namespace_nop_1_1_core.html">Core</a></li><li class="navelem"><a class="el" href="namespace_nop_1_1_core_1_1_infrastructure.html">Infrastructure</a></li><li class="navelem"><a class="el" href="class_nop_1_1_core_1_1_infrastructure_1_1_app_domain_type_finder.html">AppDomainTypeFinder</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">Membros públicos</a> &#124;
+<a href="#pro-methods">Membros protegidos</a> &#124;
+<a href="#pro-attribs">Atributos Protegidos</a> &#124;
+<a href="#properties">Propriedades</a> &#124;
+<a href="#pri-methods">Membros privados</a> &#124;
+<a href="#pri-attribs">Atributos Privados</a> &#124;
+<a href="class_nop_1_1_core_1_1_infrastructure_1_1_app_domain_type_finder-members.html">Mostrar lista completa dos membros</a>  </div>
+  <div class="headertitle">
+<div class="title">Referência à classe Nop.Core.Infrastructure.AppDomainTypeFinder</div>  </div>
+</div><!--header-->
+<div class="contents">
+
+<p>A class that finds types needed by <a class="el" href="namespace_nop.html">Nop</a> by looping assemblies in the currently executing AppDomain. Only assemblies whose names matches certain patterns are investigated and an optional list of assemblies referenced by <a class="el" href="class_nop_1_1_core_1_1_infrastructure_1_1_app_domain_type_finder.html#a148e311eab5d529375d8889d1c49f6ee" title="Gets or sets assemblies loaded a startup in addition to those loaded in the AppDomain.">AssemblyNames</a> are always investigated.  
+ <a href="class_nop_1_1_core_1_1_infrastructure_1_1_app_domain_type_finder.html#details">Mais...</a></p>
+<div class="dynheader">
+Diagrama de heranças da classe Nop.Core.Infrastructure.AppDomainTypeFinder</div>
+<div class="dyncontent">
+ <div class="center">
+  <img src="class_nop_1_1_core_1_1_infrastructure_1_1_app_domain_type_finder.png" usemap="#Nop.Core.Infrastructure.AppDomainTypeFinder_map" alt=""/>
+  <map id="Nop.Core.Infrastructure.AppDomainTypeFinder_map" name="Nop.Core.Infrastructure.AppDomainTypeFinder_map">
+<area href="interface_nop_1_1_core_1_1_infrastructure_1_1_i_type_finder.html" title="Classes implementing this interface provide information about types to various services in the Nop en..." alt="Nop.Core.Infrastructure.ITypeFinder" shape="rect" coords="0,0,281,24"/>
+<area href="class_nop_1_1_core_1_1_infrastructure_1_1_web_app_type_finder.html" title="Provides information about types in the current web application. Optionally this class can look at al..." alt="Nop.Core.Infrastructure.WebAppTypeFinder" shape="rect" coords="0,112,281,136"/>
+  </map>
+</div></div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Membros públicos</h2></td></tr>
+<tr class="memitem:ace4fb219f45b41f3c8b831469e9d9234"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_nop_1_1_core_1_1_infrastructure_1_1_app_domain_type_finder.html#ace4fb219f45b41f3c8b831469e9d9234">AppDomainTypeFinder</a> (<a class="el" href="interface_nop_1_1_core_1_1_infrastructure_1_1_i_nop_file_provider.html">INopFileProvider</a> fileProvider=null)</td></tr>
+<tr class="separator:ace4fb219f45b41f3c8b831469e9d9234"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5792f28a298827cf6594e3c37e6c8210"><td class="memItemLeft" align="right" valign="top">IEnumerable&lt; Type &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_nop_1_1_core_1_1_infrastructure_1_1_app_domain_type_finder.html#a5792f28a298827cf6594e3c37e6c8210">FindClassesOfType&lt; T &gt;</a> (bool onlyConcreteClasses=true)</td></tr>
+<tr class="memdesc:a5792f28a298827cf6594e3c37e6c8210"><td class="mdescLeft">&#160;</td><td class="mdescRight">Find classes of type  <a href="class_nop_1_1_core_1_1_infrastructure_1_1_app_domain_type_finder.html#a5792f28a298827cf6594e3c37e6c8210">Mais...</a><br /></td></tr>
+<tr class="separator:a5792f28a298827cf6594e3c37e6c8210"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae821cb8404f399723da2a79d82ca118f"><td class="memItemLeft" align="right" valign="top">IEnumerable&lt; Type &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_nop_1_1_core_1_1_infrastructure_1_1_app_domain_type_finder.html#ae821cb8404f399723da2a79d82ca118f">FindClassesOfType</a> (Type assignTypeFrom, bool onlyConcreteClasses=true)</td></tr>
+<tr class="memdesc:ae821cb8404f399723da2a79d82ca118f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Find classes of type  <a href="class_nop_1_1_core_1_1_infrastructure_1_1_app_domain_type_finder.html#ae821cb8404f399723da2a79d82ca118f">Mais...</a><br /></td></tr>
+<tr class="separator:ae821cb8404f399723da2a79d82ca118f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aea1780c8e0216ff72c9eb7b44257efe8"><td class="memItemLeft" align="right" valign="top">virtual IList&lt; Assembly &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_nop_1_1_core_1_1_infrastructure_1_1_app_domain_type_finder.html#aea1780c8e0216ff72c9eb7b44257efe8">GetAssemblies</a> ()</td></tr>
+<tr class="memdesc:aea1780c8e0216ff72c9eb7b44257efe8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the assemblies related to the current implementation.  <a href="class_nop_1_1_core_1_1_infrastructure_1_1_app_domain_type_finder.html#aea1780c8e0216ff72c9eb7b44257efe8">Mais...</a><br /></td></tr>
+<tr class="separator:aea1780c8e0216ff72c9eb7b44257efe8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
+Membros protegidos</h2></td></tr>
+<tr class="memitem:a91aeb3cbf864849afe2f5399b21007c9"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_nop_1_1_core_1_1_infrastructure_1_1_app_domain_type_finder.html#a91aeb3cbf864849afe2f5399b21007c9">AddConfiguredAssemblies</a> (List&lt; string &gt; addedAssemblyNames, List&lt; Assembly &gt; assemblies)</td></tr>
+<tr class="memdesc:a91aeb3cbf864849afe2f5399b21007c9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adds specifically configured assemblies.  <a href="class_nop_1_1_core_1_1_infrastructure_1_1_app_domain_type_finder.html#a91aeb3cbf864849afe2f5399b21007c9">Mais...</a><br /></td></tr>
+<tr class="separator:a91aeb3cbf864849afe2f5399b21007c9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a48bbaeef77dda2052928c2a48bbcceaa"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_nop_1_1_core_1_1_infrastructure_1_1_app_domain_type_finder.html#a48bbaeef77dda2052928c2a48bbcceaa">Matches</a> (string assemblyFullName)</td></tr>
+<tr class="memdesc:a48bbaeef77dda2052928c2a48bbcceaa"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check if a dll is one of the shipped dlls that we know don't need to be investigated.  <a href="class_nop_1_1_core_1_1_infrastructure_1_1_app_domain_type_finder.html#a48bbaeef77dda2052928c2a48bbcceaa">Mais...</a><br /></td></tr>
+<tr class="separator:a48bbaeef77dda2052928c2a48bbcceaa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a12a6af57cc8c00ff77e0fdc82e1a8792"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_nop_1_1_core_1_1_infrastructure_1_1_app_domain_type_finder.html#a12a6af57cc8c00ff77e0fdc82e1a8792">Matches</a> (string assemblyFullName, string pattern)</td></tr>
+<tr class="memdesc:a12a6af57cc8c00ff77e0fdc82e1a8792"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check if a dll is one of the shipped dlls that we know don't need to be investigated.  <a href="class_nop_1_1_core_1_1_infrastructure_1_1_app_domain_type_finder.html#a12a6af57cc8c00ff77e0fdc82e1a8792">Mais...</a><br /></td></tr>
+<tr class="separator:a12a6af57cc8c00ff77e0fdc82e1a8792"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac017e719728498d2b57d05fc68a93080"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_nop_1_1_core_1_1_infrastructure_1_1_app_domain_type_finder.html#ac017e719728498d2b57d05fc68a93080">LoadMatchingAssemblies</a> (string directoryPath)</td></tr>
+<tr class="memdesc:ac017e719728498d2b57d05fc68a93080"><td class="mdescLeft">&#160;</td><td class="mdescRight">Makes sure matching assemblies in the supplied folder are loaded in the app domain.  <a href="class_nop_1_1_core_1_1_infrastructure_1_1_app_domain_type_finder.html#ac017e719728498d2b57d05fc68a93080">Mais...</a><br /></td></tr>
+<tr class="separator:ac017e719728498d2b57d05fc68a93080"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aebd71fa2e60c6b544d4e3b96cadbc159"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_nop_1_1_core_1_1_infrastructure_1_1_app_domain_type_finder.html#aebd71fa2e60c6b544d4e3b96cadbc159">DoesTypeImplementOpenGeneric</a> (Type type, Type openGeneric)</td></tr>
+<tr class="memdesc:aebd71fa2e60c6b544d4e3b96cadbc159"><td class="mdescLeft">&#160;</td><td class="mdescRight">Does type implement generic?  <a href="class_nop_1_1_core_1_1_infrastructure_1_1_app_domain_type_finder.html#aebd71fa2e60c6b544d4e3b96cadbc159">Mais...</a><br /></td></tr>
+<tr class="separator:aebd71fa2e60c6b544d4e3b96cadbc159"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a23ec8c21c0af955990e9982abef82fca"><td class="memItemLeft" align="right" valign="top">virtual IEnumerable&lt; Type &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_nop_1_1_core_1_1_infrastructure_1_1_app_domain_type_finder.html#a23ec8c21c0af955990e9982abef82fca">FindClassesOfType</a> (Type assignTypeFrom, IEnumerable&lt; Assembly &gt; assemblies, bool onlyConcreteClasses=true)</td></tr>
+<tr class="memdesc:a23ec8c21c0af955990e9982abef82fca"><td class="mdescLeft">&#160;</td><td class="mdescRight">Find classes of type  <a href="class_nop_1_1_core_1_1_infrastructure_1_1_app_domain_type_finder.html#a23ec8c21c0af955990e9982abef82fca">Mais...</a><br /></td></tr>
+<tr class="separator:a23ec8c21c0af955990e9982abef82fca"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
+Atributos Protegidos</h2></td></tr>
+<tr class="memitem:aad3f4b707ef2baa93c9550125985d6c7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="interface_nop_1_1_core_1_1_infrastructure_1_1_i_nop_file_provider.html">INopFileProvider</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_nop_1_1_core_1_1_infrastructure_1_1_app_domain_type_finder.html#aad3f4b707ef2baa93c9550125985d6c7">_fileProvider</a></td></tr>
+<tr class="separator:aad3f4b707ef2baa93c9550125985d6c7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="properties"></a>
+Propriedades</h2></td></tr>
+<tr class="memitem:aef2b32d0d299a32028d5515e8372b422"><td class="memItemLeft" align="right" valign="top">virtual AppDomain&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_nop_1_1_core_1_1_infrastructure_1_1_app_domain_type_finder.html#aef2b32d0d299a32028d5515e8372b422">App</a><code> [get]</code></td></tr>
+<tr class="memdesc:aef2b32d0d299a32028d5515e8372b422"><td class="mdescLeft">&#160;</td><td class="mdescRight">The app domain to look for types in.  <a href="class_nop_1_1_core_1_1_infrastructure_1_1_app_domain_type_finder.html#aef2b32d0d299a32028d5515e8372b422">Mais...</a><br /></td></tr>
+<tr class="separator:aef2b32d0d299a32028d5515e8372b422"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aee630a9c5129bb1f1cd388ca12441595"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_nop_1_1_core_1_1_infrastructure_1_1_app_domain_type_finder.html#aee630a9c5129bb1f1cd388ca12441595">LoadAppDomainAssemblies</a> = true<code> [get, set]</code></td></tr>
+<tr class="memdesc:aee630a9c5129bb1f1cd388ca12441595"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets or sets whether <a class="el" href="namespace_nop.html">Nop</a> should iterate assemblies in the app domain when loading <a class="el" href="namespace_nop.html">Nop</a> types. Loading patterns are applied when loading these assemblies.  <a href="class_nop_1_1_core_1_1_infrastructure_1_1_app_domain_type_finder.html#aee630a9c5129bb1f1cd388ca12441595">Mais...</a><br /></td></tr>
+<tr class="separator:aee630a9c5129bb1f1cd388ca12441595"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a148e311eab5d529375d8889d1c49f6ee"><td class="memItemLeft" align="right" valign="top">IList&lt; string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_nop_1_1_core_1_1_infrastructure_1_1_app_domain_type_finder.html#a148e311eab5d529375d8889d1c49f6ee">AssemblyNames</a> = new List&lt;string&gt;()<code> [get, set]</code></td></tr>
+<tr class="memdesc:a148e311eab5d529375d8889d1c49f6ee"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets or sets assemblies loaded a startup in addition to those loaded in the AppDomain.  <a href="class_nop_1_1_core_1_1_infrastructure_1_1_app_domain_type_finder.html#a148e311eab5d529375d8889d1c49f6ee">Mais...</a><br /></td></tr>
+<tr class="separator:a148e311eab5d529375d8889d1c49f6ee"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abcd88b0626cf23a8ac009de65c8e98a3"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_nop_1_1_core_1_1_infrastructure_1_1_app_domain_type_finder.html#abcd88b0626cf23a8ac009de65c8e98a3">AssemblySkipLoadingPattern</a> = &quot;^System|^mscorlib|^Microsoft|^AjaxControlToolkit|^Antlr3|^Autofac|^AutoMapper|^Castle|^ComponentArt|^CppCodeProvider|^DotNetOpenAuth|^EntityFramework|^EPPlus|^FluentValidation|^ImageResizer|^itextsharp|^log4net|^MaxMind|^MbUnit|^MiniProfiler|^Mono.Math|^MvcContrib|^Newtonsoft|^NHibernate|^nunit|^Org.Mentalis|^PerlRegex|^QuickGraph|^Recaptcha|^Remotion|^RestSharp|^Rhino|^Telerik|^Iesi|^TestDriven|^TestFu|^UserAgentStringLibrary|^VJSharpCodeProvider|^WebActivator|^WebDev|^WebGrease&quot;<code> [get, set]</code></td></tr>
+<tr class="memdesc:abcd88b0626cf23a8ac009de65c8e98a3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the pattern for dlls that we know don't need to be investigated.  <a href="class_nop_1_1_core_1_1_infrastructure_1_1_app_domain_type_finder.html#abcd88b0626cf23a8ac009de65c8e98a3">Mais...</a><br /></td></tr>
+<tr class="separator:abcd88b0626cf23a8ac009de65c8e98a3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ada31f4b7548ac7e72024c1f01f6a6e23"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_nop_1_1_core_1_1_infrastructure_1_1_app_domain_type_finder.html#ada31f4b7548ac7e72024c1f01f6a6e23">AssemblyRestrictToLoadingPattern</a> = &quot;.*&quot;<code> [get, set]</code></td></tr>
+<tr class="memdesc:ada31f4b7548ac7e72024c1f01f6a6e23"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets or sets the pattern for dll that will be investigated. For ease of use this defaults to match all but to increase performance you might want to configure a pattern that includes assemblies and your own.  <a href="class_nop_1_1_core_1_1_infrastructure_1_1_app_domain_type_finder.html#ada31f4b7548ac7e72024c1f01f6a6e23">Mais...</a><br /></td></tr>
+<tr class="separator:ada31f4b7548ac7e72024c1f01f6a6e23"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
+Membros privados</h2></td></tr>
+<tr class="memitem:a1042c5bb654ea6ce8dbeaa78bb889763"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_nop_1_1_core_1_1_infrastructure_1_1_app_domain_type_finder.html#a1042c5bb654ea6ce8dbeaa78bb889763">AddAssembliesInAppDomain</a> (List&lt; string &gt; addedAssemblyNames, List&lt; Assembly &gt; assemblies)</td></tr>
+<tr class="memdesc:a1042c5bb654ea6ce8dbeaa78bb889763"><td class="mdescLeft">&#160;</td><td class="mdescRight">Iterates all assemblies in the AppDomain and if it's name matches the configured patterns add it to our list.  <a href="class_nop_1_1_core_1_1_infrastructure_1_1_app_domain_type_finder.html#a1042c5bb654ea6ce8dbeaa78bb889763">Mais...</a><br /></td></tr>
+<tr class="separator:a1042c5bb654ea6ce8dbeaa78bb889763"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
+Atributos Privados</h2></td></tr>
+<tr class="memitem:abff1cf7e2a87aae8019f9d36c9d4c6da"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_nop_1_1_core_1_1_infrastructure_1_1_app_domain_type_finder.html#abff1cf7e2a87aae8019f9d36c9d4c6da">_ignoreReflectionErrors</a> = true</td></tr>
+<tr class="separator:abff1cf7e2a87aae8019f9d36c9d4c6da"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Descrição detalhada</h2>
+<div class="textblock"><p>A class that finds types needed by <a class="el" href="namespace_nop.html">Nop</a> by looping assemblies in the currently executing AppDomain. Only assemblies whose names matches certain patterns are investigated and an optional list of assemblies referenced by <a class="el" href="class_nop_1_1_core_1_1_infrastructure_1_1_app_domain_type_finder.html#a148e311eab5d529375d8889d1c49f6ee" title="Gets or sets assemblies loaded a startup in addition to those loaded in the AppDomain.">AssemblyNames</a> are always investigated. </p>
+</div><h2 class="groupheader">Documentação dos Construtores &amp; Destrutor</h2>
+<a id="ace4fb219f45b41f3c8b831469e9d9234"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ace4fb219f45b41f3c8b831469e9d9234">&#9670;&nbsp;</a></span>AppDomainTypeFinder()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Nop.Core.Infrastructure.AppDomainTypeFinder.AppDomainTypeFinder </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interface_nop_1_1_core_1_1_infrastructure_1_1_i_nop_file_provider.html">INopFileProvider</a>&#160;</td>
+          <td class="paramname"><em>fileProvider</em> = <code>null</code></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;        {</div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;            <a class="code" href="class_nop_1_1_core_1_1_infrastructure_1_1_app_domain_type_finder.html#aad3f4b707ef2baa93c9550125985d6c7">_fileProvider</a> = fileProvider ?? CommonHelper.DefaultFileProvider;</div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;        }</div>
+<div class="ttc" id="aclass_nop_1_1_core_1_1_infrastructure_1_1_app_domain_type_finder_html_aad3f4b707ef2baa93c9550125985d6c7"><div class="ttname"><a href="class_nop_1_1_core_1_1_infrastructure_1_1_app_domain_type_finder.html#aad3f4b707ef2baa93c9550125985d6c7">Nop.Core.Infrastructure.AppDomainTypeFinder._fileProvider</a></div><div class="ttdeci">INopFileProvider _fileProvider</div><div class="ttdef"><b>Definition:</b> AppDomainTypeFinder.cs:20</div></div>
+</div><!-- fragment -->
+<p class="reference">Referências <a class="el" href="class_nop_1_1_core_1_1_infrastructure_1_1_app_domain_type_finder.html#aad3f4b707ef2baa93c9550125985d6c7">Nop.Core.Infrastructure.AppDomainTypeFinder._fileProvider</a> e <a class="el" href="class_nop_1_1_core_1_1_common_helper.html#aefbb0895700db0d325d1d2ff380e1f44">Nop.Core.CommonHelper.DefaultFileProvider</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">Documentação dos métodos</h2>
+<a id="a1042c5bb654ea6ce8dbeaa78bb889763"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1042c5bb654ea6ce8dbeaa78bb889763">&#9670;&nbsp;</a></span>AddAssembliesInAppDomain()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Nop.Core.Infrastructure.AppDomainTypeFinder.AddAssembliesInAppDomain </td>
+          <td>(</td>
+          <td class="paramtype">List&lt; string &gt;&#160;</td>
+          <td class="paramname"><em>addedAssemblyNames</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">List&lt; Assembly &gt;&#160;</td>
+          <td class="paramname"><em>assemblies</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Iterates all assemblies in the AppDomain and if it's name matches the configured patterns add it to our list. </p>
+<dl class="params"><dt>Parâmetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">addedAssemblyNames</td><td></td></tr>
+    <tr><td class="paramname">assemblies</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<div class="fragment"><div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;        {</div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;            <span class="keywordflow">foreach</span> (var assembly <span class="keywordflow">in</span> AppDomain.CurrentDomain.GetAssemblies())</div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;            {</div>
+<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;                <span class="keywordflow">if</span> (!<a class="code" href="class_nop_1_1_core_1_1_infrastructure_1_1_app_domain_type_finder.html#a48bbaeef77dda2052928c2a48bbcceaa">Matches</a>(assembly.FullName))</div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;                    <span class="keywordflow">continue</span>;</div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160; </div>
+<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;                <span class="keywordflow">if</span> (addedAssemblyNames.Contains(assembly.FullName))</div>
+<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;                    <span class="keywordflow">continue</span>;</div>
+<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160; </div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;                assemblies.Add(assembly);</div>
+<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;                addedAssemblyNames.Add(assembly.FullName);</div>
+<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;            }</div>
+<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;        }</div>
+<div class="ttc" id="aclass_nop_1_1_core_1_1_infrastructure_1_1_app_domain_type_finder_html_a48bbaeef77dda2052928c2a48bbcceaa"><div class="ttname"><a href="class_nop_1_1_core_1_1_infrastructure_1_1_app_domain_type_finder.html#a48bbaeef77dda2052928c2a48bbcceaa">Nop.Core.Infrastructure.AppDomainTypeFinder.Matches</a></div><div class="ttdeci">virtual bool Matches(string assemblyFullName)</div><div class="ttdoc">Check if a dll is one of the shipped dlls that we know don't need to be investigated.</div><div class="ttdef"><b>Definition:</b> AppDomainTypeFinder.cs:82</div></div>
+</div><!-- fragment -->
+<p class="reference">Referências <a class="el" href="class_nop_1_1_core_1_1_infrastructure_1_1_app_domain_type_finder.html#a48bbaeef77dda2052928c2a48bbcceaa">Nop.Core.Infrastructure.AppDomainTypeFinder.Matches()</a>.</p>
+
+<p class="reference">Referenciado por <a class="el" href="class_nop_1_1_core_1_1_infrastructure_1_1_app_domain_type_finder.html#aea1780c8e0216ff72c9eb7b44257efe8">Nop.Core.Infrastructure.AppDomainTypeFinder.GetAssemblies()</a>.</p>
+
+</div>
+</div>
+<a id="a91aeb3cbf864849afe2f5399b21007c9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a91aeb3cbf864849afe2f5399b21007c9">&#9670;&nbsp;</a></span>AddConfiguredAssemblies()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void Nop.Core.Infrastructure.AppDomainTypeFinder.AddConfiguredAssemblies </td>
+          <td>(</td>
+          <td class="paramtype">List&lt; string &gt;&#160;</td>
+          <td class="paramname"><em>addedAssemblyNames</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">List&lt; Assembly &gt;&#160;</td>
+          <td class="paramname"><em>assemblies</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Adds specifically configured assemblies. </p>
+<dl class="params"><dt>Parâmetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">addedAssemblyNames</td><td></td></tr>
+    <tr><td class="paramname">assemblies</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<div class="fragment"><div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;        {</div>
+<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;            <span class="keywordflow">foreach</span> (var assemblyName <span class="keywordflow">in</span> <a class="code" href="class_nop_1_1_core_1_1_infrastructure_1_1_app_domain_type_finder.html#a148e311eab5d529375d8889d1c49f6ee">AssemblyNames</a>)</div>
+<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;            {</div>
+<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;                var assembly = Assembly.Load(assemblyName);</div>
+<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;                <span class="keywordflow">if</span> (addedAssemblyNames.Contains(assembly.FullName))</div>
+<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;                    <span class="keywordflow">continue</span>;</div>
+<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160; </div>
+<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;                assemblies.Add(assembly);</div>
+<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;                addedAssemblyNames.Add(assembly.FullName);</div>
+<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;            }</div>
+<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;        }</div>
+<div class="ttc" id="aclass_nop_1_1_core_1_1_infrastructure_1_1_app_domain_type_finder_html_a148e311eab5d529375d8889d1c49f6ee"><div class="ttname"><a href="class_nop_1_1_core_1_1_infrastructure_1_1_app_domain_type_finder.html#a148e311eab5d529375d8889d1c49f6ee">Nop.Core.Infrastructure.AppDomainTypeFinder.AssemblyNames</a></div><div class="ttdeci">IList&lt; string &gt; AssemblyNames</div><div class="ttdoc">Gets or sets assemblies loaded a startup in addition to those loaded in the AppDomain.</div><div class="ttdef"><b>Definition:</b> AppDomainTypeFinder.cs:299</div></div>
+</div><!-- fragment -->
+<p class="reference">Referências <a class="el" href="class_nop_1_1_core_1_1_infrastructure_1_1_app_domain_type_finder.html#a148e311eab5d529375d8889d1c49f6ee">Nop.Core.Infrastructure.AppDomainTypeFinder.AssemblyNames</a>.</p>
+
+<p class="reference">Referenciado por <a class="el" href="class_nop_1_1_core_1_1_infrastructure_1_1_app_domain_type_finder.html#aea1780c8e0216ff72c9eb7b44257efe8">Nop.Core.Infrastructure.AppDomainTypeFinder.GetAssemblies()</a>.</p>
+
+</div>
+</div>
+<a id="aebd71fa2e60c6b544d4e3b96cadbc159"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aebd71fa2e60c6b544d4e3b96cadbc159">&#9670;&nbsp;</a></span>DoesTypeImplementOpenGeneric()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual bool Nop.Core.Infrastructure.AppDomainTypeFinder.DoesTypeImplementOpenGeneric </td>
+          <td>(</td>
+          <td class="paramtype">Type&#160;</td>
+          <td class="paramname"><em>type</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Type&#160;</td>
+          <td class="paramname"><em>openGeneric</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Does type implement generic? </p>
+<dl class="params"><dt>Parâmetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">type</td><td></td></tr>
+    <tr><td class="paramname">openGeneric</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Retorna</dt><dd></dd></dl>
+<div class="fragment"><div class="line"><a name="l00156"></a><span class="lineno">  156</span>&#160;        {</div>
+<div class="line"><a name="l00157"></a><span class="lineno">  157</span>&#160;            <span class="keywordflow">try</span></div>
+<div class="line"><a name="l00158"></a><span class="lineno">  158</span>&#160;            {</div>
+<div class="line"><a name="l00159"></a><span class="lineno">  159</span>&#160;                var genericTypeDefinition = openGeneric.GetGenericTypeDefinition();</div>
+<div class="line"><a name="l00160"></a><span class="lineno">  160</span>&#160;                <span class="keywordflow">foreach</span> (var implementedInterface <span class="keywordflow">in</span> type.FindInterfaces((objType, objCriteria) =&gt; <span class="keyword">true</span>, <span class="keyword">null</span>))</div>
+<div class="line"><a name="l00161"></a><span class="lineno">  161</span>&#160;                {</div>
+<div class="line"><a name="l00162"></a><span class="lineno">  162</span>&#160;                    <span class="keywordflow">if</span> (!implementedInterface.IsGenericType)</div>
+<div class="line"><a name="l00163"></a><span class="lineno">  163</span>&#160;                        <span class="keywordflow">continue</span>;</div>
+<div class="line"><a name="l00164"></a><span class="lineno">  164</span>&#160; </div>
+<div class="line"><a name="l00165"></a><span class="lineno">  165</span>&#160;                    <span class="keywordflow">if</span> (genericTypeDefinition.IsAssignableFrom(implementedInterface.GetGenericTypeDefinition()))</div>
+<div class="line"><a name="l00166"></a><span class="lineno">  166</span>&#160;                        <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><a name="l00167"></a><span class="lineno">  167</span>&#160;                }</div>
+<div class="line"><a name="l00168"></a><span class="lineno">  168</span>&#160; </div>
+<div class="line"><a name="l00169"></a><span class="lineno">  169</span>&#160;                <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><a name="l00170"></a><span class="lineno">  170</span>&#160;            }</div>
+<div class="line"><a name="l00171"></a><span class="lineno">  171</span>&#160;            <span class="keywordflow">catch</span></div>
+<div class="line"><a name="l00172"></a><span class="lineno">  172</span>&#160;            {</div>
+<div class="line"><a name="l00173"></a><span class="lineno">  173</span>&#160;                <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><a name="l00174"></a><span class="lineno">  174</span>&#160;            }</div>
+<div class="line"><a name="l00175"></a><span class="lineno">  175</span>&#160;        }</div>
+</div><!-- fragment -->
+<p class="reference">Referenciado por <a class="el" href="class_nop_1_1_core_1_1_infrastructure_1_1_app_domain_type_finder.html#a23ec8c21c0af955990e9982abef82fca">Nop.Core.Infrastructure.AppDomainTypeFinder.FindClassesOfType()</a>.</p>
+
+</div>
+</div>
+<a id="ae821cb8404f399723da2a79d82ca118f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae821cb8404f399723da2a79d82ca118f">&#9670;&nbsp;</a></span>FindClassesOfType() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">IEnumerable&lt;Type&gt; Nop.Core.Infrastructure.AppDomainTypeFinder.FindClassesOfType </td>
+          <td>(</td>
+          <td class="paramtype">Type&#160;</td>
+          <td class="paramname"><em>assignTypeFrom</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>onlyConcreteClasses</em> = <code>true</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Find classes of type </p>
+<dl class="params"><dt>Parâmetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">assignTypeFrom</td><td>Assign type from</td></tr>
+    <tr><td class="paramname">onlyConcreteClasses</td><td>A value indicating whether to find only concrete classes</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Retorna</dt><dd><p class="startdd">Result</p>
+<p class="enddd"></p>
+</dd></dl>
+
+<p>Implementa <a class="el" href="interface_nop_1_1_core_1_1_infrastructure_1_1_i_type_finder.html#a630f2efaf83fec91e1ea68dafee6473e">Nop.Core.Infrastructure.ITypeFinder</a>.</p>
+<div class="fragment"><div class="line"><a name="l00268"></a><span class="lineno">  268</span>&#160;        {</div>
+<div class="line"><a name="l00269"></a><span class="lineno">  269</span>&#160;            <span class="keywordflow">return</span> <a class="code" href="class_nop_1_1_core_1_1_infrastructure_1_1_app_domain_type_finder.html#a23ec8c21c0af955990e9982abef82fca">FindClassesOfType</a>(assignTypeFrom, <a class="code" href="class_nop_1_1_core_1_1_infrastructure_1_1_app_domain_type_finder.html#aea1780c8e0216ff72c9eb7b44257efe8">GetAssemblies</a>(), onlyConcreteClasses);</div>
+<div class="line"><a name="l00270"></a><span class="lineno">  270</span>&#160;        }</div>
+<div class="ttc" id="aclass_nop_1_1_core_1_1_infrastructure_1_1_app_domain_type_finder_html_a23ec8c21c0af955990e9982abef82fca"><div class="ttname"><a href="class_nop_1_1_core_1_1_infrastructure_1_1_app_domain_type_finder.html#a23ec8c21c0af955990e9982abef82fca">Nop.Core.Infrastructure.AppDomainTypeFinder.FindClassesOfType</a></div><div class="ttdeci">virtual IEnumerable&lt; Type &gt; FindClassesOfType(Type assignTypeFrom, IEnumerable&lt; Assembly &gt; assemblies, bool onlyConcreteClasses=true)</div><div class="ttdoc">Find classes of type</div><div class="ttdef"><b>Definition:</b> AppDomainTypeFinder.cs:184</div></div>
+<div class="ttc" id="aclass_nop_1_1_core_1_1_infrastructure_1_1_app_domain_type_finder_html_aea1780c8e0216ff72c9eb7b44257efe8"><div class="ttname"><a href="class_nop_1_1_core_1_1_infrastructure_1_1_app_domain_type_finder.html#aea1780c8e0216ff72c9eb7b44257efe8">Nop.Core.Infrastructure.AppDomainTypeFinder.GetAssemblies</a></div><div class="ttdeci">virtual IList&lt; Assembly &gt; GetAssemblies()</div><div class="ttdoc">Gets the assemblies related to the current implementation.</div><div class="ttdef"><b>Definition:</b> AppDomainTypeFinder.cs:276</div></div>
+</div><!-- fragment -->
+<p class="reference">Referências <a class="el" href="class_nop_1_1_core_1_1_infrastructure_1_1_app_domain_type_finder.html#a23ec8c21c0af955990e9982abef82fca">Nop.Core.Infrastructure.AppDomainTypeFinder.FindClassesOfType()</a> e <a class="el" href="class_nop_1_1_core_1_1_infrastructure_1_1_app_domain_type_finder.html#aea1780c8e0216ff72c9eb7b44257efe8">Nop.Core.Infrastructure.AppDomainTypeFinder.GetAssemblies()</a>.</p>
+
+</div>
+</div>
+<a id="a23ec8c21c0af955990e9982abef82fca"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a23ec8c21c0af955990e9982abef82fca">&#9670;&nbsp;</a></span>FindClassesOfType() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual IEnumerable&lt;Type&gt; Nop.Core.Infrastructure.AppDomainTypeFinder.FindClassesOfType </td>
+          <td>(</td>
+          <td class="paramtype">Type&#160;</td>
+          <td class="paramname"><em>assignTypeFrom</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">IEnumerable&lt; Assembly &gt;&#160;</td>
+          <td class="paramname"><em>assemblies</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>onlyConcreteClasses</em> = <code>true</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Find classes of type </p>
+<dl class="params"><dt>Parâmetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">assignTypeFrom</td><td>Assign type from</td></tr>
+    <tr><td class="paramname">assemblies</td><td>Assemblies</td></tr>
+    <tr><td class="paramname">onlyConcreteClasses</td><td>A value indicating whether to find only concrete classes</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Retorna</dt><dd>Result</dd></dl>
+<div class="fragment"><div class="line"><a name="l00185"></a><span class="lineno">  185</span>&#160;        {</div>
+<div class="line"><a name="l00186"></a><span class="lineno">  186</span>&#160;            var <a class="code" href="namespace_nop_1_1_web_1_1_models_1_1_blogs.html#a6cc3986434c188bc64f7d71789d4a5c8">result</a> = <span class="keyword">new</span> List&lt;Type&gt;();</div>
+<div class="line"><a name="l00187"></a><span class="lineno">  187</span>&#160;            <span class="keywordflow">try</span></div>
+<div class="line"><a name="l00188"></a><span class="lineno">  188</span>&#160;            {</div>
+<div class="line"><a name="l00189"></a><span class="lineno">  189</span>&#160;                <span class="keywordflow">foreach</span> (var a <span class="keywordflow">in</span> assemblies)</div>
+<div class="line"><a name="l00190"></a><span class="lineno">  190</span>&#160;                {</div>
+<div class="line"><a name="l00191"></a><span class="lineno">  191</span>&#160;                    <a class="code" href="namespace_nop_1_1_plugin_1_1_tax_1_1_avalara_1_1_models_1_1_tax.html#aa71b7e7409aa6578c120ec3382570ad8">Type</a>[] types = <span class="keyword">null</span>;</div>
+<div class="line"><a name="l00192"></a><span class="lineno">  192</span>&#160;                    <span class="keywordflow">try</span></div>
+<div class="line"><a name="l00193"></a><span class="lineno">  193</span>&#160;                    {</div>
+<div class="line"><a name="l00194"></a><span class="lineno">  194</span>&#160;                        types = a.GetTypes();</div>
+<div class="line"><a name="l00195"></a><span class="lineno">  195</span>&#160;                    }</div>
+<div class="line"><a name="l00196"></a><span class="lineno">  196</span>&#160;                    <span class="keywordflow">catch</span></div>
+<div class="line"><a name="l00197"></a><span class="lineno">  197</span>&#160;                    {</div>
+<div class="line"><a name="l00198"></a><span class="lineno">  198</span>&#160;                        <span class="comment">//Entity Framework 6 doesn&#39;t allow getting types (throws an exception)</span></div>
+<div class="line"><a name="l00199"></a><span class="lineno">  199</span>&#160;                        <span class="keywordflow">if</span> (!<a class="code" href="class_nop_1_1_core_1_1_infrastructure_1_1_app_domain_type_finder.html#abff1cf7e2a87aae8019f9d36c9d4c6da">_ignoreReflectionErrors</a>)</div>
+<div class="line"><a name="l00200"></a><span class="lineno">  200</span>&#160;                        {</div>
+<div class="line"><a name="l00201"></a><span class="lineno">  201</span>&#160;                            <span class="keywordflow">throw</span>;</div>
+<div class="line"><a name="l00202"></a><span class="lineno">  202</span>&#160;                        }</div>
+<div class="line"><a name="l00203"></a><span class="lineno">  203</span>&#160;                    }</div>
+<div class="line"><a name="l00204"></a><span class="lineno">  204</span>&#160; </div>
+<div class="line"><a name="l00205"></a><span class="lineno">  205</span>&#160;                    <span class="keywordflow">if</span> (types == <span class="keyword">null</span>)</div>
+<div class="line"><a name="l00206"></a><span class="lineno">  206</span>&#160;                        <span class="keywordflow">continue</span>;</div>
+<div class="line"><a name="l00207"></a><span class="lineno">  207</span>&#160; </div>
+<div class="line"><a name="l00208"></a><span class="lineno">  208</span>&#160;                    <span class="keywordflow">foreach</span> (var t <span class="keywordflow">in</span> types)</div>
+<div class="line"><a name="l00209"></a><span class="lineno">  209</span>&#160;                    {</div>
+<div class="line"><a name="l00210"></a><span class="lineno">  210</span>&#160;                        <span class="keywordflow">if</span> (!assignTypeFrom.IsAssignableFrom(t) &amp;&amp; (!assignTypeFrom.IsGenericTypeDefinition || !<a class="code" href="class_nop_1_1_core_1_1_infrastructure_1_1_app_domain_type_finder.html#aebd71fa2e60c6b544d4e3b96cadbc159">DoesTypeImplementOpenGeneric</a>(t, assignTypeFrom)))</div>
+<div class="line"><a name="l00211"></a><span class="lineno">  211</span>&#160;                            <span class="keywordflow">continue</span>;</div>
+<div class="line"><a name="l00212"></a><span class="lineno">  212</span>&#160; </div>
+<div class="line"><a name="l00213"></a><span class="lineno">  213</span>&#160;                        <span class="keywordflow">if</span> (t.IsInterface)</div>
+<div class="line"><a name="l00214"></a><span class="lineno">  214</span>&#160;                            <span class="keywordflow">continue</span>;</div>
+<div class="line"><a name="l00215"></a><span class="lineno">  215</span>&#160; </div>
+<div class="line"><a name="l00216"></a><span class="lineno">  216</span>&#160;                        <span class="keywordflow">if</span> (onlyConcreteClasses)</div>
+<div class="line"><a name="l00217"></a><span class="lineno">  217</span>&#160;                        {</div>
+<div class="line"><a name="l00218"></a><span class="lineno">  218</span>&#160;                            <span class="keywordflow">if</span> (t.IsClass &amp;&amp; !t.IsAbstract)</div>
+<div class="line"><a name="l00219"></a><span class="lineno">  219</span>&#160;                            {</div>
+<div class="line"><a name="l00220"></a><span class="lineno">  220</span>&#160;                                <a class="code" href="namespace_nop_1_1_web_1_1_models_1_1_blogs.html#a6cc3986434c188bc64f7d71789d4a5c8">result</a>.Add(t);</div>
+<div class="line"><a name="l00221"></a><span class="lineno">  221</span>&#160;                            }</div>
+<div class="line"><a name="l00222"></a><span class="lineno">  222</span>&#160;                        }</div>
+<div class="line"><a name="l00223"></a><span class="lineno">  223</span>&#160;                        <span class="keywordflow">else</span></div>
+<div class="line"><a name="l00224"></a><span class="lineno">  224</span>&#160;                        {</div>
+<div class="line"><a name="l00225"></a><span class="lineno">  225</span>&#160;                            <a class="code" href="namespace_nop_1_1_web_1_1_models_1_1_blogs.html#a6cc3986434c188bc64f7d71789d4a5c8">result</a>.Add(t);</div>
+<div class="line"><a name="l00226"></a><span class="lineno">  226</span>&#160;                        }</div>
+<div class="line"><a name="l00227"></a><span class="lineno">  227</span>&#160;                    }</div>
+<div class="line"><a name="l00228"></a><span class="lineno">  228</span>&#160;                }</div>
+<div class="line"><a name="l00229"></a><span class="lineno">  229</span>&#160;            }</div>
+<div class="line"><a name="l00230"></a><span class="lineno">  230</span>&#160;            <span class="keywordflow">catch</span> (ReflectionTypeLoadException ex)</div>
+<div class="line"><a name="l00231"></a><span class="lineno">  231</span>&#160;            {</div>
+<div class="line"><a name="l00232"></a><span class="lineno">  232</span>&#160;                var msg = <span class="keywordtype">string</span>.Empty;</div>
+<div class="line"><a name="l00233"></a><span class="lineno">  233</span>&#160;                <span class="keywordflow">foreach</span> (var e <span class="keywordflow">in</span> ex.LoaderExceptions)</div>
+<div class="line"><a name="l00234"></a><span class="lineno">  234</span>&#160;                    msg += e.Message + Environment.NewLine;</div>
+<div class="line"><a name="l00235"></a><span class="lineno">  235</span>&#160; </div>
+<div class="line"><a name="l00236"></a><span class="lineno">  236</span>&#160;                var fail = <span class="keyword">new</span> Exception(msg, ex);</div>
+<div class="line"><a name="l00237"></a><span class="lineno">  237</span>&#160;                <a class="code" href="namespace_nop_1_1_core_1_1_domain_1_1_logging.html#ab594ab9c457c9e33971ebd84419e8aa1aa603905470e2a5b8c13e96b579ef0dba">Debug</a>.WriteLine(fail.Message, fail);</div>
+<div class="line"><a name="l00238"></a><span class="lineno">  238</span>&#160; </div>
+<div class="line"><a name="l00239"></a><span class="lineno">  239</span>&#160;                <span class="keywordflow">throw</span> fail;</div>
+<div class="line"><a name="l00240"></a><span class="lineno">  240</span>&#160;            }</div>
+<div class="line"><a name="l00241"></a><span class="lineno">  241</span>&#160; </div>
+<div class="line"><a name="l00242"></a><span class="lineno">  242</span>&#160;            <span class="keywordflow">return</span> <a class="code" href="namespace_nop_1_1_web_1_1_models_1_1_blogs.html#a6cc3986434c188bc64f7d71789d4a5c8">result</a>;</div>
+<div class="line"><a name="l00243"></a><span class="lineno">  243</span>&#160;        }</div>
+<div class="ttc" id="aclass_nop_1_1_core_1_1_infrastructure_1_1_app_domain_type_finder_html_abff1cf7e2a87aae8019f9d36c9d4c6da"><div class="ttname"><a href="class_nop_1_1_core_1_1_infrastructure_1_1_app_domain_type_finder.html#abff1cf7e2a87aae8019f9d36c9d4c6da">Nop.Core.Infrastructure.AppDomainTypeFinder._ignoreReflectionErrors</a></div><div class="ttdeci">bool _ignoreReflectionErrors</div><div class="ttdef"><b>Definition:</b> AppDomainTypeFinder.cs:19</div></div>
+<div class="ttc" id="aclass_nop_1_1_core_1_1_infrastructure_1_1_app_domain_type_finder_html_aebd71fa2e60c6b544d4e3b96cadbc159"><div class="ttname"><a href="class_nop_1_1_core_1_1_infrastructure_1_1_app_domain_type_finder.html#aebd71fa2e60c6b544d4e3b96cadbc159">Nop.Core.Infrastructure.AppDomainTypeFinder.DoesTypeImplementOpenGeneric</a></div><div class="ttdeci">virtual bool DoesTypeImplementOpenGeneric(Type type, Type openGeneric)</div><div class="ttdoc">Does type implement generic?</div><div class="ttdef"><b>Definition:</b> AppDomainTypeFinder.cs:155</div></div>
+<div class="ttc" id="anamespace_nop_1_1_core_1_1_domain_1_1_logging_html_ab594ab9c457c9e33971ebd84419e8aa1aa603905470e2a5b8c13e96b579ef0dba"><div class="ttname"><a href="namespace_nop_1_1_core_1_1_domain_1_1_logging.html#ab594ab9c457c9e33971ebd84419e8aa1aa603905470e2a5b8c13e96b579ef0dba">Nop.Core.Domain.Logging.LogLevel.Debug</a></div><div class="ttdeci">@ Debug</div><div class="ttdoc">Debug</div></div>
+<div class="ttc" id="anamespace_nop_1_1_plugin_1_1_tax_1_1_avalara_1_1_models_1_1_tax_html_aa71b7e7409aa6578c120ec3382570ad8"><div class="ttname"><a href="namespace_nop_1_1_plugin_1_1_tax_1_1_avalara_1_1_models_1_1_tax.html#aa71b7e7409aa6578c120ec3382570ad8">Nop.Plugin.Tax.Avalara.Models.Tax.Type</a></div><div class="ttdeci">string Type</div><div class="ttdef"><b>Definition:</b> TaxCategoryModel.cs:16</div></div>
+<div class="ttc" id="anamespace_nop_1_1_web_1_1_models_1_1_blogs_html_a6cc3986434c188bc64f7d71789d4a5c8"><div class="ttname"><a href="namespace_nop_1_1_web_1_1_models_1_1_blogs.html#a6cc3986434c188bc64f7d71789d4a5c8">Nop.Web.Models.Blogs.result</a></div><div class="ttdeci">return result</div><div class="ttdef"><b>Definition:</b> BlogPagingFilteringModel.cs:21</div></div>
+</div><!-- fragment -->
+<p class="reference">Referências <a class="el" href="class_nop_1_1_core_1_1_infrastructure_1_1_app_domain_type_finder.html#abff1cf7e2a87aae8019f9d36c9d4c6da">Nop.Core.Infrastructure.AppDomainTypeFinder._ignoreReflectionErrors</a>, <a class="el" href="class_nop_1_1_core_1_1_infrastructure_1_1_app_domain_type_finder.html#aebd71fa2e60c6b544d4e3b96cadbc159">Nop.Core.Infrastructure.AppDomainTypeFinder.DoesTypeImplementOpenGeneric()</a>, <a class="el" href="namespace_nop_1_1_web_1_1_models_1_1_blogs.html#a6cc3986434c188bc64f7d71789d4a5c8">Nop.Web.Models.Blogs.result</a> e <a class="el" href="namespace_nop_1_1_plugin_1_1_tax_1_1_avalara_1_1_models_1_1_tax.html#aa71b7e7409aa6578c120ec3382570ad8">Nop.Plugin.Tax.Avalara.Models.Tax.Type</a>.</p>
+
+<p class="reference">Referenciado por <a class="el" href="class_nop_1_1_data_1_1_nop_db_startup.html#ad5546d68374062bedec1c89bc1c21be5">Nop.Data.NopDbStartup.ConfigureServices()</a>, <a class="el" href="class_nop_1_1_core_1_1_infrastructure_1_1_app_domain_type_finder.html#ae821cb8404f399723da2a79d82ca118f">Nop.Core.Infrastructure.AppDomainTypeFinder.FindClassesOfType()</a> e <a class="el" href="class_nop_1_1_core_1_1_infrastructure_1_1_app_domain_type_finder.html#a5792f28a298827cf6594e3c37e6c8210">Nop.Core.Infrastructure.AppDomainTypeFinder.FindClassesOfType&lt; T &gt;()</a>.</p>
+
+</div>
+</div>
+<a id="a5792f28a298827cf6594e3c37e6c8210"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5792f28a298827cf6594e3c37e6c8210">&#9670;&nbsp;</a></span>FindClassesOfType&lt; T &gt;()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">IEnumerable&lt;Type&gt; <a class="el" href="class_nop_1_1_core_1_1_infrastructure_1_1_app_domain_type_finder.html#a23ec8c21c0af955990e9982abef82fca">Nop.Core.Infrastructure.AppDomainTypeFinder.FindClassesOfType</a>&lt; T &gt; </td>
+          <td>(</td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>onlyConcreteClasses</em> = <code>true</code></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Find classes of type </p>
+<dl class="tparams"><dt>Parâmetros de template</dt><dd>
+  <table class="tparams">
+    <tr><td class="paramname">T</td><td>Type</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="params"><dt>Parâmetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">onlyConcreteClasses</td><td>A value indicating whether to find only concrete classes</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Retorna</dt><dd>Result</dd></dl>
+
+<p>Implementa <a class="el" href="interface_nop_1_1_core_1_1_infrastructure_1_1_i_type_finder.html#a9924683c7c8149d45e2d71671e2cbf03">Nop.Core.Infrastructure.ITypeFinder</a>.</p>
+<div class="fragment"><div class="line"><a name="l00256"></a><span class="lineno">  256</span>&#160;        {</div>
+<div class="line"><a name="l00257"></a><span class="lineno">  257</span>&#160;            <span class="keywordflow">return</span> <a class="code" href="class_nop_1_1_core_1_1_infrastructure_1_1_app_domain_type_finder.html#a23ec8c21c0af955990e9982abef82fca">FindClassesOfType</a>(typeof(<a class="code" href="namespace_nop_1_1_web_1_1_framework_1_1_models.html#ad3daf01ef5002359798d78d3f7bab58d">T</a>), onlyConcreteClasses);</div>
+<div class="line"><a name="l00258"></a><span class="lineno">  258</span>&#160;        }</div>
+<div class="ttc" id="anamespace_nop_1_1_web_1_1_framework_1_1_models_html_ad3daf01ef5002359798d78d3f7bab58d"><div class="ttname"><a href="namespace_nop_1_1_web_1_1_framework_1_1_models.html#ad3daf01ef5002359798d78d3f7bab58d">Nop.Web.Framework.Models.T</a></div><div class="ttdeci">abstract partial record IPagedModel&lt; T &gt; where T</div><div class="ttdef"><b>Definition:</b> BasePagedListModel.cs:13</div></div>
+</div><!-- fragment -->
+<p class="reference">Referências <a class="el" href="class_nop_1_1_core_1_1_infrastructure_1_1_app_domain_type_finder.html#a23ec8c21c0af955990e9982abef82fca">Nop.Core.Infrastructure.AppDomainTypeFinder.FindClassesOfType()</a> e <a class="el" href="namespace_nop_1_1_web_1_1_framework_1_1_models.html#ad3daf01ef5002359798d78d3f7bab58d">Nop.Web.Framework.Models.T</a>.</p>
+
+</div>
+</div>
+<a id="aea1780c8e0216ff72c9eb7b44257efe8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aea1780c8e0216ff72c9eb7b44257efe8">&#9670;&nbsp;</a></span>GetAssemblies()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual IList&lt;Assembly&gt; Nop.Core.Infrastructure.AppDomainTypeFinder.GetAssemblies </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Gets the assemblies related to the current implementation. </p>
+<dl class="section return"><dt>Retorna</dt><dd>A list of assemblies</dd></dl>
+
+<p>Implementa <a class="el" href="interface_nop_1_1_core_1_1_infrastructure_1_1_i_type_finder.html#a61eaa814f6de977a56fa4eb841b91da3">Nop.Core.Infrastructure.ITypeFinder</a>.</p>
+
+<p>Reimplementado em <a class="el" href="class_nop_1_1_core_1_1_infrastructure_1_1_web_app_type_finder.html#aea81855256f5e25a1adbaa7092b2f5df">Nop.Core.Infrastructure.WebAppTypeFinder</a>.</p>
+<div class="fragment"><div class="line"><a name="l00277"></a><span class="lineno">  277</span>&#160;        {</div>
+<div class="line"><a name="l00278"></a><span class="lineno">  278</span>&#160;            var addedAssemblyNames = <span class="keyword">new</span> List&lt;string&gt;();</div>
+<div class="line"><a name="l00279"></a><span class="lineno">  279</span>&#160;            var assemblies = <span class="keyword">new</span> List&lt;Assembly&gt;();</div>
+<div class="line"><a name="l00280"></a><span class="lineno">  280</span>&#160; </div>
+<div class="line"><a name="l00281"></a><span class="lineno">  281</span>&#160;            <span class="keywordflow">if</span> (<a class="code" href="class_nop_1_1_core_1_1_infrastructure_1_1_app_domain_type_finder.html#aee630a9c5129bb1f1cd388ca12441595">LoadAppDomainAssemblies</a>)</div>
+<div class="line"><a name="l00282"></a><span class="lineno">  282</span>&#160;                <a class="code" href="class_nop_1_1_core_1_1_infrastructure_1_1_app_domain_type_finder.html#a1042c5bb654ea6ce8dbeaa78bb889763">AddAssembliesInAppDomain</a>(addedAssemblyNames, assemblies);</div>
+<div class="line"><a name="l00283"></a><span class="lineno">  283</span>&#160;            <a class="code" href="class_nop_1_1_core_1_1_infrastructure_1_1_app_domain_type_finder.html#a91aeb3cbf864849afe2f5399b21007c9">AddConfiguredAssemblies</a>(addedAssemblyNames, assemblies);</div>
+<div class="line"><a name="l00284"></a><span class="lineno">  284</span>&#160; </div>
+<div class="line"><a name="l00285"></a><span class="lineno">  285</span>&#160;            <span class="keywordflow">return</span> assemblies;</div>
+<div class="line"><a name="l00286"></a><span class="lineno">  286</span>&#160;        }</div>
+<div class="ttc" id="aclass_nop_1_1_core_1_1_infrastructure_1_1_app_domain_type_finder_html_a1042c5bb654ea6ce8dbeaa78bb889763"><div class="ttname"><a href="class_nop_1_1_core_1_1_infrastructure_1_1_app_domain_type_finder.html#a1042c5bb654ea6ce8dbeaa78bb889763">Nop.Core.Infrastructure.AppDomainTypeFinder.AddAssembliesInAppDomain</a></div><div class="ttdeci">void AddAssembliesInAppDomain(List&lt; string &gt; addedAssemblyNames, List&lt; Assembly &gt; assemblies)</div><div class="ttdoc">Iterates all assemblies in the AppDomain and if it's name matches the configured patterns add it to o...</div><div class="ttdef"><b>Definition:</b> AppDomainTypeFinder.cs:40</div></div>
+<div class="ttc" id="aclass_nop_1_1_core_1_1_infrastructure_1_1_app_domain_type_finder_html_a91aeb3cbf864849afe2f5399b21007c9"><div class="ttname"><a href="class_nop_1_1_core_1_1_infrastructure_1_1_app_domain_type_finder.html#a91aeb3cbf864849afe2f5399b21007c9">Nop.Core.Infrastructure.AppDomainTypeFinder.AddConfiguredAssemblies</a></div><div class="ttdeci">virtual void AddConfiguredAssemblies(List&lt; string &gt; addedAssemblyNames, List&lt; Assembly &gt; assemblies)</div><div class="ttdoc">Adds specifically configured assemblies.</div><div class="ttdef"><b>Definition:</b> AppDomainTypeFinder.cs:60</div></div>
+<div class="ttc" id="aclass_nop_1_1_core_1_1_infrastructure_1_1_app_domain_type_finder_html_aee630a9c5129bb1f1cd388ca12441595"><div class="ttname"><a href="class_nop_1_1_core_1_1_infrastructure_1_1_app_domain_type_finder.html#aee630a9c5129bb1f1cd388ca12441595">Nop.Core.Infrastructure.AppDomainTypeFinder.LoadAppDomainAssemblies</a></div><div class="ttdeci">bool LoadAppDomainAssemblies</div><div class="ttdoc">Gets or sets whether Nop should iterate assemblies in the app domain when loading Nop types....</div><div class="ttdef"><b>Definition:</b> AppDomainTypeFinder.cs:296</div></div>
+</div><!-- fragment -->
+<p class="reference">Referências <a class="el" href="class_nop_1_1_core_1_1_infrastructure_1_1_app_domain_type_finder.html#a1042c5bb654ea6ce8dbeaa78bb889763">Nop.Core.Infrastructure.AppDomainTypeFinder.AddAssembliesInAppDomain()</a>, <a class="el" href="class_nop_1_1_core_1_1_infrastructure_1_1_app_domain_type_finder.html#a91aeb3cbf864849afe2f5399b21007c9">Nop.Core.Infrastructure.AppDomainTypeFinder.AddConfiguredAssemblies()</a> e <a class="el" href="class_nop_1_1_core_1_1_infrastructure_1_1_app_domain_type_finder.html#aee630a9c5129bb1f1cd388ca12441595">Nop.Core.Infrastructure.AppDomainTypeFinder.LoadAppDomainAssemblies</a>.</p>
+
+<p class="reference">Referenciado por <a class="el" href="class_nop_1_1_core_1_1_infrastructure_1_1_app_domain_type_finder.html#ae821cb8404f399723da2a79d82ca118f">Nop.Core.Infrastructure.AppDomainTypeFinder.FindClassesOfType()</a> e <a class="el" href="class_nop_1_1_core_1_1_infrastructure_1_1_app_domain_type_finder.html#ac017e719728498d2b57d05fc68a93080">Nop.Core.Infrastructure.AppDomainTypeFinder.LoadMatchingAssemblies()</a>.</p>
+
+</div>
+</div>
+<a id="ac017e719728498d2b57d05fc68a93080"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac017e719728498d2b57d05fc68a93080">&#9670;&nbsp;</a></span>LoadMatchingAssemblies()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void Nop.Core.Infrastructure.AppDomainTypeFinder.LoadMatchingAssemblies </td>
+          <td>(</td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>directoryPath</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Makes sure matching assemblies in the supplied folder are loaded in the app domain. </p>
+<dl class="params"><dt>Parâmetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">directoryPath</td><td>The physical path to a directory containing dlls to load in the app domain. </td></tr>
+  </table>
+  </dd>
+</dl>
+<div class="fragment"><div class="line"><a name="l00112"></a><span class="lineno">  112</span>&#160;        {</div>
+<div class="line"><a name="l00113"></a><span class="lineno">  113</span>&#160;            var loadedAssemblyNames = <span class="keyword">new</span> List&lt;string&gt;();</div>
+<div class="line"><a name="l00114"></a><span class="lineno">  114</span>&#160; </div>
+<div class="line"><a name="l00115"></a><span class="lineno">  115</span>&#160;            <span class="keywordflow">foreach</span> (var a <span class="keywordflow">in</span> <a class="code" href="class_nop_1_1_core_1_1_infrastructure_1_1_app_domain_type_finder.html#aea1780c8e0216ff72c9eb7b44257efe8">GetAssemblies</a>())</div>
+<div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160;            {</div>
+<div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160;                loadedAssemblyNames.Add(a.FullName);</div>
+<div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160;            }</div>
+<div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160; </div>
+<div class="line"><a name="l00120"></a><span class="lineno">  120</span>&#160;            <span class="keywordflow">if</span> (!<a class="code" href="class_nop_1_1_core_1_1_infrastructure_1_1_app_domain_type_finder.html#aad3f4b707ef2baa93c9550125985d6c7">_fileProvider</a>.<a class="code" href="interface_nop_1_1_core_1_1_infrastructure_1_1_i_nop_file_provider.html#a6469e615754f5a836386ae06eae2a475">DirectoryExists</a>(directoryPath))</div>
+<div class="line"><a name="l00121"></a><span class="lineno">  121</span>&#160;            {</div>
+<div class="line"><a name="l00122"></a><span class="lineno">  122</span>&#160;                <span class="keywordflow">return</span>;</div>
+<div class="line"><a name="l00123"></a><span class="lineno">  123</span>&#160;            }</div>
+<div class="line"><a name="l00124"></a><span class="lineno">  124</span>&#160; </div>
+<div class="line"><a name="l00125"></a><span class="lineno">  125</span>&#160;            <span class="keywordflow">foreach</span> (var dllPath <span class="keywordflow">in</span> <a class="code" href="class_nop_1_1_core_1_1_infrastructure_1_1_app_domain_type_finder.html#aad3f4b707ef2baa93c9550125985d6c7">_fileProvider</a>.<a class="code" href="interface_nop_1_1_core_1_1_infrastructure_1_1_i_nop_file_provider.html#a393891bfc607005a50c593f5b7e13736">GetFiles</a>(directoryPath, <span class="stringliteral">&quot;*.dll&quot;</span>))</div>
+<div class="line"><a name="l00126"></a><span class="lineno">  126</span>&#160;            {</div>
+<div class="line"><a name="l00127"></a><span class="lineno">  127</span>&#160;                <span class="keywordflow">try</span></div>
+<div class="line"><a name="l00128"></a><span class="lineno">  128</span>&#160;                {</div>
+<div class="line"><a name="l00129"></a><span class="lineno">  129</span>&#160;                    var an = AssemblyName.GetAssemblyName(dllPath);</div>
+<div class="line"><a name="l00130"></a><span class="lineno">  130</span>&#160;                    <span class="keywordflow">if</span> (<a class="code" href="class_nop_1_1_core_1_1_infrastructure_1_1_app_domain_type_finder.html#a48bbaeef77dda2052928c2a48bbcceaa">Matches</a>(an.FullName) &amp;&amp; !loadedAssemblyNames.Contains(an.FullName))</div>
+<div class="line"><a name="l00131"></a><span class="lineno">  131</span>&#160;                    {</div>
+<div class="line"><a name="l00132"></a><span class="lineno">  132</span>&#160;                        <a class="code" href="class_nop_1_1_core_1_1_infrastructure_1_1_app_domain_type_finder.html#aef2b32d0d299a32028d5515e8372b422">App</a>.Load(an);</div>
+<div class="line"><a name="l00133"></a><span class="lineno">  133</span>&#160;                    }</div>
+<div class="line"><a name="l00134"></a><span class="lineno">  134</span>&#160; </div>
+<div class="line"><a name="l00135"></a><span class="lineno">  135</span>&#160;                    <span class="comment">//old loading stuff</span></div>
+<div class="line"><a name="l00136"></a><span class="lineno">  136</span>&#160;                    <span class="comment">//Assembly a = Assembly.ReflectionOnlyLoadFrom(dllPath);</span></div>
+<div class="line"><a name="l00137"></a><span class="lineno">  137</span>&#160;                    <span class="comment">//if (Matches(a.FullName) &amp;&amp; !loadedAssemblyNames.Contains(a.FullName))</span></div>
+<div class="line"><a name="l00138"></a><span class="lineno">  138</span>&#160;                    <span class="comment">//{</span></div>
+<div class="line"><a name="l00139"></a><span class="lineno">  139</span>&#160;                    <span class="comment">//    App.Load(a.FullName);</span></div>
+<div class="line"><a name="l00140"></a><span class="lineno">  140</span>&#160;                    <span class="comment">//}</span></div>
+<div class="line"><a name="l00141"></a><span class="lineno">  141</span>&#160;                }</div>
+<div class="line"><a name="l00142"></a><span class="lineno">  142</span>&#160;                <span class="keywordflow">catch</span> (BadImageFormatException ex)</div>
+<div class="line"><a name="l00143"></a><span class="lineno">  143</span>&#160;                {</div>
+<div class="line"><a name="l00144"></a><span class="lineno">  144</span>&#160;                    Trace.TraceError(ex.ToString());</div>
+<div class="line"><a name="l00145"></a><span class="lineno">  145</span>&#160;                }</div>
+<div class="line"><a name="l00146"></a><span class="lineno">  146</span>&#160;            }</div>
+<div class="line"><a name="l00147"></a><span class="lineno">  147</span>&#160;        }</div>
+<div class="ttc" id="aclass_nop_1_1_core_1_1_infrastructure_1_1_app_domain_type_finder_html_aef2b32d0d299a32028d5515e8372b422"><div class="ttname"><a href="class_nop_1_1_core_1_1_infrastructure_1_1_app_domain_type_finder.html#aef2b32d0d299a32028d5515e8372b422">Nop.Core.Infrastructure.AppDomainTypeFinder.App</a></div><div class="ttdeci">virtual AppDomain App</div><div class="ttdoc">The app domain to look for types in.</div><div class="ttdef"><b>Definition:</b> AppDomainTypeFinder.cs:293</div></div>
+<div class="ttc" id="ainterface_nop_1_1_core_1_1_infrastructure_1_1_i_nop_file_provider_html_a393891bfc607005a50c593f5b7e13736"><div class="ttname"><a href="interface_nop_1_1_core_1_1_infrastructure_1_1_i_nop_file_provider.html#a393891bfc607005a50c593f5b7e13736">Nop.Core.Infrastructure.INopFileProvider.GetFiles</a></div><div class="ttdeci">string[] GetFiles(string directoryPath, string searchPattern=&quot;&quot;, bool topDirectoryOnly=true)</div><div class="ttdoc">Returns the names of files (including their paths) that match the specified search pattern in the spe...</div></div>
+<div class="ttc" id="ainterface_nop_1_1_core_1_1_infrastructure_1_1_i_nop_file_provider_html_a6469e615754f5a836386ae06eae2a475"><div class="ttname"><a href="interface_nop_1_1_core_1_1_infrastructure_1_1_i_nop_file_provider.html#a6469e615754f5a836386ae06eae2a475">Nop.Core.Infrastructure.INopFileProvider.DirectoryExists</a></div><div class="ttdeci">bool DirectoryExists(string path)</div><div class="ttdoc">Determines whether the given path refers to an existing directory on disk</div></div>
+</div><!-- fragment -->
+<p class="reference">Referências <a class="el" href="class_nop_1_1_core_1_1_infrastructure_1_1_app_domain_type_finder.html#aad3f4b707ef2baa93c9550125985d6c7">Nop.Core.Infrastructure.AppDomainTypeFinder._fileProvider</a>, <a class="el" href="class_nop_1_1_core_1_1_infrastructure_1_1_app_domain_type_finder.html#aef2b32d0d299a32028d5515e8372b422">Nop.Core.Infrastructure.AppDomainTypeFinder.App</a>, <a class="el" href="interface_nop_1_1_core_1_1_infrastructure_1_1_i_nop_file_provider.html#a6469e615754f5a836386ae06eae2a475">Nop.Core.Infrastructure.INopFileProvider.DirectoryExists()</a>, <a class="el" href="class_nop_1_1_core_1_1_infrastructure_1_1_app_domain_type_finder.html#aea1780c8e0216ff72c9eb7b44257efe8">Nop.Core.Infrastructure.AppDomainTypeFinder.GetAssemblies()</a>, <a class="el" href="interface_nop_1_1_core_1_1_infrastructure_1_1_i_nop_file_provider.html#a393891bfc607005a50c593f5b7e13736">Nop.Core.Infrastructure.INopFileProvider.GetFiles()</a> e <a class="el" href="class_nop_1_1_core_1_1_infrastructure_1_1_app_domain_type_finder.html#a48bbaeef77dda2052928c2a48bbcceaa">Nop.Core.Infrastructure.AppDomainTypeFinder.Matches()</a>.</p>
+
+<p class="reference">Referenciado por <a class="el" href="class_nop_1_1_core_1_1_infrastructure_1_1_web_app_type_finder.html#aea81855256f5e25a1adbaa7092b2f5df">Nop.Core.Infrastructure.WebAppTypeFinder.GetAssemblies()</a>.</p>
+
+</div>
+</div>
+<a id="a48bbaeef77dda2052928c2a48bbcceaa"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a48bbaeef77dda2052928c2a48bbcceaa">&#9670;&nbsp;</a></span>Matches() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual bool Nop.Core.Infrastructure.AppDomainTypeFinder.Matches </td>
+          <td>(</td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>assemblyFullName</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Check if a dll is one of the shipped dlls that we know don't need to be investigated. </p>
+<dl class="params"><dt>Parâmetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">assemblyFullName</td><td>The name of the assembly to check. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Retorna</dt><dd>True if the assembly should be loaded into <a class="el" href="namespace_nop.html">Nop</a>. </dd></dl>
+<div class="fragment"><div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;        {</div>
+<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;            <span class="keywordflow">return</span> !<a class="code" href="class_nop_1_1_core_1_1_infrastructure_1_1_app_domain_type_finder.html#a48bbaeef77dda2052928c2a48bbcceaa">Matches</a>(assemblyFullName, <a class="code" href="class_nop_1_1_core_1_1_infrastructure_1_1_app_domain_type_finder.html#abcd88b0626cf23a8ac009de65c8e98a3">AssemblySkipLoadingPattern</a>)</div>
+<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;                   &amp;&amp; <a class="code" href="class_nop_1_1_core_1_1_infrastructure_1_1_app_domain_type_finder.html#a48bbaeef77dda2052928c2a48bbcceaa">Matches</a>(assemblyFullName, <a class="code" href="class_nop_1_1_core_1_1_infrastructure_1_1_app_domain_type_finder.html#ada31f4b7548ac7e72024c1f01f6a6e23">AssemblyRestrictToLoadingPattern</a>);</div>
+<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;        }</div>
+<div class="ttc" id="aclass_nop_1_1_core_1_1_infrastructure_1_1_app_domain_type_finder_html_abcd88b0626cf23a8ac009de65c8e98a3"><div class="ttname"><a href="class_nop_1_1_core_1_1_infrastructure_1_1_app_domain_type_finder.html#abcd88b0626cf23a8ac009de65c8e98a3">Nop.Core.Infrastructure.AppDomainTypeFinder.AssemblySkipLoadingPattern</a></div><div class="ttdeci">string AssemblySkipLoadingPattern</div><div class="ttdoc">Gets the pattern for dlls that we know don't need to be investigated.</div><div class="ttdef"><b>Definition:</b> AppDomainTypeFinder.cs:302</div></div>
+<div class="ttc" id="aclass_nop_1_1_core_1_1_infrastructure_1_1_app_domain_type_finder_html_ada31f4b7548ac7e72024c1f01f6a6e23"><div class="ttname"><a href="class_nop_1_1_core_1_1_infrastructure_1_1_app_domain_type_finder.html#ada31f4b7548ac7e72024c1f01f6a6e23">Nop.Core.Infrastructure.AppDomainTypeFinder.AssemblyRestrictToLoadingPattern</a></div><div class="ttdeci">string AssemblyRestrictToLoadingPattern</div><div class="ttdoc">Gets or sets the pattern for dll that will be investigated. For ease of use this defaults to match al...</div><div class="ttdef"><b>Definition:</b> AppDomainTypeFinder.cs:306</div></div>
+</div><!-- fragment -->
+<p class="reference">Referências <a class="el" href="class_nop_1_1_core_1_1_infrastructure_1_1_app_domain_type_finder.html#ada31f4b7548ac7e72024c1f01f6a6e23">Nop.Core.Infrastructure.AppDomainTypeFinder.AssemblyRestrictToLoadingPattern</a> e <a class="el" href="class_nop_1_1_core_1_1_infrastructure_1_1_app_domain_type_finder.html#abcd88b0626cf23a8ac009de65c8e98a3">Nop.Core.Infrastructure.AppDomainTypeFinder.AssemblySkipLoadingPattern</a>.</p>
+
+<p class="reference">Referenciado por <a class="el" href="class_nop_1_1_core_1_1_infrastructure_1_1_app_domain_type_finder.html#a1042c5bb654ea6ce8dbeaa78bb889763">Nop.Core.Infrastructure.AppDomainTypeFinder.AddAssembliesInAppDomain()</a> e <a class="el" href="class_nop_1_1_core_1_1_infrastructure_1_1_app_domain_type_finder.html#ac017e719728498d2b57d05fc68a93080">Nop.Core.Infrastructure.AppDomainTypeFinder.LoadMatchingAssemblies()</a>.</p>
+
+</div>
+</div>
+<a id="a12a6af57cc8c00ff77e0fdc82e1a8792"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a12a6af57cc8c00ff77e0fdc82e1a8792">&#9670;&nbsp;</a></span>Matches() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual bool Nop.Core.Infrastructure.AppDomainTypeFinder.Matches </td>
+          <td>(</td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>assemblyFullName</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>pattern</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Check if a dll is one of the shipped dlls that we know don't need to be investigated. </p>
+<dl class="params"><dt>Parâmetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">assemblyFullName</td><td>The assembly name to match. </td></tr>
+    <tr><td class="paramname">pattern</td><td>The regular expression pattern to match against the assembly name. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Retorna</dt><dd>True if the pattern matches the assembly name. </dd></dl>
+<div class="fragment"><div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;        {</div>
+<div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;            <span class="keywordflow">return</span> Regex.IsMatch(assemblyFullName, pattern, RegexOptions.IgnoreCase | RegexOptions.Compiled);</div>
+<div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;        }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<h2 class="groupheader">Documentação dos dados membro</h2>
+<a id="aad3f4b707ef2baa93c9550125985d6c7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aad3f4b707ef2baa93c9550125985d6c7">&#9670;&nbsp;</a></span>_fileProvider</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="interface_nop_1_1_core_1_1_infrastructure_1_1_i_nop_file_provider.html">INopFileProvider</a> Nop.Core.Infrastructure.AppDomainTypeFinder._fileProvider</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">Referenciado por <a class="el" href="class_nop_1_1_core_1_1_infrastructure_1_1_app_domain_type_finder.html#ace4fb219f45b41f3c8b831469e9d9234">Nop.Core.Infrastructure.AppDomainTypeFinder.AppDomainTypeFinder()</a> e <a class="el" href="class_nop_1_1_core_1_1_infrastructure_1_1_app_domain_type_finder.html#ac017e719728498d2b57d05fc68a93080">Nop.Core.Infrastructure.AppDomainTypeFinder.LoadMatchingAssemblies()</a>.</p>
+
+</div>
+</div>
+<a id="abff1cf7e2a87aae8019f9d36c9d4c6da"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abff1cf7e2a87aae8019f9d36c9d4c6da">&#9670;&nbsp;</a></span>_ignoreReflectionErrors</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Nop.Core.Infrastructure.AppDomainTypeFinder._ignoreReflectionErrors = true</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">Referenciado por <a class="el" href="class_nop_1_1_core_1_1_infrastructure_1_1_app_domain_type_finder.html#a23ec8c21c0af955990e9982abef82fca">Nop.Core.Infrastructure.AppDomainTypeFinder.FindClassesOfType()</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">Documentação das propriedades</h2>
+<a id="aef2b32d0d299a32028d5515e8372b422"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aef2b32d0d299a32028d5515e8372b422">&#9670;&nbsp;</a></span>App</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual AppDomain Nop.Core.Infrastructure.AppDomainTypeFinder.App</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>The app domain to look for types in. </p>
+
+<p class="reference">Referenciado por <a class="el" href="class_nop_1_1_core_1_1_infrastructure_1_1_app_domain_type_finder.html#ac017e719728498d2b57d05fc68a93080">Nop.Core.Infrastructure.AppDomainTypeFinder.LoadMatchingAssemblies()</a>.</p>
+
+</div>
+</div>
+<a id="a148e311eab5d529375d8889d1c49f6ee"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a148e311eab5d529375d8889d1c49f6ee">&#9670;&nbsp;</a></span>AssemblyNames</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">IList&lt;string&gt; Nop.Core.Infrastructure.AppDomainTypeFinder.AssemblyNames = new List&lt;string&gt;()</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span><span class="mlabel">set</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Gets or sets assemblies loaded a startup in addition to those loaded in the AppDomain. </p>
+<div class="fragment"><div class="line"><a name="l00299"></a><span class="lineno">  299</span>&#160;{ <span class="keyword">get</span>; <span class="keyword">set</span>; } = <span class="keyword">new</span> List&lt;string&gt;();</div>
+</div><!-- fragment -->
+<p class="reference">Referenciado por <a class="el" href="class_nop_1_1_core_1_1_infrastructure_1_1_app_domain_type_finder.html#a91aeb3cbf864849afe2f5399b21007c9">Nop.Core.Infrastructure.AppDomainTypeFinder.AddConfiguredAssemblies()</a>.</p>
+
+</div>
+</div>
+<a id="ada31f4b7548ac7e72024c1f01f6a6e23"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ada31f4b7548ac7e72024c1f01f6a6e23">&#9670;&nbsp;</a></span>AssemblyRestrictToLoadingPattern</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">string Nop.Core.Infrastructure.AppDomainTypeFinder.AssemblyRestrictToLoadingPattern = &quot;.*&quot;</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span><span class="mlabel">set</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Gets or sets the pattern for dll that will be investigated. For ease of use this defaults to match all but to increase performance you might want to configure a pattern that includes assemblies and your own. </p>
+<p>If you change this so that <a class="el" href="namespace_nop.html">Nop</a> assemblies aren't investigated (e.g. by not including something like "^Nop|..." you may break core functionality.</p>
+<div class="fragment"><div class="line"><a name="l00306"></a><span class="lineno">  306</span>&#160;{ <span class="keyword">get</span>; <span class="keyword">set</span>; } = <span class="stringliteral">&quot;.*&quot;</span>;</div>
+</div><!-- fragment -->
+<p class="reference">Referenciado por <a class="el" href="class_nop_1_1_core_1_1_infrastructure_1_1_app_domain_type_finder.html#a48bbaeef77dda2052928c2a48bbcceaa">Nop.Core.Infrastructure.AppDomainTypeFinder.Matches()</a>.</p>
+
+</div>
+</div>
+<a id="abcd88b0626cf23a8ac009de65c8e98a3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abcd88b0626cf23a8ac009de65c8e98a3">&#9670;&nbsp;</a></span>AssemblySkipLoadingPattern</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">string Nop.Core.Infrastructure.AppDomainTypeFinder.AssemblySkipLoadingPattern = &quot;^System|^mscorlib|^Microsoft|^AjaxControlToolkit|^Antlr3|^Autofac|^AutoMapper|^Castle|^ComponentArt|^CppCodeProvider|^DotNetOpenAuth|^EntityFramework|^EPPlus|^FluentValidation|^ImageResizer|^itextsharp|^log4net|^MaxMind|^MbUnit|^MiniProfiler|^Mono.Math|^MvcContrib|^Newtonsoft|^NHibernate|^nunit|^Org.Mentalis|^PerlRegex|^QuickGraph|^Recaptcha|^Remotion|^RestSharp|^Rhino|^Telerik|^Iesi|^TestDriven|^TestFu|^UserAgentStringLibrary|^VJSharpCodeProvider|^WebActivator|^WebDev|^WebGrease&quot;</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span><span class="mlabel">set</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Gets the pattern for dlls that we know don't need to be investigated. </p>
+<div class="fragment"><div class="line"><a name="l00302"></a><span class="lineno">  302</span>&#160;{ <span class="keyword">get</span>; <span class="keyword">set</span>; } = <span class="stringliteral">&quot;^System|^mscorlib|^Microsoft|^AjaxControlToolkit|^Antlr3|^Autofac|^AutoMapper|^Castle|^ComponentArt|^CppCodeProvider|^DotNetOpenAuth|^EntityFramework|^EPPlus|^FluentValidation|^ImageResizer|^itextsharp|^log4net|^MaxMind|^MbUnit|^MiniProfiler|^Mono.Math|^MvcContrib|^Newtonsoft|^NHibernate|^nunit|^Org.Mentalis|^PerlRegex|^QuickGraph|^Recaptcha|^Remotion|^RestSharp|^Rhino|^Telerik|^Iesi|^TestDriven|^TestFu|^UserAgentStringLibrary|^VJSharpCodeProvider|^WebActivator|^WebDev|^WebGrease&quot;</span>;</div>
+</div><!-- fragment -->
+<p class="reference">Referenciado por <a class="el" href="class_nop_1_1_core_1_1_infrastructure_1_1_app_domain_type_finder.html#a48bbaeef77dda2052928c2a48bbcceaa">Nop.Core.Infrastructure.AppDomainTypeFinder.Matches()</a>.</p>
+
+</div>
+</div>
+<a id="aee630a9c5129bb1f1cd388ca12441595"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aee630a9c5129bb1f1cd388ca12441595">&#9670;&nbsp;</a></span>LoadAppDomainAssemblies</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Nop.Core.Infrastructure.AppDomainTypeFinder.LoadAppDomainAssemblies = true</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span><span class="mlabel">set</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Gets or sets whether <a class="el" href="namespace_nop.html">Nop</a> should iterate assemblies in the app domain when loading <a class="el" href="namespace_nop.html">Nop</a> types. Loading patterns are applied when loading these assemblies. </p>
+<div class="fragment"><div class="line"><a name="l00296"></a><span class="lineno">  296</span>&#160;{ <span class="keyword">get</span>; <span class="keyword">set</span>; } = <span class="keyword">true</span>;</div>
+</div><!-- fragment -->
+<p class="reference">Referenciado por <a class="el" href="class_nop_1_1_core_1_1_infrastructure_1_1_app_domain_type_finder.html#aea1780c8e0216ff72c9eb7b44257efe8">Nop.Core.Infrastructure.AppDomainTypeFinder.GetAssemblies()</a>.</p>
+
+</div>
+</div>
+<hr/>A documentação para esta classe foi gerada a partir do seguinte ficheiro:<ul>
+<li>C:/Users/gabri/Documents/Projetos/GitHub/Estudos/Nopcommercer plugin/nopCommerce_4.40.3_Source - Copia/src/Libraries/Nop.Core/Infrastructure/<a class="el" href="_app_domain_type_finder_8cs.html">AppDomainTypeFinder.cs</a></li>
+</ul>
+</div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Gerado por&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1
+</small></address>
+</body>
+</html>

@@ -1,0 +1,215 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.9.1"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>NopCommerce 4.40: Referência ao interface Nop.Core.Infrastructure.ITypeFinder</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectlogo"><img alt="Logo" src="download.png"/></td>
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">NopCommerce 4.40
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Gerado por Doxygen 1.9.1 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+var searchBox = new SearchBox("searchBox", "search",false,'Localizar','.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(function() {
+  initMenu('',true,false,'search.php','Localizar');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */</script>
+<div id="main-nav"></div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="namespace_nop.html">Nop</a></li><li class="navelem"><a class="el" href="namespace_nop_1_1_core.html">Core</a></li><li class="navelem"><a class="el" href="namespace_nop_1_1_core_1_1_infrastructure.html">Infrastructure</a></li><li class="navelem"><a class="el" href="interface_nop_1_1_core_1_1_infrastructure_1_1_i_type_finder.html">ITypeFinder</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">Membros públicos</a> &#124;
+<a href="interface_nop_1_1_core_1_1_infrastructure_1_1_i_type_finder-members.html">Mostrar lista completa dos membros</a>  </div>
+  <div class="headertitle">
+<div class="title">Referência ao interface Nop.Core.Infrastructure.ITypeFinder</div>  </div>
+</div><!--header-->
+<div class="contents">
+
+<p>Classes implementing this interface provide information about types to various services in the <a class="el" href="namespace_nop.html">Nop</a> engine.  
+ <a href="interface_nop_1_1_core_1_1_infrastructure_1_1_i_type_finder.html#details">Mais...</a></p>
+<div class="dynheader">
+Diagrama de heranças da classe Nop.Core.Infrastructure.ITypeFinder</div>
+<div class="dyncontent">
+ <div class="center">
+  <img src="interface_nop_1_1_core_1_1_infrastructure_1_1_i_type_finder.png" usemap="#Nop.Core.Infrastructure.ITypeFinder_map" alt=""/>
+  <map id="Nop.Core.Infrastructure.ITypeFinder_map" name="Nop.Core.Infrastructure.ITypeFinder_map">
+<area href="class_nop_1_1_core_1_1_infrastructure_1_1_app_domain_type_finder.html" title="A class that finds types needed by Nop by looping assemblies in the currently executing AppDomain...." alt="Nop.Core.Infrastructure.AppDomainTypeFinder" shape="rect" coords="0,56,281,80"/>
+<area href="class_nop_1_1_core_1_1_infrastructure_1_1_web_app_type_finder.html" title="Provides information about types in the current web application. Optionally this class can look at al..." alt="Nop.Core.Infrastructure.WebAppTypeFinder" shape="rect" coords="0,112,281,136"/>
+  </map>
+</div></div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Membros públicos</h2></td></tr>
+<tr class="memitem:a9924683c7c8149d45e2d71671e2cbf03"><td class="memItemLeft" align="right" valign="top">IEnumerable&lt; Type &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_nop_1_1_core_1_1_infrastructure_1_1_i_type_finder.html#a9924683c7c8149d45e2d71671e2cbf03">FindClassesOfType&lt; T &gt;</a> (bool onlyConcreteClasses=true)</td></tr>
+<tr class="memdesc:a9924683c7c8149d45e2d71671e2cbf03"><td class="mdescLeft">&#160;</td><td class="mdescRight">Find classes of type  <a href="interface_nop_1_1_core_1_1_infrastructure_1_1_i_type_finder.html#a9924683c7c8149d45e2d71671e2cbf03">Mais...</a><br /></td></tr>
+<tr class="separator:a9924683c7c8149d45e2d71671e2cbf03"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a630f2efaf83fec91e1ea68dafee6473e"><td class="memItemLeft" align="right" valign="top">IEnumerable&lt; Type &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_nop_1_1_core_1_1_infrastructure_1_1_i_type_finder.html#a630f2efaf83fec91e1ea68dafee6473e">FindClassesOfType</a> (Type assignTypeFrom, bool onlyConcreteClasses=true)</td></tr>
+<tr class="memdesc:a630f2efaf83fec91e1ea68dafee6473e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Find classes of type  <a href="interface_nop_1_1_core_1_1_infrastructure_1_1_i_type_finder.html#a630f2efaf83fec91e1ea68dafee6473e">Mais...</a><br /></td></tr>
+<tr class="separator:a630f2efaf83fec91e1ea68dafee6473e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a61eaa814f6de977a56fa4eb841b91da3"><td class="memItemLeft" align="right" valign="top">IList&lt; Assembly &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_nop_1_1_core_1_1_infrastructure_1_1_i_type_finder.html#a61eaa814f6de977a56fa4eb841b91da3">GetAssemblies</a> ()</td></tr>
+<tr class="memdesc:a61eaa814f6de977a56fa4eb841b91da3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the assemblies related to the current implementation.  <a href="interface_nop_1_1_core_1_1_infrastructure_1_1_i_type_finder.html#a61eaa814f6de977a56fa4eb841b91da3">Mais...</a><br /></td></tr>
+<tr class="separator:a61eaa814f6de977a56fa4eb841b91da3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Descrição detalhada</h2>
+<div class="textblock"><p>Classes implementing this interface provide information about types to various services in the <a class="el" href="namespace_nop.html">Nop</a> engine. </p>
+</div><h2 class="groupheader">Documentação dos métodos</h2>
+<a id="a630f2efaf83fec91e1ea68dafee6473e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a630f2efaf83fec91e1ea68dafee6473e">&#9670;&nbsp;</a></span>FindClassesOfType()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">IEnumerable&lt;Type&gt; Nop.Core.Infrastructure.ITypeFinder.FindClassesOfType </td>
+          <td>(</td>
+          <td class="paramtype">Type&#160;</td>
+          <td class="paramname"><em>assignTypeFrom</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>onlyConcreteClasses</em> = <code>true</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Find classes of type </p>
+<dl class="params"><dt>Parâmetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">assignTypeFrom</td><td>Assign type from</td></tr>
+    <tr><td class="paramname">onlyConcreteClasses</td><td>A value indicating whether to find only concrete classes</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Retorna</dt><dd><p class="startdd">Result</p>
+<p class="enddd"></p>
+</dd></dl>
+
+<p>Implementado em <a class="el" href="class_nop_1_1_core_1_1_infrastructure_1_1_app_domain_type_finder.html#ae821cb8404f399723da2a79d82ca118f">Nop.Core.Infrastructure.AppDomainTypeFinder</a>.</p>
+
+<p class="reference">Referenciado por <a class="el" href="class_nop_1_1_core_1_1_infrastructure_1_1_nop_engine.html#af3be649f4980b13115586af6cb1c0150">Nop.Core.Infrastructure.NopEngine.AddAutoMapper()</a>, <a class="el" href="class_nop_1_1_services_1_1_shipping_1_1_tracking_1_1_general_shipment_tracker.html#a19903af986f1eef6b26f98c6b2fa2d0d">Nop.Services.Shipping.Tracking.GeneralShipmentTracker.GetAllTrackers()</a>, <a class="el" href="class_nop_1_1_web_1_1_framework_1_1_infrastructure_1_1_dependency_registrar.html#a9645ec5282ed6914c0a5f24434480bec">Nop.Web.Framework.Infrastructure.DependencyRegistrar.Register()</a>, <a class="el" href="class_nop_1_1_core_1_1_infrastructure_1_1_nop_engine.html#a490a1529e1b5fe0cc3e715df5eaf78be">Nop.Core.Infrastructure.NopEngine.RegisterDependencies()</a>, <a class="el" href="class_nop_1_1_web_1_1_framework_1_1_mvc_1_1_routing_1_1_route_publisher.html#aa46f7f89f28e02e52acca949a737a06f">Nop.Web.Framework.Mvc.Routing.RoutePublisher.RegisterRoutes()</a>, <a class="el" href="class_nop_1_1_data_1_1_migrations_1_1_migration_manager.html#aa20eff9b9e9ca08c6ef238914f3f24df">Nop.Data.Migrations.MigrationManager.RetrieveTableExpressions()</a> e <a class="el" href="class_nop_1_1_core_1_1_infrastructure_1_1_nop_engine.html#a5c70ac54380a43604f4ccb82bfe217d0">Nop.Core.Infrastructure.NopEngine.RunStartupTasks()</a>.</p>
+
+</div>
+</div>
+<a id="a9924683c7c8149d45e2d71671e2cbf03"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9924683c7c8149d45e2d71671e2cbf03">&#9670;&nbsp;</a></span>FindClassesOfType&lt; T &gt;()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">IEnumerable&lt;Type&gt; <a class="el" href="interface_nop_1_1_core_1_1_infrastructure_1_1_i_type_finder.html#a630f2efaf83fec91e1ea68dafee6473e">Nop.Core.Infrastructure.ITypeFinder.FindClassesOfType</a>&lt; T &gt; </td>
+          <td>(</td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>onlyConcreteClasses</em> = <code>true</code></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Find classes of type </p>
+<dl class="tparams"><dt>Parâmetros de template</dt><dd>
+  <table class="tparams">
+    <tr><td class="paramname">T</td><td>Type</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="params"><dt>Parâmetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">onlyConcreteClasses</td><td>A value indicating whether to find only concrete classes</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Retorna</dt><dd>Result</dd></dl>
+
+<p>Implementado em <a class="el" href="class_nop_1_1_core_1_1_infrastructure_1_1_app_domain_type_finder.html#a5792f28a298827cf6594e3c37e6c8210">Nop.Core.Infrastructure.AppDomainTypeFinder</a>.</p>
+
+</div>
+</div>
+<a id="a61eaa814f6de977a56fa4eb841b91da3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a61eaa814f6de977a56fa4eb841b91da3">&#9670;&nbsp;</a></span>GetAssemblies()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">IList&lt;Assembly&gt; Nop.Core.Infrastructure.ITypeFinder.GetAssemblies </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Gets the assemblies related to the current implementation. </p>
+<dl class="section return"><dt>Retorna</dt><dd>A list of assemblies</dd></dl>
+
+<p>Implementado em <a class="el" href="class_nop_1_1_core_1_1_infrastructure_1_1_web_app_type_finder.html#aea81855256f5e25a1adbaa7092b2f5df">Nop.Core.Infrastructure.WebAppTypeFinder</a> e <a class="el" href="class_nop_1_1_core_1_1_infrastructure_1_1_app_domain_type_finder.html#aea1780c8e0216ff72c9eb7b44257efe8">Nop.Core.Infrastructure.AppDomainTypeFinder</a>.</p>
+
+</div>
+</div>
+<hr/>A documentação para este interface foi gerada a partir do seguinte ficheiro:<ul>
+<li>C:/Users/gabri/Documents/Projetos/GitHub/Estudos/Nopcommercer plugin/nopCommerce_4.40.3_Source - Copia/src/Libraries/Nop.Core/Infrastructure/<a class="el" href="_i_type_finder_8cs.html">ITypeFinder.cs</a></li>
+</ul>
+</div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Gerado por&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1
+</small></address>
+</body>
+</html>

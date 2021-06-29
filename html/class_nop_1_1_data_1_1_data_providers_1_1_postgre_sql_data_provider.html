@@ -1,0 +1,1330 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.9.1"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>NopCommerce 4.40: Referência à classe Nop.Data.DataProviders.PostgreSqlDataProvider</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectlogo"><img alt="Logo" src="download.png"/></td>
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">NopCommerce 4.40
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Gerado por Doxygen 1.9.1 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+var searchBox = new SearchBox("searchBox", "search",false,'Localizar','.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(function() {
+  initMenu('',true,false,'search.php','Localizar');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */</script>
+<div id="main-nav"></div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="namespace_nop.html">Nop</a></li><li class="navelem"><a class="el" href="namespace_nop_1_1_data.html">Data</a></li><li class="navelem"><a class="el" href="namespace_nop_1_1_data_1_1_data_providers.html">DataProviders</a></li><li class="navelem"><a class="el" href="class_nop_1_1_data_1_1_data_providers_1_1_postgre_sql_data_provider.html">PostgreSqlDataProvider</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">Membros públicos</a> &#124;
+<a href="#pro-methods">Membros protegidos</a> &#124;
+<a href="#properties">Propriedades</a> &#124;
+<a href="#pri-methods">Membros privados</a> &#124;
+<a href="#pri-static-attribs">Atributos Privados Estáticos</a> &#124;
+<a href="class_nop_1_1_data_1_1_data_providers_1_1_postgre_sql_data_provider-members.html">Mostrar lista completa dos membros</a>  </div>
+  <div class="headertitle">
+<div class="title">Referência à classe Nop.Data.DataProviders.PostgreSqlDataProvider</div>  </div>
+</div><!--header-->
+<div class="contents">
+<div class="dynheader">
+Diagrama de heranças da classe Nop.Data.DataProviders.PostgreSqlDataProvider</div>
+<div class="dyncontent">
+ <div class="center">
+  <img src="class_nop_1_1_data_1_1_data_providers_1_1_postgre_sql_data_provider.png" usemap="#Nop.Data.DataProviders.PostgreSqlDataProvider_map" alt=""/>
+  <map id="Nop.Data.DataProviders.PostgreSqlDataProvider_map" name="Nop.Data.DataProviders.PostgreSqlDataProvider_map">
+<area href="class_nop_1_1_data_1_1_data_providers_1_1_base_data_provider.html" alt="Nop.Data.DataProviders.BaseDataProvider" shape="rect" coords="0,0,289,24"/>
+<area href="interface_nop_1_1_data_1_1_i_nop_data_provider.html" title="Represents a data provider" alt="Nop.Data.INopDataProvider" shape="rect" coords="299,0,588,24"/>
+  </map>
+</div></div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Membros públicos</h2></td></tr>
+<tr class="memitem:a8c6eaa237196ccee4b856d92d3d7f8ed"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_nop_1_1_data_1_1_data_providers_1_1_postgre_sql_data_provider.html#a8c6eaa237196ccee4b856d92d3d7f8ed">CreateDatabase</a> (string collation, int triesToConnect=10)</td></tr>
+<tr class="memdesc:a8c6eaa237196ccee4b856d92d3d7f8ed"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates the database by using the loaded connection string  <a href="class_nop_1_1_data_1_1_data_providers_1_1_postgre_sql_data_provider.html#a8c6eaa237196ccee4b856d92d3d7f8ed">Mais...</a><br /></td></tr>
+<tr class="separator:a8c6eaa237196ccee4b856d92d3d7f8ed"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a75ab21ae618f57167bfb6bc50ea4c569"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_nop_1_1_data_1_1_data_providers_1_1_postgre_sql_data_provider.html#a75ab21ae618f57167bfb6bc50ea4c569">DatabaseExists</a> ()</td></tr>
+<tr class="memdesc:a75ab21ae618f57167bfb6bc50ea4c569"><td class="mdescLeft">&#160;</td><td class="mdescRight">Checks if the specified database exists, returns true if database exists  <a href="class_nop_1_1_data_1_1_data_providers_1_1_postgre_sql_data_provider.html#a75ab21ae618f57167bfb6bc50ea4c569">Mais...</a><br /></td></tr>
+<tr class="separator:a75ab21ae618f57167bfb6bc50ea4c569"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a81ab122998478827b39e747fa7ce1e81"><td class="memItemLeft" align="right" valign="top">async <a class="el" href="_sendinblue_plugin_8cs.html#a9f49374e6bc76a6b5261e5c211d2e63d">Task</a>&lt; bool &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_nop_1_1_data_1_1_data_providers_1_1_postgre_sql_data_provider.html#a81ab122998478827b39e747fa7ce1e81">DatabaseExistsAsync</a> ()</td></tr>
+<tr class="memdesc:a81ab122998478827b39e747fa7ce1e81"><td class="mdescLeft">&#160;</td><td class="mdescRight">Checks if the specified database exists, returns true if database exists  <a href="class_nop_1_1_data_1_1_data_providers_1_1_postgre_sql_data_provider.html#a81ab122998478827b39e747fa7ce1e81">Mais...</a><br /></td></tr>
+<tr class="separator:a81ab122998478827b39e747fa7ce1e81"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab779c2f7b9237bb832d6f5dccf84d089"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_nop_1_1_data_1_1_data_providers_1_1_postgre_sql_data_provider.html#ab779c2f7b9237bb832d6f5dccf84d089">InitializeDatabase</a> ()</td></tr>
+<tr class="memdesc:ab779c2f7b9237bb832d6f5dccf84d089"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialize database  <a href="class_nop_1_1_data_1_1_data_providers_1_1_postgre_sql_data_provider.html#ab779c2f7b9237bb832d6f5dccf84d089">Mais...</a><br /></td></tr>
+<tr class="separator:ab779c2f7b9237bb832d6f5dccf84d089"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a128842b3e8dcacf5f6b582756714cc0c"><td class="memItemLeft" align="right" valign="top">virtual async <a class="el" href="_sendinblue_plugin_8cs.html#a9f49374e6bc76a6b5261e5c211d2e63d">Task</a>&lt; int?&gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_nop_1_1_data_1_1_data_providers_1_1_postgre_sql_data_provider.html#a128842b3e8dcacf5f6b582756714cc0c">GetTableIdentAsync&lt; TEntity &gt;</a> ()</td></tr>
+<tr class="memdesc:a128842b3e8dcacf5f6b582756714cc0c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the current identity value  <a href="class_nop_1_1_data_1_1_data_providers_1_1_postgre_sql_data_provider.html#a128842b3e8dcacf5f6b582756714cc0c">Mais...</a><br /></td></tr>
+<tr class="separator:a128842b3e8dcacf5f6b582756714cc0c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0e2de947ce1bd908bc69101d349655f1"><td class="memItemLeft" align="right" valign="top">virtual async <a class="el" href="_sendinblue_plugin_8cs.html#a9f49374e6bc76a6b5261e5c211d2e63d">Task</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_nop_1_1_data_1_1_data_providers_1_1_postgre_sql_data_provider.html#a0e2de947ce1bd908bc69101d349655f1">SetTableIdentAsync&lt; TEntity &gt;</a> (int ident)</td></tr>
+<tr class="memdesc:a0e2de947ce1bd908bc69101d349655f1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set table identity (is supported)  <a href="class_nop_1_1_data_1_1_data_providers_1_1_postgre_sql_data_provider.html#a0e2de947ce1bd908bc69101d349655f1">Mais...</a><br /></td></tr>
+<tr class="separator:a0e2de947ce1bd908bc69101d349655f1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4f4dc7bbc6147a1765d28595a33665a6"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="_sendinblue_plugin_8cs.html#a9f49374e6bc76a6b5261e5c211d2e63d">Task</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_nop_1_1_data_1_1_data_providers_1_1_postgre_sql_data_provider.html#a4f4dc7bbc6147a1765d28595a33665a6">BackupDatabaseAsync</a> (string fileName)</td></tr>
+<tr class="memdesc:a4f4dc7bbc6147a1765d28595a33665a6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a backup of the database  <a href="class_nop_1_1_data_1_1_data_providers_1_1_postgre_sql_data_provider.html#a4f4dc7bbc6147a1765d28595a33665a6">Mais...</a><br /></td></tr>
+<tr class="separator:a4f4dc7bbc6147a1765d28595a33665a6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af31c484b8f7c4caf802b7b1010f775fa"><td class="memItemLeft" align="right" valign="top">override TEntity&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_nop_1_1_data_1_1_data_providers_1_1_postgre_sql_data_provider.html#af31c484b8f7c4caf802b7b1010f775fa">InsertEntity&lt; TEntity &gt;</a> (TEntity entity)</td></tr>
+<tr class="memdesc:af31c484b8f7c4caf802b7b1010f775fa"><td class="mdescLeft">&#160;</td><td class="mdescRight">Inserts record into table. Returns inserted entity with identity  <a href="class_nop_1_1_data_1_1_data_providers_1_1_postgre_sql_data_provider.html#af31c484b8f7c4caf802b7b1010f775fa">Mais...</a><br /></td></tr>
+<tr class="separator:af31c484b8f7c4caf802b7b1010f775fa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a78398a09ebd1377d2345ac72a667983a"><td class="memItemLeft" align="right" valign="top">override async <a class="el" href="_sendinblue_plugin_8cs.html#a9f49374e6bc76a6b5261e5c211d2e63d">Task</a>&lt; TEntity &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_nop_1_1_data_1_1_data_providers_1_1_postgre_sql_data_provider.html#a78398a09ebd1377d2345ac72a667983a">InsertEntityAsync&lt; TEntity &gt;</a> (TEntity entity)</td></tr>
+<tr class="memdesc:a78398a09ebd1377d2345ac72a667983a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Inserts record into table. Returns inserted entity with identity  <a href="class_nop_1_1_data_1_1_data_providers_1_1_postgre_sql_data_provider.html#a78398a09ebd1377d2345ac72a667983a">Mais...</a><br /></td></tr>
+<tr class="separator:a78398a09ebd1377d2345ac72a667983a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab2ce5da22557d4cd27d546b4f2566037"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="_sendinblue_plugin_8cs.html#a9f49374e6bc76a6b5261e5c211d2e63d">Task</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_nop_1_1_data_1_1_data_providers_1_1_postgre_sql_data_provider.html#ab2ce5da22557d4cd27d546b4f2566037">RestoreDatabaseAsync</a> (string backupFileName)</td></tr>
+<tr class="memdesc:ab2ce5da22557d4cd27d546b4f2566037"><td class="mdescLeft">&#160;</td><td class="mdescRight">Restores the database from a backup  <a href="class_nop_1_1_data_1_1_data_providers_1_1_postgre_sql_data_provider.html#ab2ce5da22557d4cd27d546b4f2566037">Mais...</a><br /></td></tr>
+<tr class="separator:ab2ce5da22557d4cd27d546b4f2566037"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa9fe908bd4aba493b6faaca8d03b6215"><td class="memItemLeft" align="right" valign="top">virtual async <a class="el" href="_sendinblue_plugin_8cs.html#a9f49374e6bc76a6b5261e5c211d2e63d">Task</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_nop_1_1_data_1_1_data_providers_1_1_postgre_sql_data_provider.html#aa9fe908bd4aba493b6faaca8d03b6215">ReIndexTablesAsync</a> ()</td></tr>
+<tr class="memdesc:aa9fe908bd4aba493b6faaca8d03b6215"><td class="mdescLeft">&#160;</td><td class="mdescRight">Re-index database tables  <a href="class_nop_1_1_data_1_1_data_providers_1_1_postgre_sql_data_provider.html#aa9fe908bd4aba493b6faaca8d03b6215">Mais...</a><br /></td></tr>
+<tr class="separator:aa9fe908bd4aba493b6faaca8d03b6215"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aebdac1f7d0da14367d431e252865be1a"><td class="memItemLeft" align="right" valign="top">virtual string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_nop_1_1_data_1_1_data_providers_1_1_postgre_sql_data_provider.html#aebdac1f7d0da14367d431e252865be1a">BuildConnectionString</a> (<a class="el" href="interface_nop_1_1_data_1_1_i_nop_connection_string_info.html">INopConnectionStringInfo</a> nopConnectionString)</td></tr>
+<tr class="memdesc:aebdac1f7d0da14367d431e252865be1a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Build the connection string  <a href="class_nop_1_1_data_1_1_data_providers_1_1_postgre_sql_data_provider.html#aebdac1f7d0da14367d431e252865be1a">Mais...</a><br /></td></tr>
+<tr class="separator:aebdac1f7d0da14367d431e252865be1a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aac96fdd89c72708f1f1a3a2ef9dd77aa"><td class="memItemLeft" align="right" valign="top">virtual string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_nop_1_1_data_1_1_data_providers_1_1_postgre_sql_data_provider.html#aac96fdd89c72708f1f1a3a2ef9dd77aa">CreateForeignKeyName</a> (string foreignTable, string foreignColumn, string primaryTable, string primaryColumn)</td></tr>
+<tr class="memdesc:aac96fdd89c72708f1f1a3a2ef9dd77aa"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the name of a foreign key  <a href="class_nop_1_1_data_1_1_data_providers_1_1_postgre_sql_data_provider.html#aac96fdd89c72708f1f1a3a2ef9dd77aa">Mais...</a><br /></td></tr>
+<tr class="separator:aac96fdd89c72708f1f1a3a2ef9dd77aa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a01de2aec9300f1ddce2db475382dd408"><td class="memItemLeft" align="right" valign="top">virtual string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_nop_1_1_data_1_1_data_providers_1_1_postgre_sql_data_provider.html#a01de2aec9300f1ddce2db475382dd408">GetIndexName</a> (string targetTable, string targetColumn)</td></tr>
+<tr class="memdesc:a01de2aec9300f1ddce2db475382dd408"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the name of an index  <a href="class_nop_1_1_data_1_1_data_providers_1_1_postgre_sql_data_provider.html#a01de2aec9300f1ddce2db475382dd408">Mais...</a><br /></td></tr>
+<tr class="separator:a01de2aec9300f1ddce2db475382dd408"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_methods_class_nop_1_1_data_1_1_data_providers_1_1_base_data_provider"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_class_nop_1_1_data_1_1_data_providers_1_1_base_data_provider')"><img src="closed.png" alt="-"/>&#160;Membros públicos herdados de <a class="el" href="class_nop_1_1_data_1_1_data_providers_1_1_base_data_provider.html">Nop.Data.DataProviders.BaseDataProvider</a></td></tr>
+<tr class="memitem:a942c567ef36d75a8e234b2f976c1350e inherit pub_methods_class_nop_1_1_data_1_1_data_providers_1_1_base_data_provider"><td class="memItemLeft" align="right" valign="top">virtual async <a class="el" href="_sendinblue_plugin_8cs.html#a9f49374e6bc76a6b5261e5c211d2e63d">Task</a>&lt; <a class="el" href="interface_nop_1_1_data_1_1_i_temp_data_storage.html">ITempDataStorage</a>&lt; TItem &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_nop_1_1_data_1_1_data_providers_1_1_base_data_provider.html#a942c567ef36d75a8e234b2f976c1350e">CreateTempDataStorageAsync&lt; TItem &gt;</a> (string storeKey, IQueryable&lt; TItem &gt; query)</td></tr>
+<tr class="memdesc:a942c567ef36d75a8e234b2f976c1350e inherit pub_methods_class_nop_1_1_data_1_1_data_providers_1_1_base_data_provider"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a new temporary storage and populate it using data from provided query  <a href="class_nop_1_1_data_1_1_data_providers_1_1_base_data_provider.html#a942c567ef36d75a8e234b2f976c1350e">Mais...</a><br /></td></tr>
+<tr class="separator:a942c567ef36d75a8e234b2f976c1350e inherit pub_methods_class_nop_1_1_data_1_1_data_providers_1_1_base_data_provider"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a374611db4b509677d6fe6898fe7b67d3 inherit pub_methods_class_nop_1_1_data_1_1_data_providers_1_1_base_data_provider"><td class="memItemLeft" align="right" valign="top">EntityDescriptor&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_nop_1_1_data_1_1_data_providers_1_1_base_data_provider.html#a374611db4b509677d6fe6898fe7b67d3">GetEntityDescriptor&lt; TEntity &gt;</a> ()</td></tr>
+<tr class="memdesc:a374611db4b509677d6fe6898fe7b67d3 inherit pub_methods_class_nop_1_1_data_1_1_data_providers_1_1_base_data_provider"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns mapped entity descriptor.  <a href="class_nop_1_1_data_1_1_data_providers_1_1_base_data_provider.html#a374611db4b509677d6fe6898fe7b67d3">Mais...</a><br /></td></tr>
+<tr class="separator:a374611db4b509677d6fe6898fe7b67d3 inherit pub_methods_class_nop_1_1_data_1_1_data_providers_1_1_base_data_provider"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab59a7abe457e3f1e96ad3c74d16f2d9e inherit pub_methods_class_nop_1_1_data_1_1_data_providers_1_1_base_data_provider"><td class="memItemLeft" align="right" valign="top">virtual async <a class="el" href="_sendinblue_plugin_8cs.html#a9f49374e6bc76a6b5261e5c211d2e63d">Task</a>&lt; ITable&lt; TEntity &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_nop_1_1_data_1_1_data_providers_1_1_base_data_provider.html#ab59a7abe457e3f1e96ad3c74d16f2d9e">GetTableAsync&lt; TEntity &gt;</a> ()</td></tr>
+<tr class="memdesc:ab59a7abe457e3f1e96ad3c74d16f2d9e inherit pub_methods_class_nop_1_1_data_1_1_data_providers_1_1_base_data_provider"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns queryable source for specified mapping class for current connection, mapped to database table or view.  <a href="class_nop_1_1_data_1_1_data_providers_1_1_base_data_provider.html#ab59a7abe457e3f1e96ad3c74d16f2d9e">Mais...</a><br /></td></tr>
+<tr class="separator:ab59a7abe457e3f1e96ad3c74d16f2d9e inherit pub_methods_class_nop_1_1_data_1_1_data_providers_1_1_base_data_provider"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aedcfae6c598b842731bf8c1e4dc0f01c inherit pub_methods_class_nop_1_1_data_1_1_data_providers_1_1_base_data_provider"><td class="memItemLeft" align="right" valign="top">virtual ITable&lt; TEntity &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_nop_1_1_data_1_1_data_providers_1_1_base_data_provider.html#aedcfae6c598b842731bf8c1e4dc0f01c">GetTable&lt; TEntity &gt;</a> ()</td></tr>
+<tr class="memdesc:aedcfae6c598b842731bf8c1e4dc0f01c inherit pub_methods_class_nop_1_1_data_1_1_data_providers_1_1_base_data_provider"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns queryable source for specified mapping class for current connection, mapped to database table or view.  <a href="class_nop_1_1_data_1_1_data_providers_1_1_base_data_provider.html#aedcfae6c598b842731bf8c1e4dc0f01c">Mais...</a><br /></td></tr>
+<tr class="separator:aedcfae6c598b842731bf8c1e4dc0f01c inherit pub_methods_class_nop_1_1_data_1_1_data_providers_1_1_base_data_provider"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aeb307b0f5298c969d7bec75e3deeb408 inherit pub_methods_class_nop_1_1_data_1_1_data_providers_1_1_base_data_provider"><td class="memItemLeft" align="right" valign="top">virtual async <a class="el" href="_sendinblue_plugin_8cs.html#a9f49374e6bc76a6b5261e5c211d2e63d">Task</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_nop_1_1_data_1_1_data_providers_1_1_base_data_provider.html#aeb307b0f5298c969d7bec75e3deeb408">UpdateEntityAsync&lt; TEntity &gt;</a> (TEntity entity)</td></tr>
+<tr class="memdesc:aeb307b0f5298c969d7bec75e3deeb408 inherit pub_methods_class_nop_1_1_data_1_1_data_providers_1_1_base_data_provider"><td class="mdescLeft">&#160;</td><td class="mdescRight">Updates record in table, using values from entity parameter. Record to update identified by match on primary key value from obj value.  <a href="class_nop_1_1_data_1_1_data_providers_1_1_base_data_provider.html#aeb307b0f5298c969d7bec75e3deeb408">Mais...</a><br /></td></tr>
+<tr class="separator:aeb307b0f5298c969d7bec75e3deeb408 inherit pub_methods_class_nop_1_1_data_1_1_data_providers_1_1_base_data_provider"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afedc727f9388801bc8bd5b443395ae4f inherit pub_methods_class_nop_1_1_data_1_1_data_providers_1_1_base_data_provider"><td class="memItemLeft" align="right" valign="top">virtual async <a class="el" href="_sendinblue_plugin_8cs.html#a9f49374e6bc76a6b5261e5c211d2e63d">Task</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_nop_1_1_data_1_1_data_providers_1_1_base_data_provider.html#afedc727f9388801bc8bd5b443395ae4f">UpdateEntitiesAsync&lt; TEntity &gt;</a> (IEnumerable&lt; TEntity &gt; entities)</td></tr>
+<tr class="memdesc:afedc727f9388801bc8bd5b443395ae4f inherit pub_methods_class_nop_1_1_data_1_1_data_providers_1_1_base_data_provider"><td class="mdescLeft">&#160;</td><td class="mdescRight">Updates records in table, using values from entity parameter. Records to update are identified by match on primary key value from obj value.  <a href="class_nop_1_1_data_1_1_data_providers_1_1_base_data_provider.html#afedc727f9388801bc8bd5b443395ae4f">Mais...</a><br /></td></tr>
+<tr class="separator:afedc727f9388801bc8bd5b443395ae4f inherit pub_methods_class_nop_1_1_data_1_1_data_providers_1_1_base_data_provider"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4e2888347a3940c629faeb76f2ff2e76 inherit pub_methods_class_nop_1_1_data_1_1_data_providers_1_1_base_data_provider"><td class="memItemLeft" align="right" valign="top">virtual async <a class="el" href="_sendinblue_plugin_8cs.html#a9f49374e6bc76a6b5261e5c211d2e63d">Task</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_nop_1_1_data_1_1_data_providers_1_1_base_data_provider.html#a4e2888347a3940c629faeb76f2ff2e76">DeleteEntityAsync&lt; TEntity &gt;</a> (TEntity entity)</td></tr>
+<tr class="memdesc:a4e2888347a3940c629faeb76f2ff2e76 inherit pub_methods_class_nop_1_1_data_1_1_data_providers_1_1_base_data_provider"><td class="mdescLeft">&#160;</td><td class="mdescRight">Deletes record in table. Record to delete identified by match on primary key value from obj value.  <a href="class_nop_1_1_data_1_1_data_providers_1_1_base_data_provider.html#a4e2888347a3940c629faeb76f2ff2e76">Mais...</a><br /></td></tr>
+<tr class="separator:a4e2888347a3940c629faeb76f2ff2e76 inherit pub_methods_class_nop_1_1_data_1_1_data_providers_1_1_base_data_provider"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af4d84cff311da1721598677178bc2b1a inherit pub_methods_class_nop_1_1_data_1_1_data_providers_1_1_base_data_provider"><td class="memItemLeft" align="right" valign="top">virtual async <a class="el" href="_sendinblue_plugin_8cs.html#a9f49374e6bc76a6b5261e5c211d2e63d">Task</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_nop_1_1_data_1_1_data_providers_1_1_base_data_provider.html#af4d84cff311da1721598677178bc2b1a">BulkDeleteEntitiesAsync&lt; TEntity &gt;</a> (IList&lt; TEntity &gt; entities)</td></tr>
+<tr class="memdesc:af4d84cff311da1721598677178bc2b1a inherit pub_methods_class_nop_1_1_data_1_1_data_providers_1_1_base_data_provider"><td class="mdescLeft">&#160;</td><td class="mdescRight">Performs delete records in a table  <a href="class_nop_1_1_data_1_1_data_providers_1_1_base_data_provider.html#af4d84cff311da1721598677178bc2b1a">Mais...</a><br /></td></tr>
+<tr class="separator:af4d84cff311da1721598677178bc2b1a inherit pub_methods_class_nop_1_1_data_1_1_data_providers_1_1_base_data_provider"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a24fa5eb455d02fc73b3d357ecc896ea9 inherit pub_methods_class_nop_1_1_data_1_1_data_providers_1_1_base_data_provider"><td class="memItemLeft" align="right" valign="top">virtual async <a class="el" href="_sendinblue_plugin_8cs.html#a9f49374e6bc76a6b5261e5c211d2e63d">Task</a>&lt; int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_nop_1_1_data_1_1_data_providers_1_1_base_data_provider.html#a24fa5eb455d02fc73b3d357ecc896ea9">BulkDeleteEntitiesAsync&lt; TEntity &gt;</a> (Expression&lt; Func&lt; TEntity, bool &gt;&gt; predicate)</td></tr>
+<tr class="memdesc:a24fa5eb455d02fc73b3d357ecc896ea9 inherit pub_methods_class_nop_1_1_data_1_1_data_providers_1_1_base_data_provider"><td class="mdescLeft">&#160;</td><td class="mdescRight">Performs delete records in a table by a condition  <a href="class_nop_1_1_data_1_1_data_providers_1_1_base_data_provider.html#a24fa5eb455d02fc73b3d357ecc896ea9">Mais...</a><br /></td></tr>
+<tr class="separator:a24fa5eb455d02fc73b3d357ecc896ea9 inherit pub_methods_class_nop_1_1_data_1_1_data_providers_1_1_base_data_provider"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a79879a6dfc1a0443a0352b669e3d7891 inherit pub_methods_class_nop_1_1_data_1_1_data_providers_1_1_base_data_provider"><td class="memItemLeft" align="right" valign="top">virtual async <a class="el" href="_sendinblue_plugin_8cs.html#a9f49374e6bc76a6b5261e5c211d2e63d">Task</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_nop_1_1_data_1_1_data_providers_1_1_base_data_provider.html#a79879a6dfc1a0443a0352b669e3d7891">BulkInsertEntitiesAsync&lt; TEntity &gt;</a> (IEnumerable&lt; TEntity &gt; entities)</td></tr>
+<tr class="memdesc:a79879a6dfc1a0443a0352b669e3d7891 inherit pub_methods_class_nop_1_1_data_1_1_data_providers_1_1_base_data_provider"><td class="mdescLeft">&#160;</td><td class="mdescRight">Performs bulk insert operation for entity colllection.  <a href="class_nop_1_1_data_1_1_data_providers_1_1_base_data_provider.html#a79879a6dfc1a0443a0352b669e3d7891">Mais...</a><br /></td></tr>
+<tr class="separator:a79879a6dfc1a0443a0352b669e3d7891 inherit pub_methods_class_nop_1_1_data_1_1_data_providers_1_1_base_data_provider"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aee36c2be218e31de4c21635b813f7957 inherit pub_methods_class_nop_1_1_data_1_1_data_providers_1_1_base_data_provider"><td class="memItemLeft" align="right" valign="top">virtual async <a class="el" href="_sendinblue_plugin_8cs.html#a9f49374e6bc76a6b5261e5c211d2e63d">Task</a>&lt; int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_nop_1_1_data_1_1_data_providers_1_1_base_data_provider.html#aee36c2be218e31de4c21635b813f7957">ExecuteNonQueryAsync</a> (string sql, params DataParameter[] dataParameters)</td></tr>
+<tr class="memdesc:aee36c2be218e31de4c21635b813f7957 inherit pub_methods_class_nop_1_1_data_1_1_data_providers_1_1_base_data_provider"><td class="mdescLeft">&#160;</td><td class="mdescRight">Executes command asynchronously and returns number of affected records  <a href="class_nop_1_1_data_1_1_data_providers_1_1_base_data_provider.html#aee36c2be218e31de4c21635b813f7957">Mais...</a><br /></td></tr>
+<tr class="separator:aee36c2be218e31de4c21635b813f7957 inherit pub_methods_class_nop_1_1_data_1_1_data_providers_1_1_base_data_provider"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab3c2e883588f3f2cdf4269ed4e3e985a inherit pub_methods_class_nop_1_1_data_1_1_data_providers_1_1_base_data_provider"><td class="memItemLeft" align="right" valign="top">virtual async <a class="el" href="_sendinblue_plugin_8cs.html#a9f49374e6bc76a6b5261e5c211d2e63d">Task</a>&lt; IList&lt; T &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_nop_1_1_data_1_1_data_providers_1_1_base_data_provider.html#ab3c2e883588f3f2cdf4269ed4e3e985a">QueryProcAsync&lt; T &gt;</a> (string procedureName, params DataParameter[] parameters)</td></tr>
+<tr class="memdesc:ab3c2e883588f3f2cdf4269ed4e3e985a inherit pub_methods_class_nop_1_1_data_1_1_data_providers_1_1_base_data_provider"><td class="mdescLeft">&#160;</td><td class="mdescRight">Executes command using System.Data.CommandType.StoredProcedure command type and returns results as collection of values of specified type  <a href="class_nop_1_1_data_1_1_data_providers_1_1_base_data_provider.html#ab3c2e883588f3f2cdf4269ed4e3e985a">Mais...</a><br /></td></tr>
+<tr class="separator:ab3c2e883588f3f2cdf4269ed4e3e985a inherit pub_methods_class_nop_1_1_data_1_1_data_providers_1_1_base_data_provider"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acec2ae3e4cdaa3084d95effbe3953113 inherit pub_methods_class_nop_1_1_data_1_1_data_providers_1_1_base_data_provider"><td class="memItemLeft" align="right" valign="top">virtual async <a class="el" href="_sendinblue_plugin_8cs.html#a9f49374e6bc76a6b5261e5c211d2e63d">Task</a>&lt; IList&lt; T &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_nop_1_1_data_1_1_data_providers_1_1_base_data_provider.html#acec2ae3e4cdaa3084d95effbe3953113">QueryAsync&lt; T &gt;</a> (string sql, params DataParameter[] parameters)</td></tr>
+<tr class="memdesc:acec2ae3e4cdaa3084d95effbe3953113 inherit pub_methods_class_nop_1_1_data_1_1_data_providers_1_1_base_data_provider"><td class="mdescLeft">&#160;</td><td class="mdescRight">Executes SQL command and returns results as collection of values of specified type  <a href="class_nop_1_1_data_1_1_data_providers_1_1_base_data_provider.html#acec2ae3e4cdaa3084d95effbe3953113">Mais...</a><br /></td></tr>
+<tr class="separator:acec2ae3e4cdaa3084d95effbe3953113 inherit pub_methods_class_nop_1_1_data_1_1_data_providers_1_1_base_data_provider"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_methods_interface_nop_1_1_data_1_1_i_nop_data_provider"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_interface_nop_1_1_data_1_1_i_nop_data_provider')"><img src="closed.png" alt="-"/>&#160;Membros públicos herdados de <a class="el" href="interface_nop_1_1_data_1_1_i_nop_data_provider.html">Nop.Data.INopDataProvider</a></td></tr>
+<tr class="memitem:a61b1646598dc9c7a519c1c0cb99f7bc1 inherit pub_methods_interface_nop_1_1_data_1_1_i_nop_data_provider"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_sendinblue_plugin_8cs.html#a9f49374e6bc76a6b5261e5c211d2e63d">Task</a>&lt; <a class="el" href="interface_nop_1_1_data_1_1_i_temp_data_storage.html">ITempDataStorage</a>&lt; TItem &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_nop_1_1_data_1_1_i_nop_data_provider.html#a61b1646598dc9c7a519c1c0cb99f7bc1">CreateTempDataStorageAsync&lt; TItem &gt;</a> (string storeKey, IQueryable&lt; TItem &gt; query)</td></tr>
+<tr class="memdesc:a61b1646598dc9c7a519c1c0cb99f7bc1 inherit pub_methods_interface_nop_1_1_data_1_1_i_nop_data_provider"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a new temporary storage and populate it using data from provided query  <a href="interface_nop_1_1_data_1_1_i_nop_data_provider.html#a61b1646598dc9c7a519c1c0cb99f7bc1">Mais...</a><br /></td></tr>
+<tr class="separator:a61b1646598dc9c7a519c1c0cb99f7bc1 inherit pub_methods_interface_nop_1_1_data_1_1_i_nop_data_provider"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9944954ceea06e962153922d606590bb inherit pub_methods_interface_nop_1_1_data_1_1_i_nop_data_provider"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_sendinblue_plugin_8cs.html#a9f49374e6bc76a6b5261e5c211d2e63d">Task</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_nop_1_1_data_1_1_i_nop_data_provider.html#a9944954ceea06e962153922d606590bb">UpdateEntityAsync&lt; TEntity &gt;</a> (TEntity entity)</td></tr>
+<tr class="memdesc:a9944954ceea06e962153922d606590bb inherit pub_methods_interface_nop_1_1_data_1_1_i_nop_data_provider"><td class="mdescLeft">&#160;</td><td class="mdescRight">Updates record in table, using values from entity parameter. Record to update identified by match on primary key value from obj value.  <a href="interface_nop_1_1_data_1_1_i_nop_data_provider.html#a9944954ceea06e962153922d606590bb">Mais...</a><br /></td></tr>
+<tr class="separator:a9944954ceea06e962153922d606590bb inherit pub_methods_interface_nop_1_1_data_1_1_i_nop_data_provider"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa3dae3b75cce41431069b4251a25e3e0 inherit pub_methods_interface_nop_1_1_data_1_1_i_nop_data_provider"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_sendinblue_plugin_8cs.html#a9f49374e6bc76a6b5261e5c211d2e63d">Task</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_nop_1_1_data_1_1_i_nop_data_provider.html#aa3dae3b75cce41431069b4251a25e3e0">UpdateEntitiesAsync&lt; TEntity &gt;</a> (IEnumerable&lt; TEntity &gt; entities)</td></tr>
+<tr class="memdesc:aa3dae3b75cce41431069b4251a25e3e0 inherit pub_methods_interface_nop_1_1_data_1_1_i_nop_data_provider"><td class="mdescLeft">&#160;</td><td class="mdescRight">Updates records in table, using values from entity parameter. Records to update are identified by match on primary key value from obj value.  <a href="interface_nop_1_1_data_1_1_i_nop_data_provider.html#aa3dae3b75cce41431069b4251a25e3e0">Mais...</a><br /></td></tr>
+<tr class="separator:aa3dae3b75cce41431069b4251a25e3e0 inherit pub_methods_interface_nop_1_1_data_1_1_i_nop_data_provider"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad6696887f3612edc9ea7766ee8e68772 inherit pub_methods_interface_nop_1_1_data_1_1_i_nop_data_provider"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_sendinblue_plugin_8cs.html#a9f49374e6bc76a6b5261e5c211d2e63d">Task</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_nop_1_1_data_1_1_i_nop_data_provider.html#ad6696887f3612edc9ea7766ee8e68772">DeleteEntityAsync&lt; TEntity &gt;</a> (TEntity entity)</td></tr>
+<tr class="memdesc:ad6696887f3612edc9ea7766ee8e68772 inherit pub_methods_interface_nop_1_1_data_1_1_i_nop_data_provider"><td class="mdescLeft">&#160;</td><td class="mdescRight">Deletes record in table. Record to delete identified by match on primary key value from obj value.  <a href="interface_nop_1_1_data_1_1_i_nop_data_provider.html#ad6696887f3612edc9ea7766ee8e68772">Mais...</a><br /></td></tr>
+<tr class="separator:ad6696887f3612edc9ea7766ee8e68772 inherit pub_methods_interface_nop_1_1_data_1_1_i_nop_data_provider"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac714124ef8fb2433bd687add70fa6885 inherit pub_methods_interface_nop_1_1_data_1_1_i_nop_data_provider"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_sendinblue_plugin_8cs.html#a9f49374e6bc76a6b5261e5c211d2e63d">Task</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_nop_1_1_data_1_1_i_nop_data_provider.html#ac714124ef8fb2433bd687add70fa6885">BulkDeleteEntitiesAsync&lt; TEntity &gt;</a> (IList&lt; TEntity &gt; entities)</td></tr>
+<tr class="memdesc:ac714124ef8fb2433bd687add70fa6885 inherit pub_methods_interface_nop_1_1_data_1_1_i_nop_data_provider"><td class="mdescLeft">&#160;</td><td class="mdescRight">Performs delete records in a table  <a href="interface_nop_1_1_data_1_1_i_nop_data_provider.html#ac714124ef8fb2433bd687add70fa6885">Mais...</a><br /></td></tr>
+<tr class="separator:ac714124ef8fb2433bd687add70fa6885 inherit pub_methods_interface_nop_1_1_data_1_1_i_nop_data_provider"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5d53d18a1a9b05505c9a7d406a5d272b inherit pub_methods_interface_nop_1_1_data_1_1_i_nop_data_provider"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_sendinblue_plugin_8cs.html#a9f49374e6bc76a6b5261e5c211d2e63d">Task</a>&lt; int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_nop_1_1_data_1_1_i_nop_data_provider.html#a5d53d18a1a9b05505c9a7d406a5d272b">BulkDeleteEntitiesAsync&lt; TEntity &gt;</a> (Expression&lt; Func&lt; TEntity, bool &gt;&gt; predicate)</td></tr>
+<tr class="memdesc:a5d53d18a1a9b05505c9a7d406a5d272b inherit pub_methods_interface_nop_1_1_data_1_1_i_nop_data_provider"><td class="mdescLeft">&#160;</td><td class="mdescRight">Performs delete records in a table by a condition  <a href="interface_nop_1_1_data_1_1_i_nop_data_provider.html#a5d53d18a1a9b05505c9a7d406a5d272b">Mais...</a><br /></td></tr>
+<tr class="separator:a5d53d18a1a9b05505c9a7d406a5d272b inherit pub_methods_interface_nop_1_1_data_1_1_i_nop_data_provider"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a62d0a0f95d48bc22bdeae4c1fc42ce05 inherit pub_methods_interface_nop_1_1_data_1_1_i_nop_data_provider"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_sendinblue_plugin_8cs.html#a9f49374e6bc76a6b5261e5c211d2e63d">Task</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_nop_1_1_data_1_1_i_nop_data_provider.html#a62d0a0f95d48bc22bdeae4c1fc42ce05">BulkInsertEntitiesAsync&lt; TEntity &gt;</a> (IEnumerable&lt; TEntity &gt; entities)</td></tr>
+<tr class="memdesc:a62d0a0f95d48bc22bdeae4c1fc42ce05 inherit pub_methods_interface_nop_1_1_data_1_1_i_nop_data_provider"><td class="mdescLeft">&#160;</td><td class="mdescRight">Performs bulk insert entities operation  <a href="interface_nop_1_1_data_1_1_i_nop_data_provider.html#a62d0a0f95d48bc22bdeae4c1fc42ce05">Mais...</a><br /></td></tr>
+<tr class="separator:a62d0a0f95d48bc22bdeae4c1fc42ce05 inherit pub_methods_interface_nop_1_1_data_1_1_i_nop_data_provider"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae18b5cbcafc7f7db5a86a1d7cd8be9d7 inherit pub_methods_interface_nop_1_1_data_1_1_i_nop_data_provider"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_sendinblue_plugin_8cs.html#a9f49374e6bc76a6b5261e5c211d2e63d">Task</a>&lt; ITable&lt; TEntity &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_nop_1_1_data_1_1_i_nop_data_provider.html#ae18b5cbcafc7f7db5a86a1d7cd8be9d7">GetTableAsync&lt; TEntity &gt;</a> ()</td></tr>
+<tr class="memdesc:ae18b5cbcafc7f7db5a86a1d7cd8be9d7 inherit pub_methods_interface_nop_1_1_data_1_1_i_nop_data_provider"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns queryable source for specified mapping class for current connection, mapped to database table or view.  <a href="interface_nop_1_1_data_1_1_i_nop_data_provider.html#ae18b5cbcafc7f7db5a86a1d7cd8be9d7">Mais...</a><br /></td></tr>
+<tr class="separator:ae18b5cbcafc7f7db5a86a1d7cd8be9d7 inherit pub_methods_interface_nop_1_1_data_1_1_i_nop_data_provider"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a34e6beaa756d4ad473bd2a449b1bb991 inherit pub_methods_interface_nop_1_1_data_1_1_i_nop_data_provider"><td class="memItemLeft" align="right" valign="top">ITable&lt; TEntity &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_nop_1_1_data_1_1_i_nop_data_provider.html#a34e6beaa756d4ad473bd2a449b1bb991">GetTable&lt; TEntity &gt;</a> ()</td></tr>
+<tr class="memdesc:a34e6beaa756d4ad473bd2a449b1bb991 inherit pub_methods_interface_nop_1_1_data_1_1_i_nop_data_provider"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns queryable source for specified mapping class for current connection, mapped to database table or view.  <a href="interface_nop_1_1_data_1_1_i_nop_data_provider.html#a34e6beaa756d4ad473bd2a449b1bb991">Mais...</a><br /></td></tr>
+<tr class="separator:a34e6beaa756d4ad473bd2a449b1bb991 inherit pub_methods_interface_nop_1_1_data_1_1_i_nop_data_provider"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a39e6629d743f9b1548573b1f4096415f inherit pub_methods_interface_nop_1_1_data_1_1_i_nop_data_provider"><td class="memItemLeft" align="right" valign="top">EntityDescriptor&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_nop_1_1_data_1_1_i_nop_data_provider.html#a39e6629d743f9b1548573b1f4096415f">GetEntityDescriptor&lt; TEntity &gt;</a> ()</td></tr>
+<tr class="memdesc:a39e6629d743f9b1548573b1f4096415f inherit pub_methods_interface_nop_1_1_data_1_1_i_nop_data_provider"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns mapped entity descriptor  <a href="interface_nop_1_1_data_1_1_i_nop_data_provider.html#a39e6629d743f9b1548573b1f4096415f">Mais...</a><br /></td></tr>
+<tr class="separator:a39e6629d743f9b1548573b1f4096415f inherit pub_methods_interface_nop_1_1_data_1_1_i_nop_data_provider"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9007496a54a43e676e745c3d4c84963b inherit pub_methods_interface_nop_1_1_data_1_1_i_nop_data_provider"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_sendinblue_plugin_8cs.html#a9f49374e6bc76a6b5261e5c211d2e63d">Task</a>&lt; int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_nop_1_1_data_1_1_i_nop_data_provider.html#a9007496a54a43e676e745c3d4c84963b">ExecuteNonQueryAsync</a> (string sql, params DataParameter[] dataParameters)</td></tr>
+<tr class="memdesc:a9007496a54a43e676e745c3d4c84963b inherit pub_methods_interface_nop_1_1_data_1_1_i_nop_data_provider"><td class="mdescLeft">&#160;</td><td class="mdescRight">Executes command asynchronously and returns number of affected records  <a href="interface_nop_1_1_data_1_1_i_nop_data_provider.html#a9007496a54a43e676e745c3d4c84963b">Mais...</a><br /></td></tr>
+<tr class="separator:a9007496a54a43e676e745c3d4c84963b inherit pub_methods_interface_nop_1_1_data_1_1_i_nop_data_provider"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae8361e0a5ae1fd190dd17572b97a1366 inherit pub_methods_interface_nop_1_1_data_1_1_i_nop_data_provider"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_sendinblue_plugin_8cs.html#a9f49374e6bc76a6b5261e5c211d2e63d">Task</a>&lt; IList&lt; T &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_nop_1_1_data_1_1_i_nop_data_provider.html#ae8361e0a5ae1fd190dd17572b97a1366">QueryProcAsync&lt; T &gt;</a> (string procedureName, params DataParameter[] parameters)</td></tr>
+<tr class="memdesc:ae8361e0a5ae1fd190dd17572b97a1366 inherit pub_methods_interface_nop_1_1_data_1_1_i_nop_data_provider"><td class="mdescLeft">&#160;</td><td class="mdescRight">Executes command using System.Data.CommandType.StoredProcedure command type and returns results as collection of values of specified type  <a href="interface_nop_1_1_data_1_1_i_nop_data_provider.html#ae8361e0a5ae1fd190dd17572b97a1366">Mais...</a><br /></td></tr>
+<tr class="separator:ae8361e0a5ae1fd190dd17572b97a1366 inherit pub_methods_interface_nop_1_1_data_1_1_i_nop_data_provider"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a68aeee9bbc50818146386e518c23f881 inherit pub_methods_interface_nop_1_1_data_1_1_i_nop_data_provider"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_sendinblue_plugin_8cs.html#a9f49374e6bc76a6b5261e5c211d2e63d">Task</a>&lt; IList&lt; T &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_nop_1_1_data_1_1_i_nop_data_provider.html#a68aeee9bbc50818146386e518c23f881">QueryAsync&lt; T &gt;</a> (string sql, params DataParameter[] parameters)</td></tr>
+<tr class="memdesc:a68aeee9bbc50818146386e518c23f881 inherit pub_methods_interface_nop_1_1_data_1_1_i_nop_data_provider"><td class="mdescLeft">&#160;</td><td class="mdescRight">Executes command and returns results as collection of values of specified type  <a href="interface_nop_1_1_data_1_1_i_nop_data_provider.html#a68aeee9bbc50818146386e518c23f881">Mais...</a><br /></td></tr>
+<tr class="separator:a68aeee9bbc50818146386e518c23f881 inherit pub_methods_interface_nop_1_1_data_1_1_i_nop_data_provider"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
+Membros protegidos</h2></td></tr>
+<tr class="memitem:a557ee51235501f5fad3aeef3c065f017"><td class="memItemLeft" align="right" valign="top">override DataConnection&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_nop_1_1_data_1_1_data_providers_1_1_postgre_sql_data_provider.html#a557ee51235501f5fad3aeef3c065f017">CreateDataConnection</a> ()</td></tr>
+<tr class="memdesc:a557ee51235501f5fad3aeef3c065f017"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates the database connection by the current data configuration  <a href="class_nop_1_1_data_1_1_data_providers_1_1_postgre_sql_data_provider.html#a557ee51235501f5fad3aeef3c065f017">Mais...</a><br /></td></tr>
+<tr class="separator:a557ee51235501f5fad3aeef3c065f017"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0ead49d77ee7c9a7199988d096d821d3"><td class="memItemLeft" align="right" valign="top">NpgsqlConnectionStringBuilder&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_nop_1_1_data_1_1_data_providers_1_1_postgre_sql_data_provider.html#a0ead49d77ee7c9a7199988d096d821d3">GetConnectionStringBuilder</a> ()</td></tr>
+<tr class="separator:a0ead49d77ee7c9a7199988d096d821d3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acafcf00021fde43929e1f0e7519278f8"><td class="memItemLeft" align="right" valign="top">override DbConnection&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_nop_1_1_data_1_1_data_providers_1_1_postgre_sql_data_provider.html#acafcf00021fde43929e1f0e7519278f8">GetInternalDbConnection</a> (string connectionString)</td></tr>
+<tr class="memdesc:acafcf00021fde43929e1f0e7519278f8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets a connection to the database for a current data provider  <a href="class_nop_1_1_data_1_1_data_providers_1_1_postgre_sql_data_provider.html#acafcf00021fde43929e1f0e7519278f8">Mais...</a><br /></td></tr>
+<tr class="separator:acafcf00021fde43929e1f0e7519278f8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pro_methods_class_nop_1_1_data_1_1_data_providers_1_1_base_data_provider"><td colspan="2" onclick="javascript:toggleInherit('pro_methods_class_nop_1_1_data_1_1_data_providers_1_1_base_data_provider')"><img src="closed.png" alt="-"/>&#160;Membros protegidos herdados de <a class="el" href="class_nop_1_1_data_1_1_data_providers_1_1_base_data_provider.html">Nop.Data.DataProviders.BaseDataProvider</a></td></tr>
+<tr class="memitem:a4c283445c3053223be9392ddc9cd0a79 inherit pro_methods_class_nop_1_1_data_1_1_data_providers_1_1_base_data_provider"><td class="memItemLeft" align="right" valign="top">virtual async <a class="el" href="_sendinblue_plugin_8cs.html#a9f49374e6bc76a6b5261e5c211d2e63d">Task</a>&lt; DataConnection &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_nop_1_1_data_1_1_data_providers_1_1_base_data_provider.html#a4c283445c3053223be9392ddc9cd0a79">CreateDataConnectionAsync</a> ()</td></tr>
+<tr class="memdesc:a4c283445c3053223be9392ddc9cd0a79 inherit pro_methods_class_nop_1_1_data_1_1_data_providers_1_1_base_data_provider"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates the database connection  <a href="class_nop_1_1_data_1_1_data_providers_1_1_base_data_provider.html#a4c283445c3053223be9392ddc9cd0a79">Mais...</a><br /></td></tr>
+<tr class="separator:a4c283445c3053223be9392ddc9cd0a79 inherit pro_methods_class_nop_1_1_data_1_1_data_providers_1_1_base_data_provider"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a384b69bd0c38429bf3855efc4e2baf20 inherit pro_methods_class_nop_1_1_data_1_1_data_providers_1_1_base_data_provider"><td class="memItemLeft" align="right" valign="top">virtual async <a class="el" href="_sendinblue_plugin_8cs.html#a9f49374e6bc76a6b5261e5c211d2e63d">Task</a>&lt; DataConnection &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_nop_1_1_data_1_1_data_providers_1_1_base_data_provider.html#a384b69bd0c38429bf3855efc4e2baf20">CreateDataConnectionAsync</a> (IDataProvider dataProvider)</td></tr>
+<tr class="memdesc:a384b69bd0c38429bf3855efc4e2baf20 inherit pro_methods_class_nop_1_1_data_1_1_data_providers_1_1_base_data_provider"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates the database connection  <a href="class_nop_1_1_data_1_1_data_providers_1_1_base_data_provider.html#a384b69bd0c38429bf3855efc4e2baf20">Mais...</a><br /></td></tr>
+<tr class="separator:a384b69bd0c38429bf3855efc4e2baf20 inherit pro_methods_class_nop_1_1_data_1_1_data_providers_1_1_base_data_provider"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a985fef369228a578e0e7d3c59fd53933 inherit pro_methods_class_nop_1_1_data_1_1_data_providers_1_1_base_data_provider"><td class="memItemLeft" align="right" valign="top">virtual DataConnection&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_nop_1_1_data_1_1_data_providers_1_1_base_data_provider.html#a985fef369228a578e0e7d3c59fd53933">CreateDataConnection</a> (IDataProvider dataProvider)</td></tr>
+<tr class="memdesc:a985fef369228a578e0e7d3c59fd53933 inherit pro_methods_class_nop_1_1_data_1_1_data_providers_1_1_base_data_provider"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates the database connection  <a href="class_nop_1_1_data_1_1_data_providers_1_1_base_data_provider.html#a985fef369228a578e0e7d3c59fd53933">Mais...</a><br /></td></tr>
+<tr class="separator:a985fef369228a578e0e7d3c59fd53933 inherit pro_methods_class_nop_1_1_data_1_1_data_providers_1_1_base_data_provider"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad03869ee0f8ce1cbb40ca64e6eb0a147 inherit pro_methods_class_nop_1_1_data_1_1_data_providers_1_1_base_data_provider"><td class="memItemLeft" align="right" valign="top">virtual async <a class="el" href="_sendinblue_plugin_8cs.html#a9f49374e6bc76a6b5261e5c211d2e63d">Task</a>&lt; IDbConnection &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_nop_1_1_data_1_1_data_providers_1_1_base_data_provider.html#ad03869ee0f8ce1cbb40ca64e6eb0a147">CreateDbConnectionAsync</a> (string connectionString=null)</td></tr>
+<tr class="memdesc:ad03869ee0f8ce1cbb40ca64e6eb0a147 inherit pro_methods_class_nop_1_1_data_1_1_data_providers_1_1_base_data_provider"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a connection to a database  <a href="class_nop_1_1_data_1_1_data_providers_1_1_base_data_provider.html#ad03869ee0f8ce1cbb40ca64e6eb0a147">Mais...</a><br /></td></tr>
+<tr class="separator:ad03869ee0f8ce1cbb40ca64e6eb0a147 inherit pro_methods_class_nop_1_1_data_1_1_data_providers_1_1_base_data_provider"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a41769285bc754692ed85399e40d5bf4d inherit pro_methods_class_nop_1_1_data_1_1_data_providers_1_1_base_data_provider"><td class="memItemLeft" align="right" valign="top">virtual IDbConnection&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_nop_1_1_data_1_1_data_providers_1_1_base_data_provider.html#a41769285bc754692ed85399e40d5bf4d">CreateDbConnection</a> (string connectionString=null)</td></tr>
+<tr class="memdesc:a41769285bc754692ed85399e40d5bf4d inherit pro_methods_class_nop_1_1_data_1_1_data_providers_1_1_base_data_provider"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a connection to a database  <a href="class_nop_1_1_data_1_1_data_providers_1_1_base_data_provider.html#a41769285bc754692ed85399e40d5bf4d">Mais...</a><br /></td></tr>
+<tr class="separator:a41769285bc754692ed85399e40d5bf4d inherit pro_methods_class_nop_1_1_data_1_1_data_providers_1_1_base_data_provider"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a30f81c86a9390b301176d5446ad8ec2b inherit pro_methods_class_nop_1_1_data_1_1_data_providers_1_1_base_data_provider"><td class="memItemLeft" align="right" valign="top">async <a class="el" href="_sendinblue_plugin_8cs.html#a9f49374e6bc76a6b5261e5c211d2e63d">Task</a>&lt; string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_nop_1_1_data_1_1_data_providers_1_1_base_data_provider.html#a30f81c86a9390b301176d5446ad8ec2b">GetCurrentConnectionStringAsync</a> ()</td></tr>
+<tr class="memdesc:a30f81c86a9390b301176d5446ad8ec2b inherit pro_methods_class_nop_1_1_data_1_1_data_providers_1_1_base_data_provider"><td class="mdescLeft">&#160;</td><td class="mdescRight">Database connection string  <a href="class_nop_1_1_data_1_1_data_providers_1_1_base_data_provider.html#a30f81c86a9390b301176d5446ad8ec2b">Mais...</a><br /></td></tr>
+<tr class="separator:a30f81c86a9390b301176d5446ad8ec2b inherit pro_methods_class_nop_1_1_data_1_1_data_providers_1_1_base_data_provider"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a706d9457e3c81a0374b880ba75b1ab81 inherit pro_methods_class_nop_1_1_data_1_1_data_providers_1_1_base_data_provider"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_nop_1_1_data_1_1_data_providers_1_1_base_data_provider.html#a706d9457e3c81a0374b880ba75b1ab81">GetCurrentConnectionString</a> ()</td></tr>
+<tr class="memdesc:a706d9457e3c81a0374b880ba75b1ab81 inherit pro_methods_class_nop_1_1_data_1_1_data_providers_1_1_base_data_provider"><td class="mdescLeft">&#160;</td><td class="mdescRight">Database connection string  <a href="class_nop_1_1_data_1_1_data_providers_1_1_base_data_provider.html#a706d9457e3c81a0374b880ba75b1ab81">Mais...</a><br /></td></tr>
+<tr class="separator:a706d9457e3c81a0374b880ba75b1ab81 inherit pro_methods_class_nop_1_1_data_1_1_data_providers_1_1_base_data_provider"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="properties"></a>
+Propriedades</h2></td></tr>
+<tr class="memitem:a17cef8221ea2aae4d8deb7117bc266f3"><td class="memItemLeft" align="right" valign="top">override IDataProvider&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_nop_1_1_data_1_1_data_providers_1_1_postgre_sql_data_provider.html#a17cef8221ea2aae4d8deb7117bc266f3">LinqToDbDataProvider</a><code> [get]</code></td></tr>
+<tr class="separator:a17cef8221ea2aae4d8deb7117bc266f3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0c93c8be929404995a0104fb921a6430"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_nop_1_1_data_1_1_data_providers_1_1_postgre_sql_data_provider.html#a0c93c8be929404995a0104fb921a6430">SupportedLengthOfBinaryHash</a><code> [get]</code></td></tr>
+<tr class="separator:a0c93c8be929404995a0104fb921a6430"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a99848f1ded806b65fa6ea2e4af1ad2b2"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_nop_1_1_data_1_1_data_providers_1_1_postgre_sql_data_provider.html#a99848f1ded806b65fa6ea2e4af1ad2b2">BackupSupported</a><code> [get]</code></td></tr>
+<tr class="separator:a99848f1ded806b65fa6ea2e4af1ad2b2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header properties_class_nop_1_1_data_1_1_data_providers_1_1_base_data_provider"><td colspan="2" onclick="javascript:toggleInherit('properties_class_nop_1_1_data_1_1_data_providers_1_1_base_data_provider')"><img src="closed.png" alt="-"/>&#160;Propriedades herdados de <a class="el" href="class_nop_1_1_data_1_1_data_providers_1_1_base_data_provider.html">Nop.Data.DataProviders.BaseDataProvider</a></td></tr>
+<tr class="memitem:af63cb698a8c56f1a916838f9fa5c6960 inherit properties_class_nop_1_1_data_1_1_data_providers_1_1_base_data_provider"><td class="memItemLeft" align="right" valign="top">abstract IDataProvider&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_nop_1_1_data_1_1_data_providers_1_1_base_data_provider.html#af63cb698a8c56f1a916838f9fa5c6960">LinqToDbDataProvider</a><code> [get]</code></td></tr>
+<tr class="memdesc:af63cb698a8c56f1a916838f9fa5c6960 inherit properties_class_nop_1_1_data_1_1_data_providers_1_1_base_data_provider"><td class="mdescLeft">&#160;</td><td class="mdescRight">Linq2Db data provider  <a href="class_nop_1_1_data_1_1_data_providers_1_1_base_data_provider.html#af63cb698a8c56f1a916838f9fa5c6960">Mais...</a><br /></td></tr>
+<tr class="separator:af63cb698a8c56f1a916838f9fa5c6960 inherit properties_class_nop_1_1_data_1_1_data_providers_1_1_base_data_provider"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9b67993d8d156e040c77731b070f6e74 inherit properties_class_nop_1_1_data_1_1_data_providers_1_1_base_data_provider"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_nop_1_1_data_1_1_data_providers_1_1_base_data_provider.html#a9b67993d8d156e040c77731b070f6e74">MiniProfillerEnabled</a><code> [get]</code></td></tr>
+<tr class="memdesc:a9b67993d8d156e040c77731b070f6e74 inherit properties_class_nop_1_1_data_1_1_data_providers_1_1_base_data_provider"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets or sets a value that indicates whether should use MiniProfiler for the current connection  <a href="class_nop_1_1_data_1_1_data_providers_1_1_base_data_provider.html#a9b67993d8d156e040c77731b070f6e74">Mais...</a><br /></td></tr>
+<tr class="separator:a9b67993d8d156e040c77731b070f6e74 inherit properties_class_nop_1_1_data_1_1_data_providers_1_1_base_data_provider"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3757ab8bc73dee4c826752ff8c59f0b4 inherit properties_class_nop_1_1_data_1_1_data_providers_1_1_base_data_provider"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_nop_1_1_data_1_1_data_providers_1_1_base_data_provider.html#a3757ab8bc73dee4c826752ff8c59f0b4">ConfigurationName</a><code> [get]</code></td></tr>
+<tr class="memdesc:a3757ab8bc73dee4c826752ff8c59f0b4 inherit properties_class_nop_1_1_data_1_1_data_providers_1_1_base_data_provider"><td class="mdescLeft">&#160;</td><td class="mdescRight">Name of database provider  <a href="class_nop_1_1_data_1_1_data_providers_1_1_base_data_provider.html#a3757ab8bc73dee4c826752ff8c59f0b4">Mais...</a><br /></td></tr>
+<tr class="separator:a3757ab8bc73dee4c826752ff8c59f0b4 inherit properties_class_nop_1_1_data_1_1_data_providers_1_1_base_data_provider"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header properties_interface_nop_1_1_data_1_1_i_nop_data_provider"><td colspan="2" onclick="javascript:toggleInherit('properties_interface_nop_1_1_data_1_1_i_nop_data_provider')"><img src="closed.png" alt="-"/>&#160;Propriedades herdados de <a class="el" href="interface_nop_1_1_data_1_1_i_nop_data_provider.html">Nop.Data.INopDataProvider</a></td></tr>
+<tr class="memitem:ac3ccc43295d96ac83794918978fab137 inherit properties_interface_nop_1_1_data_1_1_i_nop_data_provider"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_nop_1_1_data_1_1_i_nop_data_provider.html#ac3ccc43295d96ac83794918978fab137">ConfigurationName</a><code> [get]</code></td></tr>
+<tr class="memdesc:ac3ccc43295d96ac83794918978fab137 inherit properties_interface_nop_1_1_data_1_1_i_nop_data_provider"><td class="mdescLeft">&#160;</td><td class="mdescRight">Name of database provider  <a href="interface_nop_1_1_data_1_1_i_nop_data_provider.html#ac3ccc43295d96ac83794918978fab137">Mais...</a><br /></td></tr>
+<tr class="separator:ac3ccc43295d96ac83794918978fab137 inherit properties_interface_nop_1_1_data_1_1_i_nop_data_provider"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4b441aa312b981f0e559c0830569dfcd inherit properties_interface_nop_1_1_data_1_1_i_nop_data_provider"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_nop_1_1_data_1_1_i_nop_data_provider.html#a4b441aa312b981f0e559c0830569dfcd">SupportedLengthOfBinaryHash</a><code> [get]</code></td></tr>
+<tr class="memdesc:a4b441aa312b981f0e559c0830569dfcd inherit properties_interface_nop_1_1_data_1_1_i_nop_data_provider"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets allowed a limit input value of the data for hashing functions, returns 0 if not limited  <a href="interface_nop_1_1_data_1_1_i_nop_data_provider.html#a4b441aa312b981f0e559c0830569dfcd">Mais...</a><br /></td></tr>
+<tr class="separator:a4b441aa312b981f0e559c0830569dfcd inherit properties_interface_nop_1_1_data_1_1_i_nop_data_provider"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad04449ab3531f3b77ae74b38a6108ed4 inherit properties_interface_nop_1_1_data_1_1_i_nop_data_provider"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_nop_1_1_data_1_1_i_nop_data_provider.html#ad04449ab3531f3b77ae74b38a6108ed4">BackupSupported</a><code> [get]</code></td></tr>
+<tr class="memdesc:ad04449ab3531f3b77ae74b38a6108ed4 inherit properties_interface_nop_1_1_data_1_1_i_nop_data_provider"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets a value indicating whether this data provider supports backup  <a href="interface_nop_1_1_data_1_1_i_nop_data_provider.html#ad04449ab3531f3b77ae74b38a6108ed4">Mais...</a><br /></td></tr>
+<tr class="separator:ad04449ab3531f3b77ae74b38a6108ed4 inherit properties_interface_nop_1_1_data_1_1_i_nop_data_provider"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
+Membros privados</h2></td></tr>
+<tr class="memitem:ad2814a5205d420ef943a6ec5d35173a8"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_nop_1_1_data_1_1_data_providers_1_1_postgre_sql_data_provider.html#ad2814a5205d420ef943a6ec5d35173a8">GetSequenceName&lt; TEntity &gt;</a> (DataConnection dataConnection)</td></tr>
+<tr class="memdesc:ad2814a5205d420ef943a6ec5d35173a8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the name of the sequence associated with a identity column  <a href="class_nop_1_1_data_1_1_data_providers_1_1_postgre_sql_data_provider.html#ad2814a5205d420ef943a6ec5d35173a8">Mais...</a><br /></td></tr>
+<tr class="separator:ad2814a5205d420ef943a6ec5d35173a8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-static-attribs"></a>
+Atributos Privados Estáticos</h2></td></tr>
+<tr class="memitem:ac0f138c70b200c202457195f4e42986e"><td class="memItemLeft" align="right" valign="top">static readonly Lazy&lt; IDataProvider &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_nop_1_1_data_1_1_data_providers_1_1_postgre_sql_data_provider.html#ac0f138c70b200c202457195f4e42986e">_dataProvider</a> = new(() =&gt; new <a class="el" href="class_nop_1_1_data_1_1_data_providers_1_1_linq_to_d_b_1_1_linq_to_d_b_postgre_s_q_l_data_provider.html">LinqToDBPostgreSQLDataProvider</a>(), true)</td></tr>
+<tr class="separator:ac0f138c70b200c202457195f4e42986e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<h2 class="groupheader">Documentação dos métodos</h2>
+<a id="a4f4dc7bbc6147a1765d28595a33665a6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4f4dc7bbc6147a1765d28595a33665a6">&#9670;&nbsp;</a></span>BackupDatabaseAsync()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="_sendinblue_plugin_8cs.html#a9f49374e6bc76a6b5261e5c211d2e63d">Task</a> Nop.Data.DataProviders.PostgreSqlDataProvider.BackupDatabaseAsync </td>
+          <td>(</td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>fileName</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Creates a backup of the database </p>
+<dl class="section return"><dt>Retorna</dt><dd>A task that represents the asynchronous operation</dd></dl>
+
+<p>Implementa <a class="el" href="interface_nop_1_1_data_1_1_i_nop_data_provider.html#aaa97bb2fd6c9e8af2c0f99b12ebae3c4">Nop.Data.INopDataProvider</a>.</p>
+<div class="fragment"><div class="line"><a name="l00250"></a><span class="lineno">  250</span>&#160;        {</div>
+<div class="line"><a name="l00251"></a><span class="lineno">  251</span>&#160;            <span class="keywordflow">throw</span> <span class="keyword">new</span> DataException(<span class="stringliteral">&quot;This database provider does not support backup&quot;</span>);</div>
+<div class="line"><a name="l00252"></a><span class="lineno">  252</span>&#160;        }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="aebdac1f7d0da14367d431e252865be1a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aebdac1f7d0da14367d431e252865be1a">&#9670;&nbsp;</a></span>BuildConnectionString()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual string Nop.Data.DataProviders.PostgreSqlDataProvider.BuildConnectionString </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interface_nop_1_1_data_1_1_i_nop_connection_string_info.html">INopConnectionStringInfo</a>&#160;</td>
+          <td class="paramname"><em>nopConnectionString</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Build the connection string </p>
+<dl class="params"><dt>Parâmetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">nopConnectionString</td><td>Connection string info</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Retorna</dt><dd>Connection string</dd></dl>
+
+<p>Implementa <a class="el" href="interface_nop_1_1_data_1_1_i_nop_data_provider.html#a3133a7602724b1fc4d06f0d54e168f2b">Nop.Data.INopDataProvider</a>.</p>
+<div class="fragment"><div class="line"><a name="l00327"></a><span class="lineno">  327</span>&#160;        {</div>
+<div class="line"><a name="l00328"></a><span class="lineno">  328</span>&#160;            <span class="keywordflow">if</span> (nopConnectionString is <span class="keyword">null</span>)</div>
+<div class="line"><a name="l00329"></a><span class="lineno">  329</span>&#160;                <span class="keywordflow">throw</span> <span class="keyword">new</span> ArgumentNullException(nameof(nopConnectionString));</div>
+<div class="line"><a name="l00330"></a><span class="lineno">  330</span>&#160; </div>
+<div class="line"><a name="l00331"></a><span class="lineno">  331</span>&#160;            <span class="keywordflow">if</span> (nopConnectionString.IntegratedSecurity)</div>
+<div class="line"><a name="l00332"></a><span class="lineno">  332</span>&#160;                <span class="keywordflow">throw</span> <span class="keyword">new</span> <a class="code" href="class_nop_1_1_core_1_1_nop_exception.html">NopException</a>(<span class="stringliteral">&quot;Data provider supports connection only with login and password&quot;</span>);</div>
+<div class="line"><a name="l00333"></a><span class="lineno">  333</span>&#160; </div>
+<div class="line"><a name="l00334"></a><span class="lineno">  334</span>&#160;            var builder = <span class="keyword">new</span> NpgsqlConnectionStringBuilder</div>
+<div class="line"><a name="l00335"></a><span class="lineno">  335</span>&#160;            {</div>
+<div class="line"><a name="l00336"></a><span class="lineno">  336</span>&#160;                <a class="code" href="namespace_nop_1_1_web_1_1_areas_1_1_admin_1_1_models_1_1_messages.html#a43130cbf77ae67f46126dbac3a832c93">Host</a> = nopConnectionString.ServerName,</div>
+<div class="line"><a name="l00337"></a><span class="lineno">  337</span>&#160;                <span class="comment">//Cast DatabaseName to lowercase to avoid case-sensitivity problems</span></div>
+<div class="line"><a name="l00338"></a><span class="lineno">  338</span>&#160;                Database = nopConnectionString.DatabaseName.ToLower(),</div>
+<div class="line"><a name="l00339"></a><span class="lineno">  339</span>&#160;                <a class="code" href="namespace_nop_1_1_plugin_1_1_shipping_1_1_u_p_s_1_1_models.html#a2be4a8d2d290e3967a7d6db0204dd9ab">Username</a> = nopConnectionString.Username,</div>
+<div class="line"><a name="l00340"></a><span class="lineno">  340</span>&#160;                <a class="code" href="namespace_nop_1_1_plugin_1_1_shipping_1_1_ship_station_1_1_models.html#ac1bc3bfb51942662647c519f336b78b6">Password</a> = nopConnectionString.Password,</div>
+<div class="line"><a name="l00341"></a><span class="lineno">  341</span>&#160;            };</div>
+<div class="line"><a name="l00342"></a><span class="lineno">  342</span>&#160; </div>
+<div class="line"><a name="l00343"></a><span class="lineno">  343</span>&#160;            <span class="keywordflow">return</span> builder.ConnectionString;</div>
+<div class="line"><a name="l00344"></a><span class="lineno">  344</span>&#160;        }</div>
+<div class="ttc" id="aclass_nop_1_1_core_1_1_nop_exception_html"><div class="ttname"><a href="class_nop_1_1_core_1_1_nop_exception.html">Nop.Core.NopException</a></div><div class="ttdoc">Represents errors that occur during application execution</div><div class="ttdef"><b>Definition:</b> NopException.cs:11</div></div>
+<div class="ttc" id="anamespace_nop_1_1_plugin_1_1_shipping_1_1_ship_station_1_1_models_html_ac1bc3bfb51942662647c519f336b78b6"><div class="ttname"><a href="namespace_nop_1_1_plugin_1_1_shipping_1_1_ship_station_1_1_models.html#ac1bc3bfb51942662647c519f336b78b6">Nop.Plugin.Shipping.ShipStation.Models.Password</a></div><div class="ttdeci">string Password</div><div class="ttdef"><b>Definition:</b> ShipStationModel.cs:39</div></div>
+<div class="ttc" id="anamespace_nop_1_1_plugin_1_1_shipping_1_1_u_p_s_1_1_models_html_a2be4a8d2d290e3967a7d6db0204dd9ab"><div class="ttname"><a href="namespace_nop_1_1_plugin_1_1_shipping_1_1_u_p_s_1_1_models.html#a2be4a8d2d290e3967a7d6db0204dd9ab">Nop.Plugin.Shipping.UPS.Models.Username</a></div><div class="ttdeci">string Username</div><div class="ttdef"><b>Definition:</b> UPSShippingModel.cs:35</div></div>
+<div class="ttc" id="anamespace_nop_1_1_web_1_1_areas_1_1_admin_1_1_models_1_1_messages_html_a43130cbf77ae67f46126dbac3a832c93"><div class="ttname"><a href="namespace_nop_1_1_web_1_1_areas_1_1_admin_1_1_models_1_1_messages.html#a43130cbf77ae67f46126dbac3a832c93">Nop.Web.Areas.Admin.Models.Messages.Host</a></div><div class="ttdeci">string Host</div><div class="ttdef"><b>Definition:</b> EmailAccountModel.cs:22</div></div>
+</div><!-- fragment -->
+<p class="reference">Referências <a class="el" href="interface_nop_1_1_data_1_1_i_nop_connection_string_info.html#af66307360550187a27c70cf5e62f529d">Nop.Data.INopConnectionStringInfo.DatabaseName</a>, <a class="el" href="namespace_nop_1_1_web_1_1_areas_1_1_admin_1_1_models_1_1_messages.html#a43130cbf77ae67f46126dbac3a832c93">Nop.Web.Areas.Admin.Models.Messages.Host</a>, <a class="el" href="interface_nop_1_1_data_1_1_i_nop_connection_string_info.html#a2e93c738f0545e7e24333b06d50404e0">Nop.Data.INopConnectionStringInfo.IntegratedSecurity</a>, <a class="el" href="interface_nop_1_1_data_1_1_i_nop_connection_string_info.html#a01d8556a1d4bb928d67c819c1e935600">Nop.Data.INopConnectionStringInfo.Password</a>, <a class="el" href="namespace_nop_1_1_plugin_1_1_shipping_1_1_ship_station_1_1_models.html#ac1bc3bfb51942662647c519f336b78b6">Nop.Plugin.Shipping.ShipStation.Models.Password</a>, <a class="el" href="interface_nop_1_1_data_1_1_i_nop_connection_string_info.html#ad91ab26a6644dabcbb47d9f8f9ac46c9">Nop.Data.INopConnectionStringInfo.ServerName</a>, <a class="el" href="interface_nop_1_1_data_1_1_i_nop_connection_string_info.html#a58166412cb63fc081f05287f25843f58">Nop.Data.INopConnectionStringInfo.Username</a> e <a class="el" href="namespace_nop_1_1_plugin_1_1_shipping_1_1_u_p_s_1_1_models.html#a2be4a8d2d290e3967a7d6db0204dd9ab">Nop.Plugin.Shipping.UPS.Models.Username</a>.</p>
+
+</div>
+</div>
+<a id="a8c6eaa237196ccee4b856d92d3d7f8ed"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8c6eaa237196ccee4b856d92d3d7f8ed">&#9670;&nbsp;</a></span>CreateDatabase()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Nop.Data.DataProviders.PostgreSqlDataProvider.CreateDatabase </td>
+          <td>(</td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>collation</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>triesToConnect</em> = <code>10</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Creates the database by using the loaded connection string </p>
+<dl class="params"><dt>Parâmetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">collation</td><td></td></tr>
+    <tr><td class="paramname">triesToConnect</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Implementa <a class="el" href="interface_nop_1_1_data_1_1_i_nop_data_provider.html#a2a6f4f4704a68bea50051be57aed1e09">Nop.Data.INopDataProvider</a>.</p>
+<div class="fragment"><div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;        {</div>
+<div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;            <span class="keywordflow">if</span> (<a class="code" href="class_nop_1_1_data_1_1_data_providers_1_1_postgre_sql_data_provider.html#a75ab21ae618f57167bfb6bc50ea4c569">DatabaseExists</a>())</div>
+<div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;                <span class="keywordflow">return</span>;</div>
+<div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160; </div>
+<div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;            var builder = <a class="code" href="class_nop_1_1_data_1_1_data_providers_1_1_postgre_sql_data_provider.html#a0ead49d77ee7c9a7199988d096d821d3">GetConnectionStringBuilder</a>();</div>
+<div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160; </div>
+<div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;            <span class="comment">//gets database name</span></div>
+<div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;            var databaseName = builder.Database;</div>
+<div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160; </div>
+<div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;            <span class="comment">//now create connection string to &#39;postgres&#39; - default administrative connection database.</span></div>
+<div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;            builder.Database = <span class="stringliteral">&quot;postgres&quot;</span>;</div>
+<div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160; </div>
+<div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160;            <span class="keyword">using</span> (var connection = <a class="code" href="class_nop_1_1_data_1_1_data_providers_1_1_postgre_sql_data_provider.html#acafcf00021fde43929e1f0e7519278f8">GetInternalDbConnection</a>(builder.ConnectionString))</div>
+<div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160;            {</div>
+<div class="line"><a name="l00111"></a><span class="lineno">  111</span>&#160;                var query = $<span class="stringliteral">&quot;CREATE DATABASE \&quot;{databaseName}\&quot; WITH OWNER = &#39;{builder.Username}&#39;&quot;</span>;</div>
+<div class="line"><a name="l00112"></a><span class="lineno">  112</span>&#160;                <span class="keywordflow">if</span> (!<span class="keywordtype">string</span>.IsNullOrWhiteSpace(collation))</div>
+<div class="line"><a name="l00113"></a><span class="lineno">  113</span>&#160;                    query = $<span class="stringliteral">&quot;{query} LC_COLLATE = &#39;{collation}&#39;&quot;</span>;</div>
+<div class="line"><a name="l00114"></a><span class="lineno">  114</span>&#160; </div>
+<div class="line"><a name="l00115"></a><span class="lineno">  115</span>&#160;                var command = connection.CreateCommand();</div>
+<div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160;                command.CommandText = query;</div>
+<div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160;                command.Connection.Open();</div>
+<div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160; </div>
+<div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160;                command.ExecuteNonQuery();</div>
+<div class="line"><a name="l00120"></a><span class="lineno">  120</span>&#160;            }</div>
+<div class="line"><a name="l00121"></a><span class="lineno">  121</span>&#160; </div>
+<div class="line"><a name="l00122"></a><span class="lineno">  122</span>&#160;            <span class="comment">//try connect</span></div>
+<div class="line"><a name="l00123"></a><span class="lineno">  123</span>&#160;            <span class="keywordflow">if</span> (triesToConnect &lt;= 0)</div>
+<div class="line"><a name="l00124"></a><span class="lineno">  124</span>&#160;                <span class="keywordflow">return</span>;</div>
+<div class="line"><a name="l00125"></a><span class="lineno">  125</span>&#160; </div>
+<div class="line"><a name="l00126"></a><span class="lineno">  126</span>&#160;            <span class="comment">//sometimes on slow servers (hosting) there could be situations when database requires some time to be created.</span></div>
+<div class="line"><a name="l00127"></a><span class="lineno">  127</span>&#160;            <span class="comment">//but we have already started creation of tables and sample data.</span></div>
+<div class="line"><a name="l00128"></a><span class="lineno">  128</span>&#160;            <span class="comment">//as a result there is an exception thrown and the installation process cannot continue.</span></div>
+<div class="line"><a name="l00129"></a><span class="lineno">  129</span>&#160;            <span class="comment">//that&#39;s why we are in a cycle of &quot;triesToConnect&quot; times trying to connect to a database with a delay of one second.</span></div>
+<div class="line"><a name="l00130"></a><span class="lineno">  130</span>&#160;            <span class="keywordflow">for</span> (var i = 0; i &lt;= triesToConnect; i++)</div>
+<div class="line"><a name="l00131"></a><span class="lineno">  131</span>&#160;            {</div>
+<div class="line"><a name="l00132"></a><span class="lineno">  132</span>&#160;                <span class="keywordflow">if</span> (i == triesToConnect)</div>
+<div class="line"><a name="l00133"></a><span class="lineno">  133</span>&#160;                    <span class="keywordflow">throw</span> <span class="keyword">new</span> Exception(<span class="stringliteral">&quot;Unable to connect to the new database. Please try one more time&quot;</span>);</div>
+<div class="line"><a name="l00134"></a><span class="lineno">  134</span>&#160; </div>
+<div class="line"><a name="l00135"></a><span class="lineno">  135</span>&#160;                <span class="keywordflow">if</span> (!<a class="code" href="class_nop_1_1_data_1_1_data_providers_1_1_postgre_sql_data_provider.html#a75ab21ae618f57167bfb6bc50ea4c569">DatabaseExists</a>())</div>
+<div class="line"><a name="l00136"></a><span class="lineno">  136</span>&#160;                    Thread.Sleep(1000);</div>
+<div class="line"><a name="l00137"></a><span class="lineno">  137</span>&#160;                <span class="keywordflow">else</span></div>
+<div class="line"><a name="l00138"></a><span class="lineno">  138</span>&#160;                {</div>
+<div class="line"><a name="l00139"></a><span class="lineno">  139</span>&#160;                    builder.Database = databaseName;</div>
+<div class="line"><a name="l00140"></a><span class="lineno">  140</span>&#160;                    <span class="keyword">using</span> var connection = <a class="code" href="class_nop_1_1_data_1_1_data_providers_1_1_postgre_sql_data_provider.html#acafcf00021fde43929e1f0e7519278f8">GetInternalDbConnection</a>(builder.ConnectionString) as NpgsqlConnection;</div>
+<div class="line"><a name="l00141"></a><span class="lineno">  141</span>&#160;                    var command = connection.CreateCommand();</div>
+<div class="line"><a name="l00142"></a><span class="lineno">  142</span>&#160;                    command.CommandText = &quot;CREATE EXTENSION IF NOT EXISTS citext; CREATE EXTENSION IF NOT EXISTS pgcrypto;&quot;;</div>
+<div class="line"><a name="l00143"></a><span class="lineno">  143</span>&#160;                    command.Connection.Open();</div>
+<div class="line"><a name="l00144"></a><span class="lineno">  144</span>&#160;                    command.ExecuteNonQuery();</div>
+<div class="line"><a name="l00145"></a><span class="lineno">  145</span>&#160;                    connection.ReloadTypes();</div>
+<div class="line"><a name="l00146"></a><span class="lineno">  146</span>&#160; </div>
+<div class="line"><a name="l00147"></a><span class="lineno">  147</span>&#160;                    break;</div>
+<div class="line"><a name="l00148"></a><span class="lineno">  148</span>&#160;                }</div>
+<div class="line"><a name="l00149"></a><span class="lineno">  149</span>&#160;            }</div>
+<div class="line"><a name="l00150"></a><span class="lineno">  150</span>&#160;        }</div>
+<div class="ttc" id="aclass_nop_1_1_data_1_1_data_providers_1_1_postgre_sql_data_provider_html_a0ead49d77ee7c9a7199988d096d821d3"><div class="ttname"><a href="class_nop_1_1_data_1_1_data_providers_1_1_postgre_sql_data_provider.html#a0ead49d77ee7c9a7199988d096d821d3">Nop.Data.DataProviders.PostgreSqlDataProvider.GetConnectionStringBuilder</a></div><div class="ttdeci">NpgsqlConnectionStringBuilder GetConnectionStringBuilder()</div><div class="ttdef"><b>Definition:</b> PostgreSqlDataProvider.cs:43</div></div>
+<div class="ttc" id="aclass_nop_1_1_data_1_1_data_providers_1_1_postgre_sql_data_provider_html_a75ab21ae618f57167bfb6bc50ea4c569"><div class="ttname"><a href="class_nop_1_1_data_1_1_data_providers_1_1_postgre_sql_data_provider.html#a75ab21ae618f57167bfb6bc50ea4c569">Nop.Data.DataProviders.PostgreSqlDataProvider.DatabaseExists</a></div><div class="ttdeci">bool DatabaseExists()</div><div class="ttdoc">Checks if the specified database exists, returns true if database exists</div><div class="ttdef"><b>Definition:</b> PostgreSqlDataProvider.cs:156</div></div>
+<div class="ttc" id="aclass_nop_1_1_data_1_1_data_providers_1_1_postgre_sql_data_provider_html_acafcf00021fde43929e1f0e7519278f8"><div class="ttname"><a href="class_nop_1_1_data_1_1_data_providers_1_1_postgre_sql_data_provider.html#acafcf00021fde43929e1f0e7519278f8">Nop.Data.DataProviders.PostgreSqlDataProvider.GetInternalDbConnection</a></div><div class="ttdeci">override DbConnection GetInternalDbConnection(string connectionString)</div><div class="ttdoc">Gets a connection to the database for a current data provider</div><div class="ttdef"><b>Definition:</b> PostgreSqlDataProvider.cs:53</div></div>
+</div><!-- fragment -->
+<p class="reference">Referências <a class="el" href="class_nop_1_1_data_1_1_data_providers_1_1_postgre_sql_data_provider.html#a75ab21ae618f57167bfb6bc50ea4c569">Nop.Data.DataProviders.PostgreSqlDataProvider.DatabaseExists()</a>, <a class="el" href="class_nop_1_1_data_1_1_data_providers_1_1_postgre_sql_data_provider.html#a0ead49d77ee7c9a7199988d096d821d3">Nop.Data.DataProviders.PostgreSqlDataProvider.GetConnectionStringBuilder()</a> e <a class="el" href="class_nop_1_1_data_1_1_data_providers_1_1_postgre_sql_data_provider.html#acafcf00021fde43929e1f0e7519278f8">Nop.Data.DataProviders.PostgreSqlDataProvider.GetInternalDbConnection()</a>.</p>
+
+</div>
+</div>
+<a id="a557ee51235501f5fad3aeef3c065f017"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a557ee51235501f5fad3aeef3c065f017">&#9670;&nbsp;</a></span>CreateDataConnection()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">override DataConnection Nop.Data.DataProviders.PostgreSqlDataProvider.CreateDataConnection </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Creates the database connection by the current data configuration </p>
+
+<p>Reimplementado de <a class="el" href="class_nop_1_1_data_1_1_data_providers_1_1_base_data_provider.html#acb1850c883a6565cd3012b6fdde7ff16">Nop.Data.DataProviders.BaseDataProvider</a>.</p>
+<div class="fragment"><div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;        {</div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;            var dataContext = <a class="code" href="class_nop_1_1_data_1_1_data_providers_1_1_postgre_sql_data_provider.html#a557ee51235501f5fad3aeef3c065f017">CreateDataConnection</a>(<a class="code" href="class_nop_1_1_data_1_1_data_providers_1_1_postgre_sql_data_provider.html#a17cef8221ea2aae4d8deb7117bc266f3">LinqToDbDataProvider</a>);</div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;            dataContext.MappingSchema.SetDataType(</div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;                typeof(<span class="keywordtype">string</span>),</div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;                <span class="keyword">new</span> SqlDataType(<span class="keyword">new</span> DbDataType(typeof(<span class="keywordtype">string</span>), <span class="stringliteral">&quot;citext&quot;</span>)));</div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160; </div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;            <span class="keywordflow">return</span> dataContext;</div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;        }</div>
+<div class="ttc" id="aclass_nop_1_1_data_1_1_data_providers_1_1_postgre_sql_data_provider_html_a17cef8221ea2aae4d8deb7117bc266f3"><div class="ttname"><a href="class_nop_1_1_data_1_1_data_providers_1_1_postgre_sql_data_provider.html#a17cef8221ea2aae4d8deb7117bc266f3">Nop.Data.DataProviders.PostgreSqlDataProvider.LinqToDbDataProvider</a></div><div class="ttdeci">override IDataProvider LinqToDbDataProvider</div><div class="ttdef"><b>Definition:</b> PostgreSqlDataProvider.cs:374</div></div>
+<div class="ttc" id="aclass_nop_1_1_data_1_1_data_providers_1_1_postgre_sql_data_provider_html_a557ee51235501f5fad3aeef3c065f017"><div class="ttname"><a href="class_nop_1_1_data_1_1_data_providers_1_1_postgre_sql_data_provider.html#a557ee51235501f5fad3aeef3c065f017">Nop.Data.DataProviders.PostgreSqlDataProvider.CreateDataConnection</a></div><div class="ttdeci">override DataConnection CreateDataConnection()</div><div class="ttdoc">Creates the database connection by the current data configuration</div><div class="ttdef"><b>Definition:</b> PostgreSqlDataProvider.cs:33</div></div>
+</div><!-- fragment -->
+<p class="reference">Referências <a class="el" href="class_nop_1_1_data_1_1_data_providers_1_1_postgre_sql_data_provider.html#a17cef8221ea2aae4d8deb7117bc266f3">Nop.Data.DataProviders.PostgreSqlDataProvider.LinqToDbDataProvider</a>.</p>
+
+<p class="reference">Referenciado por <a class="el" href="class_nop_1_1_data_1_1_data_providers_1_1_postgre_sql_data_provider.html#af31c484b8f7c4caf802b7b1010f775fa">Nop.Data.DataProviders.PostgreSqlDataProvider.InsertEntity&lt; TEntity &gt;()</a>.</p>
+
+</div>
+</div>
+<a id="aac96fdd89c72708f1f1a3a2ef9dd77aa"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aac96fdd89c72708f1f1a3a2ef9dd77aa">&#9670;&nbsp;</a></span>CreateForeignKeyName()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual string Nop.Data.DataProviders.PostgreSqlDataProvider.CreateForeignKeyName </td>
+          <td>(</td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>foreignTable</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>foreignColumn</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>primaryTable</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>primaryColumn</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Gets the name of a foreign key </p>
+<dl class="params"><dt>Parâmetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">foreignTable</td><td>Foreign key table</td></tr>
+    <tr><td class="paramname">foreignColumn</td><td>Foreign key column name</td></tr>
+    <tr><td class="paramname">primaryTable</td><td>Primary table</td></tr>
+    <tr><td class="paramname">primaryColumn</td><td>Primary key column name</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Retorna</dt><dd>Name of a foreign key</dd></dl>
+
+<p>Implementa <a class="el" href="interface_nop_1_1_data_1_1_i_nop_data_provider.html#a7c9329862588f18bfdb321a5febd6e51">Nop.Data.INopDataProvider</a>.</p>
+<div class="fragment"><div class="line"><a name="l00355"></a><span class="lineno">  355</span>&#160;        {</div>
+<div class="line"><a name="l00356"></a><span class="lineno">  356</span>&#160;            <span class="keywordflow">return</span> $<span class="stringliteral">&quot;FK_{foreignTable}_{foreignColumn}_{primaryTable}_{primaryColumn}&quot;</span>;</div>
+<div class="line"><a name="l00357"></a><span class="lineno">  357</span>&#160;        }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="a75ab21ae618f57167bfb6bc50ea4c569"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a75ab21ae618f57167bfb6bc50ea4c569">&#9670;&nbsp;</a></span>DatabaseExists()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Nop.Data.DataProviders.PostgreSqlDataProvider.DatabaseExists </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Checks if the specified database exists, returns true if database exists </p>
+<dl class="section return"><dt>Retorna</dt><dd>Returns true if the database exists.</dd></dl>
+
+<p>Implementa <a class="el" href="interface_nop_1_1_data_1_1_i_nop_data_provider.html#acca06a17fbcfb1a03fcf7c581a30187e">Nop.Data.INopDataProvider</a>.</p>
+<div class="fragment"><div class="line"><a name="l00157"></a><span class="lineno">  157</span>&#160;        {</div>
+<div class="line"><a name="l00158"></a><span class="lineno">  158</span>&#160;            <span class="keywordflow">try</span></div>
+<div class="line"><a name="l00159"></a><span class="lineno">  159</span>&#160;            {</div>
+<div class="line"><a name="l00160"></a><span class="lineno">  160</span>&#160;                <span class="keyword">using</span> var connection = <a class="code" href="class_nop_1_1_data_1_1_data_providers_1_1_postgre_sql_data_provider.html#acafcf00021fde43929e1f0e7519278f8">GetInternalDbConnection</a>(<a class="code" href="class_nop_1_1_data_1_1_data_providers_1_1_base_data_provider.html#a706d9457e3c81a0374b880ba75b1ab81">GetCurrentConnectionString</a>());</div>
+<div class="line"><a name="l00161"></a><span class="lineno">  161</span>&#160;                </div>
+<div class="line"><a name="l00162"></a><span class="lineno">  162</span>&#160;                <span class="comment">//just try to connect</span></div>
+<div class="line"><a name="l00163"></a><span class="lineno">  163</span>&#160;                connection.Open();</div>
+<div class="line"><a name="l00164"></a><span class="lineno">  164</span>&#160; </div>
+<div class="line"><a name="l00165"></a><span class="lineno">  165</span>&#160;                <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><a name="l00166"></a><span class="lineno">  166</span>&#160;            }</div>
+<div class="line"><a name="l00167"></a><span class="lineno">  167</span>&#160;            <span class="keywordflow">catch</span></div>
+<div class="line"><a name="l00168"></a><span class="lineno">  168</span>&#160;            {</div>
+<div class="line"><a name="l00169"></a><span class="lineno">  169</span>&#160;                <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><a name="l00170"></a><span class="lineno">  170</span>&#160;            }</div>
+<div class="line"><a name="l00171"></a><span class="lineno">  171</span>&#160;        }</div>
+<div class="ttc" id="aclass_nop_1_1_data_1_1_data_providers_1_1_base_data_provider_html_a706d9457e3c81a0374b880ba75b1ab81"><div class="ttname"><a href="class_nop_1_1_data_1_1_data_providers_1_1_base_data_provider.html#a706d9457e3c81a0374b880ba75b1ab81">Nop.Data.DataProviders.BaseDataProvider.GetCurrentConnectionString</a></div><div class="ttdeci">string GetCurrentConnectionString()</div><div class="ttdoc">Database connection string</div><div class="ttdef"><b>Definition:</b> BaseDataProvider.cs:428</div></div>
+</div><!-- fragment -->
+<p class="reference">Referências <a class="el" href="class_nop_1_1_data_1_1_data_providers_1_1_base_data_provider.html#a706d9457e3c81a0374b880ba75b1ab81">Nop.Data.DataProviders.BaseDataProvider.GetCurrentConnectionString()</a> e <a class="el" href="class_nop_1_1_data_1_1_data_providers_1_1_postgre_sql_data_provider.html#acafcf00021fde43929e1f0e7519278f8">Nop.Data.DataProviders.PostgreSqlDataProvider.GetInternalDbConnection()</a>.</p>
+
+<p class="reference">Referenciado por <a class="el" href="class_nop_1_1_data_1_1_data_providers_1_1_postgre_sql_data_provider.html#a8c6eaa237196ccee4b856d92d3d7f8ed">Nop.Data.DataProviders.PostgreSqlDataProvider.CreateDatabase()</a>.</p>
+
+</div>
+</div>
+<a id="a81ab122998478827b39e747fa7ce1e81"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a81ab122998478827b39e747fa7ce1e81">&#9670;&nbsp;</a></span>DatabaseExistsAsync()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">async <a class="el" href="_sendinblue_plugin_8cs.html#a9f49374e6bc76a6b5261e5c211d2e63d">Task</a>&lt;bool&gt; Nop.Data.DataProviders.PostgreSqlDataProvider.DatabaseExistsAsync </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Checks if the specified database exists, returns true if database exists </p>
+<dl class="section return"><dt>Retorna</dt><dd>A task that represents the asynchronous operation The task result contains the returns true if the database exists. </dd></dl>
+
+<p>Implementa <a class="el" href="interface_nop_1_1_data_1_1_i_nop_data_provider.html#a54dc010cc84df475884c607758c1df54">Nop.Data.INopDataProvider</a>.</p>
+<div class="fragment"><div class="line"><a name="l00181"></a><span class="lineno">  181</span>&#160;        {</div>
+<div class="line"><a name="l00182"></a><span class="lineno">  182</span>&#160;            <span class="keywordflow">try</span></div>
+<div class="line"><a name="l00183"></a><span class="lineno">  183</span>&#160;            {</div>
+<div class="line"><a name="l00184"></a><span class="lineno">  184</span>&#160;                await <span class="keyword">using</span> var connection = <a class="code" href="class_nop_1_1_data_1_1_data_providers_1_1_postgre_sql_data_provider.html#acafcf00021fde43929e1f0e7519278f8">GetInternalDbConnection</a>(await <a class="code" href="class_nop_1_1_data_1_1_data_providers_1_1_base_data_provider.html#a30f81c86a9390b301176d5446ad8ec2b">GetCurrentConnectionStringAsync</a>());</div>
+<div class="line"><a name="l00185"></a><span class="lineno">  185</span>&#160;                </div>
+<div class="line"><a name="l00186"></a><span class="lineno">  186</span>&#160;                <span class="comment">//just try to connect</span></div>
+<div class="line"><a name="l00187"></a><span class="lineno">  187</span>&#160;                await connection.OpenAsync();</div>
+<div class="line"><a name="l00188"></a><span class="lineno">  188</span>&#160;                </div>
+<div class="line"><a name="l00189"></a><span class="lineno">  189</span>&#160;                <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><a name="l00190"></a><span class="lineno">  190</span>&#160;            }</div>
+<div class="line"><a name="l00191"></a><span class="lineno">  191</span>&#160;            <span class="keywordflow">catch</span></div>
+<div class="line"><a name="l00192"></a><span class="lineno">  192</span>&#160;            {</div>
+<div class="line"><a name="l00193"></a><span class="lineno">  193</span>&#160;                <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><a name="l00194"></a><span class="lineno">  194</span>&#160;            }</div>
+<div class="line"><a name="l00195"></a><span class="lineno">  195</span>&#160;        }</div>
+<div class="ttc" id="aclass_nop_1_1_data_1_1_data_providers_1_1_base_data_provider_html_a30f81c86a9390b301176d5446ad8ec2b"><div class="ttname"><a href="class_nop_1_1_data_1_1_data_providers_1_1_base_data_provider.html#a30f81c86a9390b301176d5446ad8ec2b">Nop.Data.DataProviders.BaseDataProvider.GetCurrentConnectionStringAsync</a></div><div class="ttdeci">async Task&lt; string &gt; GetCurrentConnectionStringAsync()</div><div class="ttdoc">Database connection string</div><div class="ttdef"><b>Definition:</b> BaseDataProvider.cs:420</div></div>
+</div><!-- fragment -->
+<p class="reference">Referências <a class="el" href="class_nop_1_1_data_1_1_data_providers_1_1_base_data_provider.html#a30f81c86a9390b301176d5446ad8ec2b">Nop.Data.DataProviders.BaseDataProvider.GetCurrentConnectionStringAsync()</a> e <a class="el" href="class_nop_1_1_data_1_1_data_providers_1_1_postgre_sql_data_provider.html#acafcf00021fde43929e1f0e7519278f8">Nop.Data.DataProviders.PostgreSqlDataProvider.GetInternalDbConnection()</a>.</p>
+
+</div>
+</div>
+<a id="a0ead49d77ee7c9a7199988d096d821d3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0ead49d77ee7c9a7199988d096d821d3">&#9670;&nbsp;</a></span>GetConnectionStringBuilder()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">NpgsqlConnectionStringBuilder Nop.Data.DataProviders.PostgreSqlDataProvider.GetConnectionStringBuilder </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;        {</div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;            <span class="keywordflow">return</span> <span class="keyword">new</span> NpgsqlConnectionStringBuilder(<a class="code" href="class_nop_1_1_data_1_1_data_providers_1_1_base_data_provider.html#a706d9457e3c81a0374b880ba75b1ab81">GetCurrentConnectionString</a>());</div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;        }</div>
+</div><!-- fragment -->
+<p class="reference">Referências <a class="el" href="class_nop_1_1_data_1_1_data_providers_1_1_base_data_provider.html#a706d9457e3c81a0374b880ba75b1ab81">Nop.Data.DataProviders.BaseDataProvider.GetCurrentConnectionString()</a>.</p>
+
+<p class="reference">Referenciado por <a class="el" href="class_nop_1_1_data_1_1_data_providers_1_1_postgre_sql_data_provider.html#a8c6eaa237196ccee4b856d92d3d7f8ed">Nop.Data.DataProviders.PostgreSqlDataProvider.CreateDatabase()</a>.</p>
+
+</div>
+</div>
+<a id="a01de2aec9300f1ddce2db475382dd408"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a01de2aec9300f1ddce2db475382dd408">&#9670;&nbsp;</a></span>GetIndexName()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual string Nop.Data.DataProviders.PostgreSqlDataProvider.GetIndexName </td>
+          <td>(</td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>targetTable</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>targetColumn</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Gets the name of an index </p>
+<dl class="params"><dt>Parâmetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">targetTable</td><td>Target table name</td></tr>
+    <tr><td class="paramname">targetColumn</td><td>Target column name</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Retorna</dt><dd>Name of an index</dd></dl>
+
+<p>Implementa <a class="el" href="interface_nop_1_1_data_1_1_i_nop_data_provider.html#a2da43930367d01b1ea626c278dfe0f25">Nop.Data.INopDataProvider</a>.</p>
+<div class="fragment"><div class="line"><a name="l00366"></a><span class="lineno">  366</span>&#160;        {</div>
+<div class="line"><a name="l00367"></a><span class="lineno">  367</span>&#160;            <span class="keywordflow">return</span> $<span class="stringliteral">&quot;IX_{targetTable}_{targetColumn}&quot;</span>;</div>
+<div class="line"><a name="l00368"></a><span class="lineno">  368</span>&#160;        }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="acafcf00021fde43929e1f0e7519278f8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acafcf00021fde43929e1f0e7519278f8">&#9670;&nbsp;</a></span>GetInternalDbConnection()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">override DbConnection Nop.Data.DataProviders.PostgreSqlDataProvider.GetInternalDbConnection </td>
+          <td>(</td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>connectionString</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Gets a connection to the database for a current data provider </p>
+<dl class="params"><dt>Parâmetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">connectionString</td><td>Connection string</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Retorna</dt><dd>Connection to a database</dd></dl>
+
+<p>Implementa <a class="el" href="class_nop_1_1_data_1_1_data_providers_1_1_base_data_provider.html#aa4683ceac1d05822930e01180b0d3654">Nop.Data.DataProviders.BaseDataProvider</a>.</p>
+<div class="fragment"><div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;        {</div>
+<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;            <span class="keywordflow">if</span> (<span class="keywordtype">string</span>.IsNullOrEmpty(connectionString))</div>
+<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;                <span class="keywordflow">throw</span> <span class="keyword">new</span> ArgumentException(nameof(connectionString));</div>
+<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160; </div>
+<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;            <span class="keywordflow">return</span> <span class="keyword">new</span> NpgsqlConnection(connectionString);</div>
+<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;        }</div>
+</div><!-- fragment -->
+<p class="reference">Referenciado por <a class="el" href="class_nop_1_1_data_1_1_data_providers_1_1_postgre_sql_data_provider.html#a8c6eaa237196ccee4b856d92d3d7f8ed">Nop.Data.DataProviders.PostgreSqlDataProvider.CreateDatabase()</a>, <a class="el" href="class_nop_1_1_data_1_1_data_providers_1_1_postgre_sql_data_provider.html#a75ab21ae618f57167bfb6bc50ea4c569">Nop.Data.DataProviders.PostgreSqlDataProvider.DatabaseExists()</a> e <a class="el" href="class_nop_1_1_data_1_1_data_providers_1_1_postgre_sql_data_provider.html#a81ab122998478827b39e747fa7ce1e81">Nop.Data.DataProviders.PostgreSqlDataProvider.DatabaseExistsAsync()</a>.</p>
+
+</div>
+</div>
+<a id="ad2814a5205d420ef943a6ec5d35173a8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad2814a5205d420ef943a6ec5d35173a8">&#9670;&nbsp;</a></span>GetSequenceName&lt; TEntity &gt;()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">string Nop.Data.DataProviders.PostgreSqlDataProvider.GetSequenceName&lt; TEntity &gt; </td>
+          <td>(</td>
+          <td class="paramtype">DataConnection&#160;</td>
+          <td class="paramname"><em>dataConnection</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Get the name of the sequence associated with a identity column </p>
+<dl class="params"><dt>Parâmetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">dataConnection</td><td>A database connection object</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="tparams"><dt>Parâmetros de template</dt><dd>
+  <table class="tparams">
+    <tr><td class="paramname">TEntity</td><td>Entity type</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Retorna</dt><dd>Returns the name of the sequence, or NULL if no sequence is associated with the column</dd></dl>
+<div class="typeconstraint">
+<dl><dt><b>Restrições do Tipo</b></dt><dd>
+<table border="0" cellspacing="2" cellpadding="0">
+<tr><td valign="top"><em>TEntity</em></td><td>&#160;:</td><td valign="top"><em>BaseEntity</em></td><td>&#160;</td></tr>
+</table>
+</dd>
+</dl>
+</div>
+<div class="fragment"><div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;                                                                                             : <a class="code" href="class_nop_1_1_core_1_1_base_entity.html">BaseEntity</a></div>
+<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;        {</div>
+<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;            <span class="keywordflow">if</span> (dataConnection is <span class="keyword">null</span>)</div>
+<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;                <span class="keywordflow">throw</span> <span class="keyword">new</span> ArgumentNullException(nameof(dataConnection));</div>
+<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160; </div>
+<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;            var descriptor = <a class="code" href="class_nop_1_1_data_1_1_data_providers_1_1_base_data_provider.html#a374611db4b509677d6fe6898fe7b67d3">GetEntityDescriptor&lt;TEntity&gt;</a>();</div>
+<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160; </div>
+<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;            <span class="keywordflow">if</span> (descriptor is <span class="keyword">null</span>)</div>
+<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;                <span class="keywordflow">throw</span> <span class="keyword">new</span> <a class="code" href="class_nop_1_1_core_1_1_nop_exception.html">NopException</a>($<span class="stringliteral">&quot;Mapped entity descriptor is not found: {typeof(TEntity).Name}&quot;</span>);</div>
+<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160; </div>
+<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;            var tableName = descriptor.TableName;</div>
+<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;            var columnName = descriptor.Columns.FirstOrDefault(x =&gt; x.IsIdentity &amp;&amp; x.IsPrimaryKey)?.ColumnName;</div>
+<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160; </div>
+<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;            <span class="keywordflow">if</span> (<span class="keywordtype">string</span>.IsNullOrEmpty(columnName))</div>
+<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;                <span class="keywordflow">throw</span> <span class="keyword">new</span> <a class="code" href="class_nop_1_1_core_1_1_nop_exception.html">NopException</a>(<span class="stringliteral">&quot;A table&#39;s primary key does not have an identity constraint&quot;</span>);</div>
+<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160; </div>
+<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;            <span class="keywordflow">return</span> dataConnection.Query&lt;<span class="keywordtype">string</span>&gt;($<span class="stringliteral">&quot;SELECT pg_get_serial_sequence(&#39;\&quot;{tableName}\&quot;&#39;, &#39;{columnName}&#39;);&quot;</span>)</div>
+<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;                .FirstOrDefault();</div>
+<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;        }</div>
+<div class="ttc" id="aclass_nop_1_1_core_1_1_base_entity_html"><div class="ttname"><a href="class_nop_1_1_core_1_1_base_entity.html">Nop.Core.BaseEntity</a></div><div class="ttdoc">Represents the base class for entities</div><div class="ttdef"><b>Definition:</b> BaseEntity.cs:7</div></div>
+<div class="ttc" id="aclass_nop_1_1_data_1_1_data_providers_1_1_base_data_provider_html_a374611db4b509677d6fe6898fe7b67d3"><div class="ttname"><a href="class_nop_1_1_data_1_1_data_providers_1_1_base_data_provider.html#a374611db4b509677d6fe6898fe7b67d3">Nop.Data.DataProviders.BaseDataProvider.GetEntityDescriptor&lt; TEntity &gt;</a></div><div class="ttdeci">EntityDescriptor GetEntityDescriptor&lt; TEntity &gt;()</div><div class="ttdoc">Returns mapped entity descriptor.</div><div class="ttdef"><b>Definition:</b> BaseDataProvider.cs:198</div></div>
+</div><!-- fragment -->
+<p class="reference">Referências <a class="el" href="class_nop_1_1_data_1_1_data_providers_1_1_base_data_provider.html#a374611db4b509677d6fe6898fe7b67d3">Nop.Data.DataProviders.BaseDataProvider.GetEntityDescriptor&lt; TEntity &gt;()</a>.</p>
+
+<p class="reference">Referenciado por <a class="el" href="class_nop_1_1_data_1_1_data_providers_1_1_postgre_sql_data_provider.html#a128842b3e8dcacf5f6b582756714cc0c">Nop.Data.DataProviders.PostgreSqlDataProvider.GetTableIdentAsync&lt; TEntity &gt;()</a> e <a class="el" href="class_nop_1_1_data_1_1_data_providers_1_1_postgre_sql_data_provider.html#a0e2de947ce1bd908bc69101d349655f1">Nop.Data.DataProviders.PostgreSqlDataProvider.SetTableIdentAsync&lt; TEntity &gt;()</a>.</p>
+
+</div>
+</div>
+<a id="a128842b3e8dcacf5f6b582756714cc0c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a128842b3e8dcacf5f6b582756714cc0c">&#9670;&nbsp;</a></span>GetTableIdentAsync&lt; TEntity &gt;()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual async <a class="el" href="_sendinblue_plugin_8cs.html#a9f49374e6bc76a6b5261e5c211d2e63d">Task</a>&lt;int?&gt; Nop.Data.DataProviders.PostgreSqlDataProvider.GetTableIdentAsync&lt; TEntity &gt; </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Get the current identity value </p>
+<dl class="tparams"><dt>Parâmetros de template</dt><dd>
+  <table class="tparams">
+    <tr><td class="paramname">TEntity</td><td>Entity type</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Retorna</dt><dd>A task that represents the asynchronous operation The task result contains the integer identity; null if cannot get the result </dd></dl>
+
+<p>Implementa <a class="el" href="interface_nop_1_1_data_1_1_i_nop_data_provider.html#a66c393c77511481a5379159831a5d391">Nop.Data.INopDataProvider</a>.</p>
+<div class="typeconstraint">
+<dl><dt><b>Restrições do Tipo</b></dt><dd>
+<table border="0" cellspacing="2" cellpadding="0">
+<tr><td valign="top"><em>TEntity</em></td><td>&#160;:</td><td valign="top"><em>BaseEntity</em></td><td>&#160;</td></tr>
+</table>
+</dd>
+</dl>
+</div>
+<div class="fragment"><div class="line"><a name="l00214"></a><span class="lineno">  214</span>&#160;                                                                                    : <a class="code" href="class_nop_1_1_core_1_1_base_entity.html">BaseEntity</a></div>
+<div class="line"><a name="l00215"></a><span class="lineno">  215</span>&#160;        {</div>
+<div class="line"><a name="l00216"></a><span class="lineno">  216</span>&#160;            <span class="keyword">using</span> var currentConnection = await <a class="code" href="class_nop_1_1_data_1_1_data_providers_1_1_base_data_provider.html#a4c283445c3053223be9392ddc9cd0a79">CreateDataConnectionAsync</a>();</div>
+<div class="line"><a name="l00217"></a><span class="lineno">  217</span>&#160; </div>
+<div class="line"><a name="l00218"></a><span class="lineno">  218</span>&#160;            var seqName = <a class="code" href="class_nop_1_1_data_1_1_data_providers_1_1_postgre_sql_data_provider.html#ad2814a5205d420ef943a6ec5d35173a8">GetSequenceName&lt;TEntity&gt;</a>(currentConnection);</div>
+<div class="line"><a name="l00219"></a><span class="lineno">  219</span>&#160; </div>
+<div class="line"><a name="l00220"></a><span class="lineno">  220</span>&#160;            var <a class="code" href="namespace_nop_1_1_web_1_1_models_1_1_blogs.html#a6cc3986434c188bc64f7d71789d4a5c8">result</a> = currentConnection.Query&lt;<span class="keywordtype">int</span>&gt;($<span class="stringliteral">&quot;SELECT COALESCE(last_value + CASE WHEN is_called THEN 1 ELSE 0 END, 1) as Value FROM {seqName};&quot;</span>)</div>
+<div class="line"><a name="l00221"></a><span class="lineno">  221</span>&#160;                .FirstOrDefault();</div>
+<div class="line"><a name="l00222"></a><span class="lineno">  222</span>&#160; </div>
+<div class="line"><a name="l00223"></a><span class="lineno">  223</span>&#160;            <span class="keywordflow">return</span> <a class="code" href="namespace_nop_1_1_web_1_1_models_1_1_blogs.html#a6cc3986434c188bc64f7d71789d4a5c8">result</a>;</div>
+<div class="line"><a name="l00224"></a><span class="lineno">  224</span>&#160;        }</div>
+<div class="ttc" id="aclass_nop_1_1_data_1_1_data_providers_1_1_base_data_provider_html_a4c283445c3053223be9392ddc9cd0a79"><div class="ttname"><a href="class_nop_1_1_data_1_1_data_providers_1_1_base_data_provider.html#a4c283445c3053223be9392ddc9cd0a79">Nop.Data.DataProviders.BaseDataProvider.CreateDataConnectionAsync</a></div><div class="ttdeci">virtual async Task&lt; DataConnection &gt; CreateDataConnectionAsync()</div><div class="ttdoc">Creates the database connection</div><div class="ttdef"><b>Definition:</b> BaseDataProvider.cs:94</div></div>
+<div class="ttc" id="aclass_nop_1_1_data_1_1_data_providers_1_1_postgre_sql_data_provider_html_ad2814a5205d420ef943a6ec5d35173a8"><div class="ttname"><a href="class_nop_1_1_data_1_1_data_providers_1_1_postgre_sql_data_provider.html#ad2814a5205d420ef943a6ec5d35173a8">Nop.Data.DataProviders.PostgreSqlDataProvider.GetSequenceName&lt; TEntity &gt;</a></div><div class="ttdeci">string GetSequenceName&lt; TEntity &gt;(DataConnection dataConnection)</div><div class="ttdoc">Get the name of the sequence associated with a identity column</div><div class="ttdef"><b>Definition:</b> PostgreSqlDataProvider.cs:67</div></div>
+<div class="ttc" id="anamespace_nop_1_1_web_1_1_models_1_1_blogs_html_a6cc3986434c188bc64f7d71789d4a5c8"><div class="ttname"><a href="namespace_nop_1_1_web_1_1_models_1_1_blogs.html#a6cc3986434c188bc64f7d71789d4a5c8">Nop.Web.Models.Blogs.result</a></div><div class="ttdeci">return result</div><div class="ttdef"><b>Definition:</b> BlogPagingFilteringModel.cs:21</div></div>
+</div><!-- fragment -->
+<p class="reference">Referências <a class="el" href="class_nop_1_1_data_1_1_data_providers_1_1_base_data_provider.html#a4c283445c3053223be9392ddc9cd0a79">Nop.Data.DataProviders.BaseDataProvider.CreateDataConnectionAsync()</a>, <a class="el" href="class_nop_1_1_data_1_1_data_providers_1_1_postgre_sql_data_provider.html#ad2814a5205d420ef943a6ec5d35173a8">Nop.Data.DataProviders.PostgreSqlDataProvider.GetSequenceName&lt; TEntity &gt;()</a> e <a class="el" href="namespace_nop_1_1_web_1_1_models_1_1_blogs.html#a6cc3986434c188bc64f7d71789d4a5c8">Nop.Web.Models.Blogs.result</a>.</p>
+
+<p class="reference">Referenciado por <a class="el" href="class_nop_1_1_data_1_1_data_providers_1_1_postgre_sql_data_provider.html#a0e2de947ce1bd908bc69101d349655f1">Nop.Data.DataProviders.PostgreSqlDataProvider.SetTableIdentAsync&lt; TEntity &gt;()</a>.</p>
+
+</div>
+</div>
+<a id="ab779c2f7b9237bb832d6f5dccf84d089"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab779c2f7b9237bb832d6f5dccf84d089">&#9670;&nbsp;</a></span>InitializeDatabase()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Nop.Data.DataProviders.PostgreSqlDataProvider.InitializeDatabase </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Initialize database </p>
+
+<p>Implementa <a class="el" href="interface_nop_1_1_data_1_1_i_nop_data_provider.html#aec14c761e1b8941cf27711143356339a">Nop.Data.INopDataProvider</a>.</p>
+<div class="fragment"><div class="line"><a name="l00201"></a><span class="lineno">  201</span>&#160;        {</div>
+<div class="line"><a name="l00202"></a><span class="lineno">  202</span>&#160;            var migrationManager = <a class="code" href="class_nop_1_1_core_1_1_infrastructure_1_1_engine_context.html">EngineContext</a>.<a class="code" href="class_nop_1_1_core_1_1_infrastructure_1_1_engine_context.html#a3aa3185b6b7474f2781a575e880645fd">Current</a>.<a class="code" href="interface_nop_1_1_core_1_1_infrastructure_1_1_i_engine.html#a9cc3489ec1597daa4c030815dcdd897e">Resolve</a>&lt;<a class="code" href="interface_nop_1_1_data_1_1_migrations_1_1_i_migration_manager.html">IMigrationManager</a>&gt;();</div>
+<div class="line"><a name="l00203"></a><span class="lineno">  203</span>&#160;            migrationManager.<a class="code" href="interface_nop_1_1_data_1_1_migrations_1_1_i_migration_manager.html#ab9011af4c4e7f29a3502bacabb407d5f">ApplyUpMigrations</a>(typeof(NopDbStartup).Assembly);</div>
+<div class="line"><a name="l00204"></a><span class="lineno">  204</span>&#160;        }</div>
+<div class="ttc" id="aclass_nop_1_1_core_1_1_infrastructure_1_1_engine_context_html"><div class="ttname"><a href="class_nop_1_1_core_1_1_infrastructure_1_1_engine_context.html">Nop.Core.Infrastructure.EngineContext</a></div><div class="ttdoc">Provides access to the singleton instance of the Nop engine.</div><div class="ttdef"><b>Definition:</b> EngineContext.cs:9</div></div>
+<div class="ttc" id="aclass_nop_1_1_core_1_1_infrastructure_1_1_engine_context_html_a3aa3185b6b7474f2781a575e880645fd"><div class="ttname"><a href="class_nop_1_1_core_1_1_infrastructure_1_1_engine_context.html#a3aa3185b6b7474f2781a575e880645fd">Nop.Core.Infrastructure.EngineContext.Current</a></div><div class="ttdeci">static IEngine Current</div><div class="ttdoc">Gets the singleton Nop engine used to access Nop services.</div><div class="ttdef"><b>Definition:</b> EngineContext.cs:40</div></div>
+<div class="ttc" id="ainterface_nop_1_1_core_1_1_infrastructure_1_1_i_engine_html_a9cc3489ec1597daa4c030815dcdd897e"><div class="ttname"><a href="interface_nop_1_1_core_1_1_infrastructure_1_1_i_engine.html#a9cc3489ec1597daa4c030815dcdd897e">Nop.Core.Infrastructure.IEngine.Resolve</a></div><div class="ttdeci">object Resolve(Type type, IServiceScope scope=null)</div><div class="ttdoc">Resolve dependency</div></div>
+<div class="ttc" id="ainterface_nop_1_1_data_1_1_migrations_1_1_i_migration_manager_html"><div class="ttname"><a href="interface_nop_1_1_data_1_1_migrations_1_1_i_migration_manager.html">Nop.Data.Migrations.IMigrationManager</a></div><div class="ttdoc">Represents a migration manager</div><div class="ttdef"><b>Definition:</b> IMigrationManager.cs:12</div></div>
+<div class="ttc" id="ainterface_nop_1_1_data_1_1_migrations_1_1_i_migration_manager_html_ab9011af4c4e7f29a3502bacabb407d5f"><div class="ttname"><a href="interface_nop_1_1_data_1_1_migrations_1_1_i_migration_manager.html#ab9011af4c4e7f29a3502bacabb407d5f">Nop.Data.Migrations.IMigrationManager.ApplyUpMigrations</a></div><div class="ttdeci">void ApplyUpMigrations(Assembly assembly, bool isUpdateProcess=false)</div><div class="ttdoc">Executes all found (and unapplied) migrations</div></div>
+</div><!-- fragment -->
+<p class="reference">Referências <a class="el" href="interface_nop_1_1_data_1_1_migrations_1_1_i_migration_manager.html#ab9011af4c4e7f29a3502bacabb407d5f">Nop.Data.Migrations.IMigrationManager.ApplyUpMigrations()</a>, <a class="el" href="class_nop_1_1_core_1_1_infrastructure_1_1_engine_context.html#a3aa3185b6b7474f2781a575e880645fd">Nop.Core.Infrastructure.EngineContext.Current</a> e <a class="el" href="interface_nop_1_1_core_1_1_infrastructure_1_1_i_engine.html#a9cc3489ec1597daa4c030815dcdd897e">Nop.Core.Infrastructure.IEngine.Resolve()</a>.</p>
+
+</div>
+</div>
+<a id="af31c484b8f7c4caf802b7b1010f775fa"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af31c484b8f7c4caf802b7b1010f775fa">&#9670;&nbsp;</a></span>InsertEntity&lt; TEntity &gt;()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">override TEntity Nop.Data.DataProviders.PostgreSqlDataProvider.InsertEntity&lt; TEntity &gt; </td>
+          <td>(</td>
+          <td class="paramtype">TEntity&#160;</td>
+          <td class="paramname"><em>entity</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Inserts record into table. Returns inserted entity with identity </p>
+<dl class="params"><dt>Parâmetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">entity</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="tparams"><dt>Parâmetros de template</dt><dd>
+  <table class="tparams">
+    <tr><td class="paramname">TEntity</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Retorna</dt><dd>Inserted entity</dd></dl>
+
+<p>Reimplementado de <a class="el" href="class_nop_1_1_data_1_1_data_providers_1_1_base_data_provider.html#a808cee8d9e3295613d681466717cb3a5">Nop.Data.DataProviders.BaseDataProvider</a>.</p>
+<div class="fragment"><div class="line"><a name="l00261"></a><span class="lineno">  261</span>&#160;        {</div>
+<div class="line"><a name="l00262"></a><span class="lineno">  262</span>&#160;            <span class="keyword">using</span> var dataContext = <a class="code" href="class_nop_1_1_data_1_1_data_providers_1_1_postgre_sql_data_provider.html#a557ee51235501f5fad3aeef3c065f017">CreateDataConnection</a>();</div>
+<div class="line"><a name="l00263"></a><span class="lineno">  263</span>&#160;            <span class="keywordflow">try</span></div>
+<div class="line"><a name="l00264"></a><span class="lineno">  264</span>&#160;            {</div>
+<div class="line"><a name="l00265"></a><span class="lineno">  265</span>&#160;                entity.Id = dataContext.InsertWithInt32Identity(entity);</div>
+<div class="line"><a name="l00266"></a><span class="lineno">  266</span>&#160;            }</div>
+<div class="line"><a name="l00267"></a><span class="lineno">  267</span>&#160;            <span class="comment">// Ignore when we try insert foreign entity via InsertWithInt32IdentityAsync method</span></div>
+<div class="line"><a name="l00268"></a><span class="lineno">  268</span>&#160;            <span class="keywordflow">catch</span> (global::LinqToDB.SqlQuery.SqlException ex) when (ex.Message.StartsWith(<span class="stringliteral">&quot;Identity field must be defined for&quot;</span>))</div>
+<div class="line"><a name="l00269"></a><span class="lineno">  269</span>&#160;            {</div>
+<div class="line"><a name="l00270"></a><span class="lineno">  270</span>&#160;                dataContext.Insert(entity);</div>
+<div class="line"><a name="l00271"></a><span class="lineno">  271</span>&#160;            }</div>
+<div class="line"><a name="l00272"></a><span class="lineno">  272</span>&#160; </div>
+<div class="line"><a name="l00273"></a><span class="lineno">  273</span>&#160;            <span class="keywordflow">return</span> entity;</div>
+<div class="line"><a name="l00274"></a><span class="lineno">  274</span>&#160;        }</div>
+</div><!-- fragment -->
+<p class="reference">Referências <a class="el" href="class_nop_1_1_data_1_1_data_providers_1_1_postgre_sql_data_provider.html#a557ee51235501f5fad3aeef3c065f017">Nop.Data.DataProviders.PostgreSqlDataProvider.CreateDataConnection()</a>.</p>
+
+</div>
+</div>
+<a id="a78398a09ebd1377d2345ac72a667983a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a78398a09ebd1377d2345ac72a667983a">&#9670;&nbsp;</a></span>InsertEntityAsync&lt; TEntity &gt;()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">override async <a class="el" href="_sendinblue_plugin_8cs.html#a9f49374e6bc76a6b5261e5c211d2e63d">Task</a>&lt;TEntity&gt; Nop.Data.DataProviders.PostgreSqlDataProvider.InsertEntityAsync&lt; TEntity &gt; </td>
+          <td>(</td>
+          <td class="paramtype">TEntity&#160;</td>
+          <td class="paramname"><em>entity</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Inserts record into table. Returns inserted entity with identity </p>
+<dl class="params"><dt>Parâmetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">entity</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="tparams"><dt>Parâmetros de template</dt><dd>
+  <table class="tparams">
+    <tr><td class="paramname">TEntity</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Retorna</dt><dd>A task that represents the asynchronous operation The task result contains the inserted entity </dd></dl>
+
+<p>Reimplementado de <a class="el" href="class_nop_1_1_data_1_1_data_providers_1_1_base_data_provider.html#ad8c748fd02a7285f5f43e17f9b82952f">Nop.Data.DataProviders.BaseDataProvider</a>.</p>
+<div class="fragment"><div class="line"><a name="l00286"></a><span class="lineno">  286</span>&#160;        {</div>
+<div class="line"><a name="l00287"></a><span class="lineno">  287</span>&#160;            <span class="keyword">using</span> var dataContext = await <a class="code" href="class_nop_1_1_data_1_1_data_providers_1_1_base_data_provider.html#a4c283445c3053223be9392ddc9cd0a79">CreateDataConnectionAsync</a>();</div>
+<div class="line"><a name="l00288"></a><span class="lineno">  288</span>&#160;            <span class="keywordflow">try</span></div>
+<div class="line"><a name="l00289"></a><span class="lineno">  289</span>&#160;            {</div>
+<div class="line"><a name="l00290"></a><span class="lineno">  290</span>&#160;                entity.Id = await dataContext.InsertWithInt32IdentityAsync(entity);</div>
+<div class="line"><a name="l00291"></a><span class="lineno">  291</span>&#160;            }</div>
+<div class="line"><a name="l00292"></a><span class="lineno">  292</span>&#160;            <span class="comment">// Ignore when we try insert foreign entity via InsertWithInt32IdentityAsync method</span></div>
+<div class="line"><a name="l00293"></a><span class="lineno">  293</span>&#160;            <span class="keywordflow">catch</span> (global::LinqToDB.SqlQuery.SqlException ex) when (ex.Message.StartsWith(<span class="stringliteral">&quot;Identity field must be defined for&quot;</span>))</div>
+<div class="line"><a name="l00294"></a><span class="lineno">  294</span>&#160;            {</div>
+<div class="line"><a name="l00295"></a><span class="lineno">  295</span>&#160;                await dataContext.InsertAsync(entity);</div>
+<div class="line"><a name="l00296"></a><span class="lineno">  296</span>&#160;            }</div>
+<div class="line"><a name="l00297"></a><span class="lineno">  297</span>&#160; </div>
+<div class="line"><a name="l00298"></a><span class="lineno">  298</span>&#160;            <span class="keywordflow">return</span> entity;</div>
+<div class="line"><a name="l00299"></a><span class="lineno">  299</span>&#160;        }</div>
+</div><!-- fragment -->
+<p class="reference">Referências <a class="el" href="class_nop_1_1_data_1_1_data_providers_1_1_base_data_provider.html#a4c283445c3053223be9392ddc9cd0a79">Nop.Data.DataProviders.BaseDataProvider.CreateDataConnectionAsync()</a>.</p>
+
+</div>
+</div>
+<a id="aa9fe908bd4aba493b6faaca8d03b6215"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa9fe908bd4aba493b6faaca8d03b6215">&#9670;&nbsp;</a></span>ReIndexTablesAsync()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual async <a class="el" href="_sendinblue_plugin_8cs.html#a9f49374e6bc76a6b5261e5c211d2e63d">Task</a> Nop.Data.DataProviders.PostgreSqlDataProvider.ReIndexTablesAsync </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Re-index database tables </p>
+<dl class="section return"><dt>Retorna</dt><dd>A task that represents the asynchronous operation</dd></dl>
+
+<p>Implementa <a class="el" href="interface_nop_1_1_data_1_1_i_nop_data_provider.html#a893174ef02e81c096393a7789d51e126">Nop.Data.INopDataProvider</a>.</p>
+<div class="fragment"><div class="line"><a name="l00316"></a><span class="lineno">  316</span>&#160;        {</div>
+<div class="line"><a name="l00317"></a><span class="lineno">  317</span>&#160;            <span class="keyword">using</span> var currentConnection = await <a class="code" href="class_nop_1_1_data_1_1_data_providers_1_1_base_data_provider.html#a4c283445c3053223be9392ddc9cd0a79">CreateDataConnectionAsync</a>();</div>
+<div class="line"><a name="l00318"></a><span class="lineno">  318</span>&#160;            await currentConnection.ExecuteAsync($<span class="stringliteral">&quot;REINDEX DATABASE \&quot;{currentConnection.Connection.Database}\&quot;;&quot;</span>);</div>
+<div class="line"><a name="l00319"></a><span class="lineno">  319</span>&#160;        }</div>
+</div><!-- fragment -->
+<p class="reference">Referências <a class="el" href="class_nop_1_1_data_1_1_data_providers_1_1_base_data_provider.html#a4c283445c3053223be9392ddc9cd0a79">Nop.Data.DataProviders.BaseDataProvider.CreateDataConnectionAsync()</a>.</p>
+
+</div>
+</div>
+<a id="ab2ce5da22557d4cd27d546b4f2566037"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab2ce5da22557d4cd27d546b4f2566037">&#9670;&nbsp;</a></span>RestoreDatabaseAsync()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="_sendinblue_plugin_8cs.html#a9f49374e6bc76a6b5261e5c211d2e63d">Task</a> Nop.Data.DataProviders.PostgreSqlDataProvider.RestoreDatabaseAsync </td>
+          <td>(</td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>backupFileName</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Restores the database from a backup </p>
+<dl class="params"><dt>Parâmetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">backupFileName</td><td>The name of the backup file</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Retorna</dt><dd>A task that represents the asynchronous operation</dd></dl>
+
+<p>Implementa <a class="el" href="interface_nop_1_1_data_1_1_i_nop_data_provider.html#a7915f4f0339af9fa4aa7790548b94f11">Nop.Data.INopDataProvider</a>.</p>
+<div class="fragment"><div class="line"><a name="l00307"></a><span class="lineno">  307</span>&#160;        {</div>
+<div class="line"><a name="l00308"></a><span class="lineno">  308</span>&#160;            <span class="keywordflow">throw</span> <span class="keyword">new</span> DataException(<span class="stringliteral">&quot;This database provider does not support backup&quot;</span>);</div>
+<div class="line"><a name="l00309"></a><span class="lineno">  309</span>&#160;        }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="a0e2de947ce1bd908bc69101d349655f1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0e2de947ce1bd908bc69101d349655f1">&#9670;&nbsp;</a></span>SetTableIdentAsync&lt; TEntity &gt;()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual async <a class="el" href="_sendinblue_plugin_8cs.html#a9f49374e6bc76a6b5261e5c211d2e63d">Task</a> Nop.Data.DataProviders.PostgreSqlDataProvider.SetTableIdentAsync&lt; TEntity &gt; </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>ident</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Set table identity (is supported) </p>
+<dl class="tparams"><dt>Parâmetros de template</dt><dd>
+  <table class="tparams">
+    <tr><td class="paramname">TEntity</td><td>Entity type</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="params"><dt>Parâmetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">ident</td><td>Identity value</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Retorna</dt><dd>A task that represents the asynchronous operation</dd></dl>
+
+<p>Implementa <a class="el" href="interface_nop_1_1_data_1_1_i_nop_data_provider.html#a8485f253f6332d01673fa8154e9a3890">Nop.Data.INopDataProvider</a>.</p>
+<div class="typeconstraint">
+<dl><dt><b>Restrições do Tipo</b></dt><dd>
+<table border="0" cellspacing="2" cellpadding="0">
+<tr><td valign="top"><em>TEntity</em></td><td>&#160;:</td><td valign="top"><em>BaseEntity</em></td><td>&#160;</td></tr>
+</table>
+</dd>
+</dl>
+</div>
+<div class="fragment"><div class="line"><a name="l00232"></a><span class="lineno">  232</span>&#160;                                                                                       : <a class="code" href="class_nop_1_1_core_1_1_base_entity.html">BaseEntity</a></div>
+<div class="line"><a name="l00233"></a><span class="lineno">  233</span>&#160;        {</div>
+<div class="line"><a name="l00234"></a><span class="lineno">  234</span>&#160;            var currentIdent = await <a class="code" href="class_nop_1_1_data_1_1_data_providers_1_1_postgre_sql_data_provider.html#a128842b3e8dcacf5f6b582756714cc0c">GetTableIdentAsync&lt;TEntity&gt;</a>();</div>
+<div class="line"><a name="l00235"></a><span class="lineno">  235</span>&#160;            <span class="keywordflow">if</span> (!currentIdent.HasValue || ident &lt;= currentIdent.Value)</div>
+<div class="line"><a name="l00236"></a><span class="lineno">  236</span>&#160;                <span class="keywordflow">return</span>;</div>
+<div class="line"><a name="l00237"></a><span class="lineno">  237</span>&#160; </div>
+<div class="line"><a name="l00238"></a><span class="lineno">  238</span>&#160;            <span class="keyword">using</span> var currentConnection = await <a class="code" href="class_nop_1_1_data_1_1_data_providers_1_1_base_data_provider.html#a4c283445c3053223be9392ddc9cd0a79">CreateDataConnectionAsync</a>();</div>
+<div class="line"><a name="l00239"></a><span class="lineno">  239</span>&#160; </div>
+<div class="line"><a name="l00240"></a><span class="lineno">  240</span>&#160;            var seqName = <a class="code" href="class_nop_1_1_data_1_1_data_providers_1_1_postgre_sql_data_provider.html#ad2814a5205d420ef943a6ec5d35173a8">GetSequenceName&lt;TEntity&gt;</a>(currentConnection);</div>
+<div class="line"><a name="l00241"></a><span class="lineno">  241</span>&#160; </div>
+<div class="line"><a name="l00242"></a><span class="lineno">  242</span>&#160;            await currentConnection.ExecuteAsync($<span class="stringliteral">&quot;select setval(&#39;{seqName}&#39;, {ident}, false);&quot;</span>);</div>
+<div class="line"><a name="l00243"></a><span class="lineno">  243</span>&#160;        }</div>
+<div class="ttc" id="aclass_nop_1_1_data_1_1_data_providers_1_1_postgre_sql_data_provider_html_a128842b3e8dcacf5f6b582756714cc0c"><div class="ttname"><a href="class_nop_1_1_data_1_1_data_providers_1_1_postgre_sql_data_provider.html#a128842b3e8dcacf5f6b582756714cc0c">Nop.Data.DataProviders.PostgreSqlDataProvider.GetTableIdentAsync&lt; TEntity &gt;</a></div><div class="ttdeci">virtual async Task&lt; int?&gt; GetTableIdentAsync&lt; TEntity &gt;()</div><div class="ttdoc">Get the current identity value</div><div class="ttdef"><b>Definition:</b> PostgreSqlDataProvider.cs:214</div></div>
+</div><!-- fragment -->
+<p class="reference">Referências <a class="el" href="class_nop_1_1_data_1_1_data_providers_1_1_base_data_provider.html#a4c283445c3053223be9392ddc9cd0a79">Nop.Data.DataProviders.BaseDataProvider.CreateDataConnectionAsync()</a>, <a class="el" href="class_nop_1_1_data_1_1_data_providers_1_1_postgre_sql_data_provider.html#ad2814a5205d420ef943a6ec5d35173a8">Nop.Data.DataProviders.PostgreSqlDataProvider.GetSequenceName&lt; TEntity &gt;()</a> e <a class="el" href="class_nop_1_1_data_1_1_data_providers_1_1_postgre_sql_data_provider.html#a128842b3e8dcacf5f6b582756714cc0c">Nop.Data.DataProviders.PostgreSqlDataProvider.GetTableIdentAsync&lt; TEntity &gt;()</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">Documentação dos dados membro</h2>
+<a id="ac0f138c70b200c202457195f4e42986e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac0f138c70b200c202457195f4e42986e">&#9670;&nbsp;</a></span>_dataProvider</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">readonly Lazy&lt;IDataProvider&gt; Nop.Data.DataProviders.PostgreSqlDataProvider._dataProvider = new(() =&gt; new <a class="el" href="class_nop_1_1_data_1_1_data_providers_1_1_linq_to_d_b_1_1_linq_to_d_b_postgre_s_q_l_data_provider.html">LinqToDBPostgreSQLDataProvider</a>(), true)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Documentação das propriedades</h2>
+<a id="a99848f1ded806b65fa6ea2e4af1ad2b2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a99848f1ded806b65fa6ea2e4af1ad2b2">&#9670;&nbsp;</a></span>BackupSupported</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Nop.Data.DataProviders.PostgreSqlDataProvider.BackupSupported</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a17cef8221ea2aae4d8deb7117bc266f3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a17cef8221ea2aae4d8deb7117bc266f3">&#9670;&nbsp;</a></span>LinqToDbDataProvider</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">override IDataProvider Nop.Data.DataProviders.PostgreSqlDataProvider.LinqToDbDataProvider</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">Referenciado por <a class="el" href="class_nop_1_1_data_1_1_data_providers_1_1_postgre_sql_data_provider.html#a557ee51235501f5fad3aeef3c065f017">Nop.Data.DataProviders.PostgreSqlDataProvider.CreateDataConnection()</a>.</p>
+
+</div>
+</div>
+<a id="a0c93c8be929404995a0104fb921a6430"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0c93c8be929404995a0104fb921a6430">&#9670;&nbsp;</a></span>SupportedLengthOfBinaryHash</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int Nop.Data.DataProviders.PostgreSqlDataProvider.SupportedLengthOfBinaryHash</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<hr/>A documentação para esta classe foi gerada a partir do seguinte ficheiro:<ul>
+<li>C:/Users/gabri/Documents/Projetos/GitHub/Estudos/Nopcommercer plugin/nopCommerce_4.40.3_Source - Copia/src/Libraries/Nop.Data/DataProviders/<a class="el" href="_postgre_sql_data_provider_8cs.html">PostgreSqlDataProvider.cs</a></li>
+</ul>
+</div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Gerado por&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1
+</small></address>
+</body>
+</html>
